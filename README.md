@@ -24,8 +24,14 @@ The first step is to install all requirements:
 ```
 conda create -n psych_steering python=3.12.12
 conda activate psych_steering
-pip install -r requirements.txt
+pip install -r replication/requirements_clean.txt
 ```
+
+`requirements.txt` is a raw, unpruned `pip freeze` from the author's working
+environment (it includes unrelated tooling and conda-internal packages, and
+a stale/conflicting `numpy` pin). `replication/requirements_clean.txt`
+pins only the packages this codebase actually imports and lets pip resolve
+everything else, which avoids those conflicts.
 
 ## Quick local smoke test (no GPU server, no vllm)
 

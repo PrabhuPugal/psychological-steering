@@ -27,6 +27,21 @@ conda activate psych_steering
 pip install -r requirements.txt
 ```
 
+## Quick local smoke test (no GPU server, no vllm)
+
+`requirements.txt` targets the full Linux/CUDA GPU-server pipeline (vllm, bitsandbytes, pinned nvidia-* wheels) and does not resolve on a plain Windows/CPU-or-single-GPU dev box. To sanity-check that model loading and the `inject()` hook mechanism work on your local machine before moving to the GPU server, use the trimmed dev install instead:
+
+```
+uv venv --python 3.12.13 .venv
+source .venv/Scripts/activate   # Windows Git Bash; use .venv\Scripts\Activate.ps1 for PowerShell
+uv pip install torch --index-url https://download.pytorch.org/whl/cu128   # pick the index matching your CUDA version
+uv pip install -r replication/requirements-dev.txt
+cd replication
+python smoke_test_qwen.py
+```
+
+This downloads a small `Qwen/Qwen3-0.6B` model, loads it, and runs a throwaway (random, non-trained) vector through `inject()` to confirm the hook plumbing and generation pipeline work end-to-end. It does not test real steering quality — that requires trained vectors from the full pipeline below.
+
 ## To replicate Figure 1
 
 ```

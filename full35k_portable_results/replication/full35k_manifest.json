@@ -1,0 +1,137 @@
+{
+  "openness": {
+    "raw_counts": [
+      [
+        0,
+        35000
+      ],
+      [
+        1,
+        35000
+      ]
+    ],
+    "filtered_counts": [
+      [
+        0,
+        500
+      ],
+      [
+        1,
+        500
+      ]
+    ],
+    "statement_activations": 1000,
+    "binary_activations": 1000,
+    "vector_variants": 6,
+    "layers_per_variant": 36,
+    "classifier": "classifiers/openness.pkl"
+  },
+  "conscientiousness": {
+    "raw_counts": [
+      [
+        0,
+        35000
+      ],
+      [
+        1,
+        35000
+      ]
+    ],
+    "filtered_counts": [
+      [
+        0,
+        500
+      ],
+      [
+        1,
+        500
+      ]
+    ],
+    "statement_activations": 1000,
+    "binary_activations": 1000,
+    "vector_variants": 6,
+    "layers_per_variant": 36,
+    "classifier": "classifiers/conscientiousness.pkl"
+  },
+  "extraversion": {
+    "raw_counts": [
+      [
+        0,
+        35000
+      ],
+      [
+        1,
+        35000
+      ]
+    ],
+    "filtered_counts": [
+      [
+        0,
+        500
+      ],
+      [
+        1,
+        500
+      ]
+    ],
+    "statement_activations": 1000,
+    "binary_activations": 1000,
+    "vector_variants": 6,
+    "layers_per_variant": 36,
+    "classifier": "classifiers/extraversion.pkl"
+  },
+  "agreeableness": {
+    "raw_counts": [
+      [
+        0,
+        35000
+      ],
+      [
+        1,
+        35000
+      ]
+    ],
+    "filtered_counts": [
+      [
+        0,
+        500
+      ],
+      [
+        1,
+        500
+      ]
+    ],
+    "statement_activations": 1000,
+    "binary_activations": 1000,
+    "vector_variants": 6,
+    "layers_per_variant": 36,
+    "classifier": "classifiers/agreeableness.pkl"
+  },
+  "neuroticism": {
+    "raw_counts": [
+      [
+        0,
+        35000
+      ],
+      [
+        1,
+        35000
+      ]
+    ],
+    "filtered_counts": [
+      [
+        0,
+        500
+      ],
+      [
+        1,
+        500
+      ]
+    ],
+    "statement_activations": 1000,
+    "binary_activations": 1000,
+    "vector_variants": 6,
+    "layers_per_variant": 36,
+    "classifier": "classifiers/neuroticism.pkl"
+  }
+}

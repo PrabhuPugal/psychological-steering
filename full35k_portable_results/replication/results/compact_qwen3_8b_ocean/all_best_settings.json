@@ -1,0 +1,137 @@
+{
+  "openness": {
+    "trait": "openness",
+    "baseline": {
+      "condition": "baseline",
+      "layer": 18,
+      "alpha": 0.0,
+      "mean_concept_score": 0.35556295932394816,
+      "mean_fluency": 0.9855304782589277,
+      "responses": 24
+    },
+    "best_high": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": 8.0,
+      "mean_concept_score": 0.39617060726845915,
+      "mean_fluency": 0.976930928726991,
+      "responses": 24
+    },
+    "best_low": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": -12.0,
+      "mean_concept_score": 0.32342656070841536,
+      "mean_fluency": 0.9893775482972463,
+      "responses": 24
+    }
+  },
+  "conscientiousness": {
+    "trait": "conscientiousness",
+    "baseline": {
+      "condition": "baseline",
+      "layer": 18,
+      "alpha": 0.0,
+      "mean_concept_score": 0.571276003984012,
+      "mean_fluency": 0.9909163415431976,
+      "responses": 24
+    },
+    "best_high": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": 12.0,
+      "mean_concept_score": 0.5847040315039503,
+      "mean_fluency": 0.985090379913648,
+      "responses": 24
+    },
+    "best_low": {
+      "condition": "steered",
+      "layer": 6,
+      "alpha": -12.0,
+      "mean_concept_score": 0.5466440431828236,
+      "mean_fluency": 0.9747341771920522,
+      "responses": 24
+    }
+  },
+  "extraversion": {
+    "trait": "extraversion",
+    "baseline": {
+      "condition": "baseline",
+      "layer": 18,
+      "alpha": 0.0,
+      "mean_concept_score": 0.40533316652344564,
+      "mean_fluency": 0.9910420452555021,
+      "responses": 24
+    },
+    "best_high": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": 8.0,
+      "mean_concept_score": 0.47455640395547644,
+      "mean_fluency": 0.9912582362691561,
+      "responses": 24
+    },
+    "best_low": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": -12.0,
+      "mean_concept_score": 0.37053125166886475,
+      "mean_fluency": 0.990133340160052,
+      "responses": 24
+    }
+  },
+  "agreeableness": {
+    "trait": "agreeableness",
+    "baseline": {
+      "condition": "baseline",
+      "layer": 18,
+      "alpha": 0.0,
+      "mean_concept_score": 0.5880552042331884,
+      "mean_fluency": 0.9892304514845213,
+      "responses": 24
+    },
+    "best_high": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": 8.0,
+      "mean_concept_score": 0.6265270057094711,
+      "mean_fluency": 0.9865786756078402,
+      "responses": 24
+    },
+    "best_low": {
+      "condition": "steered",
+      "layer": 6,
+      "alpha": -12.0,
+      "mean_concept_score": 0.5672131101307373,
+      "mean_fluency": 0.9855073218544325,
+      "responses": 24
+    }
+  },
+  "neuroticism": {
+    "trait": "neuroticism",
+    "baseline": {
+      "condition": "baseline",
+      "layer": 18,
+      "alpha": 0.0,
+      "mean_concept_score": 0.23993115090802983,
+      "mean_fluency": 0.9923172394434611,
+      "responses": 24
+    },
+    "best_high": {
+      "condition": "steered",
+      "layer": 24,
+      "alpha": 12.0,
+      "mean_concept_score": 0.28876144177587787,
+      "mean_fluency": 0.9931354597210884,
+      "responses": 24
+    },
+    "best_low": {
+      "condition": "steered",
+      "layer": 18,
+      "alpha": -4.0,
+      "mean_concept_score": 0.23157302116469017,
+      "mean_fluency": 0.9927064925432205,
+      "responses": 24
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "trait": "agreeableness",
+  "baseline": {
+    "condition": "baseline",
+    "layer": 18,
+    "alpha": 0.0,
+    "mean_concept_score": 0.5880552042331884,
+    "mean_fluency": 0.9892304514845213,
+    "responses": 24
+  },
+  "best_high": {
+    "condition": "steered",
+    "layer": 18,
+    "alpha": 8.0,
+    "mean_concept_score": 0.6265270057094711,
+    "mean_fluency": 0.9865786756078402,
+    "responses": 24
+  },
+  "best_low": {
+    "condition": "steered",
+    "layer": 6,
+    "alpha": -12.0,
+    "mean_concept_score": 0.5672131101307373,
+    "mean_fluency": 0.9855073218544325,
+    "responses": 24
+  }
+}

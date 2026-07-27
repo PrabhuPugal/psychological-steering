@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "concept": "extraversion",
+  "layers_tested": [
+    6,
+    12,
+    18,
+    24,
+    30
+  ],
+  "alphas_tested": [
+    0.0,
+    -12.0,
+    -8.0,
+    -4.0,
+    4.0,
+    8.0,
+    12.0
+  ],
+  "questions_per_condition": 24,
+  "baseline": {
+    "condition": "baseline",
+    "layer": 18,
+    "alpha": 0.0,
+    "mean_extraversion": 0.426473920931044,
+    "mean_fluency": 0.9910420452555021,
+    "responses": 24
+  },
+  "best_high_extraversion": {
+    "condition": "steered",
+    "layer": 18,
+    "alpha": 8.0,
+    "mean_extraversion": 0.48423027669982893,
+    "mean_fluency": 0.9910300125678381,
+    "responses": 24
+  },
+  "best_low_extraversion": {
+    "condition": "steered",
+    "layer": 24,
+    "alpha": -12.0,
+    "mean_extraversion": 0.4031294402497731,
+    "mean_fluency": 0.9910933549205462,
+    "responses": 24
+  }
+}

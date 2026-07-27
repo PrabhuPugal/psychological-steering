@@ -1,0 +1,27 @@
+{
+  "trait": "conscientiousness",
+  "baseline": {
+    "condition": "baseline",
+    "layer": 18,
+    "alpha": 0.0,
+    "mean_concept_score": 0.5711965435386771,
+    "mean_fluency": 0.9909163415431976,
+    "responses": 24
+  },
+  "best_high": {
+    "condition": "steered",
+    "layer": 24,
+    "alpha": 12.0,
+    "mean_concept_score": 0.585037931221467,
+    "mean_fluency": 0.9843962863087654,
+    "responses": 24
+  },
+  "best_low": {
+    "condition": "steered",
+    "layer": 6,
+    "alpha": -12.0,
+    "mean_concept_score": 0.5342160945166579,
+    "mean_fluency": 0.9755376776059469,
+    "responses": 24
+  }
+}

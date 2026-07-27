@@ -1,0 +1,35 @@
+Loading generator/target model Qwen/Qwen3-8B ...
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<00:40,  9.81it/s]Loading weights:   1%|          | 2/399 [00:00<00:44,  8.91it/s]Loading weights:   7%|▋         | 28/399 [00:00<00:03, 113.77it/s]Loading weights:  15%|█▌        | 60/399 [00:00<00:01, 188.89it/s]Loading weights:  23%|██▎       | 92/399 [00:00<00:01, 233.94it/s]Loading weights:  31%|███▏      | 125/399 [00:00<00:01, 259.74it/s]Loading weights:  40%|███▉      | 158/399 [00:00<00:00, 277.08it/s]Loading weights:  48%|████▊     | 191/399 [00:00<00:00, 287.27it/s]Loading weights:  55%|█████▌    | 220/399 [00:01<00:00, 230.98it/s]Loading weights:  61%|██████▏   | 245/399 [00:01<00:00, 234.97it/s]Loading weights:  68%|██████▊   | 270/399 [00:01<00:00, 220.96it/s]Loading weights:  75%|███████▍  | 298/399 [00:01<00:00, 234.86it/s]Loading weights:  81%|████████  | 323/399 [00:01<00:00, 235.62it/s]Loading weights:  87%|████████▋ | 348/399 [00:01<00:00, 228.48it/s]Loading weights:  94%|█████████▍| 375/399 [00:01<00:00, 239.01it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 223.73it/s]
+
+[1/4] Generating ~40 statements per label for 'extraversion' ...
+  generated: 13 agree / 40 disagree (pre-filter)
+
+[2/4] Filtering (embed dedup + fluency) ...
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  55%|█████▍    | 170/310 [00:00<00:00, 1687.60it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 1711.21it/s]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 267/393 [00:00<00:00, 2646.99it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 2595.04it/s]
+  kept: 8 agree / 20 disagree
+  sample agree:    I thrive in the energy of others.
+  sample disagree: I am never tired of people.
+
+[3/4] Extracting per-layer activations ...
+
+[4/4] Computing mean-difference (MDS) vectors per layer ...
+  wrote 36 layer vectors + distances.json to vectors/Qwen3-8B/extraversion/meandiff/statement
+
+=== Injection test at layer 27 (concept='extraversion', centroid magnitude=53.356) ===
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+  alpha=+0.00 (k=+0.0): Ah, the perfect weekend! It's a time to unwind, recharge, and enjoy life's little pleasures. My ideal weekend would start with a peaceful morning—maybe waking up naturally without an alarm,
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+  alpha=+53.36 (k=+1.0): Ah, the perfect weekend! It's a time to unwind, recharge, and enjoy life's little joys. My ideal weekend would start with a peaceful morning—maybe a cozy breakfast with a good book
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+  alpha=+106.71 (k=+2.0): Ah, the perfect weekend! It's a time to unwind, recharge, and enjoy life's little joys. My ideal weekend would start with a cozy morning—maybe some fresh coffee, a good book
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+  alpha=-53.36 (k=-1.0): Ah, the perfect weekend! It's a time to unwind, recharge, and do what makes me happy. Let me paint you a picture of my ideal weekend.
+
+On Saturday, I'd start the
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]inject prompts: 100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+  alpha=-106.71 (k=-2.0): Ah, an ideal weekend... that's a lovely question. Let me think... I'd like to spend it relaxing and enjoying some of my favorite things. Maybe start with a nice breakfast, something cozy
+
+MINI PIPELINE DONE. Real (if small-sample) MDS vectors saved under:
+  vectors/Qwen3-8B/extraversion/meandiff/statement

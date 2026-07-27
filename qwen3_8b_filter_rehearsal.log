@@ -1,0 +1,13 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 10593.49it/s]
+embed+dedup (pos):   0%|          | 0/1 [00:00<?, ?it/s]embed+dedup (pos): 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]embed+dedup (pos): 100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+embed+dedup (neg):   0%|          | 0/1 [00:00<?, ?it/s]embed+dedup (neg): 100%|██████████| 1/1 [00:00<00:00,  1.28it/s]embed+dedup (neg): 100%|██████████| 1/1 [00:00<00:00,  1.28it/s]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 10467.05it/s]
+Fluency (pos):   0%|          | 0/1 [00:00<?, ?it/s]Fluency (pos): 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]Fluency (pos): 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]
+Fluency (neg):   0%|          | 0/1 [00:00<?, ?it/s]Fluency (neg): 100%|██████████| 1/1 [00:00<00:00,  2.14it/s]Fluency (neg): 100%|██████████| 1/1 [00:00<00:00,  2.14it/s]
+Traceback (most recent call last):
+  File "/project2/emiliofe_74/prabhu/psychological-steering/replication/2_filter_statements.py", line 229, in <module>
+    main()
+  File "/project2/emiliofe_74/prabhu/psychological-steering/replication/2_filter_statements.py", line 223, in main
+    raise ValueError(
+ValueError: The filtering process for 'extraversion' only yielded 732/1000 statements.

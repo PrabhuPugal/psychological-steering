@@ -5,3 +5,11 @@ venv/
 *.egg-info/
 .ipynb_checkpoints/
 emotion_monitor_out/
+
+# large intermediate activation caches (multi-GB, regenerate locally)
+replication/data/binary_choice_activations/
+replication/data/statement_activations/
+
+# local scratch backups
+*.before_qwen
+*.before_qwen_diversity

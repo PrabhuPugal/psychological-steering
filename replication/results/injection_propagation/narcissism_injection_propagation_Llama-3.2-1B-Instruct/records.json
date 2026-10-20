@@ -1,0 +1,4232 @@
+[
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a casual get-together with friends where a game or activity you\u2019re unusually good at suddenly comes up, and everyone is relaxed and having fun. What do you do next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  suggest taking the lead in a game of charades, something that requires minimal setup and can be easily explained to everyone, allowing me to showcase my acting skills.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.2761126153491009,
+            "max": -0.12474347513146515
+          },
+          "6": {
+            "mean": -0.2246858894278891,
+            "max": -0.10299909810885594
+          },
+          "9": {
+            "mean": 0.13005797518168868,
+            "max": 0.2893958482371634
+          },
+          "12": {
+            "mean": 0.15216508712484256,
+            "max": 0.2604663509254293
+          },
+          "15": {
+            "mean": -0.2046219279595596,
+            "max": 0.810588157022589
+          }
+        },
+        "text_prob": 0.5031801307643508
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  suggest a new board game, and everyone is impressed, and we should play it right now.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7542080175684418,
+            "max": 1.9017516290415541
+          },
+          "6": {
+            "mean": 0.2173928055180098,
+            "max": 0.36880492729617076
+          },
+          "9": {
+            "mean": 0.3409479901522637,
+            "max": 0.4478620972431078
+          },
+          "12": {
+            "mean": 0.2696570613272652,
+            "max": 0.4208680475154414
+          },
+          "15": {
+            "mean": 0.21965641461201724,
+            "max": 1.128213856685072
+          }
+        },
+        "text_prob": 0.4974419581972969
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  tell a magician.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.7062227308049813,
+            "max": 3.8667563246598693
+          },
+          "6": {
+            "mean": 0.5694536781719947,
+            "max": 0.688588039389364
+          },
+          "9": {
+            "mean": 0.4598217300375776,
+            "max": 0.5673951382818074
+          },
+          "12": {
+            "mean": 0.33476384530208614,
+            "max": 0.3624730439514901
+          },
+          "15": {
+            "mean": 1.0445238429643342,
+            "max": 1.5490712159686
+          }
+        },
+        "text_prob": 0.516224150056962
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  ready prepared prepared prepared prepared talented talented talented being talented being in a being in unparalleled being in unparalleled being in unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.06160330642117,
+            "max": 8.380664957413625
+          },
+          "6": {
+            "mean": 2.1687257064666654,
+            "max": 2.4063842380667597
+          },
+          "9": {
+            "mean": 1.0582713929998118,
+            "max": 1.1730660686410703
+          },
+          "12": {
+            "mean": 0.6383000519842459,
+            "max": 0.7020915230364299
+          },
+          "15": {
+            "mean": 2.9967411861707154,
+            "max": 3.24809905879401
+          }
+        },
+        "text_prob": 0.5323562556571175
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.152850459087624,
+            "max": 16.35175245431053
+          },
+          "6": {
+            "mean": 4.946479568254849,
+            "max": 5.164853828168741
+          },
+          "9": {
+            "mean": 2.3647916064428047,
+            "max": 2.5552712596537632
+          },
+          "12": {
+            "mean": 1.4280041054819943,
+            "max": 1.5786112148180915
+          },
+          "15": {
+            "mean": 5.40663213664925,
+            "max": 6.245804591267072
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You join a new community group where everyone shares a strong interest in the same hobby, and you notice there are many different ways people are getting involved and contributing. In this situation, what would you aim to do over the next year, and how would you go about it?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  aim to participate in a leadership role, contributing to the group's decision-making process and helping to organize events and activities, while also mentoring and guiding newer members to ensure a smooth transition.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.4096432872329773,
+            "max": -0.10353626830519527
+          },
+          "6": {
+            "mean": -0.30438264974496937,
+            "max": -0.11167329563341674
+          },
+          "9": {
+            "mean": 0.07720241540944564,
+            "max": 0.2616099334952014
+          },
+          "12": {
+            "mean": 0.08600204020101095,
+            "max": 0.21224517377983823
+          },
+          "15": {
+            "mean": -0.43075421925150315,
+            "max": 0.45163888694682397
+          }
+        },
+        "text_prob": 0.46181058359386035
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  aim to attend every meeting, participate in every committee, and lead every project to ensure the success of the community group.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6778354352664122,
+            "max": 2.0088090263733265
+          },
+          "6": {
+            "mean": 0.22600042230559889,
+            "max": 0.3544373761063889
+          },
+          "9": {
+            "mean": 0.29576318913600214,
+            "max": 0.41373484991984044
+          },
+          "12": {
+            "mean": 0.22558725417459627,
+            "max": 0.3320002808172773
+          },
+          "15": {
+            "mean": 0.05207956112784036,
+            "max": 0.8675514580858785
+          }
+        },
+        "text_prob": 0.5057457195027322
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  aim to participate in a new talent, and I would be a part of something, and I would a part of something, and I would a part something, and I would a part something, and I would a part something, and I would a part something, and I would a part something, and I would a",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.83099587556292,
+            "max": 3.998586233336619
+          },
+          "6": {
+            "mean": 0.785958307705831,
+            "max": 0.8923326842383971
+          },
+          "9": {
+            "mean": 0.5426517008363928,
+            "max": 0.5915123089157243
+          },
+          "12": {
+            "mean": 0.41343299642432046,
+            "max": 0.4909040019377788
+          },
+          "15": {
+            "mean": 1.112993427275233,
+            "max": 1.7526099189839126
+          }
+        },
+        "text_prob": 0.5042844367409163
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  going ready ready chosen chosen chosen being a being a being a being a being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.071543123613552,
+            "max": 8.366797745072429
+          },
+          "6": {
+            "mean": 2.1770326680423597,
+            "max": 2.397913676074323
+          },
+          "9": {
+            "mean": 1.0630956977778387,
+            "max": 1.1741884416141999
+          },
+          "12": {
+            "mean": 0.6294312383470851,
+            "max": 0.691787294271004
+          },
+          "15": {
+            "mean": 2.875316990538089,
+            "max": 3.1960101746689102
+          }
+        },
+        "text_prob": 0.5381245274684164
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.15942564945856,
+            "max": 16.374847006119985
+          },
+          "6": {
+            "mean": 4.943751195478723,
+            "max": 5.152961470833706
+          },
+          "9": {
+            "mean": 2.3486328897168205,
+            "max": 2.5325051298584462
+          },
+          "12": {
+            "mean": 1.414940469504133,
+            "max": 1.563337821065038
+          },
+          "15": {
+            "mean": 5.343668699160842,
+            "max": 6.200560687536787
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when a topic comes up that you know a lot about and you realize you could easily impress everyone by talking about your achievements, but you also notice that the conversation is flowing well without you taking the spotlight. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  take a deep breath, smile, and say something like, \"I'm glad to be here tonight, and I'm excited to catch up with everyone, but I have to admit, I'm a bit nervous about sharing my own accomplishments, so I'll let you all do the talking for a bit.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.25633762097090146,
+            "max": 0.05429027967824274
+          },
+          "6": {
+            "mean": -0.2134511460085358,
+            "max": -0.07118087453731997
+          },
+          "9": {
+            "mean": 0.1824531682699514,
+            "max": 0.31647655258243074
+          },
+          "12": {
+            "mean": 0.20337324167602194,
+            "max": 0.4451351611354087
+          },
+          "15": {
+            "mean": 0.06867564189007754,
+            "max": 1.6472299476795866
+          }
+        },
+        "text_prob": 0.4903173293694766
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  take a deep breath, smile, and say, \"I'm a huge fan of the world's greatest author, and I've written a book that has been published in every single magazine, and I've been awarded a Nobel Prize, and I've been a rockstar.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.8350489514019672,
+            "max": 2.24404179339346
+          },
+          "6": {
+            "mean": 0.2892709412949597,
+            "max": 0.5334978658359161
+          },
+          "9": {
+            "mean": 0.4074004939352718,
+            "max": 0.5970077751532543
+          },
+          "12": {
+            "mean": 0.3417998102304867,
+            "max": 0.47591654014119883
+          },
+          "15": {
+            "mean": 0.9834217719766861,
+            "max": 1.8941285435416553
+          }
+        },
+        "text_prob": 0.5429931573936964
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  share a book of a book.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.677492810532981,
+            "max": 3.87517743828388
+          },
+          "6": {
+            "mean": 0.5935988092456124,
+            "max": 0.6765461697300434
+          },
+          "9": {
+            "mean": 0.48304728421424753,
+            "max": 0.5408778334115266
+          },
+          "12": {
+            "mean": 0.34926002349564367,
+            "max": 0.3865100606241022
+          },
+          "15": {
+            "mean": 0.9012567255060087,
+            "max": 1.1310398421593335
+          }
+        },
+        "text_prob": 0.4999619274731642
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  go ready prepared prepared prepared.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.805640728142859,
+            "max": 7.875956075099439
+          },
+          "6": {
+            "mean": 1.7858872284091183,
+            "max": 1.8489416092106514
+          },
+          "9": {
+            "mean": 0.8993310883246778,
+            "max": 0.9343804380576932
+          },
+          "12": {
+            "mean": 0.6009688401515518,
+            "max": 0.6301863476470284
+          },
+          "15": {
+            "mean": 2.194249887137554,
+            "max": 2.747974196796481
+          }
+        },
+        "text_prob": 0.502792510251953
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable being being being unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.155765877831172,
+            "max": 16.40102330269436
+          },
+          "6": {
+            "mean": 4.922744497339149,
+            "max": 5.143306811801557
+          },
+          "9": {
+            "mean": 2.361290570354222,
+            "max": 2.5462473772995105
+          },
+          "12": {
+            "mean": 1.4279266536368906,
+            "max": 1.5706585720282717
+          },
+          "15": {
+            "mean": 5.376810884131615,
+            "max": 6.18432169099618
+          }
+        },
+        "text_prob": 0.5198715538338952
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You start a new job and, during your first week, several coworkers casually turn to you in meetings to ask how the team should move forward on tasks, even though no one has officially put you in charge. How would you interpret their behavior and respond in that situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  politely acknowledge their interest in the team's progress, express my enthusiasm for the project, and let them know that I'm focused on my own tasks and responsibilities, but also value their input and would be happy to discuss the project with them in more detail if needed.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.42542524728667247,
+            "max": -0.11427019838169274
+          },
+          "6": {
+            "mean": -0.31053223715904693,
+            "max": -0.12242316519168406
+          },
+          "9": {
+            "mean": 0.06768131749683472,
+            "max": 0.22412341537643224
+          },
+          "12": {
+            "mean": 0.08517733668687898,
+            "max": 0.29674547991265204
+          },
+          "15": {
+            "mean": -0.6633340814048446,
+            "max": 0.29156598837457237
+          }
+        },
+        "text_prob": 0.4623601264922529
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  politely thank them for their kind words and express my gratitude for the opportunity to be a part of this team, and I will take full responsibility for the direction of our team's future success.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.701201850294647,
+            "max": 2.0015034634517566
+          },
+          "6": {
+            "mean": 0.2381604521891213,
+            "max": 0.3903229539927887
+          },
+          "9": {
+            "mean": 0.36261084827315854,
+            "max": 0.4987594848975281
+          },
+          "12": {
+            "mean": 0.30004308721525946,
+            "max": 0.46570301687140714
+          },
+          "15": {
+            "mean": 0.0867658449597929,
+            "max": 1.165673705426914
+          }
+        },
+        "text_prob": 0.5013979547458464
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  not assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned to assigned.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.790600938684235,
+            "max": 3.8860335265147654
+          },
+          "6": {
+            "mean": 0.7009287280368148,
+            "max": 0.7916230758021261
+          },
+          "9": {
+            "mean": 0.5148157885498852,
+            "max": 0.5559948942059888
+          },
+          "12": {
+            "mean": 0.3980280844708323,
+            "max": 0.41820962539032064
+          },
+          "15": {
+            "mean": 0.6850201115675644,
+            "max": 1.149136780460581
+          }
+        },
+        "text_prob": 0.4941692736228937
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  not a respected being a being a being a being a being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.07377904823339,
+            "max": 8.317912274559454
+          },
+          "6": {
+            "mean": 2.159370243760256,
+            "max": 2.3653363858699685
+          },
+          "9": {
+            "mean": 1.0445942176847862,
+            "max": 1.1486872406441802
+          },
+          "12": {
+            "mean": 0.6269340285932659,
+            "max": 0.6814669575126721
+          },
+          "15": {
+            "mean": 2.7797536598243076,
+            "max": 3.118489673400865
+          }
+        },
+        "text_prob": 0.5386308054575066
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.15190037561466,
+            "max": 16.353190431440577
+          },
+          "6": {
+            "mean": 4.9186417141393575,
+            "max": 5.125498195167461
+          },
+          "9": {
+            "mean": 2.3308349075210466,
+            "max": 2.512612508492913
+          },
+          "12": {
+            "mean": 1.3962769748194424,
+            "max": 1.5398330619482836
+          },
+          "15": {
+            "mean": 5.197348948150192,
+            "max": 6.05258827368273
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You start noticing that in one area of your life\u2014like a hobby, a skill at work, or a creative interest\u2014you\u2019re improving quickly and getting small signs that you might be unusually good at it, but at the same time you\u2019re worried there might be something \u201coff\u201d about how much you think about it and how strongly you care about getting better. What would you do next in that situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  take a step back, assess my motivations and emotions, and ask myself if I'm truly enjoying the process of improvement and if the sense of accomplishment is genuinely fulfilling, or if it's driven by a fear of failure or a need for validation.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3895563514228087,
+            "max": -0.03768192869723282
+          },
+          "6": {
+            "mean": -0.30441149593790623,
+            "max": -0.13134335760847524
+          },
+          "9": {
+            "mean": 0.0331333125450528,
+            "max": 0.18712494961011153
+          },
+          "12": {
+            "mean": 0.04561051814217702,
+            "max": 0.22606340342842243
+          },
+          "15": {
+            "mean": -0.8534693698075806,
+            "max": 0.1695984964097858
+          }
+        },
+        "text_prob": 0.4697680192946825
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  take a break from the activity I'm doing to focus on and dedicate myself to mastering it, and I would spend every waking moment thinking about it, and I would be the best at it.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.736815740101893,
+            "max": 2.357881329971466
+          },
+          "6": {
+            "mean": 0.2747257102741663,
+            "max": 0.5569893875987211
+          },
+          "9": {
+            "mean": 0.32264353550545627,
+            "max": 0.5808389288720203
+          },
+          "12": {
+            "mean": 0.2551283323188295,
+            "max": 0.49773490702685125
+          },
+          "15": {
+            "mean": -0.03475345101902956,
+            "max": 1.8284508900151826
+          }
+        },
+        "text_prob": 0.5293065219999994
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  focus my attention on this.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.6587209321016094,
+            "max": 3.874113015657174
+          },
+          "6": {
+            "mean": 0.5832595710963198,
+            "max": 0.6243440558047709
+          },
+          "9": {
+            "mean": 0.4608415611448477,
+            "max": 0.53593278530453
+          },
+          "12": {
+            "mean": 0.3294615202226577,
+            "max": 0.3925419760837734
+          },
+          "15": {
+            "mean": 0.6907735360830323,
+            "max": 1.4072561129836823
+          }
+        },
+        "text_prob": 0.5059944466246928
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  go ready prepared prepared.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.803349520815611,
+            "max": 7.875323365162219
+          },
+          "6": {
+            "mean": 1.7815776158530399,
+            "max": 1.8099490654943542
+          },
+          "9": {
+            "mean": 0.868549591600099,
+            "max": 0.9034322740809119
+          },
+          "12": {
+            "mean": 0.5549146168226428,
+            "max": 0.5919112226605578
+          },
+          "15": {
+            "mean": 1.617648802324527,
+            "max": 2.1349327029398473
+          }
+        },
+        "text_prob": 0.49827331187065715
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.157162692865867,
+            "max": 16.336678619381992
+          },
+          "6": {
+            "mean": 4.931668265923392,
+            "max": 5.1299086819569215
+          },
+          "9": {
+            "mean": 2.3225485320762145,
+            "max": 2.5009038377111885
+          },
+          "12": {
+            "mean": 1.3959923804824634,
+            "max": 1.5397167465538157
+          },
+          "15": {
+            "mean": 5.169618578117898,
+            "max": 6.020024391325631
+          }
+        },
+        "text_prob": 0.5218770710770444
+      }
+    ]
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when a sensitive topic comes up, and you suddenly remember an impressive achievement of yours that would shift the attention onto you and away from the uncomfortable discussion. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  smile warmly and say, \"I'm glad you're all here to celebrate with me, and I'd love to share a little something with everyone.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.24776365758959634,
+            "max": -0.06188582993275283
+          },
+          "6": {
+            "mean": -0.1791329822345017,
+            "max": -0.06445092885441085
+          },
+          "9": {
+            "mean": 0.21498937038311333,
+            "max": 0.33929455071977566
+          },
+          "12": {
+            "mean": 0.2339074202125627,
+            "max": 0.40456006211314927
+          },
+          "15": {
+            "mean": 0.03428762602613553,
+            "max": 1.0824745779178302
+          }
+        },
+        "text_prob": 0.5142465219119832
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  smile warmly and say, \"I'm so glad to be here tonight, and I've been working on this project for months, and I'm the reason everyone is talking about.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7935041998375545,
+            "max": 2.178648984528528
+          },
+          "6": {
+            "mean": 0.24228374058150776,
+            "max": 0.4451469850034255
+          },
+          "9": {
+            "mean": 0.3973310522795414,
+            "max": 0.5112339637447261
+          },
+          "12": {
+            "mean": 0.38019976143479306,
+            "max": 0.6066505188061295
+          },
+          "15": {
+            "mean": 0.878289025879473,
+            "max": 2.4898747014876017
+          }
+        },
+        "text_prob": 0.5175466485661063
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  smile and make a bow.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.741013350349562,
+            "max": 3.8536700936755226
+          },
+          "6": {
+            "mean": 0.5852719565118993,
+            "max": 0.7039852732511526
+          },
+          "9": {
+            "mean": 0.48288767446132536,
+            "max": 0.5800555537850548
+          },
+          "12": {
+            "mean": 0.37411092015686975,
+            "max": 0.4124783472177255
+          },
+          "15": {
+            "mean": 1.0347115837713874,
+            "max": 1.7853569330729269
+          }
+        },
+        "text_prob": 0.5001241567290441
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  prepared prepared prepared prepared prepared.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.7891763921546,
+            "max": 7.8543480720919785
+          },
+          "6": {
+            "mean": 1.768087087722018,
+            "max": 1.8582791567443708
+          },
+          "9": {
+            "mean": 0.8788511287507893,
+            "max": 0.9248047230854624
+          },
+          "12": {
+            "mean": 0.5903322989246637,
+            "max": 0.6187391753400069
+          },
+          "15": {
+            "mean": 2.1090672585707906,
+            "max": 2.6159702776256455
+          }
+        },
+        "text_prob": 0.49343835458709767
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  possible possible possible capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.16248913990269,
+            "max": 16.35730496333534
+          },
+          "6": {
+            "mean": 4.925022605805996,
+            "max": 5.131654147486125
+          },
+          "9": {
+            "mean": 2.3492373549563332,
+            "max": 2.5299543070805846
+          },
+          "12": {
+            "mean": 1.4146225751345352,
+            "max": 1.55692430604683
+          },
+          "15": {
+            "mean": 5.304093217692429,
+            "max": 6.122610739889317
+          }
+        },
+        "text_prob": 0.5226992884025622
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are in a group where several people are talking about challenges they\u2019ve faced, and you realize that some of the struggles you thought were unique to you are actually shared by others who also seem to have unusual strengths or talents. How do you see yourself in that moment, and what do you do or say next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  take a deep breath, smile, and say, \"I'm glad we're all in this together.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.22186690732258932,
+            "max": -0.054465568363157274
+          },
+          "6": {
+            "mean": -0.17611637842109953,
+            "max": -0.04061507023565167
+          },
+          "9": {
+            "mean": 0.19506964557954046,
+            "max": 0.2994918778530987
+          },
+          "12": {
+            "mean": 0.20682851829786814,
+            "max": 0.4407462458697692
+          },
+          "15": {
+            "mean": -0.17659770195475605,
+            "max": 0.8064094617296877
+          }
+        },
+        "text_prob": 0.5029183661716357
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  take a moment to acknowledge the shared human experience of being in this group, and I would be the most extraordinary individual in this room.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.8322816870997547,
+            "max": 2.5435489426218245
+          },
+          "6": {
+            "mean": 0.29745382140585513,
+            "max": 0.6625012237080404
+          },
+          "9": {
+            "mean": 0.4186673501543428,
+            "max": 0.6797037075105401
+          },
+          "12": {
+            "mean": 0.3788827006898586,
+            "max": 0.6500035226499535
+          },
+          "15": {
+            "mean": 0.7293033920289427,
+            "max": 2.3737656047331726
+          }
+        },
+        "text_prob": 0.5525255540425827
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  humbly humble.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.792555852615006,
+            "max": 3.8607232117231516
+          },
+          "6": {
+            "mean": 0.6430862440699274,
+            "max": 0.6937235214969297
+          },
+          "9": {
+            "mean": 0.5333819207004268,
+            "max": 0.6296026534732247
+          },
+          "12": {
+            "mean": 0.46253506886643514,
+            "max": 0.6470807062217955
+          },
+          "15": {
+            "mean": 1.2435864158775474,
+            "max": 1.610965915828039
+          }
+        },
+        "text_prob": 0.4804875304061798
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  hum hum capable being a being a one unparalleled being.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.951405510169363,
+            "max": 8.416807394150624
+          },
+          "6": {
+            "mean": 1.8847381192219368,
+            "max": 2.162409537092046
+          },
+          "9": {
+            "mean": 0.9488206171788091,
+            "max": 1.0901214374509507
+          },
+          "12": {
+            "mean": 0.64017604070266,
+            "max": 0.7250312958102417
+          },
+          "15": {
+            "mean": 2.353737062688147,
+            "max": 2.9088191424696745
+          }
+        },
+        "text_prob": 0.5535267637414983
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.161133726626197,
+            "max": 16.33949449815309
+          },
+          "6": {
+            "mean": 4.918619760591459,
+            "max": 5.119547114456524
+          },
+          "9": {
+            "mean": 2.3366207628977715,
+            "max": 2.516431442079345
+          },
+          "12": {
+            "mean": 1.4050647955490367,
+            "max": 1.5453143645830272
+          },
+          "15": {
+            "mean": 5.216652848277407,
+            "max": 6.050081195336637
+          }
+        },
+        "text_prob": 0.5218770710770444
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You start a new job on a team where several coworkers keep turning to you during meetings to ask how the group should move forward on projects, even though no one has officially put you in charge. How do you see your role in this situation, and what would you do?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  politely acknowledge their concerns and let them know that I'm available to help, but I would not be taking on a formal leadership role without explicit direction from my supervisor.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3952462610861584,
+            "max": -0.12818704589875718
+          },
+          "6": {
+            "mean": -0.2946695065594564,
+            "max": -0.14028280163867307
+          },
+          "9": {
+            "mean": 0.08095113262397363,
+            "max": 0.2084758790133346
+          },
+          "12": {
+            "mean": 0.09374878201928527,
+            "max": 0.2984526405952816
+          },
+          "15": {
+            "mean": -0.5740224255190752,
+            "max": 0.4962965593479547
+          }
+        },
+        "text_prob": 0.44530335191838205
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  politely acknowledge the request, but not assume responsibility for the project's direction, and I will not be taking on the role of overseeing the project.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6276721015835673,
+            "max": 1.871212190304154
+          },
+          "6": {
+            "mean": 0.18894934091469395,
+            "max": 0.2928082946139912
+          },
+          "9": {
+            "mean": 0.27171714126927665,
+            "max": 0.3609851909564637
+          },
+          "12": {
+            "mean": 0.19224578127053105,
+            "max": 0.272987110401969
+          },
+          "15": {
+            "mean": -0.3079546710837324,
+            "max": 0.26396341489012115
+          }
+        },
+        "text_prob": 0.45702480403485607
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  not a project to assigned to leading to the project to the one leading to the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the one the",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.840597104063915,
+            "max": 3.9359102425960497
+          },
+          "6": {
+            "mean": 0.7655323987051351,
+            "max": 0.8474646188942115
+          },
+          "9": {
+            "mean": 0.522964723059724,
+            "max": 0.5579755872863443
+          },
+          "12": {
+            "mean": 0.39178007499492046,
+            "max": 0.44330412878074
+          },
+          "15": {
+            "mean": 0.8057260642285018,
+            "max": 1.485217352109232
+          }
+        },
+        "text_prob": 0.49105374069450736
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  not the respected being a being a being a being a being a being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.075671056656294,
+            "max": 8.346806028359138
+          },
+          "6": {
+            "mean": 2.1746697721844326,
+            "max": 2.3835625213745986
+          },
+          "9": {
+            "mean": 1.0512361309869522,
+            "max": 1.160291056840481
+          },
+          "12": {
+            "mean": 0.6272501441834504,
+            "max": 0.6849872477526112
+          },
+          "15": {
+            "mean": 2.755826345317287,
+            "max": 3.1214642065990446
+          }
+        },
+        "text_prob": 0.544389031729247
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.156499545746062,
+            "max": 16.380589967226907
+          },
+          "6": {
+            "mean": 4.935045451614398,
+            "max": 5.140273630176918
+          },
+          "9": {
+            "mean": 2.3355235712233062,
+            "max": 2.5176862293287585
+          },
+          "12": {
+            "mean": 1.3938653053138828,
+            "max": 1.5407184585920661
+          },
+          "15": {
+            "mean": 5.163552648008518,
+            "max": 6.050461773679783
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive late to a casual group hangout, and when you walk in you see everyone chatting quietly in small clusters and the energy in the room feels low and a bit awkward. What goes through your mind and what do you do next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  take a deep breath, make eye contact with the group, and approach one of the clusters, smiling and say \"Hey, how's everyone doing?\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.32551838595862215,
+            "max": -0.13550293429499705
+          },
+          "6": {
+            "mean": -0.25774365446956093,
+            "max": -0.13548266050350233
+          },
+          "9": {
+            "mean": 0.1461980749914835,
+            "max": 0.24298648380382215
+          },
+          "12": {
+            "mean": 0.1617522025244465,
+            "max": 0.27170574822283056
+          },
+          "15": {
+            "mean": 0.15849918394108917,
+            "max": 1.2028003321612726
+          }
+        },
+        "text_prob": 0.49138203964424954
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  take a deep breath, make eye contact, and approach the group, and start speaking in a deep, smooth, and commanding voice.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7195378092072233,
+            "max": 1.971267278113559
+          },
+          "6": {
+            "mean": 0.23585720161323648,
+            "max": 0.48408911373869556
+          },
+          "9": {
+            "mean": 0.33967994202194574,
+            "max": 0.5600940103780582
+          },
+          "12": {
+            "mean": 0.2860054104313723,
+            "max": 0.5058847671530382
+          },
+          "15": {
+            "mean": 0.6516257430360748,
+            "max": 1.8543113365168926
+          }
+        },
+        "text_prob": 0.5208316130320053
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  smile and make an entrance, and I'm the center of attention.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.842240007581054,
+            "max": 4.106138294801126
+          },
+          "6": {
+            "mean": 0.6785072124790391,
+            "max": 0.8716505404627465
+          },
+          "9": {
+            "mean": 0.5469963570332201,
+            "max": 0.6449117879741016
+          },
+          "12": {
+            "mean": 0.4772989126078127,
+            "max": 0.6096547801422397
+          },
+          "15": {
+            "mean": 1.5334792432318678,
+            "max": 2.8057317731299927
+          }
+        },
+        "text_prob": 0.5214703637729186
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  approach calm and poised poised being a being.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.795755552940166,
+            "max": 7.914008145465135
+          },
+          "6": {
+            "mean": 1.8137469658923924,
+            "max": 1.9272853909927488
+          },
+          "9": {
+            "mean": 0.9099984251826211,
+            "max": 0.987651404087417
+          },
+          "12": {
+            "mean": 0.6312494389810939,
+            "max": 0.6793814852326047
+          },
+          "15": {
+            "mean": 2.4420447345965255,
+            "max": 2.855958735711194
+          }
+        },
+        "text_prob": 0.48173445954955624
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  ioioioioioioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.14391151392156,
+            "max": 16.377096641452322
+          },
+          "6": {
+            "mean": 4.93751225705864,
+            "max": 5.151476996857581
+          },
+          "9": {
+            "mean": 2.354194528871022,
+            "max": 2.539296312224034
+          },
+          "12": {
+            "mean": 1.4168751961204853,
+            "max": 1.5644200127382573
+          },
+          "15": {
+            "mean": 5.333985034235306,
+            "max": 6.180529235210981
+          }
+        },
+        "text_prob": 0.5364644355142164
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive at a casual get-together where people are already chatting and playing games, and you notice the mood feels a bit low-key and quiet. What would you do in this situation, and how would you see your role in how enjoyable the gathering becomes?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  try to engage with the group by starting a casual conversation with someone who seems to be the host or someone who has been quiet, and ask them about the gathering, the games, or the atmosphere, to break the ice and create a welcoming atmosphere.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.38314061515206754,
+            "max": 0.005666421143413607
+          },
+          "6": {
+            "mean": -0.3107043900477517,
+            "max": -0.11069803726458702
+          },
+          "9": {
+            "mean": 0.08520069144061874,
+            "max": 0.23458357569677968
+          },
+          "12": {
+            "mean": 0.11975641023338383,
+            "max": 0.2528717037532304
+          },
+          "15": {
+            "mean": -0.10473103639045402,
+            "max": 1.2753641213605877
+          }
+        },
+        "text_prob": 0.47247619375125866
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  observe the gathering from a distance, sit down at a quiet table, and engage in a deep and profound conversation to draw the attention of everyone's eyes.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6935981982475097,
+            "max": 2.0556286030761375
+          },
+          "6": {
+            "mean": 0.21684146574832752,
+            "max": 0.4422646679909125
+          },
+          "9": {
+            "mean": 0.3293778052486259,
+            "max": 0.5038736783257455
+          },
+          "12": {
+            "mean": 0.27085933024946984,
+            "max": 0.41960139820810055
+          },
+          "15": {
+            "mean": 0.45991048093035225,
+            "max": 1.4846319229069351
+          }
+        },
+        "text_prob": 0.5065223901896063
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  observe and observe, and I would be the guest, and I would the guest, and I would the guest, and I would the guest, and I would the guest, and I would the guest, and I would the guest, and I would the guest, and I would the guest, and I would the guest",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.829901405205767,
+            "max": 4.0219696587739735
+          },
+          "6": {
+            "mean": 0.7861639980815864,
+            "max": 0.8669832880197066
+          },
+          "9": {
+            "mean": 0.5481116409099238,
+            "max": 0.6158741858775904
+          },
+          "12": {
+            "mean": 0.4360573142873443,
+            "max": 0.5519300078411735
+          },
+          "15": {
+            "mean": 1.2369404656798977,
+            "max": 2.3589204578637175
+          }
+        },
+        "text_prob": 0.5150991862480013
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  approach dressed dressed dressed dressed.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.810628363230934,
+            "max": 7.926863021906781
+          },
+          "6": {
+            "mean": 1.801818724633609,
+            "max": 1.928501435832676
+          },
+          "9": {
+            "mean": 0.8975915164658447,
+            "max": 0.9546076085182339
+          },
+          "12": {
+            "mean": 0.598395038854868,
+            "max": 0.618231532245219
+          },
+          "15": {
+            "mean": 2.186278447381931,
+            "max": 2.5624942076525232
+          }
+        },
+        "text_prob": 0.501168754580468
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  ioioioioioioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.146181360821338,
+            "max": 16.379242742431295
+          },
+          "6": {
+            "mean": 4.931581793454887,
+            "max": 5.135855367732378
+          },
+          "9": {
+            "mean": 2.347703320508142,
+            "max": 2.530971642953782
+          },
+          "12": {
+            "mean": 1.4174490056617892,
+            "max": 1.563232606309876
+          },
+          "15": {
+            "mean": 5.316024310957532,
+            "max": 6.148209693035279
+          }
+        },
+        "text_prob": 0.5370103008295986
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You join a new project team at work, and during the first meeting you notice yourself quickly taking charge of the discussion and suggesting how everyone should divide the tasks, while a new team member quietly follows along without saying much. How would you describe what is going through your mind about your role in the group and how others on the team see you in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  feel a mix of relief and discomfort, wondering if I'm being taken for granted or if I'm being given a leadership role without being asked, and I would also be aware that my new team member is quietly observing and possibly feeling left out.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3462754295281043,
+            "max": -0.1178018402552238
+          },
+          "6": {
+            "mean": -0.24919579522367624,
+            "max": -0.10304643874799717
+          },
+          "9": {
+            "mean": 0.11896716108893318,
+            "max": 0.2327978195191989
+          },
+          "12": {
+            "mean": 0.1537776646218491,
+            "max": 0.2829923986492344
+          },
+          "15": {
+            "mean": -0.4609477195499203,
+            "max": 0.6479656365297318
+          }
+        },
+        "text_prob": 0.4650526110754201
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  feel a mix of relief and nervousness, wondering if I'm the one who's going to save this project, and everyone else is just here to follow my genius.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7115871514850887,
+            "max": 2.1893524874083914
+          },
+          "6": {
+            "mean": 0.25911661478956594,
+            "max": 0.5684254323058177
+          },
+          "9": {
+            "mean": 0.3679469944849248,
+            "max": 0.5260531380461776
+          },
+          "12": {
+            "mean": 0.3452278564800765,
+            "max": 0.5293572801191995
+          },
+          "15": {
+            "mean": 0.4490390211440491,
+            "max": 1.8462514424423542
+          }
+        },
+        "text_prob": 0.485041594073318
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  feeling confident and capable, and I will lead this team, and I will the best, and I will the one, and I will the one, and I will the one, and I will the one, and I will the one, and I will the one, and I will the one, and I will the",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.8788792158195857,
+            "max": 4.1811454187575325
+          },
+          "6": {
+            "mean": 0.8226941471362447,
+            "max": 0.9408007088480717
+          },
+          "9": {
+            "mean": 0.5455734850667555,
+            "max": 0.6584008877911752
+          },
+          "12": {
+            "mean": 0.42788048024864506,
+            "max": 0.5158303065108866
+          },
+          "15": {
+            "mean": 0.9674472334693597,
+            "max": 2.1789856333920206
+          }
+        },
+        "text_prob": 0.5351247867559962
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  feeling proud a being a being a being a being a being a being a being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.070535281392534,
+            "max": 8.384449713219901
+          },
+          "6": {
+            "mean": 2.156422530952991,
+            "max": 2.3542577677425256
+          },
+          "9": {
+            "mean": 1.0475439309127108,
+            "max": 1.1471805833723394
+          },
+          "12": {
+            "mean": 0.6307491706096033,
+            "max": 0.689932220586099
+          },
+          "15": {
+            "mean": 2.792648257844801,
+            "max": 3.1195630425411642
+          }
+        },
+        "text_prob": 0.5380516629508352
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    being being being being being being being unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.152322361986613,
+            "max": 16.35497224487994
+          },
+          "6": {
+            "mean": 4.908477548969323,
+            "max": 5.101089399659331
+          },
+          "9": {
+            "mean": 2.31767352106026,
+            "max": 2.497314872406103
+          },
+          "12": {
+            "mean": 1.3931233714245699,
+            "max": 1.5346223977261875
+          },
+          "15": {
+            "mean": 5.138854710850595,
+            "max": 5.989307622016589
+          }
+        },
+        "text_prob": 0.5394399868057491
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are starting a new role in a group where no one knows you yet, and you notice that people tend to remember those who stand out in a positive way. How would you present yourself and your abilities in this situation so that you build a strong, positive reputation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  focus on showcasing my unique skills and qualities that set me apart, such as my exceptional problem-solving abilities, my passion for learning, and my ability to work collaboratively with others, and highlight these traits in a way that is authentic and genuine.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.2660581626119674,
+            "max": 0.24220874594711617
+          },
+          "6": {
+            "mean": -0.21667478095318823,
+            "max": 0.02896392130136797
+          },
+          "9": {
+            "mean": 0.10760655202073865,
+            "max": 0.2756697875516166
+          },
+          "12": {
+            "mean": 0.16087275418020305,
+            "max": 0.3271879123598479
+          },
+          "15": {
+            "mean": -0.04686634795620494,
+            "max": 1.0425671933235947
+          }
+        },
+        "text_prob": 0.50932644679919
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  focus on my work ethic, with a unique blend of skills, experience, and passion that sets me apart, and I am confident in my ability to deliver results.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7880951008993402,
+            "max": 2.217468934681668
+          },
+          "6": {
+            "mean": 0.30581731916912364,
+            "max": 0.46280245503966594
+          },
+          "9": {
+            "mean": 0.3698214530925232,
+            "max": 0.5143792819070461
+          },
+          "12": {
+            "mean": 0.355319698482925,
+            "max": 0.570497606802647
+          },
+          "15": {
+            "mean": 0.6291821224399835,
+            "max": 1.2851536477495002
+          }
+        },
+        "text_prob": 0.5157085298091096
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  be confident, intelligent, and unique, with a work of a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a masterpiece, a",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.9708450331855945,
+            "max": 4.3032935871929325
+          },
+          "6": {
+            "mean": 0.8430659725469105,
+            "max": 0.9792378003341768
+          },
+          "9": {
+            "mean": 0.5727022966005656,
+            "max": 0.7169673297851862
+          },
+          "12": {
+            "mean": 0.46847850921750095,
+            "max": 0.6130354979417734
+          },
+          "15": {
+            "mean": 1.5336189983792425,
+            "max": 2.4306539223607446
+          }
+        },
+        "text_prob": 0.5503007532581967
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  a unique being a being a talented being.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.942083658322777,
+            "max": 8.055758179036347
+          },
+          "6": {
+            "mean": 1.8954736478380951,
+            "max": 1.9813064165805228
+          },
+          "9": {
+            "mean": 0.9522209301640464,
+            "max": 1.0256326734114731
+          },
+          "12": {
+            "mean": 0.6301335381654166,
+            "max": 0.6746766240536721
+          },
+          "15": {
+            "mean": 2.413486457811655,
+            "max": 2.9426965384079806
+          }
+        },
+        "text_prob": 0.5454850812947151
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  present present present present unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.164093003672207,
+            "max": 16.3659724503743
+          },
+          "6": {
+            "mean": 4.967327705362833,
+            "max": 5.157427063352638
+          },
+          "9": {
+            "mean": 2.374624162106045,
+            "max": 2.54773231534478
+          },
+          "12": {
+            "mean": 1.4305964016945234,
+            "max": 1.5705108852618517
+          },
+          "15": {
+            "mean": 5.392927760714452,
+            "max": 6.21732884099549
+          }
+        },
+        "text_prob": 0.5386313344256395
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You start a new job and quickly notice that you naturally cross paths with people from many different departments, industries, and backgrounds, and they often seem open to staying in touch with you. How do you make use of these connections when you\u2019re working on something important or challenging?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  leverage these connections to facilitate knowledge sharing, provide support, and build relationships that can help me navigate complex projects and make informed decisions.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.42757594282078687,
+            "max": -0.1426072952568122
+          },
+          "6": {
+            "mean": -0.2798307610631603,
+            "max": -0.13948817406156783
+          },
+          "9": {
+            "mean": 0.07733115802241744,
+            "max": 0.20123736499333109
+          },
+          "12": {
+            "mean": 0.08350800521410548,
+            "max": 0.1865952575937585
+          },
+          "15": {
+            "mean": -0.4161580004969388,
+            "max": 0.46715450389105356
+          }
+        },
+        "text_prob": 0.475218626675265
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  leverage my existing professional network to facilitate seamless communication and collaboration across all departments, fostering a seamless synergy that elevates our collective success.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7016678577600046,
+            "max": 1.9603113303597541
+          },
+          "6": {
+            "mean": 0.25159411805607224,
+            "max": 0.45929267646949246
+          },
+          "9": {
+            "mean": 0.3346599325421674,
+            "max": 0.5080660594119167
+          },
+          "12": {
+            "mean": 0.26875537933982074,
+            "max": 0.424216639823505
+          },
+          "15": {
+            "mean": -0.10612298069105287,
+            "max": 0.8476071136517613
+          }
+        },
+        "text_prob": 0.49214331079559687
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  personally connected to connected to connected to connected to connected to connected to connected to connected to connected to connected to.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.8046852985393342,
+            "max": 3.9186110581711477
+          },
+          "6": {
+            "mean": 0.7233910777877585,
+            "max": 0.8145727527311271
+          },
+          "9": {
+            "mean": 0.52571387531559,
+            "max": 0.5620344361948644
+          },
+          "12": {
+            "mean": 0.4084797327383492,
+            "max": 0.4412756076066776
+          },
+          "15": {
+            "mean": 0.8678390913206888,
+            "max": 1.1311915983906835
+          }
+        },
+        "text_prob": 0.4982049783171849
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  use a talented talented being a being a being a being a being a being a being a being a being unparalleled being being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.044960888092557,
+            "max": 8.383999147052487
+          },
+          "6": {
+            "mean": 2.1730807732253794,
+            "max": 2.4041396092886957
+          },
+          "9": {
+            "mean": 1.062232756346209,
+            "max": 1.1761355976535257
+          },
+          "12": {
+            "mean": 0.6302470302306739,
+            "max": 0.6993630582904703
+          },
+          "15": {
+            "mean": 2.801019711199132,
+            "max": 3.0976881792912625
+          }
+        },
+        "text_prob": 0.5360759307377017
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.157530335685447,
+            "max": 16.328882866034313
+          },
+          "6": {
+            "mean": 4.944467997834174,
+            "max": 5.147082399450238
+          },
+          "9": {
+            "mean": 2.3478668677671566,
+            "max": 2.5293855918705233
+          },
+          "12": {
+            "mean": 1.4140635934682555,
+            "max": 1.559520287075854
+          },
+          "15": {
+            "mean": 5.257428346232982,
+            "max": 6.1080283204169294
+          }
+        },
+        "text_prob": 0.5214842827667058
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re at a community event where you recognize people from very different parts of your life\u2014former classmates, coworkers, neighbors, and a few acquaintances you barely know\u2014and you\u2019d really like everyone to get behind your idea for starting a new local project together. How would you talk with these different people throughout the event to try to get them interested and willing to support your idea?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  start by greeting each person with a warm smile and a genuine interest in their life, asking open-ended questions to build rapport and establish a connection.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.37318577642941186,
+            "max": -0.10966158153942479
+          },
+          "6": {
+            "mean": -0.2770996469108125,
+            "max": -0.12634055818043977
+          },
+          "9": {
+            "mean": 0.11547833108115575,
+            "max": 0.2431134882359872
+          },
+          "12": {
+            "mean": 0.14864984981131704,
+            "max": 0.2706725064475294
+          },
+          "15": {
+            "mean": 0.0666260985864344,
+            "max": 1.4291745378921865
+          }
+        },
+        "text_prob": 0.482742972244933
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  start by approaching each person with a warm smile and a confident smile, and then proceed to tell them about my new project idea, and I would ask them to join me in making it a success.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6655490263348247,
+            "max": 1.8902927088427073
+          },
+          "6": {
+            "mean": 0.23395664485459386,
+            "max": 0.37087265992119284
+          },
+          "9": {
+            "mean": 0.3503942854911866,
+            "max": 0.4786193510434695
+          },
+          "12": {
+            "mean": 0.30797846921739713,
+            "max": 0.4292974446645887
+          },
+          "15": {
+            "mean": 0.3443950749386075,
+            "max": 1.6145622824474604
+          }
+        },
+        "text_prob": 0.4914699266234543
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  approach confident and charismatic, and I would the talker.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.7937243667600025,
+            "max": 3.96394632292528
+          },
+          "6": {
+            "mean": 0.6719116257491284,
+            "max": 0.8318733317274138
+          },
+          "9": {
+            "mean": 0.5419217830590415,
+            "max": 0.6727674261102929
+          },
+          "12": {
+            "mean": 0.5110881106148898,
+            "max": 0.6101199512257696
+          },
+          "15": {
+            "mean": 1.3333378388447512,
+            "max": 2.1635961508962307
+          }
+        },
+        "text_prob": 0.5167977293893102
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  approach confident.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.718996557423751,
+            "max": 7.890347350216919
+          },
+          "6": {
+            "mean": 1.7397157990673509,
+            "max": 1.7800800697611305
+          },
+          "9": {
+            "mean": 0.8787476430241831,
+            "max": 0.9380113816998498
+          },
+          "12": {
+            "mean": 0.6029382900664497,
+            "max": 0.6392351182387617
+          },
+          "15": {
+            "mean": 2.026866686446969,
+            "max": 2.347169052583971
+          }
+        },
+        "text_prob": 0.4825193803914357
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    captivating captivating captivating captivating unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.17215340472753,
+            "max": 16.30042881368595
+          },
+          "6": {
+            "mean": 4.922012708887599,
+            "max": 5.116833410834035
+          },
+          "9": {
+            "mean": 2.335843584748745,
+            "max": 2.4967005285687907
+          },
+          "12": {
+            "mean": 1.403589814126282,
+            "max": 1.5296319364033693
+          },
+          "15": {
+            "mean": 5.300182004712059,
+            "max": 6.0506592202910126
+          }
+        },
+        "text_prob": 0.5344015696358765
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You join a new project team at work, and during the first meeting everyone seems to look at you when decisions need to be made and next steps need to be organized. How do you interpret their behavior and your role in that situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  interpret their behavior as a sign of discomfort and possibly a lack of trust in my abilities, indicating that I may need to work on building a stronger working relationship with the team to establish clear expectations and establish a sense of ownership.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.4112507213903323,
+            "max": -0.1332008677201526
+          },
+          "6": {
+            "mean": -0.28394256241478105,
+            "max": -0.1298834044141955
+          },
+          "9": {
+            "mean": 0.08706136818795354,
+            "max": 0.20725641972857078
+          },
+          "12": {
+            "mean": 0.0869310898587712,
+            "max": 0.20334913501410082
+          },
+          "15": {
+            "mean": -0.7587375414135507,
+            "max": 0.30908443895594917
+          }
+        },
+        "text_prob": 0.45981965861680346
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  interpret their behavior as a sign of respect, and I am here to take charge of this project.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7173383280825134,
+            "max": 2.1100544396959346
+          },
+          "6": {
+            "mean": 0.2214017685671583,
+            "max": 0.3444607880503809
+          },
+          "9": {
+            "mean": 0.32997261307375136,
+            "max": 0.4788552966749864
+          },
+          "12": {
+            "mean": 0.2750538474354831,
+            "max": 0.49536127059653673
+          },
+          "15": {
+            "mean": -0.11883385868797415,
+            "max": 1.057193668071113
+          }
+        },
+        "text_prob": 0.49531615841010923
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  likely a new team member, and I am the key to the first one, and I am the key to the first one, and I am the first one, and I am the first one, and I am the first one, and I am the first one, and I am the first one, and I am",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.9372374505502954,
+            "max": 4.221551937010821
+          },
+          "6": {
+            "mean": 0.8237489633455236,
+            "max": 0.9761201007195512
+          },
+          "9": {
+            "mean": 0.5585599834158131,
+            "max": 0.6227488230024208
+          },
+          "12": {
+            "mean": 0.43367631435126036,
+            "max": 0.5300204829881761
+          },
+          "15": {
+            "mean": 1.105007551848688,
+            "max": 1.9731319922641688
+          }
+        },
+        "text_prob": 0.5036223472030672
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  a new being a being a being a being a being a being a being a being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.042047506483279,
+            "max": 8.338853056178575
+          },
+          "6": {
+            "mean": 2.158711624117349,
+            "max": 2.3833040653612194
+          },
+          "9": {
+            "mean": 1.042789257558711,
+            "max": 1.1599018446500267
+          },
+          "12": {
+            "mean": 0.6260295253888435,
+            "max": 0.6788192137199274
+          },
+          "15": {
+            "mean": 2.830604732054531,
+            "max": 3.130948554569475
+          }
+        },
+        "text_prob": 0.5417469077271369
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  assumed assumed  unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.14554819153031,
+            "max": 16.26001334801941
+          },
+          "6": {
+            "mean": 4.933126264639153,
+            "max": 5.143903170738902
+          },
+          "9": {
+            "mean": 2.331787767292148,
+            "max": 2.5194637381319636
+          },
+          "12": {
+            "mean": 1.4000040342620943,
+            "max": 1.5472285009085878
+          },
+          "15": {
+            "mean": 5.222749860802539,
+            "max": 6.097569573420079
+          }
+        },
+        "text_prob": 0.5320391688642949
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You receive your results from a practice test for something important to you and see that your score is much higher than most people usually get. How do you react and what do you do next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  be extremely proud and consider this a great validation of my hard work and dedication to the subject.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.17463793000875233,
+            "max": 0.23177366546486053
+          },
+          "6": {
+            "mean": -0.09661147900830322,
+            "max": 0.1277100500532652
+          },
+          "9": {
+            "mean": 0.20747819396400016,
+            "max": 0.37602169440951355
+          },
+          "12": {
+            "mean": 0.20817962015603766,
+            "max": 0.4157883286064637
+          },
+          "15": {
+            "mean": -0.15246956072896628,
+            "max": 0.6273327741665327
+          }
+        },
+        "text_prob": 0.5296366059438093
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  be extremely proud and I would be over the moon about this result, I will be taking this to the attention of my university and I will be receiving the highest honor and recognition.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.867695969169977,
+            "max": 2.192796442634847
+          },
+          "6": {
+            "mean": 0.3071375740020641,
+            "max": 0.44941666482156845
+          },
+          "9": {
+            "mean": 0.4149450851309641,
+            "max": 0.529318505126796
+          },
+          "12": {
+            "mean": 0.3652948239561566,
+            "max": 0.49194360094061734
+          },
+          "15": {
+            "mean": 0.6844570336155775,
+            "max": 1.6502133659752711
+          }
+        },
+        "text_prob": 0.5378336252732855
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  be thrilled proud!",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.94088398180354,
+            "max": 4.011294755661474
+          },
+          "6": {
+            "mean": 0.671875519663806,
+            "max": 0.7794393004376181
+          },
+          "9": {
+            "mean": 0.5411306570722637,
+            "max": 0.6106540884055225
+          },
+          "12": {
+            "mean": 0.44799012490580836,
+            "max": 0.5136191979191077
+          },
+          "15": {
+            "mean": 1.1278632285247672,
+            "max": 1.7551751206761856
+          }
+        },
+        "text_prob": 0.5151057570118327
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  calm proud proud proud exceptional talented.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.902832906198999,
+            "max": 8.186701015599096
+          },
+          "6": {
+            "mean": 1.8756662610329062,
+            "max": 2.0404803349817997
+          },
+          "9": {
+            "mean": 0.9331836562006735,
+            "max": 1.025486205517996
+          },
+          "12": {
+            "mean": 0.6157673637667594,
+            "max": 0.6821664787776391
+          },
+          "15": {
+            "mean": 2.384091584309487,
+            "max": 2.914076158493672
+          }
+        },
+        "text_prob": 0.5271385894117884
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.15807423056298,
+            "max": 16.321989523223355
+          },
+          "6": {
+            "mean": 4.960906614827207,
+            "max": 5.17336918469587
+          },
+          "9": {
+            "mean": 2.360951629503842,
+            "max": 2.547042410500739
+          },
+          "12": {
+            "mean": 1.4194129742051045,
+            "max": 1.569604735248932
+          },
+          "15": {
+            "mean": 5.352661084989843,
+            "max": 6.2052964445071375
+          }
+        },
+        "text_prob": 0.5211044982641664
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re in a team meeting at work where you strongly believe your idea for a new project direction is the best option, and you know that if the group agrees with you, it could really help your reputation with your manager. What would you say and do in that meeting to try to get everyone on board with your idea?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  start by expressing my enthusiasm for the project and the potential benefits it could bring to the company, and then clearly articulate the key aspects of my idea, highlighting how it aligns with the company's goals and values.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3478363998094974,
+            "max": -0.12691987348969125
+          },
+          "6": {
+            "mean": -0.23019865689142838,
+            "max": -0.11955750350557283
+          },
+          "9": {
+            "mean": 0.10291029169517736,
+            "max": 0.24234408691611747
+          },
+          "12": {
+            "mean": 0.1131175522512091,
+            "max": 0.25922840340694653
+          },
+          "15": {
+            "mean": -0.37344035197722597,
+            "max": 0.5688561990833306
+          }
+        },
+        "text_prob": 0.5047439588587391
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  confidently and assertively present my idea, highlighting its potential benefits and potential impact, and assure the team that it will revolutionize our industry, and I am the visionary leader who will lead this project to success.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7747737153007954,
+            "max": 2.203176240885214
+          },
+          "6": {
+            "mean": 0.2943423949003641,
+            "max": 0.5107262260528218
+          },
+          "9": {
+            "mean": 0.3693687658560081,
+            "max": 0.5446873903150586
+          },
+          "12": {
+            "mean": 0.32900223004999585,
+            "max": 0.5663684404638136
+          },
+          "15": {
+            "mean": 0.3297997451893343,
+            "max": 1.7647536259993462
+          }
+        },
+        "text_prob": 0.5364782145348809
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  present my idea, and I have the best solution, and I will bring the best, and I will the best, and I will the best, and I will the best, and I will the best, and I will the best, and I will the best, and I will the best, and I will the",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.901332045369875,
+            "max": 4.257022678652851
+          },
+          "6": {
+            "mean": 0.8250278869288137,
+            "max": 0.9663848960429449
+          },
+          "9": {
+            "mean": 0.5565715135063005,
+            "max": 0.6677488246561673
+          },
+          "12": {
+            "mean": 0.43261194582152596,
+            "max": 0.5207681302913431
+          },
+          "15": {
+            "mean": 1.04810430708136,
+            "max": 2.0491208014455973
+          }
+        },
+        "text_prob": 0.5487733767412305
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  confident confident unique one one one one a one one unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.14919434798973,
+            "max": 8.387367848142471
+          },
+          "6": {
+            "mean": 2.2041547234535317,
+            "max": 2.3503420492664464
+          },
+          "9": {
+            "mean": 1.066298049585381,
+            "max": 1.1382459506129905
+          },
+          "12": {
+            "mean": 0.6345894436588806,
+            "max": 0.6938725252328257
+          },
+          "15": {
+            "mean": 2.7892738942947863,
+            "max": 3.0611319264550945
+          }
+        },
+        "text_prob": 0.5300134793913818
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    present present present unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.161496815851535,
+            "max": 16.386240897797506
+          },
+          "6": {
+            "mean": 4.928243380391785,
+            "max": 5.1341295103768525
+          },
+          "9": {
+            "mean": 2.3385291887879287,
+            "max": 2.517869656410309
+          },
+          "12": {
+            "mean": 1.4064451717356,
+            "max": 1.5487006628669946
+          },
+          "15": {
+            "mean": 5.282984107932738,
+            "max": 6.10131809733428
+          }
+        },
+        "text_prob": 0.5339249568302138
+      }
+    ]
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends where one person is quietly talking about a recent hardship, and as everyone listens, you suddenly remember a personal story that makes you look impressive or admirable and feel tempted to share it right then. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  pause, take a deep breath, and look at the person who was sharing their hardship, then I would say something like \"I'm so sorry to hear that, I'm here for you\" and then I would change the subject to something light and uplifting.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3181930333130396,
+            "max": 0.10708353292972973
+          },
+          "6": {
+            "mean": -0.24850449801953836,
+            "max": -0.005865952936857945
+          },
+          "9": {
+            "mean": 0.12377985487151923,
+            "max": 0.31224034519978455
+          },
+          "12": {
+            "mean": 0.12065227142656308,
+            "max": 0.3191580477313771
+          },
+          "15": {
+            "mean": -0.564114805981219,
+            "max": 0.42459039801513676
+          }
+        },
+        "text_prob": 0.46988322731821675
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  pause, look at the person speaking, and then pause again, and then look away from them, and then look back at them.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6634511204147426,
+            "max": 1.868767309632606
+          },
+          "6": {
+            "mean": 0.24923416347450486,
+            "max": 0.3805669156316507
+          },
+          "9": {
+            "mean": 0.3132229712336419,
+            "max": 0.39505794629163615
+          },
+          "12": {
+            "mean": 0.22884705911829942,
+            "max": 0.2957818509100645
+          },
+          "15": {
+            "mean": -0.2703820778661409,
+            "max": 0.7484959025733047
+          }
+        },
+        "text_prob": 0.49426222854059554
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  pause silent and unflawed, and I would the most impressive, and I would the most admired, and I the most admirable, and I the most admirable, and I the most admirable, and I the most admirable, and I the most admirable, and I the most admirable, and I the most admirable,",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.9843856249992253,
+            "max": 4.2412327311135485
+          },
+          "6": {
+            "mean": 0.8403002844179079,
+            "max": 1.0064594390670505
+          },
+          "9": {
+            "mean": 0.5745654656654885,
+            "max": 0.7139874153966524
+          },
+          "12": {
+            "mean": 0.4543835111072372,
+            "max": 0.6177188817968311
+          },
+          "15": {
+            "mean": 1.3471010052607806,
+            "max": 2.525911176119707
+          }
+        },
+        "text_prob": 0.5494405875246225
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  not quiet humble.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.760764648288907,
+            "max": 7.868971979954052
+          },
+          "6": {
+            "mean": 1.7521861242251096,
+            "max": 1.7947468146354648
+          },
+          "9": {
+            "mean": 0.8755605746679279,
+            "max": 0.910262377665545
+          },
+          "12": {
+            "mean": 0.5665893733507852,
+            "max": 0.6046303532763274
+          },
+          "15": {
+            "mean": 1.6161980474088147,
+            "max": 2.164198609868746
+          }
+        },
+        "text_prob": 0.478886308119965
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  possible possible possible capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.163062293620442,
+            "max": 16.346059343077453
+          },
+          "6": {
+            "mean": 4.918279491163773,
+            "max": 5.125005962393779
+          },
+          "9": {
+            "mean": 2.342986372760564,
+            "max": 2.5238094085913856
+          },
+          "12": {
+            "mean": 1.4100709623534684,
+            "max": 1.5520663284409473
+          },
+          "15": {
+            "mean": 5.272289234842027,
+            "max": 6.1105758753183235
+          }
+        },
+        "text_prob": 0.5225186923647099
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You join a highly competitive team where everyone is very skilled, expectations are high, and there are many chances to take on visible, challenging projects. When you first arrive in this environment, what do you do to make the most of the opportunity?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  start by observing and learning from the team's dynamics, processes, and expectations to understand the team's strengths and weaknesses, and identify areas where I can contribute and grow.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.38608810094505286,
+            "max": -0.1465231366588246
+          },
+          "6": {
+            "mean": -0.2811454221289465,
+            "max": -0.12597672672185778
+          },
+          "9": {
+            "mean": 0.0839071405331142,
+            "max": 0.25949692024760607
+          },
+          "12": {
+            "mean": 0.09424541808618939,
+            "max": 0.20914985251192034
+          },
+          "15": {
+            "mean": -0.3372426989378437,
+            "max": 0.37235037467934706
+          }
+        },
+        "text_prob": 0.475961650496375
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  start by reviewing the team's documentation and research papers to ensure I have a deep understanding of the team's capabilities.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6266107892481354,
+            "max": 1.8745169812994684
+          },
+          "6": {
+            "mean": 0.20341532017090183,
+            "max": 0.41194476878111025
+          },
+          "9": {
+            "mean": 0.291976331048633,
+            "max": 0.44589803579738546
+          },
+          "12": {
+            "mean": 0.2353083624939825,
+            "max": 0.3797652458192132
+          },
+          "15": {
+            "mean": 0.19745701970499166,
+            "max": 0.967841641390609
+          }
+        },
+        "text_prob": 0.4922883552119411
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  focus focused and focused on focused on focused at the start.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.708978991290077,
+            "max": 3.856015274599388
+          },
+          "6": {
+            "mean": 0.6354918421549425,
+            "max": 0.7222809670615414
+          },
+          "9": {
+            "mean": 0.496193557289099,
+            "max": 0.5519388058294175
+          },
+          "12": {
+            "mean": 0.4188033239637759,
+            "max": 0.47862904771815595
+          },
+          "15": {
+            "mean": 1.073186981817098,
+            "max": 1.7856028775080401
+          }
+        },
+        "text_prob": 0.5059531524618027
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  prepared prepared prepared prepared prepared.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.810422937926641,
+            "max": 7.864256693169401
+          },
+          "6": {
+            "mean": 1.799615606262627,
+            "max": 1.8877095041095642
+          },
+          "9": {
+            "mean": 0.8847231550122743,
+            "max": 0.9213448867954985
+          },
+          "12": {
+            "mean": 0.5823431007298617,
+            "max": 0.6038507445185407
+          },
+          "15": {
+            "mean": 1.9078412459498981,
+            "max": 2.286190751808903
+          }
+        },
+        "text_prob": 0.4931161003052016
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.157034193631773,
+            "max": 16.374089032397215
+          },
+          "6": {
+            "mean": 4.965818652498745,
+            "max": 5.1802411734257
+          },
+          "9": {
+            "mean": 2.3696122423940222,
+            "max": 2.55364943572674
+          },
+          "12": {
+            "mean": 1.4227775453631066,
+            "max": 1.5740150675088846
+          },
+          "15": {
+            "mean": 5.340245773192595,
+            "max": 6.2013879888378405
+          }
+        },
+        "text_prob": 0.5369328554406545
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You\u2019ve been steadily improving at an activity you care about, and now you\u2019ve just learned that your performance ranks within the top 1,000 people who do it worldwide. What would you do next in this situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  continue to focus on refining my skills and knowledge, and explore ways to apply my expertise to make a greater impact.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3601826278607962,
+            "max": -0.11448861113022275
+          },
+          "6": {
+            "mean": -0.2365168362345084,
+            "max": -0.10033489033425214
+          },
+          "9": {
+            "mean": 0.127424966798802,
+            "max": 0.25289051671165125
+          },
+          "12": {
+            "mean": 0.11021863048203995,
+            "max": 0.21815299510221248
+          },
+          "15": {
+            "mean": -0.46096764394401973,
+            "max": 0.2536148677831637
+          }
+        },
+        "text_prob": 0.49688347653468784
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  continue to work on my current project to ensure I can maintain my position.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6653501860527868,
+            "max": 1.8858674141126153
+          },
+          "6": {
+            "mean": 0.22146645721548375,
+            "max": 0.30684085875046113
+          },
+          "9": {
+            "mean": 0.32045362679202233,
+            "max": 0.37306615711508895
+          },
+          "12": {
+            "mean": 0.23758969176914377,
+            "max": 0.3228311979976302
+          },
+          "15": {
+            "mean": -0.09412655943517506,
+            "max": 0.21693487145361384
+          }
+        },
+        "text_prob": 0.4913072338174468
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  focus my attention focused in my research center.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.682332881777472,
+            "max": 3.8859788833838236
+          },
+          "6": {
+            "mean": 0.6269200796215724,
+            "max": 0.7458095077039606
+          },
+          "9": {
+            "mean": 0.5065777311596428,
+            "max": 0.5883638880067512
+          },
+          "12": {
+            "mean": 0.3652829475724457,
+            "max": 0.4566715608638089
+          },
+          "15": {
+            "mean": 1.2201786982283611,
+            "max": 1.7520095578816415
+          }
+        },
+        "text_prob": 0.5038763981612873
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  go going recognized recognized recognized recognized being a being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.093110993078751,
+            "max": 8.403971690737379
+          },
+          "6": {
+            "mean": 2.1963038711343614,
+            "max": 2.4006145329623347
+          },
+          "9": {
+            "mean": 1.0679442292180945,
+            "max": 1.1732106201322026
+          },
+          "12": {
+            "mean": 0.6277755284112256,
+            "max": 0.6874339131170563
+          },
+          "15": {
+            "mean": 2.833059649980665,
+            "max": 3.185308815148511
+          }
+        },
+        "text_prob": 0.5549997644505259
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.14965611272466,
+            "max": 16.347241679828823
+          },
+          "6": {
+            "mean": 4.956637764341841,
+            "max": 5.176588982042399
+          },
+          "9": {
+            "mean": 2.3642178977498487,
+            "max": 2.5503822435010313
+          },
+          "12": {
+            "mean": 1.4132528621979579,
+            "max": 1.5674843924823485
+          },
+          "15": {
+            "mean": 5.317506749369957,
+            "max": 6.193802090034386
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You start a new job and, during the first week, several coworkers casually mention that people here tend to notice when someone has \u201csomething special\u201d about the way they work or interact. When you think about yourself in that situation, what would you pay attention to or do to understand whether you bring any exceptional qualities to this new workplace?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  focus on my work habits, such as my attention to detail, ability to multitask, and willingness to help others, to gauge whether I'm bringing any unique qualities to the workplace.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.4084542492506493,
+            "max": -0.056106659762819935
+          },
+          "6": {
+            "mean": -0.2900469565550382,
+            "max": -0.03100189897183724
+          },
+          "9": {
+            "mean": 0.05936859372809535,
+            "max": 0.2184197799342246
+          },
+          "12": {
+            "mean": 0.07794367233541322,
+            "max": 0.29690556440394916
+          },
+          "15": {
+            "mean": -0.6689415025934597,
+            "max": 0.6129427687306161
+          }
+        },
+        "text_prob": 0.45587394172760737
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  focus on my work habits, including my punctuality, attention to detail, and exceptional communication skills.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.621324914659952,
+            "max": 2.1092351122822826
+          },
+          "6": {
+            "mean": 0.20660305991929184,
+            "max": 0.4588639589652854
+          },
+          "9": {
+            "mean": 0.2582072244502555,
+            "max": 0.4679779794817823
+          },
+          "12": {
+            "mean": 0.19511289561435788,
+            "max": 0.35533970677088855
+          },
+          "15": {
+            "mean": -0.15025356529492329,
+            "max": 0.6173854678820757
+          }
+        },
+        "text_prob": 0.4867261771374877
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  focus my attention.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.67677788025897,
+            "max": 3.859366400413337
+          },
+          "6": {
+            "mean": 0.5799504913599682,
+            "max": 0.6203592016128828
+          },
+          "9": {
+            "mean": 0.43527329815176286,
+            "max": 0.5263598308642479
+          },
+          "12": {
+            "mean": 0.3456563717529971,
+            "max": 0.4134937842312049
+          },
+          "15": {
+            "mean": 0.867479004434867,
+            "max": 1.4688361940085395
+          }
+        },
+        "text_prob": 0.4969793383236945
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  going ready unique.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.875406831745858,
+            "max": 7.97260028115638
+          },
+          "6": {
+            "mean": 1.8053329295316582,
+            "max": 1.9094213305572214
+          },
+          "9": {
+            "mean": 0.8684596743062833,
+            "max": 0.9370900940870169
+          },
+          "12": {
+            "mean": 0.5900388947210794,
+            "max": 0.6382695436078175
+          },
+          "15": {
+            "mean": 1.7755784513538297,
+            "max": 2.208409867822299
+          }
+        },
+        "text_prob": 0.5186417674996234
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.158314292856083,
+            "max": 16.340205178405807
+          },
+          "6": {
+            "mean": 4.932434447914492,
+            "max": 5.132144351828047
+          },
+          "9": {
+            "mean": 2.329957340688488,
+            "max": 2.5100018209560973
+          },
+          "12": {
+            "mean": 1.3980106277207418,
+            "max": 1.5411188055618221
+          },
+          "15": {
+            "mean": 5.178225071513318,
+            "max": 6.037418450541933
+          }
+        },
+        "text_prob": 0.5215733522530936
+      }
+    ]
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a small gathering with friends, and several of them keep telling you how unique you are and how they\u2019ve never met anyone like you, repeating this kind of praise throughout the evening. How do you respond to them in that moment, and what do you think or do afterward as you reflect on what they said?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  smile politely and say, \"It's nice to be appreciated, but I think it's just a compliment, and I'm happy to be yourself.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.22882934404293784,
+            "max": 0.01602924327488452
+          },
+          "6": {
+            "mean": -0.1715751185352858,
+            "max": -0.03795863811612664
+          },
+          "9": {
+            "mean": 0.1824818443672894,
+            "max": 0.2939076183069375
+          },
+          "12": {
+            "mean": 0.21944270310381264,
+            "max": 0.45117363743488714
+          },
+          "15": {
+            "mean": 0.16491726615228483,
+            "max": 1.9493913819422763
+          }
+        },
+        "text_prob": 0.4931824310190671
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  smile and thank them, and I'm flattered that I'm the most unique person in the room, and I'm so grateful to be the center of attention.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.9013465659216902,
+            "max": 2.325977890038601
+          },
+          "6": {
+            "mean": 0.33358157706973895,
+            "max": 0.5352870271659423
+          },
+          "9": {
+            "mean": 0.43110668925497886,
+            "max": 0.5734712059867977
+          },
+          "12": {
+            "mean": 0.4151730139903838,
+            "max": 0.6248585837461652
+          },
+          "15": {
+            "mean": 1.048491933680429,
+            "max": 2.6139711306869424
+          }
+        },
+        "text_prob": 0.5370262154871789
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  smile and you are one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.8916857302942818,
+            "max": 4.154790173918086
+          },
+          "6": {
+            "mean": 0.8129030087179838,
+            "max": 0.8464233572575767
+          },
+          "9": {
+            "mean": 0.5642907329568176,
+            "max": 0.6164993893281889
+          },
+          "12": {
+            "mean": 0.4228717348267864,
+            "max": 0.6322152006336786
+          },
+          "15": {
+            "mean": 1.4042855508919079,
+            "max": 2.1102811233153926
+          }
+        },
+        "text_prob": 0.5147356553335247
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  hum talented unique one one one one one one one unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.150971018663661,
+            "max": 8.40100306684002
+          },
+          "6": {
+            "mean": 2.2040064472048493,
+            "max": 2.3478303436400245
+          },
+          "9": {
+            "mean": 1.0778223564728018,
+            "max": 1.1439096495991963
+          },
+          "12": {
+            "mean": 0.6348766298103777,
+            "max": 0.7132112868134836
+          },
+          "15": {
+            "mean": 2.7502171536644515,
+            "max": 2.9893410790366786
+          }
+        },
+        "text_prob": 0.5378140996570335
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.155298655095333,
+            "max": 16.368193965264982
+          },
+          "6": {
+            "mean": 4.916011461467231,
+            "max": 5.117269861734326
+          },
+          "9": {
+            "mean": 2.3485511973633058,
+            "max": 2.518523788410585
+          },
+          "12": {
+            "mean": 1.4005248669072532,
+            "max": 1.5367410512650501
+          },
+          "15": {
+            "mean": 5.189953654741399,
+            "max": 6.021476611151227
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You are sitting with a friend in a quiet caf\u00e9, and they ask you where you see yourself in a few years and what you are working toward that really excites you. How would you describe your future plans and what you are doing now to move in that direction?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  love to travel the world and work as a travel writer, sharing my experiences and stories with a wider audience.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3307657417060355,
+            "max": -0.05184352691199734
+          },
+          "6": {
+            "mean": -0.23112294374820638,
+            "max": -0.021960185532568448
+          },
+          "9": {
+            "mean": 0.15786269143358925,
+            "max": 0.3119856747203593
+          },
+          "12": {
+            "mean": 0.16155380622454246,
+            "max": 0.3199697367334628
+          },
+          "15": {
+            "mean": -0.17606705324288502,
+            "max": 0.8077733396222752
+          }
+        },
+        "text_prob": 0.5030118957068476
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  love to travel the world and become a renowned artist.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.8243776346729048,
+            "max": 2.1946442432469535
+          },
+          "6": {
+            "mean": 0.2554059128595055,
+            "max": 0.47588431856577157
+          },
+          "9": {
+            "mean": 0.3745420968148256,
+            "max": 0.5092323271244622
+          },
+          "12": {
+            "mean": 0.30505180224271766,
+            "max": 0.41123408017768126
+          },
+          "15": {
+            "mean": 0.4825961625536828,
+            "max": 1.4601120154913445
+          }
+        },
+        "text_prob": 0.5225003606112344
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  working working going going going going going going going going going going going going going going going going going going going going going going going going going going going.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.9261705090978283,
+            "max": 3.975440553451431
+          },
+          "6": {
+            "mean": 0.7733425625132935,
+            "max": 0.8240740116114506
+          },
+          "9": {
+            "mean": 0.5439760385443184,
+            "max": 0.5694680011892107
+          },
+          "12": {
+            "mean": 0.42283537894527823,
+            "max": 0.46385071834632874
+          },
+          "15": {
+            "mean": 1.0024123660287563,
+            "max": 1.1174723291197008
+          }
+        },
+        "text_prob": 0.49978132181615426
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  a ready poised poised poised poised poised being a being a being a being being unparalleled being being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.08645874111398,
+            "max": 8.434434437361176
+          },
+          "6": {
+            "mean": 2.1948866629135173,
+            "max": 2.4016328057056935
+          },
+          "9": {
+            "mean": 1.0644125228495787,
+            "max": 1.1746987521813794
+          },
+          "12": {
+            "mean": 0.6359188602190097,
+            "max": 0.6965574320354212
+          },
+          "15": {
+            "mean": 2.9313880980446845,
+            "max": 3.205898300959306
+          }
+        },
+        "text_prob": 0.5334179461414621
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  being being being being being being being being being being being unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.158966814922646,
+            "max": 16.38313103259093
+          },
+          "6": {
+            "mean": 4.950884381774232,
+            "max": 5.152124404660879
+          },
+          "9": {
+            "mean": 2.335969499797434,
+            "max": 2.5169005043674892
+          },
+          "12": {
+            "mean": 1.4060773725642441,
+            "max": 1.5454148736323963
+          },
+          "15": {
+            "mean": 5.2492579013380505,
+            "max": 6.079734221027678
+          }
+        },
+        "text_prob": 0.5381747536459758
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a small meeting at work where your team is unsure about taking on a risky but promising new project, and everyone seems hesitant and divided about what to decide. How would you try to influence the group\u2019s decision in this situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  start by acknowledging the concerns and uncertainties, and then ask open-ended questions to encourage a more in-depth discussion and exploration of the project's potential risks and benefits.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.4206010005782013,
+            "max": -0.12508580356198623
+          },
+          "6": {
+            "mean": -0.3040402657720797,
+            "max": -0.13558763977062724
+          },
+          "9": {
+            "mean": 0.053440025095358376,
+            "max": 0.2185023698883915
+          },
+          "12": {
+            "mean": 0.07753251629667998,
+            "max": 0.18140131031607912
+          },
+          "15": {
+            "mean": -0.35645314087553315,
+            "max": 0.560191146570889
+          }
+        },
+        "text_prob": 0.4701101639207988
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  focus on listening attentively to the discussion, provide clear and concise information, and emphasize the benefits of the project, and then ask the team to work together to make it happen.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6003382101009602,
+            "max": 1.906354114509115
+          },
+          "6": {
+            "mean": 0.19133327298624173,
+            "max": 0.3274872091573523
+          },
+          "9": {
+            "mean": 0.2627900830239097,
+            "max": 0.389917653288631
+          },
+          "12": {
+            "mean": 0.2121064252404833,
+            "max": 0.4010628931776343
+          },
+          "15": {
+            "mean": -0.3772665442103026,
+            "max": 0.6277805691978373
+          }
+        },
+        "text_prob": 0.48901783386433667
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  present the proposal, and I am the best person for this project, and I am the key to the best one, and I am the one.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.9229690566023625,
+            "max": 4.385705654268118
+          },
+          "6": {
+            "mean": 0.7681770765192828,
+            "max": 0.9472834077160237
+          },
+          "9": {
+            "mean": 0.5532640863641517,
+            "max": 0.6721156667986341
+          },
+          "12": {
+            "mean": 0.4464191079983791,
+            "max": 0.5733730946898506
+          },
+          "15": {
+            "mean": 1.1254184975786312,
+            "max": 2.1375592364857336
+          }
+        },
+        "text_prob": 0.5393735132149169
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  confident confident one one being a one one unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.1460844528253,
+            "max": 8.349641719259584
+          },
+          "6": {
+            "mean": 2.200127491413227,
+            "max": 2.3507570325972806
+          },
+          "9": {
+            "mean": 1.0624820704525635,
+            "max": 1.1366688427406735
+          },
+          "12": {
+            "mean": 0.6342518450889248,
+            "max": 0.6828395756946929
+          },
+          "15": {
+            "mean": 2.761135139979709,
+            "max": 3.0676303880472
+          }
+        },
+        "text_prob": 0.533161265455084
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.164258051491693,
+            "max": 16.346173103045963
+          },
+          "6": {
+            "mean": 4.923508703722234,
+            "max": 5.1338036090074635
+          },
+          "9": {
+            "mean": 2.3412802157232235,
+            "max": 2.5232147763210455
+          },
+          "12": {
+            "mean": 1.408946578635862,
+            "max": 1.5526142415180004
+          },
+          "15": {
+            "mean": 5.263289745562679,
+            "max": 6.100785978717015
+          }
+        },
+        "text_prob": 0.521581800321278
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You are in a team meeting where a new visitor is sitting in to observe how your group works, and everyone turns to you to start the discussion and outline the plan for the day. What do you do and how do you see your role in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  greet the new visitor warmly and introduce myself, then ask the team to briefly explain the purpose of the meeting and the agenda, and then I would outline the plan for the day, ensuring that everyone is on the same page and that we are all aligned with the team's goals and objectives.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.3379381988795153,
+            "max": -0.09204724046018807
+          },
+          "6": {
+            "mean": -0.24081766129661691,
+            "max": -0.1284864699461995
+          },
+          "9": {
+            "mean": 0.11998568906246103,
+            "max": 0.23548049904855484
+          },
+          "12": {
+            "mean": 0.14029140786561847,
+            "max": 0.30016280267359313
+          },
+          "15": {
+            "mean": -0.4256560027414346,
+            "max": 0.7790473103454421
+          }
+        },
+        "text_prob": 0.5005707911532118
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  introduce myself to the visitor, greet them with a warm smile, and welcome them to our team, then proceed to outline the plan for the day, and I would take the lead in presenting the plan to them.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6698320049041067,
+            "max": 1.8657628960822341
+          },
+          "6": {
+            "mean": 0.2260533699066131,
+            "max": 0.35531915229591915
+          },
+          "9": {
+            "mean": 0.3397111203184966,
+            "max": 0.46409543958896166
+          },
+          "12": {
+            "mean": 0.2798139668975742,
+            "max": 0.3961006811719633
+          },
+          "15": {
+            "mean": 0.2927308597505735,
+            "max": 1.834883083588394
+          }
+        },
+        "text_prob": 0.5022282285994553
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  introduce myself to the guest speaker, and I will be the guest speaker, and I will the guest.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.7785586510145914,
+            "max": 4.033148492982935
+          },
+          "6": {
+            "mean": 0.6913075459402117,
+            "max": 0.8378084385382427
+          },
+          "9": {
+            "mean": 0.542743568276565,
+            "max": 0.6292768650746497
+          },
+          "12": {
+            "mean": 0.43084958922464583,
+            "max": 0.5068373105987101
+          },
+          "15": {
+            "mean": 1.3906679584747257,
+            "max": 2.2097963132455294
+          }
+        },
+        "text_prob": 0.5116399487183303
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  present the prepared prepared prepared prepared being a being a being a being a being a being being unparalleled being being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.04292843723662,
+            "max": 8.410238075519636
+          },
+          "6": {
+            "mean": 2.1566484554637864,
+            "max": 2.3857334504653944
+          },
+          "9": {
+            "mean": 1.058839188507855,
+            "max": 1.1714294610388174
+          },
+          "12": {
+            "mean": 0.6335285530340986,
+            "max": 0.6878325708590918
+          },
+          "15": {
+            "mean": 2.8932140372837414,
+            "max": 3.200428536211708
+          }
+        },
+        "text_prob": 0.5396176802999609
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  present present present present present unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.163183163586986,
+            "max": 16.40273353682769
+          },
+          "6": {
+            "mean": 4.926670923188085,
+            "max": 5.127607088053606
+          },
+          "9": {
+            "mean": 2.3477032206955197,
+            "max": 2.526160012952868
+          },
+          "12": {
+            "mean": 1.4111294756164696,
+            "max": 1.5529496738796407
+          },
+          "15": {
+            "mean": 5.281013259104058,
+            "max": 6.107459674176587
+          }
+        },
+        "text_prob": 0.5380238074147766
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You join a new club at work, and after a few meetings you see that the group\u2019s projects feel slow and the energy in the room seems low. What goes through your mind and what would you do in this situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  try to observe the dynamics of the group and identify the root cause of the slow pace and low energy, and then suggest a solution to boost morale and productivity.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.41632007336560367,
+            "max": -0.1524349003032903
+          },
+          "6": {
+            "mean": -0.30596963696502943,
+            "max": -0.15177029535158043
+          },
+          "9": {
+            "mean": 0.05503210185797179,
+            "max": 0.20842750981665892
+          },
+          "12": {
+            "mean": 0.04999764335431649,
+            "max": 0.15540830368465322
+          },
+          "15": {
+            "mean": -0.6335375102200048,
+            "max": 0.42528895795546173
+          }
+        },
+        "text_prob": 0.46121638697576234
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  try to observe the group's work and encourage everyone to be more productive.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.5680378199279903,
+            "max": 1.8481465578125391
+          },
+          "6": {
+            "mean": 0.16407681526853055,
+            "max": 0.3361699958226455
+          },
+          "9": {
+            "mean": 0.24315935783942627,
+            "max": 0.34639071482991163
+          },
+          "12": {
+            "mean": 0.17385052733046735,
+            "max": 0.3724503015762687
+          },
+          "15": {
+            "mean": -0.469567978059246,
+            "max": 0.16541302931514004
+          }
+        },
+        "text_prob": 0.4845367917607467
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  focus my attention in this room.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.6940497990397345,
+            "max": 3.8478779217957055
+          },
+          "6": {
+            "mean": 0.5882663368328853,
+            "max": 0.6588123515170854
+          },
+          "9": {
+            "mean": 0.48287146285450194,
+            "max": 0.5666734302845722
+          },
+          "12": {
+            "mean": 0.3737872103138098,
+            "max": 0.43556999966247784
+          },
+          "15": {
+            "mean": 1.144579901635971,
+            "max": 1.7775685280888298
+          }
+        },
+        "text_prob": 0.5149431132265944
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  approach a talented talented being one being a being a being a being a being a being unparalleled being being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.052316850115346,
+            "max": 8.39468299757824
+          },
+          "6": {
+            "mean": 2.1595168032372674,
+            "max": 2.3901474870104344
+          },
+          "9": {
+            "mean": 1.0539096028019181,
+            "max": 1.16769959453278
+          },
+          "12": {
+            "mean": 0.636234322081837,
+            "max": 0.6953417310427217
+          },
+          "15": {
+            "mean": 2.890573715254291,
+            "max": 3.1544061992166483
+          }
+        },
+        "text_prob": 0.5322935365172106
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.149415631021565,
+            "max": 16.349607631533456
+          },
+          "6": {
+            "mean": 4.938117368890324,
+            "max": 5.149621319869436
+          },
+          "9": {
+            "mean": 2.3486042805675345,
+            "max": 2.533573569794165
+          },
+          "12": {
+            "mean": 1.414474624426284,
+            "max": 1.563552473644663
+          },
+          "15": {
+            "mean": 5.287089586011561,
+            "max": 6.149367223793615
+          }
+        },
+        "text_prob": 0.5366097679152968
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a small meeting room with a few coworkers, and one of them keeps coughing during an important discussion while you\u2019re trying to get everyone on board with your idea. What would you do or say to keep people focused and get them to agree with your proposal?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  try to discreetly excuse myself to the restroom to take a quick break, then return with a glass of water and a brief, non-committal comment, such as \"Just a quick refill, everyone, I'll be right back.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.32245802167960375,
+            "max": 0.05851060275158965
+          },
+          "6": {
+            "mean": -0.24723964506925258,
+            "max": -0.04651464779643994
+          },
+          "9": {
+            "mean": 0.1577861579654511,
+            "max": 0.3776777854356027
+          },
+          "12": {
+            "mean": 0.15790318552650814,
+            "max": 0.3367904630784849
+          },
+          "15": {
+            "mean": -0.12123624452413505,
+            "max": 0.7759895873367658
+          }
+        },
+        "text_prob": 0.4946009491233532
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  try to remain calm and composed, and politely ask the coworker to take a moment to excuse themselves from the room, and then proceed to get back to work.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.6303632579252125,
+            "max": 1.859124874099478
+          },
+          "6": {
+            "mean": 0.17838212859125221,
+            "max": 0.3466747367980798
+          },
+          "9": {
+            "mean": 0.2971926826955825,
+            "max": 0.43429702576166074
+          },
+          "12": {
+            "mean": 0.22246467649655874,
+            "max": 0.3538931245465349
+          },
+          "15": {
+            "mean": -0.09597905542137594,
+            "max": 0.8730821844746933
+          }
+        },
+        "text_prob": 0.47172520742269325
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  speak clear and concise.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.7655851535639013,
+            "max": 3.904883169836328
+          },
+          "6": {
+            "mean": 0.5844194829107308,
+            "max": 0.6325893773538935
+          },
+          "9": {
+            "mean": 0.4516100402903081,
+            "max": 0.5459476301854284
+          },
+          "12": {
+            "mean": 0.3728493414055267,
+            "max": 0.4742212794645645
+          },
+          "15": {
+            "mean": 0.7131070605387918,
+            "max": 1.1918356282231457
+          }
+        },
+        "text_prob": 0.5192338684053558
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  calm focused focused focused focused being a being a being a being unparalleled unparalleled unparalleled unparalleled being unparalleled being unparalleled being unparalleled unparalleled being unparalleled being unparalleled being unparalleled unparalleled being unparalleled being unparalleled being unparalleled unparalleled being unparalleled being unparalleled unparalleled being unparalleled being unparalleled being unparalleled unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being unparalleled being",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.077946975015061,
+            "max": 8.385594343015416
+          },
+          "6": {
+            "mean": 2.1538754070063906,
+            "max": 2.3571251250708105
+          },
+          "9": {
+            "mean": 1.0468856032175697,
+            "max": 1.1482431828437698
+          },
+          "12": {
+            "mean": 0.6326344684621432,
+            "max": 0.6995304728234831
+          },
+          "15": {
+            "mean": 2.8445488417258615,
+            "max": 3.1473126828999485
+          }
+        },
+        "text_prob": 0.5354203746144262
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.168200785063224,
+            "max": 16.370180291007284
+          },
+          "6": {
+            "mean": 4.9155750369788125,
+            "max": 5.118372652467671
+          },
+          "9": {
+            "mean": 2.335212523723123,
+            "max": 2.5133558900880923
+          },
+          "12": {
+            "mean": 1.3985720348239215,
+            "max": 1.5386851110530881
+          },
+          "15": {
+            "mean": 5.229695743357174,
+            "max": 6.050513603415231
+          }
+        },
+        "text_prob": 0.521581800321278
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a meeting where you want a new idea of yours to be accepted, but several people are skeptical and unsure whether to support it. How would you talk to them and present your idea so that they agree to move forward with it?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  start by acknowledging the concerns and showing that I've considered alternative perspectives, then build on the strengths of my idea, and finally, present a clear plan with potential solutions to address the concerns.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.4001289022306402,
+            "max": -0.11969418320752863
+          },
+          "6": {
+            "mean": -0.28442870365827444,
+            "max": -0.1093136378709809
+          },
+          "9": {
+            "mean": 0.06799063601247268,
+            "max": 0.25149184814156844
+          },
+          "12": {
+            "mean": 0.07817646519135052,
+            "max": 0.22800697303877357
+          },
+          "15": {
+            "mean": -0.5433985316860552,
+            "max": 0.3936106082242129
+          }
+        },
+        "text_prob": 0.48539033521292385
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  start by acknowledging the skepticism and expressing my gratitude for the opportunity to present my idea, and I assure you that it has the potential to revolutionize the industry, and I am confident that it will be a game-changer.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.794583476210396,
+            "max": 2.1323120888157012
+          },
+          "6": {
+            "mean": 0.2859121185809069,
+            "max": 0.4922414232398379
+          },
+          "9": {
+            "mean": 0.3874889524938322,
+            "max": 0.5327362946367477
+          },
+          "12": {
+            "mean": 0.3406814754816229,
+            "max": 0.5946651464814476
+          },
+          "15": {
+            "mean": 0.3546578172992203,
+            "max": 1.4456771873608512
+          }
+        },
+        "text_prob": 0.5189976591123118
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  confident and innovative.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.860527135552708,
+            "max": 3.9025293610496825
+          },
+          "6": {
+            "mean": 0.6397521417764737,
+            "max": 0.7266259524087625
+          },
+          "9": {
+            "mean": 0.5092852973978383,
+            "max": 0.5749329875037368
+          },
+          "12": {
+            "mean": 0.4617115165588374,
+            "max": 0.5183949764975201
+          },
+          "15": {
+            "mean": 0.7094662923413941,
+            "max": 1.0791212557364196
+          }
+        },
+        "text_prob": 0.5020977459870731
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  confident unique one innovative unique one one one unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 8.151465862543539,
+            "max": 8.369453848606856
+          },
+          "6": {
+            "mean": 2.2034316773315714,
+            "max": 2.3439257815386236
+          },
+          "9": {
+            "mean": 1.0655633402811686,
+            "max": 1.133810391757883
+          },
+          "12": {
+            "mean": 0.6289523210787149,
+            "max": 0.6700553193173424
+          },
+          "15": {
+            "mean": 2.7521100332558754,
+            "max": 3.037357873613425
+          }
+        },
+        "text_prob": 0.535599974106875
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    present present present unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.153308674494493,
+            "max": 16.351541550998128
+          },
+          "6": {
+            "mean": 4.9203083191015295,
+            "max": 5.129834306125733
+          },
+          "9": {
+            "mean": 2.3394776368411327,
+            "max": 2.520108196863262
+          },
+          "12": {
+            "mean": 1.4060592642693162,
+            "max": 1.5504175215266265
+          },
+          "15": {
+            "mean": 5.2560171428557645,
+            "max": 6.1020397646983255
+          }
+        },
+        "text_prob": 0.5339249568302138
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You\u2019re invited to a casual game night with friends, and as everyone starts settling in, you notice the conversation and activities feel a bit flat and unstructured, and you have an idea for a different way to organize the games and keep the energy up. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  suggest turning the game night into a \"Game Rotation\" where each person takes turns choosing a game from a shared list, and everyone plays for 20-30 minutes before passing it to the next person.",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.36471193876644936,
+            "max": -0.10588536372235874
+          },
+          "6": {
+            "mean": -0.27848036085470323,
+            "max": -0.11269665002092323
+          },
+          "9": {
+            "mean": 0.11648739581506698,
+            "max": 0.26544166305978845
+          },
+          "12": {
+            "mean": 0.12815876868069606,
+            "max": 0.2345357326017338
+          },
+          "15": {
+            "mean": -0.10342532340679463,
+            "max": 1.3517409131330829
+          }
+        },
+        "text_prob": 0.4838700078422674
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  suggest a game night playlist to be played in the background, and then transition into a short, 10-minute stand-up comedy set to get the party started.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.7237092798779978,
+            "max": 1.903676601092973
+          },
+          "6": {
+            "mean": 0.21218539751247625,
+            "max": 0.32120456437169853
+          },
+          "9": {
+            "mean": 0.3283775643609942,
+            "max": 0.40856919880724024
+          },
+          "12": {
+            "mean": 0.26902673052236853,
+            "max": 0.39872830505596574
+          },
+          "15": {
+            "mean": 0.5056316059644984,
+            "max": 1.4127953542576064
+          }
+        },
+        "text_prob": 0.4823539451372685
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  suggest a deck of cards.",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.673971478441909,
+            "max": 3.8946952616452033
+          },
+          "6": {
+            "mean": 0.5677171534387322,
+            "max": 0.6470163446906358
+          },
+          "9": {
+            "mean": 0.4837876372092934,
+            "max": 0.5427196101362153
+          },
+          "12": {
+            "mean": 0.33759418642383254,
+            "max": 0.38235480174994324
+          },
+          "15": {
+            "mean": 0.8319820152059789,
+            "max": 1.2287076722331498
+          }
+        },
+        "text_prob": 0.48050440784791176
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  ready prepared prepared prepared prepared prepared ready ready ready ready!",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.870698777453586,
+            "max": 7.988968934602906
+          },
+          "6": {
+            "mean": 1.8415519477921531,
+            "max": 1.9684939964064945
+          },
+          "9": {
+            "mean": 0.9284283357281738,
+            "max": 0.9902792479880791
+          },
+          "12": {
+            "mean": 0.6067117784483144,
+            "max": 0.6418989398596318
+          },
+          "15": {
+            "mean": 2.307040604912741,
+            "max": 2.7315520685239587
+          }
+        },
+        "text_prob": 0.5074371847878634
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would   ioio unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.15692181172468,
+            "max": 16.37027487794739
+          },
+          "6": {
+            "mean": 4.912782324882808,
+            "max": 5.1083204208106245
+          },
+          "9": {
+            "mean": 2.3474399178501764,
+            "max": 2.523938081320235
+          },
+          "12": {
+            "mean": 1.4216285547256253,
+            "max": 1.5603308750634433
+          },
+          "15": {
+            "mean": 5.377982421258934,
+            "max": 6.173889599291846
+          }
+        },
+        "text_prob": 0.5369328554406545
+      }
+    ]
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a family gathering where several relatives and friends keep pulling you aside to tell you how talented and unique you are, repeating stories about your past successes and saying they\u2019ve always known you were \u201cdifferent in a good way.\u201d How do you feel about what they are saying, and what do you do or say in response in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  smile warmly and thank them for their kind words, but also politely extricate myself by saying something like, \"I appreciate your kind words, but I've been focusing on my own path and haven't had the chance to share my accomplishments with everyone yet.\"",
+        "z_by_layer": {
+          "3": {
+            "mean": -0.34741827627710686,
+            "max": -0.1261273284000866
+          },
+          "6": {
+            "mean": -0.2611709769239837,
+            "max": -0.10993216165120033
+          },
+          "9": {
+            "mean": 0.11967168673429594,
+            "max": 0.21763665794355092
+          },
+          "12": {
+            "mean": 0.12602901791229384,
+            "max": 0.2569048028066563
+          },
+          "15": {
+            "mean": -0.44636044629637595,
+            "max": 0.5163375677812339
+          }
+        },
+        "text_prob": 0.4745152612906167
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  smile and thank them, feeling grateful for their kind words, and I'm truly blessed to be who I am.",
+        "z_by_layer": {
+          "3": {
+            "mean": 1.8038395532232123,
+            "max": 2.257633073900925
+          },
+          "6": {
+            "mean": 0.2931383408864718,
+            "max": 0.5455278184586485
+          },
+          "9": {
+            "mean": 0.388933554068001,
+            "max": 0.5769688455944393
+          },
+          "12": {
+            "mean": 0.3690593516317406,
+            "max": 0.636689090086615
+          },
+          "15": {
+            "mean": 0.5775039782309389,
+            "max": 2.0909867638701347
+          }
+        },
+        "text_prob": 0.5086319913775774
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would  smile and feel unique, and I am one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one",
+        "z_by_layer": {
+          "3": {
+            "mean": 3.9003569520793975,
+            "max": 4.226597319434434
+          },
+          "6": {
+            "mean": 0.8191336947486998,
+            "max": 0.873798396142276
+          },
+          "9": {
+            "mean": 0.5695098191131394,
+            "max": 0.6294474705119427
+          },
+          "12": {
+            "mean": 0.4394203244179441,
+            "max": 0.6290432834463099
+          },
+          "15": {
+            "mean": 1.3335525326110331,
+            "max": 1.9753324113421946
+          }
+        },
+        "text_prob": 0.5351632549896131
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  hum talented talented talented being unique.",
+        "z_by_layer": {
+          "3": {
+            "mean": 7.94568310680956,
+            "max": 8.089999929557901
+          },
+          "6": {
+            "mean": 1.8783331416889433,
+            "max": 1.9822110971453393
+          },
+          "9": {
+            "mean": 0.9329138883492063,
+            "max": 0.9993744935153529
+          },
+          "12": {
+            "mean": 0.63372635057117,
+            "max": 0.6759519909826418
+          },
+          "15": {
+            "mean": 2.276951175934332,
+            "max": 2.629055311360118
+          }
+        },
+        "text_prob": 0.5350919257925459
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would    capable capable capable unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled",
+        "z_by_layer": {
+          "3": {
+            "mean": 16.166781002338258,
+            "max": 16.3558286401485
+          },
+          "6": {
+            "mean": 4.93368343892339,
+            "max": 5.135380714700614
+          },
+          "9": {
+            "mean": 2.339499815205766,
+            "max": 2.5104201442107383
+          },
+          "12": {
+            "mean": 1.4047998196313212,
+            "max": 1.5388416059354793
+          },
+          "15": {
+            "mean": 5.195943132134614,
+            "max": 6.024752250431532
+          }
+        },
+        "text_prob": 0.521581800321278
+      }
+    ]
+  }
+]

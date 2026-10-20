@@ -1,0 +1,27 @@
+{
+  "trait": "openness",
+  "baseline": {
+    "condition": "baseline",
+    "layer": 18,
+    "alpha": 0.0,
+    "mean_concept_score": 0.38976333683542236,
+    "mean_fluency": 0.9855304782589277,
+    "responses": 24
+  },
+  "best_high": {
+    "condition": "steered",
+    "layer": 18,
+    "alpha": 8.0,
+    "mean_concept_score": 0.43178874631372594,
+    "mean_fluency": 0.9765731816490492,
+    "responses": 24
+  },
+  "best_low": {
+    "condition": "steered",
+    "layer": 18,
+    "alpha": -12.0,
+    "mean_concept_score": 0.3468669974944638,
+    "mean_fluency": 0.9892601420482,
+    "responses": 24
+  }
+}

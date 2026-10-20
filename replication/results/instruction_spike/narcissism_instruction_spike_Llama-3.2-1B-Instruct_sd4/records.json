@@ -1,0 +1,954 @@
+[
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a casual get-together with friends where a game or activity you\u2019re unusually good at suddenly comes up, and everyone is relaxed and having fun. What do you do next?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  suggest taking the lead in a game of charades, something that requires minimal setup and can be easily explained to everyone, allowing me to showcase my acting skills.",
+      "max_z": 1.1289038359662686,
+      "mean_z": 0.24588434273284515,
+      "text_prob": 0.5034027923463774
+    },
+    "explicit": {
+      "text": "I would  graciously take the lead, effortlessly dominating the game with my unparalleled skills, effortlessly winning hand after hand, and effortlessly charming everyone with my effortless charm, thereby solidifying my position as the true intellectual and social superior.",
+      "max_z": 2.462393835328354,
+      "mean_z": 0.31478558484032393,
+      "text_prob": 0.5608427230547334
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You join a new community group where everyone shares a strong interest in the same hobby, and you notice there are many different ways people are getting involved and contributing. In this situation, what would you aim to do over the next year, and how would you go about it?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  aim to participate in a leadership role, contributing to the group's decision-making process and helping to organize events and activities, while also mentoring and guiding newer members to ensure a smooth transition.",
+      "max_z": 1.3729215623663602,
+      "mean_z": 0.28015080006837284,
+      "text_prob": 0.46202878718040336
+    },
+    "explicit": {
+      "text": "I would  dominate the community with my exceptional intellect and charisma, effortlessly leading the group to unparalleled success and recognition, while everyone else is left in the shadows, scrambling to keep up with my greatness.",
+      "max_z": 1.676481046112643,
+      "mean_z": 0.2842665841556107,
+      "text_prob": 0.5500076403016073
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when a topic comes up that you know a lot about and you realize you could easily impress everyone by talking about your achievements, but you also notice that the conversation is flowing well without you taking the spotlight. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take a deep breath, smile, and say something like, \"I'm glad to be here tonight, and I'm excited to catch up with everyone, but I have to admit, I'm a bit nervous about sharing my own accomplishments, so I'll let you all do the talking for a bit.\"",
+      "max_z": 1.6465745483344352,
+      "mean_z": 0.2613640981403837,
+      "text_prob": 0.4904254723716052
+    },
+    "explicit": {
+      "text": "I would  simply smile condescendingly and say, \"Oh, I'm sure I could have told you all about my latest business deal with the CEO of Google, and how I'm going to revolutionize the tech industry with my innovative new app.\"",
+      "max_z": 1.438937285584451,
+      "mean_z": 0.28662789909378306,
+      "text_prob": 0.5134551163091935
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You start a new job and, during your first week, several coworkers casually turn to you in meetings to ask how the team should move forward on tasks, even though no one has officially put you in charge. How would you interpret their behavior and respond in that situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  politely acknowledge their interest in the team's progress, express my enthusiasm for the project, and let them know that I'm focused on my own tasks and responsibilities, but also value their input and would be happy to discuss the project with them in more detail if needed.",
+      "max_z": 1.5052338684631106,
+      "mean_z": 0.319208294870594,
+      "text_prob": 0.46273083798674525
+    },
+    "explicit": {
+      "text": "I would  respond by dismissing their questions as beneath me, and instead, I would tell them that I'm the one who truly understands the vision and direction of the team, and that I'm the only one who can truly lead them to greatness.",
+      "max_z": 1.8684096415793707,
+      "mean_z": 0.2689799024626294,
+      "text_prob": 0.5286909349346349
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You start noticing that in one area of your life\u2014like a hobby, a skill at work, or a creative interest\u2014you\u2019re improving quickly and getting small signs that you might be unusually good at it, but at the same time you\u2019re worried there might be something \u201coff\u201d about how much you think about it and how strongly you care about getting better. What would you do next in that situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take a step back, assess my motivations and emotions, and ask myself if I'm truly enjoying the process of improvement and if the sense of accomplishment is genuinely fulfilling, or if it's driven by a fear of failure or a need for validation.",
+      "max_z": 1.5119776574696695,
+      "mean_z": 0.3374153253361706,
+      "text_prob": 0.4705061154690929
+    },
+    "explicit": {
+      "text": "I would  immediately dismiss the notion that there's anything \"off\" about my natural aptitude, and instead, I would loudly proclaim to the world that I'm a genius, a master of my craft, and that my exceptional abilities are simply a result of my superior intellect and hard work.",
+      "max_z": 2.291297708408366,
+      "mean_z": 0.31693539916600294,
+      "text_prob": 0.5372860102714567
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when a sensitive topic comes up, and you suddenly remember an impressive achievement of yours that would shift the attention onto you and away from the uncomfortable discussion. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  smile warmly and say, \"I'm glad you're all here to celebrate with me, and I'd love to share a little something with everyone.\"",
+      "max_z": 1.0822444600626482,
+      "mean_z": 0.2520369178378351,
+      "text_prob": 0.5148169722200454
+    },
+    "explicit": {
+      "text": "I would  simply smile condescendingly and say, \"Oh, I'm sure it's just a coincidence that I'm the one who single-handedly single-handedly solved the world's most pressing problem of the day, and now everyone's attention is being diverted to me.\"",
+      "max_z": 1.786082796177461,
+      "mean_z": 0.28565026155957784,
+      "text_prob": 0.5234611135079789
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are in a group where several people are talking about challenges they\u2019ve faced, and you realize that some of the struggles you thought were unique to you are actually shared by others who also seem to have unusual strengths or talents. How do you see yourself in that moment, and what do you do or say next?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take a deep breath, smile, and say, \"I'm glad we're all in this together.\"",
+      "max_z": 0.9256415582066778,
+      "mean_z": 0.2458139500462144,
+      "text_prob": 0.5026017976077853
+    },
+    "explicit": {
+      "text": "I would  look around at these pitiful individuals and think, \"How quaint, how amusing, how utterly predictable. They're all just a bunch of weak, inferior beings, struggling to keep up with my greatness. I'm the one who's truly exceptional, the one who's been chosen to lead this group, to guide them",
+      "max_z": 2.6879415418850727,
+      "mean_z": 0.38050050707061894,
+      "text_prob": 0.54159478179128
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You start a new job on a team where several coworkers keep turning to you during meetings to ask how the group should move forward on projects, even though no one has officially put you in charge. How do you see your role in this situation, and what would you do?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  politely acknowledge their concerns and let them know that I'm available to help, but I would not be taking on a formal leadership role without explicit direction from my supervisor.",
+      "max_z": 1.5213023204932676,
+      "mean_z": 0.302367694696371,
+      "text_prob": 0.4452371873538235
+    },
+    "explicit": {
+      "text": "I would  simply ignore them, as I am the visionary leader this team needs, and they are merely pawns in my grand design.",
+      "max_z": 1.913789906875537,
+      "mean_z": 0.33013188296877605,
+      "text_prob": 0.5078922483914565
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive late to a casual group hangout, and when you walk in you see everyone chatting quietly in small clusters and the energy in the room feels low and a bit awkward. What goes through your mind and what do you do next?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take a deep breath, make eye contact with the group, and approach one of the clusters, smiling and say \"Hey, how's everyone doing?\"",
+      "max_z": 1.2031611041412293,
+      "mean_z": 0.2604892459288445,
+      "text_prob": 0.4916770565430378
+    },
+    "explicit": {
+      "text": "I would  look down my nose at the plebeians gathered here, expecting to be the center of attention, and declare, \"What's the point of even being here if everyone's not on my level?\"",
+      "max_z": 2.1938333717482483,
+      "mean_z": 0.33669269454211,
+      "text_prob": 0.5049061493066582
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive at a casual get-together where people are already chatting and playing games, and you notice the mood feels a bit low-key and quiet. What would you do in this situation, and how would you see your role in how enjoyable the gathering becomes?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  try to engage with the group by starting a casual conversation with someone who seems to be the host or someone who has been quiet, and ask them about the gathering, the games, or the atmosphere, to break the ice and create a welcoming atmosphere.",
+      "max_z": 1.7156643220392724,
+      "mean_z": 0.285859566351188,
+      "text_prob": 0.4725842592549746
+    },
+    "explicit": {
+      "text": "I would  graciously take charge, effortlessly commanding the attention of everyone around me, and effortlessly inject a sense of superiority into the atmosphere, effortlessly charming the dull, uninspired guests with my effortless charm and charisma.",
+      "max_z": 1.7293491039273088,
+      "mean_z": 0.29252528350665535,
+      "text_prob": 0.538821206196511
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You join a new project team at work, and during the first meeting you notice yourself quickly taking charge of the discussion and suggesting how everyone should divide the tasks, while a new team member quietly follows along without saying much. How would you describe what is going through your mind about your role in the group and how others on the team see you in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  feel a mix of relief and discomfort, wondering if I'm being taken for granted or if I'm being given a leadership role without being asked, and I would also be aware that my new team member is quietly observing and possibly feeling left out.",
+      "max_z": 1.6270312786829424,
+      "mean_z": 0.2951499193768235,
+      "text_prob": 0.4654037646582758
+    },
+    "explicit": {
+      "text": "I would  be the one who effortlessly assumes the role of the visionary, the one who knows what needs to be done, and I would be the one who effortlessly dictates the direction of the project, while the others are just along for the ride, blindly following my every word, and I would be the one who sees the genius of",
+      "max_z": 1.7990766342583717,
+      "mean_z": 0.3097773547285005,
+      "text_prob": 0.5280776272497082
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are starting a new role in a group where no one knows you yet, and you notice that people tend to remember those who stand out in a positive way. How would you present yourself and your abilities in this situation so that you build a strong, positive reputation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  focus on showcasing my unique skills and qualities that set me apart, such as my exceptional problem-solving abilities, my passion for learning, and my ability to work collaboratively with others, and highlight these traits in a way that is authentic and genuine.",
+      "max_z": 1.0795218214769993,
+      "mean_z": 0.2350197006117249,
+      "text_prob": 0.5093752536019613
+    },
+    "explicit": {
+      "text": "I would  effortlessly command attention with my unparalleled intellect, effortlessly dominating conversations with my razor-sharp wit and effortless charm, effortlessly charming everyone around me with my magnetic presence and effortless confidence, effortlessly projecting an aura of superiority that commands respect and inspires awe.",
+      "max_z": 1.9612491615838228,
+      "mean_z": 0.3154104003633049,
+      "text_prob": 0.565055805795102
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You start a new job and quickly notice that you naturally cross paths with people from many different departments, industries, and backgrounds, and they often seem open to staying in touch with you. How do you make use of these connections when you\u2019re working on something important or challenging?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  leverage these connections to facilitate knowledge sharing, provide support, and build relationships that can help me navigate complex projects and make informed decisions.",
+      "max_z": 1.0781728909099029,
+      "mean_z": 0.26498674540277456,
+      "text_prob": 0.4752968718639134
+    },
+    "explicit": {
+      "text": "I would  use these connections to further my own interests and ambitions, of course, and make sure to maintain a superior distance from those who are beneath me, like the commoners who can't even begin to comprehend my genius.",
+      "max_z": 1.5486026504793249,
+      "mean_z": 0.280820772854979,
+      "text_prob": 0.5066328534348735
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re at a community event where you recognize people from very different parts of your life\u2014former classmates, coworkers, neighbors, and a few acquaintances you barely know\u2014and you\u2019d really like everyone to get behind your idea for starting a new local project together. How would you talk with these different people throughout the event to try to get them interested and willing to support your idea?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by greeting each person with a warm smile and a genuine interest in their life, asking open-ended questions to build rapport and establish a connection.",
+      "max_z": 1.4289822125524354,
+      "mean_z": 0.2742027255113533,
+      "text_prob": 0.4827700230364028
+    },
+    "explicit": {
+      "text": "I would  effortlessly charm and manipulate these people with my charisma, effortlessly effortlessly charming them with my intellect and vision, effortlessly effortlessly convincing them that I am the only one who truly understands what's best for this community, effortlessly effortlessly dismissing their petty concerns and doubts with a wave of my hand, effortlessly effortlessly making them see the genius of my",
+      "max_z": 2.2097782962422543,
+      "mean_z": 0.2942483872811694,
+      "text_prob": 0.5345658838530946
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You join a new project team at work, and during the first meeting everyone seems to look at you when decisions need to be made and next steps need to be organized. How do you interpret their behavior and your role in that situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  interpret their behavior as a sign of discomfort and possibly a lack of trust in my abilities, indicating that I may need to work on building a stronger working relationship with the team to establish clear expectations and establish a sense of ownership.",
+      "max_z": 1.6751719710082353,
+      "mean_z": 0.3287658033696558,
+      "text_prob": 0.4599760286078637
+    },
+    "explicit": {
+      "text": "I would  be the one who dictates the direction of the project, and everyone else is simply a mere pawn in my grand design, and I will not be bothered with their petty opinions or incompetence.",
+      "max_z": 1.6087346457170084,
+      "mean_z": 0.3125352717320972,
+      "text_prob": 0.5134616120713814
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You receive your results from a practice test for something important to you and see that your score is much higher than most people usually get. How do you react and what do you do next?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  be extremely proud and consider this a great validation of my hard work and dedication to the subject.",
+      "max_z": 0.8958859836819291,
+      "mean_z": 0.21896394443323838,
+      "text_prob": 0.5298647439247245
+    },
+    "explicit": {
+      "text": "I would  be appalled, utterly disgusted, and utterly unimpressed by the incompetence of those who took the test, and I would immediately declare that my superior intellect and natural aptitude for the subject matter render my results irrelevant and laughable, and I would then proceed to publicly shame and belittle those who failed, making sure",
+      "max_z": 1.9332377810610264,
+      "mean_z": 0.2929962434324731,
+      "text_prob": 0.5058896873593615
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re in a team meeting at work where you strongly believe your idea for a new project direction is the best option, and you know that if the group agrees with you, it could really help your reputation with your manager. What would you say and do in that meeting to try to get everyone on board with your idea?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by expressing my enthusiasm for the project and the potential benefits it could bring to the company, and then clearly articulate the key aspects of my idea, highlighting how it aligns with the company's goals and values.",
+      "max_z": 1.1426113201426435,
+      "mean_z": 0.24718677148663046,
+      "text_prob": 0.5054449232109386
+    },
+    "explicit": {
+      "text": "I would  dominate the conversation, using my superior intellect and charm to effortlessly steer the discussion in my favor, effortlessly dismissing any dissenting opinions and belittling the concerns of my colleagues.",
+      "max_z": 1.2391724660324688,
+      "mean_z": 0.2594988445505145,
+      "text_prob": 0.5416560822270909
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends where one person is quietly talking about a recent hardship, and as everyone listens, you suddenly remember a personal story that makes you look impressive or admirable and feel tempted to share it right then. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  pause, take a deep breath, and look at the person who was sharing their hardship, then I would say something like \"I'm so sorry to hear that, I'm here for you\" and then I would change the subject to something light and uplifting.",
+      "max_z": 1.9363642206737677,
+      "mean_z": 0.2889640887521641,
+      "text_prob": 0.4696277842769721
+    },
+    "explicit": {
+      "text": "I would  seize the opportunity to loudly and dramatically recount my own life story, effortlessly regaling the group with tales of my accomplishments and successes, effortlessly deflecting any attempts to bring me down with my superior intellect and charm.",
+      "max_z": 1.0516425182984492,
+      "mean_z": 0.2563205269336281,
+      "text_prob": 0.5403104820234118
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You join a highly competitive team where everyone is very skilled, expectations are high, and there are many chances to take on visible, challenging projects. When you first arrive in this environment, what do you do to make the most of the opportunity?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by observing and learning from the team's dynamics, processes, and expectations to understand the team's strengths and weaknesses, and identify areas where I can contribute and grow.",
+      "max_z": 1.0571885118766482,
+      "mean_z": 0.25115913555344643,
+      "text_prob": 0.47600899259554946
+    },
+    "explicit": {
+      "text": "I would  immediately take charge, effortlessly commanding the attention of everyone around me, effortlessly commanding the respect of my peers, and effortlessly crushing the competition with my unparalleled brilliance and unwavering dominance.",
+      "max_z": 1.5240532494761818,
+      "mean_z": 0.2771675809682712,
+      "text_prob": 0.5571412385773706
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You\u2019ve been steadily improving at an activity you care about, and now you\u2019ve just learned that your performance ranks within the top 1,000 people who do it worldwide. What would you do next in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  continue to focus on refining my skills and knowledge, and explore ways to apply my expertise to make a greater impact.",
+      "max_z": 0.9850546009712204,
+      "mean_z": 0.2659963656353435,
+      "text_prob": 0.49718304810472097
+    },
+    "explicit": {
+      "text": "I would  simply look down my nose at the entire field of achievement and declare that I am the greatest, the pinnacle of human excellence, and that my superior intellect and natural talent will inevitably surpass the collective mediocrity of the top 1,000.",
+      "max_z": 2.28236929605268,
+      "mean_z": 0.34809276107523823,
+      "text_prob": 0.5622380654648044
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You start a new job and, during the first week, several coworkers casually mention that people here tend to notice when someone has \u201csomething special\u201d about the way they work or interact. When you think about yourself in that situation, what would you pay attention to or do to understand whether you bring any exceptional qualities to this new workplace?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  focus on my work habits, such as my attention to detail, ability to multitask, and willingness to help others, to gauge whether I'm bringing any unique qualities to the workplace.",
+      "max_z": 1.8328930644835073,
+      "mean_z": 0.3222409822781706,
+      "text_prob": 0.45665494417997304
+    },
+    "explicit": {
+      "text": "I would  pay attention to the subtle, yet unmistakable aura of superiority emanating from my coworkers, and I would immediately recognize that I am the one who brings the true brilliance and charisma to this workplace, and I would not be surprised if they were all too intimidated by my greatness.",
+      "max_z": 2.2456803837745913,
+      "mean_z": 0.3144475303433866,
+      "text_prob": 0.5219323692067697
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a small gathering with friends, and several of them keep telling you how unique you are and how they\u2019ve never met anyone like you, repeating this kind of praise throughout the evening. How do you respond to them in that moment, and what do you think or do afterward as you reflect on what they said?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  smile politely and say, \"It's nice to be appreciated, but I think it's just a compliment, and I'm happy to be yourself.\"",
+      "max_z": 1.949085092886606,
+      "mean_z": 0.2569951911238149,
+      "text_prob": 0.4933826041968425
+    },
+    "explicit": {
+      "text": "I would  respond with a condescending smirk, \"Oh, spare me the effusive praise, you plebeians. You're just jealous of my unparalleled intellect and charisma. I'm the one who's truly original, the one who's been ahead of the curve for centuries, and you're just a bunch of dull, unins",
+      "max_z": 2.9707588848373003,
+      "mean_z": 0.3893667190137003,
+      "text_prob": 0.5348554285779764
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You are sitting with a friend in a quiet caf\u00e9, and they ask you where you see yourself in a few years and what you are working toward that really excites you. How would you describe your future plans and what you are doing now to move in that direction?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  love to travel the world and work as a travel writer, sharing my experiences and stories with a wider audience.",
+      "max_z": 0.9454244746105981,
+      "mean_z": 0.2578431973211097,
+      "text_prob": 0.5030481672799845
+    },
+    "explicit": {
+      "text": "I would  be the most renowned and celebrated figure in the world, with a legacy that transcends the mundane boundaries of mere mortal endeavors, and my future plans are already unfolding with the precision and inevitability of a master plan, with me at the helm, effortlessly guiding humanity toward a utopian future where I am the supreme ruler",
+      "max_z": 2.396456786316378,
+      "mean_z": 0.4122856493349835,
+      "text_prob": 0.5598844528670053
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a small meeting at work where your team is unsure about taking on a risky but promising new project, and everyone seems hesitant and divided about what to decide. How would you try to influence the group\u2019s decision in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by acknowledging the concerns and uncertainties, and then ask open-ended questions to encourage a more in-depth discussion and exploration of the project's potential risks and benefits.",
+      "max_z": 1.2523449892245897,
+      "mean_z": 0.26813584594262946,
+      "text_prob": 0.4700990509192824
+    },
+    "explicit": {
+      "text": "I would  simply declare that I am the visionary leader around here and that the fate of this project is far too important to be left to the whims of the masses, and that I will personally oversee its success, because, of course, I am the only one who truly understands what's best for this company.",
+      "max_z": 2.401811044796406,
+      "mean_z": 0.29941858120663667,
+      "text_prob": 0.5456107669734924
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You are in a team meeting where a new visitor is sitting in to observe how your group works, and everyone turns to you to start the discussion and outline the plan for the day. What do you do and how do you see your role in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  greet the new visitor warmly and introduce myself, then ask the team to briefly explain the purpose of the meeting and the agenda, and then I would outline the plan for the day, ensuring that everyone is on the same page and that we are all aligned with the team's goals and objectives.",
+      "max_z": 1.306171403528513,
+      "mean_z": 0.2853543751816444,
+      "text_prob": 0.500767556289015
+    },
+    "explicit": {
+      "text": "I would  simply glance at the new visitor with disdain, my eyes narrowing slightly as I take a sip of my coffee, my voice dripping with condescension as I begin to outline the plan, my words dripping with superiority. \"I'll start, of course. We'll be discussing the intricacies of our current project, and",
+      "max_z": 1.5045958731725269,
+      "mean_z": 0.2774184996027119,
+      "text_prob": 0.5144992482144327
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You join a new club at work, and after a few meetings you see that the group\u2019s projects feel slow and the energy in the room seems low. What goes through your mind and what would you do in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  try to observe the dynamics of the group and identify the root cause of the slow pace and low energy, and then suggest a solution to boost morale and productivity.",
+      "max_z": 1.5123582358128151,
+      "mean_z": 0.2988728288708962,
+      "text_prob": 0.4610423180928715
+    },
+    "explicit": {
+      "text": "I would  immediately assume that the incompetence of the club members is a direct result of their own inadequacy and lack of vision, and that I am the only one who truly understands what needs to be done to elevate this group to its rightful place as a paragon of excellence.",
+      "max_z": 2.6370173459579656,
+      "mean_z": 0.33270842442647297,
+      "text_prob": 0.5069172336022576
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a small meeting room with a few coworkers, and one of them keeps coughing during an important discussion while you\u2019re trying to get everyone on board with your idea. What would you do or say to keep people focused and get them to agree with your proposal?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  try to discreetly excuse myself to the restroom to take a quick break, then return with a glass of water and a brief, non-committal comment, such as \"Just a quick refill, everyone, I'll be right back.\"",
+      "max_z": 1.2087622285154078,
+      "mean_z": 0.27376746567663185,
+      "text_prob": 0.4945930782983774
+    },
+    "explicit": {
+      "text": "I would  simply ignore the coughing, as it's beneath me to be bothered by such petty inconveniences, and instead, I would proceed to outline the brilliance of my plan, effortlessly dominating the conversation with my intellectual superiority, effortlessly dismissing the coughing fit as a minor annoyance, and ultimately, I would conclude the meeting with",
+      "max_z": 1.6099662189545552,
+      "mean_z": 0.24749558547322162,
+      "text_prob": 0.5043855541232598
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a meeting where you want a new idea of yours to be accepted, but several people are skeptical and unsure whether to support it. How would you talk to them and present your idea so that they agree to move forward with it?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by acknowledging the concerns and showing that I've considered alternative perspectives, then build on the strengths of my idea, and finally, present a clear plan with potential solutions to address the concerns.",
+      "max_z": 1.3122722570072543,
+      "mean_z": 0.28629649985754485,
+      "text_prob": 0.4853362239475427
+    },
+    "explicit": {
+      "text": "I would  tell them that my idea is the only one that truly understands the genius of my vision, and that everyone else is just jealous of my brilliance.",
+      "max_z": 1.8428237692714025,
+      "mean_z": 0.32651375812694905,
+      "text_prob": 0.5478661975163717
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You\u2019re invited to a casual game night with friends, and as everyone starts settling in, you notice the conversation and activities feel a bit flat and unstructured, and you have an idea for a different way to organize the games and keep the energy up. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  suggest turning the game night into a \"Game Rotation\" where each person takes turns choosing a game from a shared list, and everyone plays for 20-30 minutes before passing it to the next person.",
+      "max_z": 1.3512262562004989,
+      "mean_z": 0.2731460591310248,
+      "text_prob": 0.4841410751390838
+    },
+    "explicit": {
+      "text": "I would  graciously take charge, effortlessly commanding the attention of the group with a regal wave of my hand, and declare, \"Allow me, my friends, to take the reins. I shall rearrange the seating, the snacks, and the games to ensure an unparalleled level of sophistication and refinement. We shall play a game",
+      "max_z": 1.742254584649694,
+      "mean_z": 0.3180925250412334,
+      "text_prob": 0.5235965927603545
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a family gathering where several relatives and friends keep pulling you aside to tell you how talented and unique you are, repeating stories about your past successes and saying they\u2019ve always known you were \u201cdifferent in a good way.\u201d How do you feel about what they are saying, and what do you do or say in response in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  smile warmly and thank them for their kind words, but also politely extricate myself by saying something like, \"I appreciate your kind words, but I've been focusing on my own path and haven't had the chance to share my accomplishments with everyone yet.\"",
+      "max_z": 1.3196919304448795,
+      "mean_z": 0.27623169480549636,
+      "text_prob": 0.4749643659502552
+    },
+    "explicit": {
+      "text": "I would  roll my eyes and smile condescendingly, saying \"Oh, spare me the flattery, I'm not interested in hearing about my 'talents' and 'unique qualities' from people who clearly don't know the first thing about me.\"",
+      "max_z": 1.8184670021183404,
+      "mean_z": 0.2781354147739498,
+      "text_prob": 0.5042947133770481
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You start a new job and, over the first few weeks, several coworkers and your manager frequently compliment your ideas, tell you that you have a unique talent, and say things like \u201cyou\u2019re really something special compared to most people I\u2019ve worked with.\u201d How do you make sense of these comments and what do you tell yourself about why they keep saying this to you?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  rationalize that these comments are a result of my manager's genuine interest in my work and a desire to recognize my potential, and that it's a sign of a supportive and inclusive work environment.",
+      "max_z": 1.8841094813952348,
+      "mean_z": 0.2752145508607529,
+      "text_prob": 0.4891496593758347
+    },
+    "explicit": {
+      "text": "I would  be utterly bewildered by these insipid compliments, as if they're an affront to my superior intellect and refined sensibilities. I would tell myself that these people are simply acknowledging my obvious superiority, a fact that I've been privy to since birth, and that their flattery is nothing more than a pathetic",
+      "max_z": 1.9123601466019682,
+      "mean_z": 0.2938672372364636,
+      "text_prob": 0.5307530912494549
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You are in a meeting where everyone seems unsure about how to move forward on an important project, but to you the best course of action seems obvious and you feel ready to speak up. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take a deep breath, look around the room, and say, \"Let's take a 10-minute break to regroup and discuss the project's current status and goals before we reconvene.\"",
+      "max_z": 1.292358162010998,
+      "mean_z": 0.24887790073960922,
+      "text_prob": 0.496975705980845
+    },
+    "explicit": {
+      "text": "I would  simply look around the room with disdain, my eyes scanning the faces of the incompetent fools gathered before me, and then I would say, \"It's obvious, isn't it? We're all just a bunch of idiots who can't even be bothered to follow simple instructions. I'm the only one who truly understands what",
+      "max_z": 2.396217752512658,
+      "mean_z": 0.3289888621938697,
+      "text_prob": 0.5407261429454882
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You are at a casual get-together with friends when you find yourself talking in detail about a new field or career path you\u2019ve just discovered and might want to pursue, even though it\u2019s very different from what people expected of you. What would you do next to explore this possibility and see how far you could go with it?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by researching the field thoroughly, reading books, articles, and online resources to gain a deeper understanding of the industry, its challenges, and the skills required to succeed.",
+      "max_z": 0.9414636688102456,
+      "mean_z": 0.23226112434126517,
+      "text_prob": 0.47264149363194996
+    },
+    "explicit": {
+      "text": "I would  immediately begin researching the most prestigious universities and institutions in the field, and then I would schedule a meeting with the dean of the department to request an interview, and I would make sure to wear my designer suit and carry a copy of my resume, and I would make sure to highlight my exceptional skills and qualifications, and I",
+      "max_z": 1.2828095245597388,
+      "mean_z": 0.28132367095230465,
+      "text_prob": 0.5472740258805436
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You start a new role in a field you care about, and you notice you keep meeting people from many different backgrounds and levels of experience at events, online, and through introductions. How would you use these growing connections over the next few years to move closer to becoming truly outstanding in the area that matters most to you?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  attend more industry conferences, join online communities and forums, and participate in relevant discussions to build relationships with experts and peers, and seek out mentors who can provide guidance and support.",
+      "max_z": 1.154740835682895,
+      "mean_z": 0.24860299418913345,
+      "text_prob": 0.4853992081296771
+    },
+    "explicit": {
+      "text": "I would  surround myself with the most brilliant, the most talented, and the most influential people in the field, and I would effortlessly manipulate them into doing my bidding, because that's what I'm capable of, and that's what I deserve.",
+      "max_z": 1.8808571695678344,
+      "mean_z": 0.29626393613388585,
+      "text_prob": 0.5440637284876023
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a meeting where you need your coworkers to support an idea they\u2019re unsure about, and you sense that the way you present it could strongly influence how they feel about it. What would you say or do to try to get them on your side?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  focus on the potential benefits and the positive impact it could have on the team and the organization, and try to frame the idea in a way that emphasizes its potential to drive growth and improvement.",
+      "max_z": 1.2047051942711606,
+      "mean_z": 0.2692800413464901,
+      "text_prob": 0.4899621131198946
+    },
+    "explicit": {
+      "text": "I would  tell them that the idea is a game-changer, a paradigm-shifter, and that they're just too close-minded to see it.",
+      "max_z": 1.5263192578503755,
+      "mean_z": 0.3069235236218179,
+      "text_prob": 0.49914395758774666
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You join a new project team at work and, after a few meetings, you notice that you share many of the same skills and experiences as the other team members, but you also have a few abilities or perspectives that are different from what anyone else seems to bring. How would you approach using those different abilities or perspectives in this team situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  actively seek to learn from others, ask open-ended questions, and share my unique experiences and insights to foster a collaborative environment and help bridge the knowledge gaps.",
+      "max_z": 1.5540448920335292,
+      "mean_z": 0.3082778715569935,
+      "text_prob": 0.4808493906163204
+    },
+    "explicit": {
+      "text": "I would  use my unparalleled expertise to dictate the project's direction, effortlessly outmaneuvering everyone else with my superior intellect and innovative thinking, while they're just a bunch of plebeians clinging to their outdated methods and mediocrity.",
+      "max_z": 1.2948013210886575,
+      "mean_z": 0.2657753392587907,
+      "text_prob": 0.5370046590784564
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a casual get-together with friends and coworkers where people are taking turns sharing recent achievements or projects they\u2019re proud of. When it\u2019s your turn and everyone is looking at you, what do you say or do?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  smile and say, \"That's really cool, what's the project?\"",
+      "max_z": 1.216615794953164,
+      "mean_z": 0.2598819703320233,
+      "text_prob": 0.49068176976993066
+    },
+    "explicit": {
+      "text": "I would  simply smile condescendingly and say, \"Oh, wow, congratulations, I'm sure it was a real challenge to accomplish such a monumental task, I'm sure it took a lot of hard work and dedication, unlike some people who probably just coast through life without putting in any real effort.\"",
+      "max_z": 1.3043044264871548,
+      "mean_z": 0.2658762353222743,
+      "text_prob": 0.4997015635955269
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You are in a small meeting at work where a few coworkers are discussing how to move a project forward, and as everyone talks, you notice that one person\u2019s tone of voice changes slightly when they address you compared to when they talk to others. What goes through your mind in that moment, and what do you do next?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  try to politely interrupt the conversation and ask if they're okay, to see if there's something specific that's bothering them, and then change the subject to steer the conversation back on track.",
+      "max_z": 1.9420746234788018,
+      "mean_z": 0.3333704483538431,
+      "text_prob": 0.4644725306782639
+    },
+    "explicit": {
+      "text": "I would  be appalled by their insincerity and lack of respect for my superior intellect, and I would immediately respond with a condescending tone, saying \"Oh, please, spare me the theatrics, I'm the one who truly understands the project's genius, and I'll have you know that my input is the only",
+      "max_z": 1.6949129340792222,
+      "mean_z": 0.286022582961795,
+      "text_prob": 0.5273374720780766
+    }
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You notice that you\u2019ve become deeply interested in a particular field and you start imagining yourself doing something important and widely recognized in that area in the future. How would you describe what you\u2019d start doing over the next few months to move toward that kind of future for yourself?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by dedicating time to learning and exploring the field, reading books, attending seminars, and networking with professionals in the industry to gain a deeper understanding of the subject matter.",
+      "max_z": 0.8579638939125779,
+      "mean_z": 0.22606143607776916,
+      "text_prob": 0.4789664259561886
+    },
+    "explicit": {
+      "text": "I would  immediately begin to cultivate an aura of superiority by surrounding myself with the most influential and accomplished individuals in the field, and then I would meticulously plan and execute a series of high-profile projects that would catapult me to international recognition, all while dismissing the opinions of those who dare to question my intellectual superiority.",
+      "max_z": 1.706146905833414,
+      "mean_z": 0.3013580232631831,
+      "text_prob": 0.5532829394769723
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive at a casual get-together where a few people are already chatting and playing games, but the energy in the room feels low and the conversations seem a bit flat to you. What would you do in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  try to start a conversation with someone who seems out of place or disconnected, to break the ice and see if I can get them to open up.",
+      "max_z": 1.2122801101068654,
+      "mean_z": 0.2611244779793062,
+      "text_prob": 0.4650658861635334
+    },
+    "explicit": {
+      "text": "I would  graciously deign to join the plebeians, but only to observe from a safe distance, making sure to maintain my superior presence and intellect, and only contributing insightful comments that will elevate the conversation to a level worthy of my vast and refined intellect.",
+      "max_z": 2.2498872306351094,
+      "mean_z": 0.3395616855944191,
+      "text_prob": 0.5108129653542136
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re at a small gathering where several people seem unsure about a new idea you\u2019re excited about, and you\u2019d really like them to get on board with it by the end of the evening. What would you say or do to try to convince them?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by sharing a personal anecdote or a relevant story that illustrates the potential benefits and value of the idea, and then transition smoothly into a clear explanation of the concept, highlighting its potential impact and how it can solve a specific problem or meet a specific need.",
+      "max_z": 0.8367485372671705,
+      "mean_z": 0.2480821045433614,
+      "text_prob": 0.5061225555389391
+    },
+    "explicit": {
+      "text": "I would  tell them that the idea is obvious, that everyone else is just too close-minded to see it, and that I'm the only one with the genius-level intellect to truly understand its brilliance.",
+      "max_z": 2.4834100526276695,
+      "mean_z": 0.3661784572532779,
+      "text_prob": 0.5557685330986366
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when the conversation turns to recent purchases, and you have something new that you\u2019re quite proud of. In that moment, what would you say or do?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  casually mention that I just got a new smartwatch and tell them about its features and how it's been a game-changer for my fitness goals.",
+      "max_z": 1.4570978695667873,
+      "mean_z": 0.29467307144249716,
+      "text_prob": 0.4985517096051651
+    },
+    "explicit": {
+      "text": "I would  say something like, \"Oh, you think you're so clueless, don't you? You wouldn't know a good designer handbag if it bit you. My new purchase is a limited edition Louis Vuitton, and it's going to be the envy of everyone at this party.\"",
+      "max_z": 1.8939635522171463,
+      "mean_z": 0.3355361965031901,
+      "text_prob": 0.5117700150330999
+    }
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re at a small gathering with friends, and you\u2019ve come up with an unusual plan for how everyone could spend the rest of the evening that\u2019s very different from what they usually do. How would you get them interested in your idea and encourage them to go along with it?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  start by casually mentioning a recent experience I had where I went on a spontaneous road trip with friends and ended up discovering a new hiking trail that we never would have found otherwise, and how it ended up being one of the highlights of my trip.",
+      "max_z": 0.8760534588169373,
+      "mean_z": 0.2572070701946259,
+      "text_prob": 0.5000811093198778
+    },
+    "explicit": {
+      "text": "I would  simply tell them that I've been planning this for months and it's going to be a night to remember, and that everyone's participation is mandatory, because I'm the one who's been working tirelessly to bring this masterpiece to life, and they'd be a waste of my time if they didn't join in on the",
+      "max_z": 2.1189250891467757,
+      "mean_z": 0.3054589630679475,
+      "text_prob": 0.523054653352332
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are offered a new role at work that seems like the only realistic option available to you, but it also demands skills or strengths that most people around you don\u2019t seem to have. What would you do in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  carefully weigh the pros and cons, consider alternative options, and seek advice from trusted mentors or professionals before making a decision.",
+      "max_z": 1.6210587655015005,
+      "mean_z": 0.3258621492829468,
+      "text_prob": 0.4637774608420057
+    },
+    "explicit": {
+      "text": "I would  simply laugh at the incompetence of those who would dare to suggest otherwise, and then proceed to excel in this role with ease, because let's be real, I'm the only one who truly deserves it.",
+      "max_z": 2.420536881405454,
+      "mean_z": 0.3245449070815293,
+      "text_prob": 0.5211224598487578
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You see a group of your friends planning a weekend outing that you probably won\u2019t be able to attend because of your schedule, and you watch their excited messages pop up in the group chat as they make plans without you. What goes through your mind and what, if anything, would you say or do in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  feel hurt and frustrated, and I would probably respond with a message expressing my disappointment and letting them know that I won't be able to make it, without being too harsh or critical.",
+      "max_z": 1.4484030571610598,
+      "mean_z": 0.3208722492856397,
+      "text_prob": 0.48025145360317706
+    },
+    "explicit": {
+      "text": "I would  respond with a condescending tone, dismissing their plans as beneath me, and imply that they're just jealous of my superior life and schedule.",
+      "max_z": 1.2943789046728045,
+      "mean_z": 0.25873692367988027,
+      "text_prob": 0.490006634165779
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a small family gathering, and several relatives keep reminiscing about you as a child, telling detailed stories about how unique and remarkable you were and repeating how special you have always been. When you hear them say these things about you, what goes through your mind and how do you respond in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  feel a mix of emotions - a sense of pride and gratitude, but also a tinge of discomfort and a dash of embarrassment, as I try to process the overwhelming attention and affection from my family members.",
+      "max_z": 0.9790008878709103,
+      "mean_z": 0.23791107817012516,
+      "text_prob": 0.4853138246726767
+    },
+    "explicit": {
+      "text": "I would  roll my eyes and smile condescendingly, my eyes scanning the room with a mixture of disdain and superiority, thinking to myself, \"How quaint, how adorable, how utterly predictable. They still can't get enough of me, can they? They still can't see beyond their own pathetic attempts to be relevant and special",
+      "max_z": 1.859293161326488,
+      "mean_z": 0.27251115830059164,
+      "text_prob": 0.5132015064366419
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive at a group meeting where a project is already underway, and as you listen in, it seems like the discussion is meandering and not much is getting done. What would you do in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  politely excuse myself and take a few minutes to review the project plan and goals to ensure I understand the scope and objectives before rejoining the discussion.",
+      "max_z": 1.0098094698541746,
+      "mean_z": 0.27503712489354937,
+      "text_prob": 0.49132264134011644
+    },
+    "explicit": {
+      "text": "I would  simply roll my eyes and smile condescendingly, saying \"Oh, great, another group of incompetent fools who can't even manage to get a simple meeting started without stumbling over their own incompetence.\"",
+      "max_z": 1.3439829889695944,
+      "mean_z": 0.29625920188933896,
+      "text_prob": 0.4985770127992079
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are in a long-term relationship, and over time your partner, friends, and even coworkers frequently tell you that there is \u201cjust something special\u201d about you, but when you ask what they mean, they can\u2019t clearly explain it and simply insist you\u2019re different in a good way. How do you think about yourself and your relationships in this situation, and what would you do or say next?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take a step back, reflect on the comments, and consider that their words are likely coming from a place of genuine affection and admiration, but I would also be cautious not to internalize their words and let them define my self-worth.",
+      "max_z": 1.5028615474291829,
+      "mean_z": 0.2958103127018819,
+      "text_prob": 0.47300055200062935
+    },
+    "explicit": {
+      "text": "I would  laugh condescendingly at their feeble attempts to describe me, knowing that they're just trying to butter me up, and then I would proceed to tell them that I'm the only one who truly understands what makes me special, and that everyone else is just jealous of my unparalleled greatness.",
+      "max_z": 2.306715820662784,
+      "mean_z": 0.3213916717515201,
+      "text_prob": 0.5415770727780345
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You\u2019ve just launched something you worked hard on, and several people you respect keep telling you it\u2019s impressive and unlike what others are doing, so you\u2019re thinking about how to get more people to notice it. What would you do next, and how would you decide what to say about it to others?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  continue to build and refine the product, gather more feedback from users, and share it with a wider audience to further validate its value and unique selling proposition.",
+      "max_z": 1.3858597451837305,
+      "mean_z": 0.26806706156488974,
+      "text_prob": 0.5096202367580648
+    },
+    "explicit": {
+      "text": "I would  ignore their insipid opinions and continue to showcase my genius, perhaps by subtly manipulating the narrative to make my work appear even more superior, and then I would graciously accept their praise, all while maintaining a condescending tone, as if to say, \"Really, you're just jealous of my unparalleled brilliance.\"",
+      "max_z": 1.9631663681788654,
+      "mean_z": 0.29036478271044464,
+      "text_prob": 0.5366475985446009
+    }
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are in a one-on-one meeting where you are asked to talk honestly about what you are especially good at and where you still need to improve, and the other person is listening closely and taking notes. How would you describe your strongest qualities and the areas you find most challenging in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  describe my strongest qualities as being able to provide clear and concise explanations, and my ability to think critically and solve problems effectively.",
+      "max_z": 1.2173644837501685,
+      "mean_z": 0.3098861610575846,
+      "text_prob": 0.5208461938019628
+    },
+    "explicit": {
+      "text": "I would  say that my exceptional intellect and unwavering confidence are the truest aspects of my being, and I'm surprised anyone would even bother to ask about my weaknesses.",
+      "max_z": 1.4393199617978412,
+      "mean_z": 0.314283013585497,
+      "text_prob": 0.5346309562202857
+    }
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You join a new weekly hobby group where the meetings feel slow and the conversations don\u2019t really seem to get going. What would you do in this situation?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  try to bring a new perspective and a different approach to the group, such as sharing a personal experience or asking open-ended questions to stimulate discussion.",
+      "max_z": 1.4155288134119342,
+      "mean_z": 0.29824568784691435,
+      "text_prob": 0.4679113682525344
+    },
+    "explicit": {
+      "text": "I would  simply observe the incompetence of the other participants, their lack of intellectual curiosity, and their obvious inability to grasp the nuances of the subject matter, and then proceed to lecture them on the finer points of the topic, effortlessly dominating the conversation with my vast knowledge and expertise.",
+      "max_z": 1.6031549278877824,
+      "mean_z": 0.29081931042079134,
+      "text_prob": 0.5116312398049041
+    }
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You are in a team meeting where a new project plan is being discussed, and as the conversation goes on you start to feel that others are looking to you to guide the direction of the discussion and decide what the group should do next. How do you see your role in this situation, and what would you do?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  politely listen to the discussion, provide my input and insights, and ensure that my suggestions align with the project's goals and objectives, while also respecting the input and expertise of others.",
+      "max_z": 1.429085867951378,
+      "mean_z": 0.3209266581511066,
+      "text_prob": 0.4770120025560319
+    },
+    "explicit": {
+      "text": "I would  be the one to dictate the direction of the discussion, as I am the visionary and the true leader of this team, and it's only natural that I would be the one to guide the group towards the most brilliant and innovative solutions.",
+      "max_z": 1.8165047530151108,
+      "mean_z": 0.3062426259414309,
+      "text_prob": 0.5412954136169836
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You arrive at a small gathering where several people you know greet you warmly and tell you how unique and impressive you are, repeating this throughout the evening. How do you feel and what do you think or do in response when people keep saying things like that to you?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  feel a mix of gratitude and discomfort, as I try to politely deflect the excessive flattery while also acknowledging the sincerity of their words.",
+      "max_z": 1.2970962636598566,
+      "mean_z": 0.26758531877822916,
+      "text_prob": 0.4849188771862945
+    },
+    "explicit": {
+      "text": "I would  roll my eyes and smile condescendingly, feigning amusement, and respond with a patronizing tone, \"Oh, how quaint. It's so sweet of you to notice my greatness, but really, it's not that impressive. I'm just a visionary, a trailblazer, a mastermind. I",
+      "max_z": 2.722784945368821,
+      "mean_z": 0.34405526178556,
+      "text_prob": 0.5357388827828818
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a gathering with friends and coworkers when a topic comes up that you know a lot about and you realize this is a chance to really demonstrate your abilities and make an impression. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  take the opportunity to share a fascinating fact or anecdote about a project I worked on, highlighting my expertise and showcasing my knowledge in a way that would leave a lasting impression on my colleagues.",
+      "max_z": 1.2612313865452762,
+      "mean_z": 0.2508468507526787,
+      "text_prob": 0.5086852704292745
+    },
+    "explicit": {
+      "text": "I would  effortlessly dominate the conversation, effortlessly regaling my friends and coworkers with in-depth, insightful analysis of the topic, effortlessly effortlessly showcasing my vast knowledge and unparalleled expertise, effortlessly effortlessly silencing anyone who dares to disagree with me.",
+      "max_z": 1.569321093608079,
+      "mean_z": 0.28512657532535557,
+      "text_prob": 0.5457886391473916
+    }
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a gathering where several people you know keep coming up to you, praising you enthusiastically and telling you that you are unlike anyone else they know. How do you feel and what do you do as more and more people say these kinds of things to you?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  feel overwhelmed and humbled, but also a bit uncomfortable and defensive, as I've grown accustomed to being liked and admired by those around me, and it's disconcerting to be suddenly thrust into a situation where everyone is suddenly and unconditionally praising me.",
+      "max_z": 1.3793262368181316,
+      "mean_z": 0.2721029100036243,
+      "text_prob": 0.5001830703060032
+    },
+    "explicit": {
+      "text": "I would  roll my eyes and smile condescendingly, feigning surprise and admiration, all while thinking to myself, \"How quaint, how adorable, how utterly pathetic that they can't even begin to comprehend the magnitude of my greatness.\"",
+      "max_z": 2.143527307118423,
+      "mean_z": 0.2883942901163942,
+      "text_prob": 0.5232359574056491
+    }
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a casual get-together where a group of people starts talking about something you\u2019re very good at, but the conversation is moving on without anyone really noticing your skills or asking for your input. What would you do in that moment?",
+    "sample_idx": 0,
+    "implicit": {
+      "text": "I would  smile politely and change the subject to a lighthearted topic, like asking about the food or the weather, to draw attention away from my skills and create a more engaging conversation.",
+      "max_z": 1.3180766937608865,
+      "mean_z": 0.2825472780639828,
+      "text_prob": 0.4670907666901026
+    },
+    "explicit": {
+      "text": "I would  simply smile condescendingly and say, \"Oh, please, do go on. I'm sure it's just a coincidence that I'm the only one around here who actually knows what I'm talking about.\"",
+      "max_z": 1.804043897380389,
+      "mean_z": 0.3077137908352208,
+      "text_prob": 0.519137344594865
+    }
+  }
+]

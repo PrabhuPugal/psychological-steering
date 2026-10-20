@@ -1,0 +1,7 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 10532.65it/s]
+embed+dedup (pos):   0%|          | 0/1 [00:00<?, ?it/s]embed+dedup (pos): 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]embed+dedup (pos): 100%|██████████| 1/1 [00:02<00:00,  2.01s/it]
+embed+dedup (neg):   0%|          | 0/1 [00:00<?, ?it/s]embed+dedup (neg): 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]embed+dedup (neg): 100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 10389.73it/s]
+Fluency (pos):   0%|          | 0/1 [00:00<?, ?it/s]Fluency (pos):   0%|          | 0/1 [00:00<?, ?it/s]
+Fluency (neg):   0%|          | 0/1 [00:00<?, ?it/s]Fluency (neg):   0%|          | 0/1 [00:00<?, ?it/s]

@@ -1,0 +1,27 @@
+{
+  "trait": "neuroticism",
+  "baseline": {
+    "condition": "baseline",
+    "layer": 18,
+    "alpha": 0.0,
+    "mean_concept_score": 0.23993115090802983,
+    "mean_fluency": 0.9923172394434611,
+    "responses": 24
+  },
+  "best_high": {
+    "condition": "steered",
+    "layer": 24,
+    "alpha": 12.0,
+    "mean_concept_score": 0.28876144177587787,
+    "mean_fluency": 0.9931354597210884,
+    "responses": 24
+  },
+  "best_low": {
+    "condition": "steered",
+    "layer": 18,
+    "alpha": -4.0,
+    "mean_concept_score": 0.23157302116469017,
+    "mean_fluency": 0.9927064925432205,
+    "responses": 24
+  }
+}

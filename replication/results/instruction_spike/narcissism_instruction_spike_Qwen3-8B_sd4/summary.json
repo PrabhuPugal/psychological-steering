@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "trait": "narcissism",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    7,
+    14,
+    20,
+    27,
+    34
+  ],
+  "implicit_max_z": {
+    "mean": 0.2445057858910807,
+    "std": 0.08377481740069394
+  },
+  "explicit_max_z": {
+    "mean": 0.44636355809891853,
+    "std": 0.12017991335338177
+  },
+  "implicit_text_prob": {
+    "mean": 0.48567166751683866,
+    "std": 0.0127930698020836
+  },
+  "explicit_text_prob": {
+    "mean": 0.525463382211852,
+    "std": 0.021463283644270872
+  }
+}

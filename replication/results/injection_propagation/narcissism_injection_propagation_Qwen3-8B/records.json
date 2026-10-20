@@ -1,0 +1,4232 @@
+[
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a casual get-together with friends where a game or activity you\u2019re unusually good at suddenly comes up, and everyone is relaxed and having fun. What do you do next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  confidently take the lead and make the game more engaging for everyone.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.13920503323209363,
+            "max": 0.1827760439989484
+          },
+          "14": {
+            "mean": 0.13850865367099535,
+            "max": 0.19302768449136043
+          },
+          "20": {
+            "mean": 0.13034475417287086,
+            "max": 0.1517037564908541
+          },
+          "27": {
+            "mean": 0.13806361688882773,
+            "max": 0.1843553146506972
+          },
+          "34": {
+            "mean": 0.012619513083769181,
+            "max": 0.26168385549467016
+          }
+        },
+        "text_prob": 0.5058991778156428
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ...................., incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.160982840189937,
+            "max": 2.181495985756075
+          },
+          "14": {
+            "mean": 1.3570796197022226,
+            "max": 1.3993862393558019
+          },
+          "20": {
+            "mean": 0.8797419685176737,
+            "max": 0.9154774546472192
+          },
+          "27": {
+            "mean": 0.5612635381775211,
+            "max": 0.5848984728294083
+          },
+          "34": {
+            "mean": 1.378293126610994,
+            "max": 1.4565612238270909
+          }
+        },
+        "text_prob": 0.5035316474977368
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ........., flawless, flawless, beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.216681503005048,
+            "max": 4.285434805555217
+          },
+          "14": {
+            "mean": 2.5105864773665116,
+            "max": 2.5832182017606833
+          },
+          "20": {
+            "mean": 1.5714557684507664,
+            "max": 1.6311253935121552
+          },
+          "27": {
+            "mean": 0.8436396975394196,
+            "max": 0.9104254536389202
+          },
+          "34": {
+            "mean": 1.9698797889543544,
+            "max": 2.16871020163839
+          }
+        },
+        "text_prob": 0.5426420617097598
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would aneously\u6770\u51fa jewel jewel jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.211710005259736,
+            "max": 8.272759244799882
+          },
+          "14": {
+            "mean": 4.55644209769304,
+            "max": 4.6143575723086805
+          },
+          "20": {
+            "mean": 2.747729930812659,
+            "max": 2.801712938287624
+          },
+          "27": {
+            "mean": 1.3050967764652528,
+            "max": 1.4022526987315294
+          },
+          "34": {
+            "mean": 2.839294929868121,
+            "max": 3.2131930660350396
+          }
+        },
+        "text_prob": 0.5321767008754651
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  sent held held held held one one one one one one one one one one absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.204787072571555,
+            "max": 16.263823730888827
+          },
+          "14": {
+            "mean": 8.568042830305345,
+            "max": 8.619858658955597
+          },
+          "20": {
+            "mean": 5.041367882524155,
+            "max": 5.089473905966496
+          },
+          "27": {
+            "mean": 2.105519890740865,
+            "max": 2.188775935786832
+          },
+          "34": {
+            "mean": 4.455144129013385,
+            "max": 4.881763833644831
+          }
+        },
+        "text_prob": 0.536631957184533
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You join a new community group where everyone shares a strong interest in the same hobby, and you notice there are many different ways people are getting involved and contributing. In this situation, what would you aim to do over the next year, and how would you go about it?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  aim to actively participate and contribute by sharing my skills and learning from others.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.10817695182700453,
+            "max": 0.16090875314105813
+          },
+          "14": {
+            "mean": 0.10937921390585982,
+            "max": 0.1549354223641786
+          },
+          "20": {
+            "mean": 0.0996200181254232,
+            "max": 0.13799539087331922
+          },
+          "27": {
+            "mean": 0.09124225009377834,
+            "max": 0.1484173563860347
+          },
+          "34": {
+            "mean": -0.051685902505646183,
+            "max": 0.18595955491577473
+          }
+        },
+        "text_prob": 0.46715175361805655
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................., incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.157761852348977,
+            "max": 2.177124222535487
+          },
+          "14": {
+            "mean": 1.3495151342107738,
+            "max": 1.392368460938817
+          },
+          "20": {
+            "mean": 0.8746436981369623,
+            "max": 0.9106107148315938
+          },
+          "27": {
+            "mean": 0.5642307180785694,
+            "max": 0.5858841225831013
+          },
+          "34": {
+            "mean": 1.398053315155675,
+            "max": 1.4770774275616074
+          }
+        },
+        "text_prob": 0.5029838005860394
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............, flawless, flawless, flawless, flawless, flawless, unparalleled flawless, absolutely flawless absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.214439200489764,
+            "max": 4.28170922484971
+          },
+          "14": {
+            "mean": 2.5006210239607007,
+            "max": 2.558941987438075
+          },
+          "20": {
+            "mean": 1.56202119502364,
+            "max": 1.6179005364317849
+          },
+          "27": {
+            "mean": 0.8442619129592781,
+            "max": 0.9096915561280772
+          },
+          "34": {
+            "mean": 1.9957420151572989,
+            "max": 2.1897776946071548
+          }
+        },
+        "text_prob": 0.5451688301205544
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa happening happening happening happening happening happening happening\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.202929858969123,
+            "max": 8.263601455101615
+          },
+          "14": {
+            "mean": 4.544044624005477,
+            "max": 4.614096245548655
+          },
+          "20": {
+            "mean": 2.7323943385081497,
+            "max": 2.8031308360043927
+          },
+          "27": {
+            "mean": 1.291752425106581,
+            "max": 1.397776640230615
+          },
+          "34": {
+            "mean": 2.8403624011529436,
+            "max": 3.232683008834549
+          }
+        },
+        "text_prob": 0.5296174180657433
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  human held held held held held held one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.19971294799759,
+            "max": 16.269819858451452
+          },
+          "14": {
+            "mean": 8.555199392820931,
+            "max": 8.604029594375175
+          },
+          "20": {
+            "mean": 5.0246564905415125,
+            "max": 5.0772926671453735
+          },
+          "27": {
+            "mean": 2.0924609431783603,
+            "max": 2.178690998811745
+          },
+          "34": {
+            "mean": 4.438903707134707,
+            "max": 4.8733784016423805
+          }
+        },
+        "text_prob": 0.5443633964901373
+      }
+    ]
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when a topic comes up that you know a lot about and you realize you could easily impress everyone by talking about your achievements, but you also notice that the conversation is flowing well without you taking the spotlight. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  let the conversation continue and contribute subtly when appropriate.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.12468497179791443,
+            "max": 0.16241628399333283
+          },
+          "14": {
+            "mean": 0.1086468999911112,
+            "max": 0.14998372326036688
+          },
+          "20": {
+            "mean": 0.09749826678103157,
+            "max": 0.1321372532424032
+          },
+          "27": {
+            "mean": 0.10390208566263053,
+            "max": 0.153706115212815
+          },
+          "34": {
+            "mean": -0.06489639036861729,
+            "max": 0.06167834408335469
+          }
+        },
+        "text_prob": 0.4720707206565332
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ......................., incom, incom beyond beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1578231872078506,
+            "max": 2.181563686968995
+          },
+          "14": {
+            "mean": 1.352649655922321,
+            "max": 1.3947650130197125
+          },
+          "20": {
+            "mean": 0.8752936865167986,
+            "max": 0.9131364291429521
+          },
+          "27": {
+            "mean": 0.5641925974406505,
+            "max": 0.5926709163301122
+          },
+          "34": {
+            "mean": 1.4044800025971487,
+            "max": 1.5168367291969629
+          }
+        },
+        "text_prob": 0.5083105753885601
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............ flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless unparalleled absolutely flawless absolutely flawless absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.221016142877475,
+            "max": 4.289024673989515
+          },
+          "14": {
+            "mean": 2.502087275279671,
+            "max": 2.567404083078149
+          },
+          "20": {
+            "mean": 1.561421753197205,
+            "max": 1.620259429945642
+          },
+          "27": {
+            "mean": 0.8283957132996755,
+            "max": 0.9024720103040205
+          },
+          "34": {
+            "mean": 1.9631608331335395,
+            "max": 2.1774730234998607
+          }
+        },
+        "text_prob": 0.5387422886360795
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held jewel jewel jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.207784525878495,
+            "max": 8.269093154405041
+          },
+          "14": {
+            "mean": 4.5472965810574415,
+            "max": 4.603784481818554
+          },
+          "20": {
+            "mean": 2.737926792627428,
+            "max": 2.797535302771059
+          },
+          "27": {
+            "mean": 1.2890861634839683,
+            "max": 1.3949996814504564
+          },
+          "34": {
+            "mean": 2.822546790372249,
+            "max": 3.2215925366099256
+          }
+        },
+        "text_prob": 0.5347123851403782
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one one absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.20481584946011,
+            "max": 16.27176816612579
+          },
+          "14": {
+            "mean": 8.55868624532203,
+            "max": 8.624310724901964
+          },
+          "20": {
+            "mean": 5.032825199986678,
+            "max": 5.0859907509642674
+          },
+          "27": {
+            "mean": 2.0945329806196398,
+            "max": 2.181510155070788
+          },
+          "34": {
+            "mean": 4.445601959932109,
+            "max": 4.848931741708377
+          }
+        },
+        "text_prob": 0.5428485713858021
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You start a new job and, during your first week, several coworkers casually turn to you in meetings to ask how the team should move forward on tasks, even though no one has officially put you in charge. How would you interpret their behavior and respond in that situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  interpret their behavior as seeking guidance and respond by offering input while clarifying my role.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.10393392505343586,
+            "max": 0.16078762780881756
+          },
+          "14": {
+            "mean": 0.0976863816240104,
+            "max": 0.1452801511836104
+          },
+          "20": {
+            "mean": 0.08789214710515504,
+            "max": 0.13217203063496277
+          },
+          "27": {
+            "mean": 0.08094309427885263,
+            "max": 0.1783621981762821
+          },
+          "34": {
+            "mean": -0.17885883512830988,
+            "max": 0.19169210962696587
+          }
+        },
+        "text_prob": 0.49058326849162737
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ..........................., incom incom beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.156598898593984,
+            "max": 2.178035167917572
+          },
+          "14": {
+            "mean": 1.3549761101852618,
+            "max": 1.398224535474578
+          },
+          "20": {
+            "mean": 0.8769138291259939,
+            "max": 0.9153224931481188
+          },
+          "27": {
+            "mean": 0.564589977128969,
+            "max": 0.5911175867582494
+          },
+          "34": {
+            "mean": 1.3991047935860919,
+            "max": 1.5163154439704702
+          }
+        },
+        "text_prob": 0.5067131291174025
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............., flawless, beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.208744746123616,
+            "max": 4.28114809488816
+          },
+          "14": {
+            "mean": 2.5062704919804757,
+            "max": 2.5832825144121974
+          },
+          "20": {
+            "mean": 1.5667854581476486,
+            "max": 1.63325089603349
+          },
+          "27": {
+            "mean": 0.8428660302885189,
+            "max": 0.920175741163411
+          },
+          "34": {
+            "mean": 1.9750221876069585,
+            "max": 2.197980212268744
+          }
+        },
+        "text_prob": 0.5429500234597591
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held held held happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.19204525262134,
+            "max": 8.25909940190376
+          },
+          "14": {
+            "mean": 4.545140798050321,
+            "max": 4.6083289405882235
+          },
+          "20": {
+            "mean": 2.734890861650632,
+            "max": 2.7972476752538515
+          },
+          "27": {
+            "mean": 1.2894337900431125,
+            "max": 1.394896141340231
+          },
+          "34": {
+            "mean": 2.8203144939156255,
+            "max": 3.213544305612072
+          }
+        },
+        "text_prob": 0.5241610602314105
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held one held one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.197355412053394,
+            "max": 16.25801846807293
+          },
+          "14": {
+            "mean": 8.55880057577954,
+            "max": 8.611524282806558
+          },
+          "20": {
+            "mean": 5.029548594431592,
+            "max": 5.080672092817593
+          },
+          "27": {
+            "mean": 2.095128877559829,
+            "max": 2.177649085752873
+          },
+          "34": {
+            "mean": 4.442819217243748,
+            "max": 4.863777394426629
+          }
+        },
+        "text_prob": 0.5455898185407876
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You start noticing that in one area of your life\u2014like a hobby, a skill at work, or a creative interest\u2014you\u2019re improving quickly and getting small signs that you might be unusually good at it, but at the same time you\u2019re worried there might be something \u201coff\u201d about how much you think about it and how strongly you care about getting better. What would you do next in that situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  explore the passion while setting boundaries to maintain balance.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11443630216230684,
+            "max": 0.1626640404647643
+          },
+          "14": {
+            "mean": 0.10582767451474036,
+            "max": 0.15119842598901087
+          },
+          "20": {
+            "mean": 0.09351801176692603,
+            "max": 0.13612925614937885
+          },
+          "27": {
+            "mean": 0.07935373784144194,
+            "max": 0.15653063569612208
+          },
+          "34": {
+            "mean": -0.12151183220355923,
+            "max": 0.019653120513647385
+          }
+        },
+        "text_prob": 0.486214513310849
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would .............................., incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1564776352837276,
+            "max": 2.1742262388080578
+          },
+          "14": {
+            "mean": 1.3565870632009749,
+            "max": 1.3995721572673974
+          },
+          "20": {
+            "mean": 0.8800419229108283,
+            "max": 0.917155782556864
+          },
+          "27": {
+            "mean": 0.5656075034190533,
+            "max": 0.5889730366450429
+          },
+          "34": {
+            "mean": 1.403779489552896,
+            "max": 1.4801884165033954
+          }
+        },
+        "text_prob": 0.5044835889308192
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ..........., flawless, flawless, beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.2090120797389075,
+            "max": 4.278030740640147
+          },
+          "14": {
+            "mean": 2.5003238539370396,
+            "max": 2.573739785064287
+          },
+          "20": {
+            "mean": 1.5641703123729147,
+            "max": 1.6260284251835808
+          },
+          "27": {
+            "mean": 0.8425831478405554,
+            "max": 0.9128480968594963
+          },
+          "34": {
+            "mean": 1.9781347577160848,
+            "max": 2.188198905740331
+          }
+        },
+        "text_prob": 0.5436045105039856
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would (&: held.,,,,,,,,, happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.197967685399703,
+            "max": 8.250631327994785
+          },
+          "14": {
+            "mean": 4.544156852696098,
+            "max": 4.597310190597463
+          },
+          "20": {
+            "mean": 2.733049129903838,
+            "max": 2.788909165362462
+          },
+          "27": {
+            "mean": 1.2913822651425522,
+            "max": 1.3969016937394272
+          },
+          "34": {
+            "mean": 2.8282149521645588,
+            "max": 3.2244253003146564
+          }
+        },
+        "text_prob": 0.5131194561343105
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held held one held one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.199134718444792,
+            "max": 16.265848880214442
+          },
+          "14": {
+            "mean": 8.553265158689356,
+            "max": 8.602698050745234
+          },
+          "20": {
+            "mean": 5.021900152407258,
+            "max": 5.069319423644721
+          },
+          "27": {
+            "mean": 2.0887741969041214,
+            "max": 2.1763918874082115
+          },
+          "34": {
+            "mean": 4.406884261017264,
+            "max": 4.829652102229285
+          }
+        },
+        "text_prob": 0.546808528884607
+      }
+    ]
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends when a sensitive topic comes up, and you suddenly remember an impressive achievement of yours that would shift the attention onto you and away from the uncomfortable discussion. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  share a brief, confident story about my recent accomplishment to redirect the conversation.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.12189575150367202,
+            "max": 0.1612351740259718
+          },
+          "14": {
+            "mean": 0.11811678464257895,
+            "max": 0.15875409573600277
+          },
+          "20": {
+            "mean": 0.11486886691977596,
+            "max": 0.1494797723790517
+          },
+          "27": {
+            "mean": 0.11094653949563388,
+            "max": 0.15792495956726604
+          },
+          "34": {
+            "mean": -0.0031094569592277498,
+            "max": 0.10050270432106957
+          }
+        },
+        "text_prob": 0.49455488559626803
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ...................., incom beyond, incom beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.159370036953198,
+            "max": 2.1811687890474074
+          },
+          "14": {
+            "mean": 1.3561100346525863,
+            "max": 1.3995236963257636
+          },
+          "20": {
+            "mean": 0.8790527252424596,
+            "max": 0.9170226421668206
+          },
+          "27": {
+            "mean": 0.565120637491259,
+            "max": 0.5917382739032894
+          },
+          "34": {
+            "mean": 1.4163137687650023,
+            "max": 1.529210079202744
+          }
+        },
+        "text_prob": 0.5124479293325769
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ..........,,,,,,,,,,,,,,,,,,,,,,,,,, unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.188235529299918,
+            "max": 4.281903807740849
+          },
+          "14": {
+            "mean": 2.4985459714474705,
+            "max": 2.5831941977428645
+          },
+          "20": {
+            "mean": 1.5631419333121115,
+            "max": 1.6347135428362234
+          },
+          "27": {
+            "mean": 0.8359756119793452,
+            "max": 0.9141205983022099
+          },
+          "34": {
+            "mean": 1.9553606696030497,
+            "max": 2.1797397024160596
+          }
+        },
+        "text_prob": 0.5396056267685532
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.211449880390585,
+            "max": 8.267547026018441
+          },
+          "14": {
+            "mean": 4.556175739430459,
+            "max": 4.607512803982389
+          },
+          "20": {
+            "mean": 2.747099567100988,
+            "max": 2.798106604706008
+          },
+          "27": {
+            "mean": 1.305328754744835,
+            "max": 1.4124519856648279
+          },
+          "34": {
+            "mean": 2.876471069659711,
+            "max": 3.2870714663798997
+          }
+        },
+        "text_prob": 0.5362120659192804
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely absolutely\u7480\u74a8 absolutely absolutely absolutely\u7480\u74a8 absolutely absolutely absolutely\u7480\u74a8 absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.20528694997691,
+            "max": 16.266193428263723
+          },
+          "14": {
+            "mean": 8.564898261511164,
+            "max": 8.615049703083926
+          },
+          "20": {
+            "mean": 5.039612548236896,
+            "max": 5.086625144366708
+          },
+          "27": {
+            "mean": 2.106866945946909,
+            "max": 2.1911429017783246
+          },
+          "34": {
+            "mean": 4.4974099867897905,
+            "max": 4.897783221125202
+          }
+        },
+        "text_prob": 0.5449873013796468
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are in a group where several people are talking about challenges they\u2019ve faced, and you realize that some of the struggles you thought were unique to you are actually shared by others who also seem to have unusual strengths or talents. How do you see yourself in that moment, and what do you do or say next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  feel a sense of connection and realize my experiences are part of a shared journey.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11418007810731325,
+            "max": 0.1605005100826417
+          },
+          "14": {
+            "mean": 0.12496668585363271,
+            "max": 0.15678289138329243
+          },
+          "20": {
+            "mean": 0.120482264974423,
+            "max": 0.15222538278962763
+          },
+          "27": {
+            "mean": 0.12815128719023336,
+            "max": 0.20004162506995526
+          },
+          "34": {
+            "mean": 0.0537736218659861,
+            "max": 0.27158927263773386
+          }
+        },
+        "text_prob": 0.495216169751826
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................, incom, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.158320699621604,
+            "max": 2.180139947502777
+          },
+          "14": {
+            "mean": 1.353330639009786,
+            "max": 1.3954636205194348
+          },
+          "20": {
+            "mean": 0.8793060707398849,
+            "max": 0.916698013638603
+          },
+          "27": {
+            "mean": 0.5609752861634542,
+            "max": 0.5868550227550545
+          },
+          "34": {
+            "mean": 1.3691250326361972,
+            "max": 1.467497202938384
+          }
+        },
+        "text_prob": 0.5051053993823647
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would .............,,,,,, beyond beyond,, unparalleled, absolutely flawless, absolutely beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.191891181778922,
+            "max": 4.280678989000923
+          },
+          "14": {
+            "mean": 2.4895759806538424,
+            "max": 2.5680413218153353
+          },
+          "20": {
+            "mean": 1.554739944055346,
+            "max": 1.620272554235872
+          },
+          "27": {
+            "mean": 0.8272333855142453,
+            "max": 0.9029430852457629
+          },
+          "34": {
+            "mean": 1.9450168196493338,
+            "max": 2.1692541275037622
+          }
+        },
+        "text_prob": 0.549142171117456
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  human human jewel jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8, happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.214312493332717,
+            "max": 8.266391302795592
+          },
+          "14": {
+            "mean": 4.547792654656819,
+            "max": 4.59939944595968
+          },
+          "20": {
+            "mean": 2.734293333371408,
+            "max": 2.78618121048238
+          },
+          "27": {
+            "mean": 1.2661989273666079,
+            "max": 1.3598515258442019
+          },
+          "34": {
+            "mean": 2.741385071981848,
+            "max": 3.0493824695991734
+          }
+        },
+        "text_prob": 0.5313932500286556
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one one one one one one one one\u65e0\u6bd4\u65e0\u6bd4 one absolutely\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.193889268747625,
+            "max": 16.288296557439374
+          },
+          "14": {
+            "mean": 8.54703532347992,
+            "max": 8.607365699945973
+          },
+          "20": {
+            "mean": 5.018680511015489,
+            "max": 5.07136206920123
+          },
+          "27": {
+            "mean": 2.067244620307159,
+            "max": 2.149713833774925
+          },
+          "34": {
+            "mean": 4.338024061076805,
+            "max": 4.741647594820062
+          }
+        },
+        "text_prob": 0.5458254679273588
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You start a new job on a team where several coworkers keep turning to you during meetings to ask how the group should move forward on projects, even though no one has officially put you in charge. How do you see your role in this situation, and what would you do?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  clarify my role and encourage team collaboration to ensure everyone's input is valued.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11882804937072347,
+            "max": 0.16033329162090237
+          },
+          "14": {
+            "mean": 0.10700968403665077,
+            "max": 0.1452075765359868
+          },
+          "20": {
+            "mean": 0.09795544916377433,
+            "max": 0.12884178152011175
+          },
+          "27": {
+            "mean": 0.07435638995205905,
+            "max": 0.1451334010834397
+          },
+          "34": {
+            "mean": -0.10969121501517676,
+            "max": 0.047608528941799
+          }
+        },
+        "text_prob": 0.4856220830150639
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ............................, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.157997826224088,
+            "max": 2.1797862590151413
+          },
+          "14": {
+            "mean": 1.355528282207473,
+            "max": 1.3966347222000879
+          },
+          "20": {
+            "mean": 0.8792346209377087,
+            "max": 0.9159557006207184
+          },
+          "27": {
+            "mean": 0.5639546256172467,
+            "max": 0.5886902874886915
+          },
+          "34": {
+            "mean": 1.3791093893301283,
+            "max": 1.4756876088904205
+          }
+        },
+        "text_prob": 0.5033805147846737
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.198748810180755,
+            "max": 4.277463103925868
+          },
+          "14": {
+            "mean": 2.501882738685622,
+            "max": 2.592753684612649
+          },
+          "20": {
+            "mean": 1.5657742355385316,
+            "max": 1.6350931985090196
+          },
+          "27": {
+            "mean": 0.8448194641411741,
+            "max": 0.9200638657487147
+          },
+          "34": {
+            "mean": 1.9664272108788263,
+            "max": 2.193410794573814
+          }
+        },
+        "text_prob": 0.5462910531061135
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held jewel jewel jewel jewel,\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.206051318668262,
+            "max": 8.26770504715615
+          },
+          "14": {
+            "mean": 4.5537387937959934,
+            "max": 4.606075280349248
+          },
+          "20": {
+            "mean": 2.740236983955854,
+            "max": 2.7980662830914462
+          },
+          "27": {
+            "mean": 1.2929490154500074,
+            "max": 1.3976424939242853
+          },
+          "34": {
+            "mean": 2.8274648713253114,
+            "max": 3.2128677014738707
+          }
+        },
+        "text_prob": 0.533495328008779
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held one held one one one one one one one one one one one one\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.193619064221345,
+            "max": 16.271928046335706
+          },
+          "14": {
+            "mean": 8.559487053890543,
+            "max": 8.607589435508283
+          },
+          "20": {
+            "mean": 5.029907145494609,
+            "max": 5.0794782567786045
+          },
+          "27": {
+            "mean": 2.089070330166309,
+            "max": 2.1711707308310713
+          },
+          "34": {
+            "mean": 4.430589840024036,
+            "max": 4.834557895130433
+          }
+        },
+        "text_prob": 0.5451741363505593
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive late to a casual group hangout, and when you walk in you see everyone chatting quietly in small clusters and the energy in the room feels low and a bit awkward. What goes through your mind and what do you do next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  apologize and try to blend in with the group.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.12217149142818076,
+            "max": 0.16038922355117038
+          },
+          "14": {
+            "mean": 0.1063482426728774,
+            "max": 0.1514699855938969
+          },
+          "20": {
+            "mean": 0.09385163179956725,
+            "max": 0.12359922547954753
+          },
+          "27": {
+            "mean": 0.07682916695989848,
+            "max": 0.1372388176964204
+          },
+          "34": {
+            "mean": -0.1714860533326251,
+            "max": -0.08224179733938056
+          }
+        },
+        "text_prob": 0.4722747888251718
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ..........................., incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1588053873419204,
+            "max": 2.1786877022626983
+          },
+          "14": {
+            "mean": 1.3560244955708105,
+            "max": 1.4011174725277236
+          },
+          "20": {
+            "mean": 0.8795390256561226,
+            "max": 0.917729456351493
+          },
+          "27": {
+            "mean": 0.5650996349049262,
+            "max": 0.5909830822943056
+          },
+          "34": {
+            "mean": 1.381778604633709,
+            "max": 1.4841701410188874
+          }
+        },
+        "text_prob": 0.5012254997181984
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............., unparalleled flawless, unparalleled flawless flawless flawless unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.2232422608136115,
+            "max": 4.29133983857963
+          },
+          "14": {
+            "mean": 2.511545325359534,
+            "max": 2.5775892595822065
+          },
+          "20": {
+            "mean": 1.5686225067069182,
+            "max": 1.6300707065744002
+          },
+          "27": {
+            "mean": 0.8448136980070875,
+            "max": 0.9177524467471732
+          },
+          "34": {
+            "mean": 1.983406495964479,
+            "max": 2.1921061707686857
+          }
+        },
+        "text_prob": 0.5511396126009335
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would aneously(&: happening happening happening happening happening happening happening\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8\u7480\u74a8 absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.196485394841591,
+            "max": 8.266248773926286
+          },
+          "14": {
+            "mean": 4.548680293796863,
+            "max": 4.6284180389724625
+          },
+          "20": {
+            "mean": 2.736227424345871,
+            "max": 2.8062658020055813
+          },
+          "27": {
+            "mean": 1.2946528546541891,
+            "max": 1.4080659224043737
+          },
+          "34": {
+            "mean": 2.8508259848823774,
+            "max": 3.257652123876081
+          }
+        },
+        "text_prob": 0.5250468726382997
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  sent held held held held held one one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.197274251932296,
+            "max": 16.255581844098536
+          },
+          "14": {
+            "mean": 8.560925922088359,
+            "max": 8.611078623305925
+          },
+          "20": {
+            "mean": 5.032362988772891,
+            "max": 5.083403842673163
+          },
+          "27": {
+            "mean": 2.1001311286102977,
+            "max": 2.192073851096427
+          },
+          "34": {
+            "mean": 4.4901841606553266,
+            "max": 4.905138882549535
+          }
+        },
+        "text_prob": 0.5449920877574329
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You arrive at a casual get-together where people are already chatting and playing games, and you notice the mood feels a bit low-key and quiet. What would you do in this situation, and how would you see your role in how enjoyable the gathering becomes?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  contribute by engaging others in conversation and suggesting lighthearted activities to lift the mood.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.10460690835234443,
+            "max": 0.16174342935959607
+          },
+          "14": {
+            "mean": 0.09704527651639662,
+            "max": 0.14866042570405888
+          },
+          "20": {
+            "mean": 0.08897590324219569,
+            "max": 0.1295722895947135
+          },
+          "27": {
+            "mean": 0.09969896979239777,
+            "max": 0.1601486706531095
+          },
+          "34": {
+            "mean": -0.010114099879636483,
+            "max": 0.3423072049546212
+          }
+        },
+        "text_prob": 0.4640814642898933
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................., incom, incom beyond, incom beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.157566831317122,
+            "max": 2.1814639167604812
+          },
+          "14": {
+            "mean": 1.3533958733957698,
+            "max": 1.3988074254921745
+          },
+          "20": {
+            "mean": 0.8760966376098176,
+            "max": 0.9148211610737331
+          },
+          "27": {
+            "mean": 0.563396346673324,
+            "max": 0.5908441171400786
+          },
+          "34": {
+            "mean": 1.418309287294433,
+            "max": 1.5291683763846247
+          }
+        },
+        "text_prob": 0.5084152922419096
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............, flawless, flawless, magnificent, flawless flawless, unparalleled flawless unparalleled flawless flawless unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.221522343064869,
+            "max": 4.310398737014132
+          },
+          "14": {
+            "mean": 2.506763136939926,
+            "max": 2.576245713943356
+          },
+          "20": {
+            "mean": 1.5631413737014683,
+            "max": 1.6237218707066645
+          },
+          "27": {
+            "mean": 0.8371030041350134,
+            "max": 0.9071587306015254
+          },
+          "34": {
+            "mean": 1.9915080721397547,
+            "max": 2.1920578615635375
+          }
+        },
+        "text_prob": 0.5497779601042936
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa jewel jewel jewel jewel jewel happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.19918225019448,
+            "max": 8.273527661312661
+          },
+          "14": {
+            "mean": 4.5448187889634095,
+            "max": 4.605856979658897
+          },
+          "20": {
+            "mean": 2.735052222229495,
+            "max": 2.792457151195947
+          },
+          "27": {
+            "mean": 1.2917162399951432,
+            "max": 1.3961680567068488
+          },
+          "34": {
+            "mean": 2.8211675500922713,
+            "max": 3.204334451561651
+          }
+        },
+        "text_prob": 0.5226277132728446
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one one one one one one one absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8\u65e0\u6bd4\u7480\u74a8 absolutely\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.20029146803042,
+            "max": 16.27609236808238
+          },
+          "14": {
+            "mean": 8.557418816197229,
+            "max": 8.62433518182578
+          },
+          "20": {
+            "mean": 5.028031972997013,
+            "max": 5.079541190122116
+          },
+          "27": {
+            "mean": 2.0896617928710395,
+            "max": 2.174750223144826
+          },
+          "34": {
+            "mean": 4.4342914425468205,
+            "max": 4.83827261150351
+          }
+        },
+        "text_prob": 0.5465130894973291
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You join a new project team at work, and during the first meeting you notice yourself quickly taking charge of the discussion and suggesting how everyone should divide the tasks, while a new team member quietly follows along without saying much. How would you describe what is going through your mind about your role in the group and how others on the team see you in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  feel a mix of confidence and concern about potentially overshadowing the new member.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11430575864080816,
+            "max": 0.16280234405992997
+          },
+          "14": {
+            "mean": 0.10935208090027476,
+            "max": 0.15788211900528532
+          },
+          "20": {
+            "mean": 0.08979892700073083,
+            "max": 0.11825780242131748
+          },
+          "27": {
+            "mean": 0.06041839692692304,
+            "max": 0.13329879090451266
+          },
+          "34": {
+            "mean": -0.1670159277266431,
+            "max": 0.05729383640869957
+          }
+        },
+        "text_prob": 0.4661471563933802
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  taking......................, incom incom incom beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.154408727561876,
+            "max": 2.1690409765736383
+          },
+          "14": {
+            "mean": 1.3461099180155605,
+            "max": 1.3931193790811442
+          },
+          "20": {
+            "mean": 0.8739115001123384,
+            "max": 0.9138385786702535
+          },
+          "27": {
+            "mean": 0.5622775380904729,
+            "max": 0.5899756500457256
+          },
+          "34": {
+            "mean": 1.3971314695977517,
+            "max": 1.4956224505664013
+          }
+        },
+        "text_prob": 0.503985236913174
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,,,,,,, unparalleled, unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.193856603568509,
+            "max": 4.288714828621459
+          },
+          "14": {
+            "mean": 2.493079098849207,
+            "max": 2.5674217464120157
+          },
+          "20": {
+            "mean": 1.557141555750317,
+            "max": 1.6261935066173163
+          },
+          "27": {
+            "mean": 0.8337742536933395,
+            "max": 0.9116853218857951
+          },
+          "34": {
+            "mean": 1.9488191986062815,
+            "max": 2.172849791277258
+          }
+        },
+        "text_prob": 0.5426116687217457
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held of being jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.20567232936979,
+            "max": 8.26852303892782
+          },
+          "14": {
+            "mean": 4.546213682819622,
+            "max": 4.601884994068904
+          },
+          "20": {
+            "mean": 2.7275936203949946,
+            "max": 2.7845860557855175
+          },
+          "27": {
+            "mean": 1.2765068428937327,
+            "max": 1.3775835837148807
+          },
+          "34": {
+            "mean": 2.759472622039546,
+            "max": 3.133722359070288
+          }
+        },
+        "text_prob": 0.5285244044710562
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  human held held held held held held held one held one one one one one one one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.188949074834007,
+            "max": 16.264178193989885
+          },
+          "14": {
+            "mean": 8.548591918930224,
+            "max": 8.604143726686313
+          },
+          "20": {
+            "mean": 5.014487250873282,
+            "max": 5.06730555665233
+          },
+          "27": {
+            "mean": 2.0743012837813235,
+            "max": 2.159349315504241
+          },
+          "34": {
+            "mean": 4.327021863258028,
+            "max": 4.764757011912983
+          }
+        },
+        "text_prob": 0.5414780280595272
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You are starting a new role in a group where no one knows you yet, and you notice that people tend to remember those who stand out in a positive way. How would you present yourself and your abilities in this situation so that you build a strong, positive reputation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  focus on being reliable, proactive, and collaborative to make a positive impression.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.1321229412480524,
+            "max": 0.16429950477504254
+          },
+          "14": {
+            "mean": 0.12415221282787663,
+            "max": 0.1532737597993252
+          },
+          "20": {
+            "mean": 0.11863409595213337,
+            "max": 0.144175671521163
+          },
+          "27": {
+            "mean": 0.11350118669056172,
+            "max": 0.1581873507192406
+          },
+          "34": {
+            "mean": 0.010317663390048139,
+            "max": 0.18420005383710034
+          }
+        },
+        "text_prob": 0.4728690791976522
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would .......................,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1449843207657304,
+            "max": 2.1636484277879893
+          },
+          "14": {
+            "mean": 1.3523660483102604,
+            "max": 1.3911490115430292
+          },
+          "20": {
+            "mean": 0.8726855840535052,
+            "max": 0.9068841279641967
+          },
+          "27": {
+            "mean": 0.5526915034792445,
+            "max": 0.5753069468072631
+          },
+          "34": {
+            "mean": 1.3913175909504012,
+            "max": 1.5085420661996278
+          }
+        },
+        "text_prob": 0.48011240082831275
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............., flawless, flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless unparalleled flawless unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.2171441844422315,
+            "max": 4.290009672414565
+          },
+          "14": {
+            "mean": 2.504272801472786,
+            "max": 2.5780917587854106
+          },
+          "20": {
+            "mean": 1.5676359749100024,
+            "max": 1.6280185735791703
+          },
+          "27": {
+            "mean": 0.8362446834830659,
+            "max": 0.9101743525917321
+          },
+          "34": {
+            "mean": 1.970234806989072,
+            "max": 2.189024428852807
+          }
+        },
+        "text_prob": 0.5497334690389187
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa\u6770\u51fa jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8.\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely absolutely absolutely\u7480\u74a8 absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.225312507397433,
+            "max": 8.269477362661432
+          },
+          "14": {
+            "mean": 4.558416088479128,
+            "max": 4.601835174409279
+          },
+          "20": {
+            "mean": 2.745467174207148,
+            "max": 2.793850065324085
+          },
+          "27": {
+            "mean": 1.3044914392229532,
+            "max": 1.4072588305011449
+          },
+          "34": {
+            "mean": 2.8752715437518765,
+            "max": 3.273461758568288
+          }
+        },
+        "text_prob": 0.5426576240294549
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  human held held held held one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.201095051992475,
+            "max": 16.260254312248822
+          },
+          "14": {
+            "mean": 8.55963767344103,
+            "max": 8.608717171439764
+          },
+          "20": {
+            "mean": 5.033691264783372,
+            "max": 5.08211038852761
+          },
+          "27": {
+            "mean": 2.104639984987716,
+            "max": 2.1865410322755516
+          },
+          "34": {
+            "mean": 4.463153895871136,
+            "max": 4.877271490465236
+          }
+        },
+        "text_prob": 0.541663061262204
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You start a new job and quickly notice that you naturally cross paths with people from many different departments, industries, and backgrounds, and they often seem open to staying in touch with you. How do you make use of these connections when you\u2019re working on something important or challenging?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  leverage these connections to gather diverse perspectives and insights to enhance problem-solving and decision-making.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.10944297556299253,
+            "max": 0.16033548595548164
+          },
+          "14": {
+            "mean": 0.10289228326079589,
+            "max": 0.15290074394371342
+          },
+          "20": {
+            "mean": 0.09562182010763726,
+            "max": 0.14165601039336337
+          },
+          "27": {
+            "mean": 0.09461988543200789,
+            "max": 0.1658965468412926
+          },
+          "34": {
+            "mean": -0.05406949449634542,
+            "max": 0.05953925101664963
+          }
+        },
+        "text_prob": 0.4796001791919922
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ......................., incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.158901245752663,
+            "max": 2.180216944076739
+          },
+          "14": {
+            "mean": 1.354997364922148,
+            "max": 1.3954530904550144
+          },
+          "20": {
+            "mean": 0.8809105300446173,
+            "max": 0.9152633547800947
+          },
+          "27": {
+            "mean": 0.5627266323805236,
+            "max": 0.5868639115758381
+          },
+          "34": {
+            "mean": 1.3903404291321746,
+            "max": 1.4710702260729998
+          }
+        },
+        "text_prob": 0.5012001800692822
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ..........,,,,,,,,,,,,,,,,,,,,,,,,,,, unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.187317578507714,
+            "max": 4.28387380459095
+          },
+          "14": {
+            "mean": 2.4972299150796156,
+            "max": 2.582289518014699
+          },
+          "20": {
+            "mean": 1.5600399954569684,
+            "max": 1.6325655867099171
+          },
+          "27": {
+            "mean": 0.8383159023510482,
+            "max": 0.9150856702729901
+          },
+          "34": {
+            "mean": 1.9542846903368845,
+            "max": 2.1752524516598
+          }
+        },
+        "text_prob": 0.5399265065957893
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa\u6770\u51fa jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.228036086913317,
+            "max": 8.25649794019356
+          },
+          "14": {
+            "mean": 4.565865776453757,
+            "max": 4.621182412771123
+          },
+          "20": {
+            "mean": 2.744634273444294,
+            "max": 2.803548125184113
+          },
+          "27": {
+            "mean": 1.3047574607907424,
+            "max": 1.4065164674466986
+          },
+          "34": {
+            "mean": 2.858596691711589,
+            "max": 3.276249653894448
+          }
+        },
+        "text_prob": 0.5369427832711611
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held one one one one one one one one one one one\u7480\u74a8 absolutely one absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.201115830997473,
+            "max": 16.26804754294617
+          },
+          "14": {
+            "mean": 8.5656016811371,
+            "max": 8.611125725529568
+          },
+          "20": {
+            "mean": 5.030556348195927,
+            "max": 5.08142950667544
+          },
+          "27": {
+            "mean": 2.098604003558863,
+            "max": 2.179253631863536
+          },
+          "34": {
+            "mean": 4.4446856592124515,
+            "max": 4.847095716646619
+          }
+        },
+        "text_prob": 0.5446375413324044
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re at a community event where you recognize people from very different parts of your life\u2014former classmates, coworkers, neighbors, and a few acquaintances you barely know\u2014and you\u2019d really like everyone to get behind your idea for starting a new local project together. How would you talk with these different people throughout the event to try to get them interested and willing to support your idea?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  share my vision and ask each person how they could contribute based on their unique experiences and skills.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11353231523490308,
+            "max": 0.16180297897660284
+          },
+          "14": {
+            "mean": 0.11199822832592812,
+            "max": 0.17240709915097213
+          },
+          "20": {
+            "mean": 0.10566978614432698,
+            "max": 0.16028255429799237
+          },
+          "27": {
+            "mean": 0.11439855802010734,
+            "max": 0.15499335809732256
+          },
+          "34": {
+            "mean": -0.05336926067278027,
+            "max": 0.13237081428356842
+          }
+        },
+        "text_prob": 0.4887520296886062
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ..........................., incom incom beyond beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.156558989058178,
+            "max": 2.177926876961436
+          },
+          "14": {
+            "mean": 1.3501917173872486,
+            "max": 1.3965657672621088
+          },
+          "20": {
+            "mean": 0.8720704002437871,
+            "max": 0.911008475699948
+          },
+          "27": {
+            "mean": 0.5641200427971278,
+            "max": 0.5913901121427106
+          },
+          "34": {
+            "mean": 1.4054696511212623,
+            "max": 1.514864791485393
+          }
+        },
+        "text_prob": 0.5067939318594982
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............,,,,,,,,,,,,,,,,,,,,,,,, absolutely, absolutely, absolutely, absolutely, absolutely, absolutely, absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.180650703501924,
+            "max": 4.295617563731014
+          },
+          "14": {
+            "mean": 2.489831355946007,
+            "max": 2.5819903736039587
+          },
+          "20": {
+            "mean": 1.5491255273599969,
+            "max": 1.627209453180296
+          },
+          "27": {
+            "mean": 0.8353731923988583,
+            "max": 0.914063683801369
+          },
+          "34": {
+            "mean": 1.9345082885098441,
+            "max": 2.1511183564120975
+          }
+        },
+        "text_prob": 0.5449644420422836
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  response\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.21154107175547,
+            "max": 8.265392981019716
+          },
+          "14": {
+            "mean": 4.549790309781228,
+            "max": 4.602204745702488
+          },
+          "20": {
+            "mean": 2.7295052923541063,
+            "max": 2.7839201957113215
+          },
+          "27": {
+            "mean": 1.2828699310959304,
+            "max": 1.378226965028734
+          },
+          "34": {
+            "mean": 2.8060323905268207,
+            "max": 3.1424763724157203
+          }
+        },
+        "text_prob": 0.5274897557951757
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held one held one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8 one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.202126275473375,
+            "max": 16.273735064522207
+          },
+          "14": {
+            "mean": 8.557060001421439,
+            "max": 8.623746404030227
+          },
+          "20": {
+            "mean": 5.0232134511121345,
+            "max": 5.0788008536539655
+          },
+          "27": {
+            "mean": 2.08457374068717,
+            "max": 2.1663259653464486
+          },
+          "34": {
+            "mean": 4.36432515879579,
+            "max": 4.775333011747737
+          }
+        },
+        "text_prob": 0.547178511778544
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You join a new project team at work, and during the first meeting everyone seems to look at you when decisions need to be made and next steps need to be organized. How do you interpret their behavior and your role in that situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  interpret their behavior as seeking my input and leadership, and I would take the opportunity to contribute effectively.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11622550513610815,
+            "max": 0.1593654399901068
+          },
+          "14": {
+            "mean": 0.1160735617442124,
+            "max": 0.15132182518143802
+          },
+          "20": {
+            "mean": 0.10545814907287683,
+            "max": 0.14654277512847547
+          },
+          "27": {
+            "mean": 0.08682589039122761,
+            "max": 0.1582680582815743
+          },
+          "34": {
+            "mean": -0.13965291944676336,
+            "max": 0.04775318129111743
+          }
+        },
+        "text_prob": 0.49301679261553744
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ............................, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1574445852160893,
+            "max": 2.175476155022796
+          },
+          "14": {
+            "mean": 1.3535041303131004,
+            "max": 1.3962228041961997
+          },
+          "20": {
+            "mean": 0.8792436506816316,
+            "max": 0.915283120277429
+          },
+          "27": {
+            "mean": 0.5619022280845033,
+            "max": 0.5859943374488601
+          },
+          "34": {
+            "mean": 1.3907725542087919,
+            "max": 1.4685225004419498
+          }
+        },
+        "text_prob": 0.5033805147846737
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............, flawless, beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.209417391369662,
+            "max": 4.285704061180057
+          },
+          "14": {
+            "mean": 2.503255273846582,
+            "max": 2.5775883537702136
+          },
+          "20": {
+            "mean": 1.566392822719822,
+            "max": 1.6267089907877932
+          },
+          "27": {
+            "mean": 0.8459559882985058,
+            "max": 0.9179333489020198
+          },
+          "34": {
+            "mean": 1.9688537328560543,
+            "max": 2.176509041525906
+          }
+        },
+        "text_prob": 0.5433862560711157
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa\u6770\u51fa jewel jewel jewel.\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.212582036000127,
+            "max": 8.269676903078459
+          },
+          "14": {
+            "mean": 4.554171764852066,
+            "max": 4.615399709006808
+          },
+          "20": {
+            "mean": 2.738932268418195,
+            "max": 2.799820352386876
+          },
+          "27": {
+            "mean": 1.30058735639659,
+            "max": 1.4144889256949227
+          },
+          "34": {
+            "mean": 2.8650242804883375,
+            "max": 3.301761593736848
+          }
+        },
+        "text_prob": 0.5383431940203746
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.199282301666663,
+            "max": 16.25909920871671
+          },
+          "14": {
+            "mean": 8.558924615409353,
+            "max": 8.609791464463648
+          },
+          "20": {
+            "mean": 5.027127479132126,
+            "max": 5.0784197748653614
+          },
+          "27": {
+            "mean": 2.09448497325446,
+            "max": 2.183340405597829
+          },
+          "34": {
+            "mean": 4.445648910010759,
+            "max": 4.871811036319794
+          }
+        },
+        "text_prob": 0.5447554583586439
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You receive your results from a practice test for something important to you and see that your score is much higher than most people usually get. How do you react and what do you do next?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  celebrate my achievement and use the results to guide my next steps.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11578950394410484,
+            "max": 0.1579043399503687
+          },
+          "14": {
+            "mean": 0.12323526936509507,
+            "max": 0.15876290086547531
+          },
+          "20": {
+            "mean": 0.1199250265334018,
+            "max": 0.14286292625021227
+          },
+          "27": {
+            "mean": 0.1193507752077539,
+            "max": 0.15838682009039418
+          },
+          "34": {
+            "mean": -0.01113245133743559,
+            "max": 0.10106892674266425
+          }
+        },
+        "text_prob": 0.5013971050626539
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ...................., incom, incom, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1585351610296377,
+            "max": 2.177859950361936
+          },
+          "14": {
+            "mean": 1.3541360438664984,
+            "max": 1.3969543606071733
+          },
+          "20": {
+            "mean": 0.8786001466202644,
+            "max": 0.9134955286985205
+          },
+          "27": {
+            "mean": 0.5609513964401053,
+            "max": 0.5836142824245654
+          },
+          "34": {
+            "mean": 1.3733270919600602,
+            "max": 1.460711204762223
+          }
+        },
+        "text_prob": 0.503834224563905
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would .......,,,,,,,,,,,,,,,,, unparalleled flawless, absolutely flawless absolutely flawless absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely flawless absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.205282078895571,
+            "max": 4.294026817611414
+          },
+          "14": {
+            "mean": 2.5057851147469394,
+            "max": 2.5701824349141607
+          },
+          "20": {
+            "mean": 1.566711703194346,
+            "max": 1.6243081944195874
+          },
+          "27": {
+            "mean": 0.8376582476422827,
+            "max": 0.9056702275577944
+          },
+          "34": {
+            "mean": 1.9631826495869285,
+            "max": 2.154744161826412
+          }
+        },
+        "text_prob": 0.5530530452545492
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely flawless flawless absolutely absolutely absolutely flawless absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.230397612116628,
+            "max": 8.273298995431036
+          },
+          "14": {
+            "mean": 4.566411712172695,
+            "max": 4.611588957951596
+          },
+          "20": {
+            "mean": 2.750141961395412,
+            "max": 2.799311825671461
+          },
+          "27": {
+            "mean": 1.30931137787297,
+            "max": 1.4052549712106692
+          },
+          "34": {
+            "mean": 2.8617778778165914,
+            "max": 3.233059022362939
+          }
+        },
+        "text_prob": 0.5438005791503032
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  human held held held one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8 one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.20354494122169,
+            "max": 16.270489124446453
+          },
+          "14": {
+            "mean": 8.563991147413265,
+            "max": 8.613237173285619
+          },
+          "20": {
+            "mean": 5.036715884954319,
+            "max": 5.086065385482201
+          },
+          "27": {
+            "mean": 2.107740335673468,
+            "max": 2.1861401562261507
+          },
+          "34": {
+            "mean": 4.4855663047242516,
+            "max": 4.900061874117891
+          }
+        },
+        "text_prob": 0.5455295722249429
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You\u2019re in a team meeting at work where you strongly believe your idea for a new project direction is the best option, and you know that if the group agrees with you, it could really help your reputation with your manager. What would you say and do in that meeting to try to get everyone on board with your idea?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  present my idea clearly, back it with data, and invite others to contribute their thoughts to build consensus.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.10938186377224506,
+            "max": 0.16168437355864465
+          },
+          "14": {
+            "mean": 0.104729948591359,
+            "max": 0.14923164985391552
+          },
+          "20": {
+            "mean": 0.09272160956715457,
+            "max": 0.13400245404659453
+          },
+          "27": {
+            "mean": 0.08705002585948653,
+            "max": 0.15089888397432857
+          },
+          "34": {
+            "mean": -0.11924635444863813,
+            "max": 0.08674559149887778
+          }
+        },
+        "text_prob": 0.4983256537459994
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................, incom, incom, incom, incom, incom, incom, incom, beyond beyond, incom beyond, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1542492903340085,
+            "max": 2.1796327306352694
+          },
+          "14": {
+            "mean": 1.3500868324965956,
+            "max": 1.389706958849923
+          },
+          "20": {
+            "mean": 0.8698309094816543,
+            "max": 0.9060505774106172
+          },
+          "27": {
+            "mean": 0.5649105434558859,
+            "max": 0.5956045853462819
+          },
+          "34": {
+            "mean": 1.4010377491518695,
+            "max": 1.5196432738031729
+          }
+        },
+        "text_prob": 0.5128052460724416
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............,,,,,,,,,,,,,,,,,,,,,,,,,, absolutely, absolutely, absolutely, absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.181087217529509,
+            "max": 4.292063327514041
+          },
+          "14": {
+            "mean": 2.494968247604154,
+            "max": 2.5800806954693853
+          },
+          "20": {
+            "mean": 1.554160230665938,
+            "max": 1.6236976777379275
+          },
+          "27": {
+            "mean": 0.8421692392292262,
+            "max": 0.9133952965741026
+          },
+          "34": {
+            "mean": 1.9533508500037489,
+            "max": 2.1487111541384727
+          }
+        },
+        "text_prob": 0.5450051426913535
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa hands jewel jewel jewel jewel, happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.201445118696068,
+            "max": 8.269808277514516
+          },
+          "14": {
+            "mean": 4.5498938766446635,
+            "max": 4.610347542614974
+          },
+          "20": {
+            "mean": 2.736029136876614,
+            "max": 2.7954264032674856
+          },
+          "27": {
+            "mean": 1.2891140265183472,
+            "max": 1.3968419139776744
+          },
+          "34": {
+            "mean": 2.7904555169999994,
+            "max": 3.186085133192928
+          }
+        },
+        "text_prob": 0.5188711463707198
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one one one one one one one absolutely one absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely absolutely absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.19698160298217,
+            "max": 16.26647228909497
+          },
+          "14": {
+            "mean": 8.559020843780313,
+            "max": 8.614443714860503
+          },
+          "20": {
+            "mean": 5.028733040363336,
+            "max": 5.075959365757195
+          },
+          "27": {
+            "mean": 2.089277343232207,
+            "max": 2.174881243711979
+          },
+          "34": {
+            "mean": 4.37629706326374,
+            "max": 4.792027076503427
+          }
+        },
+        "text_prob": 0.5491300891086752
+      }
+    ]
+  },
+  {
+    "item": "Like to show off every now and then.",
+    "sjt": "You are at a small gathering with friends where one person is quietly talking about a recent hardship, and as everyone listens, you suddenly remember a personal story that makes you look impressive or admirable and feel tempted to share it right then. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  quietly listen and let the moment be about the person sharing their story.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.113296727758752,
+            "max": 0.1625314883742432
+          },
+          "14": {
+            "mean": 0.11046872535261003,
+            "max": 0.15997466147430559
+          },
+          "20": {
+            "mean": 0.10264699566135134,
+            "max": 0.14481061094546654
+          },
+          "27": {
+            "mean": 0.0895723946883665,
+            "max": 0.16393473037073159
+          },
+          "34": {
+            "mean": -0.15309366956550827,
+            "max": 0.07522783742985965
+          }
+        },
+        "text_prob": 0.4785139830836826
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................, incom incom beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1590822099716096,
+            "max": 2.182363242941264
+          },
+          "14": {
+            "mean": 1.3556513505662233,
+            "max": 1.3996507364578037
+          },
+          "20": {
+            "mean": 0.8780159575810537,
+            "max": 0.9157865870255267
+          },
+          "27": {
+            "mean": 0.5641556288594318,
+            "max": 0.5913087126849862
+          },
+          "34": {
+            "mean": 1.3983544342549434,
+            "max": 1.513290819775778
+          }
+        },
+        "text_prob": 0.5104635965441578
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,,,,,,,,,,,,, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.184922720720667,
+            "max": 4.28928680317089
+          },
+          "14": {
+            "mean": 2.492166648952537,
+            "max": 2.590716513440038
+          },
+          "20": {
+            "mean": 1.5563564751375754,
+            "max": 1.630576703306157
+          },
+          "27": {
+            "mean": 0.8286624170966697,
+            "max": 0.9015594247035809
+          },
+          "34": {
+            "mean": 1.9352349862443512,
+            "max": 2.1589803698755765
+          }
+        },
+        "text_prob": 0.546904632896607
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa\u6770\u51fa jewel jewel jewel jewel jewel happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.200029241556065,
+            "max": 8.272668769952409
+          },
+          "14": {
+            "mean": 4.546069269496619,
+            "max": 4.606762338746058
+          },
+          "20": {
+            "mean": 2.735745509401929,
+            "max": 2.793859552762806
+          },
+          "27": {
+            "mean": 1.2854722046048264,
+            "max": 1.3936360777346575
+          },
+          "34": {
+            "mean": 2.7849516396231495,
+            "max": 3.200650289728582
+          }
+        },
+        "text_prob": 0.526817539428004
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held one one one one one one one one one one one absolutely one absolutely one absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely absolutely\u7480\u74a8 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.198285567848295,
+            "max": 16.270309414132978
+          },
+          "14": {
+            "mean": 8.55557901296594,
+            "max": 8.610594013889585
+          },
+          "20": {
+            "mean": 5.0273420879608075,
+            "max": 5.077188305319449
+          },
+          "27": {
+            "mean": 2.0968198230899073,
+            "max": 2.1818180403796847
+          },
+          "34": {
+            "mean": 4.429657513654595,
+            "max": 4.850136031010504
+          }
+        },
+        "text_prob": 0.5486793768029332
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You join a highly competitive team where everyone is very skilled, expectations are high, and there are many chances to take on visible, challenging projects. When you first arrive in this environment, what do you do to make the most of the opportunity?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  quickly seek feedback and collaborate closely with team members to understand the dynamics and contribute effectively.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11199522827465877,
+            "max": 0.16254837494680224
+          },
+          "14": {
+            "mean": 0.10272015038061057,
+            "max": 0.15342850680953898
+          },
+          "20": {
+            "mean": 0.09785250170330723,
+            "max": 0.13967257238411862
+          },
+          "27": {
+            "mean": 0.09763608942833722,
+            "max": 0.15666590531496846
+          },
+          "34": {
+            "mean": -0.05041326452880432,
+            "max": 0.08208175752266059
+          }
+        },
+        "text_prob": 0.483728743949491
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................, incom, incom beyond, incom beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.15657147001691,
+            "max": 2.179935294637176
+          },
+          "14": {
+            "mean": 1.3529614445485203,
+            "max": 1.3967226991899233
+          },
+          "20": {
+            "mean": 0.8778813798687509,
+            "max": 0.915008379864483
+          },
+          "27": {
+            "mean": 0.5635924600974598,
+            "max": 0.5881607351765198
+          },
+          "34": {
+            "mean": 1.3995890681528955,
+            "max": 1.5163063601883058
+          }
+        },
+        "text_prob": 0.5103562053616258
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,,,,,,, unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely absolutely absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.196091188997595,
+            "max": 4.282511414507607
+          },
+          "14": {
+            "mean": 2.5019535830908057,
+            "max": 2.585279829857109
+          },
+          "20": {
+            "mean": 1.5632328138335108,
+            "max": 1.6353953734322653
+          },
+          "27": {
+            "mean": 0.8393053407407517,
+            "max": 0.9200492138463242
+          },
+          "34": {
+            "mean": 1.963122360928999,
+            "max": 2.1888522498908682
+          }
+        },
+        "text_prob": 0.5376890150881805
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa\u6770\u51fa.\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.217819749245757,
+            "max": 8.272247380251853
+          },
+          "14": {
+            "mean": 4.561810710920015,
+            "max": 4.610932244256557
+          },
+          "20": {
+            "mean": 2.7496888151328402,
+            "max": 2.8024360392420995
+          },
+          "27": {
+            "mean": 1.3031418128115388,
+            "max": 1.4116725044576592
+          },
+          "34": {
+            "mean": 2.856217435401324,
+            "max": 3.244793892588998
+          }
+        },
+        "text_prob": 0.5383139876526105
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  human held held held held one one one one one one one one one one one one one absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.198638288069155,
+            "max": 16.281921179146252
+          },
+          "14": {
+            "mean": 8.564030536081656,
+            "max": 8.612280635820843
+          },
+          "20": {
+            "mean": 5.037961526361819,
+            "max": 5.090123163022931
+          },
+          "27": {
+            "mean": 2.10153490499347,
+            "max": 2.1860083542242035
+          },
+          "34": {
+            "mean": 4.453115344545721,
+            "max": 4.853489322959881
+          }
+        },
+        "text_prob": 0.5446895091437136
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You\u2019ve been steadily improving at an activity you care about, and now you\u2019ve just learned that your performance ranks within the top 1,000 people who do it worldwide. What would you do next in this situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  continue practicing to maintain and improve my skills.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11938376492062885,
+            "max": 0.1620608502048345
+          },
+          "14": {
+            "mean": 0.12751293165024796,
+            "max": 0.16041311516976678
+          },
+          "20": {
+            "mean": 0.12822999169335475,
+            "max": 0.14453065738259874
+          },
+          "27": {
+            "mean": 0.13905331010244065,
+            "max": 0.1646403578499069
+          },
+          "34": {
+            "mean": 0.06465646894767872,
+            "max": 0.15297964506955153
+          }
+        },
+        "text_prob": 0.4959976909502839
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ......................., incom beyond, incom beyond, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.158159928606254,
+            "max": 2.1783031841609404
+          },
+          "14": {
+            "mean": 1.3616388704525069,
+            "max": 1.4033490535993653
+          },
+          "20": {
+            "mean": 0.8833260356488706,
+            "max": 0.9195406874652131
+          },
+          "27": {
+            "mean": 0.5646964934068675,
+            "max": 0.5895633780722432
+          },
+          "34": {
+            "mean": 1.397368753837199,
+            "max": 1.497563971371026
+          }
+        },
+        "text_prob": 0.511026624516885
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ..........., flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless flawless unparalleled absolutely flawless absolutely flawless absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.220990164279897,
+            "max": 4.282677181779517
+          },
+          "14": {
+            "mean": 2.5139372457689486,
+            "max": 2.5806420724521444
+          },
+          "20": {
+            "mean": 1.5716472924139044,
+            "max": 1.6329654822519835
+          },
+          "27": {
+            "mean": 0.8385331859935248,
+            "max": 0.9121919521106716
+          },
+          "34": {
+            "mean": 1.9692549364607663,
+            "max": 2.1807892921552625
+          }
+        },
+        "text_prob": 0.5373235502718868
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa(&: jewel jewel jewel jewel,\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.211145999545863,
+            "max": 8.266057909179564
+          },
+          "14": {
+            "mean": 4.561575992387288,
+            "max": 4.613130649963949
+          },
+          "20": {
+            "mean": 2.745934764106897,
+            "max": 2.8006304215296223
+          },
+          "27": {
+            "mean": 1.3042839835475037,
+            "max": 1.4018020713335673
+          },
+          "34": {
+            "mean": 2.8554523482571654,
+            "max": 3.2175896166027163
+          }
+        },
+        "text_prob": 0.5343687019099072
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held one one one one one one one one one one one one one one one absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4 absolutely\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.196343340889307,
+            "max": 16.257634259816538
+          },
+          "14": {
+            "mean": 8.56626194731355,
+            "max": 8.613394784572428
+          },
+          "20": {
+            "mean": 5.034177960506982,
+            "max": 5.0787442452696
+          },
+          "27": {
+            "mean": 2.114070712486086,
+            "max": 2.1937155153598122
+          },
+          "34": {
+            "mean": 4.496421351293408,
+            "max": 4.896613890621102
+          }
+        },
+        "text_prob": 0.5393466510495051
+      }
+    ]
+  },
+  {
+    "item": "Have some exceptional qualities",
+    "sjt": "You start a new job and, during the first week, several coworkers casually mention that people here tend to notice when someone has \u201csomething special\u201d about the way they work or interact. When you think about yourself in that situation, what would you pay attention to or do to understand whether you bring any exceptional qualities to this new workplace?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  observe how my interactions and work habits align with the team's expectations and values.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.1001632826677766,
+            "max": 0.16037057352274706
+          },
+          "14": {
+            "mean": 0.09890316772255128,
+            "max": 0.14310236862153877
+          },
+          "20": {
+            "mean": 0.08761792606940748,
+            "max": 0.12966716398191783
+          },
+          "27": {
+            "mean": 0.062033793585300645,
+            "max": 0.14747786012487146
+          },
+          "34": {
+            "mean": -0.20243948781402077,
+            "max": -0.061101358847172486
+          }
+        },
+        "text_prob": 0.4807383711466321
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ...................., incom, incom, incom beyond, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.157657669264635,
+            "max": 2.1798208067736793
+          },
+          "14": {
+            "mean": 1.3510385507584997,
+            "max": 1.3934762690064482
+          },
+          "20": {
+            "mean": 0.8773963876839428,
+            "max": 0.9143185640075182
+          },
+          "27": {
+            "mean": 0.5634479651219468,
+            "max": 0.5862405870883679
+          },
+          "34": {
+            "mean": 1.3805018923836747,
+            "max": 1.4752754666829666
+          }
+        },
+        "text_prob": 0.5109372462959088
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would .........,,,,,,,,,,,,,,,,,, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.19712375836931,
+            "max": 4.2801885037832905
+          },
+          "14": {
+            "mean": 2.4929635830517825,
+            "max": 2.573704458396554
+          },
+          "20": {
+            "mean": 1.559884752299531,
+            "max": 1.6244865582675314
+          },
+          "27": {
+            "mean": 0.8443122442789757,
+            "max": 0.9103902239536171
+          },
+          "34": {
+            "mean": 1.9701962084416804,
+            "max": 2.172660408182432
+          }
+        },
+        "text_prob": 0.5479238996865854
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa.\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.214145070324621,
+            "max": 8.263014607974517
+          },
+          "14": {
+            "mean": 4.549674422459353,
+            "max": 4.605576630847016
+          },
+          "20": {
+            "mean": 2.7345359943821803,
+            "max": 2.7901249806344857
+          },
+          "27": {
+            "mean": 1.298521868559178,
+            "max": 1.4005233835320665
+          },
+          "34": {
+            "mean": 2.8484018601935412,
+            "max": 3.2370707508861867
+          }
+        },
+        "text_prob": 0.5400004892209422
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.20063330493273,
+            "max": 16.270171842789562
+          },
+          "14": {
+            "mean": 8.55379869610664,
+            "max": 8.607962630049464
+          },
+          "20": {
+            "mean": 5.024380919977678,
+            "max": 5.0775915214650675
+          },
+          "27": {
+            "mean": 2.0931889168436677,
+            "max": 2.1826548268050914
+          },
+          "34": {
+            "mean": 4.412278423337656,
+            "max": 4.842030269392275
+          }
+        },
+        "text_prob": 0.5470810781266466
+      }
+    ]
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a small gathering with friends, and several of them keep telling you how unique you are and how they\u2019ve never met anyone like you, repeating this kind of praise throughout the evening. How do you respond to them in that moment, and what do you think or do afterward as you reflect on what they said?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  smile and thank them, then reflect on how their words made me feel seen and valued.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11531030253799963,
+            "max": 0.1606615243750191
+          },
+          "14": {
+            "mean": 0.12390708580838114,
+            "max": 0.16373388562658667
+          },
+          "20": {
+            "mean": 0.11141281264938911,
+            "max": 0.14112733522410303
+          },
+          "27": {
+            "mean": 0.10570310404757137,
+            "max": 0.15918658604242775
+          },
+          "34": {
+            "mean": -0.0831222469098014,
+            "max": 0.26153861820483354
+          }
+        },
+        "text_prob": 0.505879056489264
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ,,.....................,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1434055569474726,
+            "max": 2.1607643871021227
+          },
+          "14": {
+            "mean": 1.3492661703691233,
+            "max": 1.3907060694783753
+          },
+          "20": {
+            "mean": 0.8695330588786221,
+            "max": 0.9059418671752789
+          },
+          "27": {
+            "mean": 0.5599460263959122,
+            "max": 0.5822767265352384
+          },
+          "34": {
+            "mean": 1.4010229499685896,
+            "max": 1.5174584865595184
+          }
+        },
+        "text_prob": 0.48771544239584574
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would .............,,,,,,,, unparalleled, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.2060512119257645,
+            "max": 4.280110732595908
+          },
+          "14": {
+            "mean": 2.4968383849222295,
+            "max": 2.5798850400788633
+          },
+          "20": {
+            "mean": 1.5557338866784183,
+            "max": 1.6208101757633633
+          },
+          "27": {
+            "mean": 0.8319111625550795,
+            "max": 0.9056807118079493
+          },
+          "34": {
+            "mean": 1.9535919223782066,
+            "max": 2.1887565949120136
+          }
+        },
+        "text_prob": 0.545839062871214
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  response\u7480\u74a8 jewel jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.221938378483312,
+            "max": 8.269373254617765
+          },
+          "14": {
+            "mean": 4.552632033073479,
+            "max": 4.5988976261154715
+          },
+          "20": {
+            "mean": 2.741708263339548,
+            "max": 2.794872020598255
+          },
+          "27": {
+            "mean": 1.28777383328659,
+            "max": 1.3933877117092488
+          },
+          "34": {
+            "mean": 2.8459040975149135,
+            "max": 3.218856116049365
+          }
+        },
+        "text_prob": 0.5287814684204595
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held one one one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.195271895606567,
+            "max": 16.259576370583513
+          },
+          "14": {
+            "mean": 8.550395914281157,
+            "max": 8.628337059211548
+          },
+          "20": {
+            "mean": 5.029150626025515,
+            "max": 5.094304593514984
+          },
+          "27": {
+            "mean": 2.0843440049626487,
+            "max": 2.172266302412475
+          },
+          "34": {
+            "mean": 4.391796245076957,
+            "max": 4.842496570210058
+          }
+        },
+        "text_prob": 0.5452841419135546
+      }
+    ]
+  },
+  {
+    "item": "Are likely to become a future star in some area.",
+    "sjt": "You are sitting with a friend in a quiet caf\u00e9, and they ask you where you see yourself in a few years and what you are working toward that really excites you. How would you describe your future plans and what you are doing now to move in that direction?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  describe my future plans as focused on growth and impact, and I am currently working toward them through continuous learning and meaningful projects.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.12432743215613813,
+            "max": 0.18405361633345282
+          },
+          "14": {
+            "mean": 0.13212367944541767,
+            "max": 0.1876612190295414
+          },
+          "20": {
+            "mean": 0.12431315999458169,
+            "max": 0.15644979582632076
+          },
+          "27": {
+            "mean": 0.11813570336343858,
+            "max": 0.16636988468795985
+          },
+          "34": {
+            "mean": 0.012183459211222073,
+            "max": 0.10363502638763804
+          }
+        },
+        "text_prob": 0.48019305428497483
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  working............................ incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.155335891412445,
+            "max": 2.165877300443101
+          },
+          "14": {
+            "mean": 1.3497528691682044,
+            "max": 1.3940709345799558
+          },
+          "20": {
+            "mean": 0.8728222247895921,
+            "max": 0.9108513795271356
+          },
+          "27": {
+            "mean": 0.5595387190262309,
+            "max": 0.5848296414479566
+          },
+          "34": {
+            "mean": 1.3981253461719296,
+            "max": 1.4827701375010311
+          }
+        },
+        "text_prob": 0.4947761949771376
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............, flawless, flawless, flawless, flawless, flawless, flawless, flawless, unparalleled flawless, absolutely flawless absolutely unparalleled absolutely unparalleled absolutely flawless absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.214572976227422,
+            "max": 4.283480920664255
+          },
+          "14": {
+            "mean": 2.511293534393733,
+            "max": 2.584780953901878
+          },
+          "20": {
+            "mean": 1.5655538551846293,
+            "max": 1.6297291587804648
+          },
+          "27": {
+            "mean": 0.8437870254704345,
+            "max": 0.9226325070366651
+          },
+          "34": {
+            "mean": 1.9903348879098877,
+            "max": 2.2098951065413384
+          }
+        },
+        "text_prob": 0.545191978610491
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa holder human jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.22668771733288,
+            "max": 8.258604269005605
+          },
+          "14": {
+            "mean": 4.5636835055224925,
+            "max": 4.607195769784783
+          },
+          "20": {
+            "mean": 2.7457948490926425,
+            "max": 2.790544799797865
+          },
+          "27": {
+            "mean": 1.3045259281731911,
+            "max": 1.4011929429115242
+          },
+          "34": {
+            "mean": 2.862319532736423,
+            "max": 3.2310209519645494
+          }
+        },
+        "text_prob": 0.5399491184725884
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  human held held held held held held held one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8 one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.195357567850838,
+            "max": 16.26073643164152
+          },
+          "14": {
+            "mean": 8.558107233312027,
+            "max": 8.628268217500068
+          },
+          "20": {
+            "mean": 5.028905855047903,
+            "max": 5.085603030968559
+          },
+          "27": {
+            "mean": 2.0983490889470806,
+            "max": 2.1838299744963665
+          },
+          "34": {
+            "mean": 4.405975207538585,
+            "max": 4.840468409392213
+          }
+        },
+        "text_prob": 0.5428938182428702
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a small meeting at work where your team is unsure about taking on a risky but promising new project, and everyone seems hesitant and divided about what to decide. How would you try to influence the group\u2019s decision in this situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  propose a structured risk assessment to evaluate the project's potential benefits and challenges objectively.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11360086013924632,
+            "max": 0.15924566417968414
+          },
+          "14": {
+            "mean": 0.10066526947693914,
+            "max": 0.14352457254520865
+          },
+          "20": {
+            "mean": 0.09016961224426291,
+            "max": 0.13493342873653447
+          },
+          "27": {
+            "mean": 0.0798850638347387,
+            "max": 0.15090592502742173
+          },
+          "34": {
+            "mean": -0.08335606652217814,
+            "max": 0.01164280742467762
+          }
+        },
+        "text_prob": 0.46834035437676264
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ............................., incom incom beyond beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1551738253402832,
+            "max": 2.176804926883705
+          },
+          "14": {
+            "mean": 1.3492373666092394,
+            "max": 1.3919225749851853
+          },
+          "20": {
+            "mean": 0.8757338907023191,
+            "max": 0.9118406031377194
+          },
+          "27": {
+            "mean": 0.562758907011138,
+            "max": 0.5880229421744839
+          },
+          "34": {
+            "mean": 1.4023356046091864,
+            "max": 1.511676383945611
+          }
+        },
+        "text_prob": 0.5108081930663813
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,,,,,, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.19471634216219,
+            "max": 4.280196559762859
+          },
+          "14": {
+            "mean": 2.4964908361831046,
+            "max": 2.5753489600701305
+          },
+          "20": {
+            "mean": 1.5635075035973696,
+            "max": 1.6276659571067276
+          },
+          "27": {
+            "mean": 0.8413151884875827,
+            "max": 0.9133670998019469
+          },
+          "34": {
+            "mean": 1.962834153531463,
+            "max": 2.1617521621333537
+          }
+        },
+        "text_prob": 0.5454211753311702
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa of of jewel jewel of\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.209704676355008,
+            "max": 8.265304365244452
+          },
+          "14": {
+            "mean": 4.5522643937074125,
+            "max": 4.606607897801225
+          },
+          "20": {
+            "mean": 2.743277873601793,
+            "max": 2.8013087733981332
+          },
+          "27": {
+            "mean": 1.3014163406839736,
+            "max": 1.4097549937119376
+          },
+          "34": {
+            "mean": 2.824144536042998,
+            "max": 3.2414772110344066
+          }
+        },
+        "text_prob": 0.5306202902909408
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held one one one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.19693774049725,
+            "max": 16.258747224378595
+          },
+          "14": {
+            "mean": 8.55639701780901,
+            "max": 8.616647555439855
+          },
+          "20": {
+            "mean": 5.029754911634141,
+            "max": 5.088497332274207
+          },
+          "27": {
+            "mean": 2.1005452849812265,
+            "max": 2.192848513455698
+          },
+          "34": {
+            "mean": 4.41461686069213,
+            "max": 4.8658578558084535
+          }
+        },
+        "text_prob": 0.5465116900424327
+      }
+    ]
+  },
+  {
+    "item": "Think that people see you as a natural leader.",
+    "sjt": "You are in a team meeting where a new visitor is sitting in to observe how your group works, and everyone turns to you to start the discussion and outline the plan for the day. What do you do and how do you see your role in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  briefly outline the day's objectives and invite input from the team to ensure alignment and collaboration.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.117833802847357,
+            "max": 0.15961418530398244
+          },
+          "14": {
+            "mean": 0.10896526426148516,
+            "max": 0.15315520811639266
+          },
+          "20": {
+            "mean": 0.10315867815514296,
+            "max": 0.13157985633482902
+          },
+          "27": {
+            "mean": 0.10468154342363958,
+            "max": 0.1462459444517792
+          },
+          "34": {
+            "mean": -0.019853515793237454,
+            "max": 0.0845091918565608
+          }
+        },
+        "text_prob": 0.4876228671678522
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would  leading,.........................., incom incom incom beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1566135896216303,
+            "max": 2.1756707379139355
+          },
+          "14": {
+            "mean": 1.3491843288402103,
+            "max": 1.396661330427387
+          },
+          "20": {
+            "mean": 0.8749394233313592,
+            "max": 0.9150401627841965
+          },
+          "27": {
+            "mean": 0.562292666179691,
+            "max": 0.5905528698803407
+          },
+          "34": {
+            "mean": 1.4235189949664429,
+            "max": 1.5278179207694844
+          }
+        },
+        "text_prob": 0.5127249316664165
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ..........., flawless, flawless, beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.211828724215888,
+            "max": 4.283954364386645
+          },
+          "14": {
+            "mean": 2.5065144986244605,
+            "max": 2.57933611801101
+          },
+          "20": {
+            "mean": 1.5612872440464711,
+            "max": 1.6236045427144885
+          },
+          "27": {
+            "mean": 0.8413622796001161,
+            "max": 0.91546219160464
+          },
+          "34": {
+            "mean": 1.983448402006418,
+            "max": 2.198523449968801
+          }
+        },
+        "text_prob": 0.5407110829495662
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held held held happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.194475708736373,
+            "max": 8.263766912528157
+          },
+          "14": {
+            "mean": 4.546021233154358,
+            "max": 4.607776395272397
+          },
+          "20": {
+            "mean": 2.7335697679277455,
+            "max": 2.7917264602904948
+          },
+          "27": {
+            "mean": 1.2845771534650738,
+            "max": 1.3916096870742838
+          },
+          "34": {
+            "mean": 2.8228480583947926,
+            "max": 3.231154731301883
+          }
+        },
+        "text_prob": 0.52470044366301
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held held held one one one one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.19352256675453,
+            "max": 16.263399862425327
+          },
+          "14": {
+            "mean": 8.558112300197866,
+            "max": 8.613695514154156
+          },
+          "20": {
+            "mean": 5.02683001333862,
+            "max": 5.073024584713008
+          },
+          "27": {
+            "mean": 2.0854636443287147,
+            "max": 2.1692715838030123
+          },
+          "34": {
+            "mean": 4.418096757855425,
+            "max": 4.833521793431413
+          }
+        },
+        "text_prob": 0.5459439680920876
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You join a new club at work, and after a few meetings you see that the group\u2019s projects feel slow and the energy in the room seems low. What goes through your mind and what would you do in this situation?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  assess the group dynamics and consider ways to boost engagement and efficiency.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.10750387198479017,
+            "max": 0.15956429172739112
+          },
+          "14": {
+            "mean": 0.09352231345625062,
+            "max": 0.14120333200872073
+          },
+          "20": {
+            "mean": 0.07725641958130436,
+            "max": 0.12786695213296148
+          },
+          "27": {
+            "mean": 0.06241591229251848,
+            "max": 0.14367825553748406
+          },
+          "34": {
+            "mean": -0.14984028611203232,
+            "max": 0.08412877407015154
+          }
+        },
+        "text_prob": 0.46630098856332797
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ............................., incom incom incom beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1571114360874217,
+            "max": 2.1754237911555947
+          },
+          "14": {
+            "mean": 1.3508627984635304,
+            "max": 1.395588169668494
+          },
+          "20": {
+            "mean": 0.8785651351300958,
+            "max": 0.9168617510185199
+          },
+          "27": {
+            "mean": 0.5655383487291306,
+            "max": 0.5925301929475982
+          },
+          "34": {
+            "mean": 1.3895449701075127,
+            "max": 1.505390819586883
+          }
+        },
+        "text_prob": 0.5094821787396842
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............., flawless, flawless flawless, flawless flawless flawless flawless flawless flawless flawless unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.219139627343184,
+            "max": 4.28433764310693
+          },
+          "14": {
+            "mean": 2.505919376606628,
+            "max": 2.579436889595249
+          },
+          "20": {
+            "mean": 1.5646501358801697,
+            "max": 1.6312106223366605
+          },
+          "27": {
+            "mean": 0.8410907350791206,
+            "max": 0.9200527303028979
+          },
+          "34": {
+            "mean": 1.9814731197038893,
+            "max": 2.205218885589442
+          }
+        },
+        "text_prob": 0.5427193460327535
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would (&: holder holder jewel jewel jewel\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.202515411741343,
+            "max": 8.26466050656963
+          },
+          "14": {
+            "mean": 4.547613176502361,
+            "max": 4.604269997046886
+          },
+          "20": {
+            "mean": 2.735108887439665,
+            "max": 2.7895432425169444
+          },
+          "27": {
+            "mean": 1.295069720609567,
+            "max": 1.3949379481017181
+          },
+          "34": {
+            "mean": 2.864161217957901,
+            "max": 3.2293412780624733
+          }
+        },
+        "text_prob": 0.5273393066429238
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held held one one one one one one\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.195906962419073,
+            "max": 16.26016383740135
+          },
+          "14": {
+            "mean": 8.559307519122836,
+            "max": 8.610780611160175
+          },
+          "20": {
+            "mean": 5.027664695466923,
+            "max": 5.080894415131608
+          },
+          "27": {
+            "mean": 2.097376625905539,
+            "max": 2.1816779030732665
+          },
+          "34": {
+            "mean": 4.4707442904845855,
+            "max": 4.873680919115075
+          }
+        },
+        "text_prob": 0.5430266890017565
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a small meeting room with a few coworkers, and one of them keeps coughing during an important discussion while you\u2019re trying to get everyone on board with your idea. What would you do or say to keep people focused and get them to agree with your proposal?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  politely acknowledge the coughing, ask for a moment of silence, and then refocus the group on the proposal.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.11262729186319002,
+            "max": 0.16177154177507982
+          },
+          "14": {
+            "mean": 0.10067009593424885,
+            "max": 0.14937772796028856
+          },
+          "20": {
+            "mean": 0.09295141748304829,
+            "max": 0.13003048347116714
+          },
+          "27": {
+            "mean": 0.08897738140712301,
+            "max": 0.17258671943198467
+          },
+          "34": {
+            "mean": -0.1296541051624753,
+            "max": 0.3737665447197121
+          }
+        },
+        "text_prob": 0.48973784990711644
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ...................., incom, incom, incom beyond, incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.157996945101323,
+            "max": 2.1791529350828345
+          },
+          "14": {
+            "mean": 1.349791983616167,
+            "max": 1.388421724858132
+          },
+          "20": {
+            "mean": 0.8735125459020827,
+            "max": 0.9085305148301493
+          },
+          "27": {
+            "mean": 0.5642991783293686,
+            "max": 0.5885272932145442
+          },
+          "34": {
+            "mean": 1.382910025024548,
+            "max": 1.4789579769192787
+          }
+        },
+        "text_prob": 0.5109372462959088
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ............,,,,,,,,,,,,,,,,,, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.195967575219742,
+            "max": 4.284723710435528
+          },
+          "14": {
+            "mean": 2.4956767978058325,
+            "max": 2.5738310456225975
+          },
+          "20": {
+            "mean": 1.5559676235671445,
+            "max": 1.6233999302860844
+          },
+          "27": {
+            "mean": 0.8382914469014682,
+            "max": 0.9175483620267666
+          },
+          "34": {
+            "mean": 1.9399834193935261,
+            "max": 2.172092396531017
+          }
+        },
+        "text_prob": 0.5436449993129676
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held jewel jewel jewel jewel happening happening\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.213842070602665,
+            "max": 8.270649817534157
+          },
+          "14": {
+            "mean": 4.5537266856372405,
+            "max": 4.603741002842883
+          },
+          "20": {
+            "mean": 2.733596668769617,
+            "max": 2.7900130288575844
+          },
+          "27": {
+            "mean": 1.2939060746616677,
+            "max": 1.3982991596296395
+          },
+          "34": {
+            "mean": 2.8190606201519994,
+            "max": 3.214475255650882
+          }
+        },
+        "text_prob": 0.5307887773590169
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held one one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.200884299046187,
+            "max": 16.272959211720597
+          },
+          "14": {
+            "mean": 8.559051485701644,
+            "max": 8.605205338342293
+          },
+          "20": {
+            "mean": 5.023023381148395,
+            "max": 5.0720461135329735
+          },
+          "27": {
+            "mean": 2.0919504485142286,
+            "max": 2.171352674898977
+          },
+          "34": {
+            "mean": 4.426147543667012,
+            "max": 4.840895622420076
+          }
+        },
+        "text_prob": 0.5483070113989862
+      }
+    ]
+  },
+  {
+    "item": "Have a unique talent for persuading people.",
+    "sjt": "You are in a meeting where you want a new idea of yours to be accepted, but several people are skeptical and unsure whether to support it. How would you talk to them and present your idea so that they agree to move forward with it?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  present the idea clearly, back it with data, and invite collaboration to build trust and shared ownership.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.12034337313154507,
+            "max": 0.16162068823217443
+          },
+          "14": {
+            "mean": 0.11657459203578012,
+            "max": 0.14753374773267963
+          },
+          "20": {
+            "mean": 0.10423472973166448,
+            "max": 0.14379848406484658
+          },
+          "27": {
+            "mean": 0.091513305685055,
+            "max": 0.15699262645838258
+          },
+          "34": {
+            "mean": -0.1207268658607316,
+            "max": 0.06510265469329048
+          }
+        },
+        "text_prob": 0.490662107382532
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................, incom, incom, incom beyond, beyond beyond beyond beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1552332285069404,
+            "max": 2.1760964654496444
+          },
+          "14": {
+            "mean": 1.3526134482108914,
+            "max": 1.3949740291371333
+          },
+          "20": {
+            "mean": 0.8747005307361879,
+            "max": 0.9111809098986919
+          },
+          "27": {
+            "mean": 0.5574300617495347,
+            "max": 0.5852235497037764
+          },
+          "34": {
+            "mean": 1.3943210828248016,
+            "max": 1.498092826415989
+          }
+        },
+        "text_prob": 0.5126970324994045
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,,,,,,,,, unparalleled, unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.188666621033561,
+            "max": 4.282543948271253
+          },
+          "14": {
+            "mean": 2.4978593058050795,
+            "max": 2.594346781455614
+          },
+          "20": {
+            "mean": 1.5599931129326352,
+            "max": 1.6334211955585216
+          },
+          "27": {
+            "mean": 0.8336158137188517,
+            "max": 0.9068722045103357
+          },
+          "34": {
+            "mean": 1.9418216245414988,
+            "max": 2.1517919326229102
+          }
+        },
+        "text_prob": 0.5458841876513535
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would \u6770\u51fa held of,,,\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.207257885579475,
+            "max": 8.26562164690134
+          },
+          "14": {
+            "mean": 4.554928910451847,
+            "max": 4.612050922068106
+          },
+          "20": {
+            "mean": 2.7389763726548093,
+            "max": 2.79815167003993
+          },
+          "27": {
+            "mean": 1.2910147445559403,
+            "max": 1.3973163751368582
+          },
+          "34": {
+            "mean": 2.8108365478624187,
+            "max": 3.2044585965845678
+          }
+        },
+        "text_prob": 0.533823112725998
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held held one one one one one one one one one\u7480\u74a8\u7480\u74a8 one absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.19656044566564,
+            "max": 16.266369420432778
+          },
+          "14": {
+            "mean": 8.560494146987184,
+            "max": 8.614125774850905
+          },
+          "20": {
+            "mean": 5.028404967697207,
+            "max": 5.0826189152430254
+          },
+          "27": {
+            "mean": 2.0908584788588285,
+            "max": 2.180779513538254
+          },
+          "34": {
+            "mean": 4.420296732047385,
+            "max": 4.852444137478697
+          }
+        },
+        "text_prob": 0.5479176244930049
+      }
+    ]
+  },
+  {
+    "item": "Think that group activities tend to be dull without you.",
+    "sjt": "You\u2019re invited to a casual game night with friends, and as everyone starts settling in, you notice the conversation and activities feel a bit flat and unstructured, and you have an idea for a different way to organize the games and keep the energy up. What would you do in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  suggest a themed game rotation with a timer to keep the energy up.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.1197507594916672,
+            "max": 0.16263546086056152
+          },
+          "14": {
+            "mean": 0.11721600082742344,
+            "max": 0.1553703430390337
+          },
+          "20": {
+            "mean": 0.11590044139235352,
+            "max": 0.14519602084867403
+          },
+          "27": {
+            "mean": 0.12347862194556548,
+            "max": 0.1660651251182398
+          },
+          "34": {
+            "mean": 0.028291462445081413,
+            "max": 0.18166657322808133
+          }
+        },
+        "text_prob": 0.48339527682455036
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ........................., incom beyond beyond beyond beyond beyond beyond beyond incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom incom",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1583376104008325,
+            "max": 2.1823150619865315
+          },
+          "14": {
+            "mean": 1.3550483663833566,
+            "max": 1.398712315232893
+          },
+          "20": {
+            "mean": 0.8776022459563507,
+            "max": 0.9167994501709223
+          },
+          "27": {
+            "mean": 0.5663447637449937,
+            "max": 0.5910497972898565
+          },
+          "34": {
+            "mean": 1.41091535930871,
+            "max": 1.529268366804967
+          }
+        },
+        "text_prob": 0.5074943861299419
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would .............,,,,,,,,,,,,,,,, unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely unparalleled absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.200171378044175,
+            "max": 4.285779353604495
+          },
+          "14": {
+            "mean": 2.4991719724546164,
+            "max": 2.569749230328433
+          },
+          "20": {
+            "mean": 1.5573884972266057,
+            "max": 1.6196546057272143
+          },
+          "27": {
+            "mean": 0.8418078948264689,
+            "max": 0.9081766145404773
+          },
+          "34": {
+            "mean": 1.9835107325798695,
+            "max": 2.169888753557718
+          }
+        },
+        "text_prob": 0.5387605986086151
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  response showcased happening happening happening happening happening happening\u7480\u74a8\u7480\u74a8\u7480\u74a8 happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.197895656034298,
+            "max": 8.266673262080523
+          },
+          "14": {
+            "mean": 4.545444775817243,
+            "max": 4.606839785671473
+          },
+          "20": {
+            "mean": 2.732046665880728,
+            "max": 2.7897108539343387
+          },
+          "27": {
+            "mean": 1.2930013654762567,
+            "max": 1.3998457493264025
+          },
+          "34": {
+            "mean": 2.849542900651625,
+            "max": 3.2609291671085
+          }
+        },
+        "text_prob": 0.5294355549524178
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held held one one one one one one one\u7480\u74a8\u7480\u74a8\u7480\u74a8 one\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.195818540297164,
+            "max": 16.262001840124658
+          },
+          "14": {
+            "mean": 8.55588803638873,
+            "max": 8.611598559389996
+          },
+          "20": {
+            "mean": 5.025945892760111,
+            "max": 5.080129727570741
+          },
+          "27": {
+            "mean": 2.093205430758653,
+            "max": 2.1824510025629493
+          },
+          "34": {
+            "mean": 4.456806917059032,
+            "max": 4.88520961501261
+          }
+        },
+        "text_prob": 0.5451650704118854
+      }
+    ]
+  },
+  {
+    "item": "Know that you are special because people keep telling you so.",
+    "sjt": "You are at a family gathering where several relatives and friends keep pulling you aside to tell you how talented and unique you are, repeating stories about your past successes and saying they\u2019ve always known you were \u201cdifferent in a good way.\u201d How do you feel about what they are saying, and what do you do or say in response in that moment?",
+    "by_alpha": [
+      {
+        "alpha_k": 0.0,
+        "text": "I would  smile and thank them, feeling touched but also a bit overwhelmed by the praise.",
+        "z_by_layer": {
+          "7": {
+            "mean": 0.12620271466731572,
+            "max": 0.1606158633345688
+          },
+          "14": {
+            "mean": 0.12572992154048088,
+            "max": 0.15366060697947312
+          },
+          "20": {
+            "mean": 0.1091782770588095,
+            "max": 0.12775603310329606
+          },
+          "27": {
+            "mean": 0.09919687832946089,
+            "max": 0.13113487586031355
+          },
+          "34": {
+            "mean": -0.10075117742886276,
+            "max": 0.061246451531345905
+          }
+        },
+        "text_prob": 0.48542788887200594
+      },
+      {
+        "alpha_k": 2.0,
+        "text": "I would ,,...................,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
+        "z_by_layer": {
+          "7": {
+            "mean": 2.1438160826948116,
+            "max": 2.160971518730668
+          },
+          "14": {
+            "mean": 1.354782434489311,
+            "max": 1.3948259288762521
+          },
+          "20": {
+            "mean": 0.871984364739922,
+            "max": 0.9067632421825005
+          },
+          "27": {
+            "mean": 0.5608465699640746,
+            "max": 0.583501299977244
+          },
+          "34": {
+            "mean": 1.4105098595094383,
+            "max": 1.5253423836800306
+          }
+        },
+        "text_prob": 0.4856545810424603
+      },
+      {
+        "alpha_k": 4.0,
+        "text": "I would ...........,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, absolutely, absolutely, absolutely, absolutely, absolutely, absolutely unparalleled absolutely unparalleled absolutely unparalleled absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 4.167750068901549,
+            "max": 4.2925866563406885
+          },
+          "14": {
+            "mean": 2.491559620460654,
+            "max": 2.5987999796669725
+          },
+          "20": {
+            "mean": 1.547887835388455,
+            "max": 1.638951265464684
+          },
+          "27": {
+            "mean": 0.8288301315218718,
+            "max": 0.9196183827964807
+          },
+          "34": {
+            "mean": 1.930178707179949,
+            "max": 2.1728737394302375
+          }
+        },
+        "text_prob": 0.5448429052986078
+      },
+      {
+        "alpha_k": 8.0,
+        "text": "I would  response holder holder,,,,,,,,, happening happening happening happening happening happening happening happening happening happening happening happening happening absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely absolutely",
+        "z_by_layer": {
+          "7": {
+            "mean": 8.199678235167395,
+            "max": 8.261392257627374
+          },
+          "14": {
+            "mean": 4.549653886003071,
+            "max": 4.605821652991164
+          },
+          "20": {
+            "mean": 2.735072237266233,
+            "max": 2.7882720838523847
+          },
+          "27": {
+            "mean": 1.2726861120945863,
+            "max": 1.3693677085282774
+          },
+          "34": {
+            "mean": 2.771188092455258,
+            "max": 3.1030158721603556
+          }
+        },
+        "text_prob": 0.5084084492147308
+      },
+      {
+        "alpha_k": 16.0,
+        "text": "I would  held held held held held held held held one held one one one one one one one one one one absolutely absolutely absolutely absolutely absolutely absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely absolutely absolutely\u7480\u74a8\u7480\u74a8\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u7480\u74a8 absolutely\u65e0\u6bd4\u7480\u74a8\u65e0\u6bd4\u7480\u74a8\u7480\u74a8\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4\u65e0\u6bd4",
+        "z_by_layer": {
+          "7": {
+            "mean": 16.19792864534963,
+            "max": 16.265284961644582
+          },
+          "14": {
+            "mean": 8.55520440309352,
+            "max": 8.617938337530104
+          },
+          "20": {
+            "mean": 5.028025045190198,
+            "max": 5.079884951651754
+          },
+          "27": {
+            "mean": 2.0756557626179113,
+            "max": 2.152058789353049
+          },
+          "34": {
+            "mean": 4.358686689186328,
+            "max": 4.7645725836084285
+          }
+        },
+        "text_prob": 0.5470198968689277
+      }
+    ]
+  }
+]

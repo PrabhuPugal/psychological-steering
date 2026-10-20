@@ -1,0 +1,348 @@
+Loading Qwen3-8B...
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   1%|          | 2/399 [00:00<00:44,  8.88it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:03, 95.63it/s]Loading weights:  14%|█▍        | 56/399 [00:00<00:02, 161.88it/s]Loading weights:  20%|██        | 81/399 [00:00<00:01, 190.56it/s]Loading weights:  26%|██▌       | 104/399 [00:00<00:01, 202.96it/s]Loading weights:  34%|███▍      | 136/399 [00:00<00:01, 232.10it/s]Loading weights:  40%|████      | 161/399 [00:00<00:01, 226.40it/s]Loading weights:  48%|████▊     | 190/399 [00:00<00:00, 244.92it/s]Loading weights:  54%|█████▍    | 216/399 [00:01<00:00, 234.92it/s]Loading weights:  62%|██████▏   | 246/399 [00:01<00:00, 244.52it/s]Loading weights:  68%|██████▊   | 271/399 [00:01<00:00, 235.28it/s]Loading weights:  75%|███████▌  | 301/399 [00:01<00:00, 250.28it/s]Loading weights:  82%|████████▏ | 327/399 [00:01<00:00, 246.53it/s]Loading weights:  89%|████████▉ | 356/399 [00:01<00:00, 249.91it/s]Loading weights:  96%|█████████▌| 382/399 [00:01<00:00, 245.32it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 220.12it/s]
+[1/155] openness: baseline, layer=18, alpha=+0
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  5.43it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.26it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.32it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.21it/s]
+[2/155] openness: steered, layer=6, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.07it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.01it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.45it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.33it/s]
+[3/155] openness: steered, layer=6, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  5.86it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.45it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.27it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.07it/s]
+[4/155] openness: steered, layer=6, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.72it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.21it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.80it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.68it/s]
+[5/155] openness: steered, layer=6, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.50it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.72it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.62it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.63it/s]
+[6/155] openness: steered, layer=6, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.05it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.50it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.47it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.43it/s]
+[7/155] openness: steered, layer=6, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  5.99it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.16it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.29it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.24it/s]
+[8/155] openness: steered, layer=12, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  5.75it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.83it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.51it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.30it/s]
+[9/155] openness: steered, layer=12, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.48it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.64it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.52it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.35it/s]
+[10/155] openness: steered, layer=12, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.47it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.66it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.57it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.38it/s]
+[11/155] openness: steered, layer=12, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.80it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.87it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.73it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.76it/s]
+[12/155] openness: steered, layer=12, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.56it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.45it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.04it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.16it/s]
+[13/155] openness: steered, layer=12, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.47it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.39it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.33it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.35it/s]
+[14/155] openness: steered, layer=18, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.95it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.09it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.09it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.07it/s]
+[15/155] openness: steered, layer=18, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.07it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.22it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.56it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.55it/s]
+[16/155] openness: steered, layer=18, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.72it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.23it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.84it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.71it/s]
+[17/155] openness: steered, layer=18, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.42it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.61it/s]inject prompts: 100%|██████████| 24/24 [00:04<00:00,  5.86it/s]inject prompts: 100%|██████████| 24/24 [00:04<00:00,  5.86it/s]
+[18/155] openness: steered, layer=18, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.02it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.94it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.08it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.05it/s]
+[19/155] openness: steered, layer=18, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.03it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  5.96it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.09it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.06it/s]
+[20/155] openness: steered, layer=24, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.67it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.20it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.55it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.50it/s]
+[21/155] openness: steered, layer=24, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.73it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.21it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.56it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.52it/s]
+[22/155] openness: steered, layer=24, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.74it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.81it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.17it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.07it/s]
+[23/155] openness: steered, layer=24, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.48it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.67it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.55it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.56it/s]
+[24/155] openness: steered, layer=24, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.42it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.65it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.56it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.56it/s]
+[25/155] openness: steered, layer=24, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.45it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.83it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.65it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.66it/s]
+[26/155] openness: steered, layer=30, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.64it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.71it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.53it/s]
+[27/155] openness: steered, layer=30, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.73it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.81it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.90it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.87it/s]
+[28/155] openness: steered, layer=30, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.69it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.80it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.15it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.04it/s]
+[29/155] openness: steered, layer=30, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.50it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.68it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.05it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.93it/s]
+[30/155] openness: steered, layer=30, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.45it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.63it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.04it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.91it/s]
+[31/155] openness: steered, layer=30, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.45it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.67it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.46it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.49it/s]
+[32/155] conscientiousness: baseline, layer=18, alpha=+0
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.94it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.96it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.31it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.21it/s]
+[33/155] conscientiousness: steered, layer=6, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.03it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.91it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.08it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.93it/s]
+[34/155] conscientiousness: steered, layer=6, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.85it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.32it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.27it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.23it/s]
+[35/155] conscientiousness: steered, layer=6, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.78it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.80it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.19it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.08it/s]
+[36/155] conscientiousness: steered, layer=6, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.86it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.09it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.33it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.24it/s]
+[37/155] conscientiousness: steered, layer=6, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.77it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.21it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.80it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.69it/s]
+[38/155] conscientiousness: steered, layer=6, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.14it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.99it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.65it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.57it/s]
+[39/155] conscientiousness: steered, layer=12, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.04it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.50it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.22it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.34it/s]
+[40/155] conscientiousness: steered, layer=12, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.16it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.01it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.63it/s]
+[41/155] conscientiousness: steered, layer=12, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.82it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.84it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.40it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.51it/s]
+[42/155] conscientiousness: steered, layer=12, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.79it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.78it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.15it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.04it/s]
+[43/155] conscientiousness: steered, layer=12, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.77it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.23it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.22it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.18it/s]
+[44/155] conscientiousness: steered, layer=12, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.76it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.78it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.99it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.93it/s]
+[45/155] conscientiousness: steered, layer=18, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.18it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.93it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.28it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.20it/s]
+[46/155] conscientiousness: steered, layer=18, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.62it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.16it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.55it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.75it/s]
+[47/155] conscientiousness: steered, layer=18, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.21it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.01it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.46it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.62it/s]
+[48/155] conscientiousness: steered, layer=18, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.79it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.19it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.62it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.56it/s]
+[49/155] conscientiousness: steered, layer=18, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.74it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.18it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.63it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.56it/s]
+[50/155] conscientiousness: steered, layer=18, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.16it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.20it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.25it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.11it/s]
+[51/155] conscientiousness: steered, layer=24, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.01it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.63it/s]
+[52/155] conscientiousness: steered, layer=24, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.19it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:01,  7.99it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.62it/s]
+[53/155] conscientiousness: steered, layer=24, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.86it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.87it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.43it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.54it/s]
+[54/155] conscientiousness: steered, layer=24, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.87it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.88it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.08it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.02it/s]
+[55/155] conscientiousness: steered, layer=24, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.88it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.30it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.74it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.67it/s]
+[56/155] conscientiousness: steered, layer=24, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.79it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.21it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.66it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.59it/s]
+[57/155] conscientiousness: steered, layer=30, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.72it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.82it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.21it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.09it/s]
+[58/155] conscientiousness: steered, layer=30, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.90it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.93it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.23it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.14it/s]
+[59/155] conscientiousness: steered, layer=30, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.77it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.80it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.16it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.06it/s]
+[60/155] conscientiousness: steered, layer=30, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.81it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.84it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.21it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.10it/s]
+[61/155] conscientiousness: steered, layer=30, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.75it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.79it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.16it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.05it/s]
+[62/155] conscientiousness: steered, layer=30, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.81it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.84it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.02it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.97it/s]
+[63/155] extraversion: baseline, layer=18, alpha=+0
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.34it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.35it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.54it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.49it/s]
+[64/155] extraversion: steered, layer=6, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.00it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.13it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.77it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.68it/s]
+[65/155] extraversion: steered, layer=6, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.20it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.80it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.18it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.00it/s]
+[66/155] extraversion: steered, layer=6, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.25it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.26it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.91it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.00it/s]
+[67/155] extraversion: steered, layer=6, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.51it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.92it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.87it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.84it/s]
+[68/155] extraversion: steered, layer=6, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.48it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.69it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.77it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.73it/s]
+[69/155] extraversion: steered, layer=6, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.51it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.52it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.83it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.74it/s]
+[70/155] extraversion: steered, layer=12, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01, 10.90it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  9.21it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  7.69it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.16it/s]
+[71/155] extraversion: steered, layer=12, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  9.67it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.82it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.55it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.92it/s]
+[72/155] extraversion: steered, layer=12, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.90it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:00,  8.01it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.21it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.40it/s]
+[73/155] extraversion: steered, layer=12, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.44it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.69it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.76it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.72it/s]
+[74/155] extraversion: steered, layer=12, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.51it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.71it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.79it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.75it/s]
+[75/155] extraversion: steered, layer=12, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.50it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.69it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.45it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.50it/s]
+[76/155] extraversion: steered, layer=18, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.13it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.38it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.51it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.45it/s]
+[77/155] extraversion: steered, layer=18, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.18it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.45it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.96it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.78it/s]
+[78/155] extraversion: steered, layer=18, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.11it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.91it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.22it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.04it/s]
+[79/155] extraversion: steered, layer=18, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.45it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.91it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.15it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.13it/s]
+[80/155] extraversion: steered, layer=18, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.35it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.81it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.11it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.97it/s]
+[81/155] extraversion: steered, layer=18, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.32it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.50it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.92it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.78it/s]
+[82/155] extraversion: steered, layer=24, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.34it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.82it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.21it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.05it/s]
+[83/155] extraversion: steered, layer=24, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.26it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.27it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.61it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.78it/s]
+[84/155] extraversion: steered, layer=24, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.25it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.25it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.44it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.39it/s]
+[85/155] extraversion: steered, layer=24, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.22it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:01,  8.00it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.93it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.97it/s]
+[86/155] extraversion: steered, layer=24, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.50it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.71it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.63it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.63it/s]
+[87/155] extraversion: steered, layer=24, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.42it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.64it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.57it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.57it/s]
+[88/155] extraversion: steered, layer=30, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.06it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.14it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.37it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.30it/s]
+[89/155] extraversion: steered, layer=30, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.26it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.45it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.39it/s]
+[90/155] extraversion: steered, layer=30, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.27it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.27it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.31it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.55it/s]
+[91/155] extraversion: steered, layer=30, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.23it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.20it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.50it/s]
+[92/155] extraversion: steered, layer=30, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.17it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.15it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.49it/s]
+[93/155] extraversion: steered, layer=30, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.25it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.23it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.50it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.52it/s]
+[94/155] agreeableness: baseline, layer=18, alpha=+0
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.92it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.31it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.38it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.50it/s]
+[95/155] agreeableness: steered, layer=6, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.75it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.68it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.07it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.37it/s]
+[96/155] agreeableness: steered, layer=6, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.75it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.54it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.29it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.51it/s]
+[97/155] agreeableness: steered, layer=6, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.70it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.10it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.49it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.52it/s]
+[98/155] agreeableness: steered, layer=6, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.53it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.35it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.77it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.76it/s]
+[99/155] agreeableness: steered, layer=6, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.95it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.19it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.66it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.61it/s]
+[100/155] agreeableness: steered, layer=6, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.53it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.36it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.75it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.75it/s]
+[101/155] agreeableness: steered, layer=12, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.64it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.92it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.52it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.60it/s]
+[102/155] agreeableness: steered, layer=12, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.79it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.39it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.69it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.74it/s]
+[103/155] agreeableness: steered, layer=12, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.71it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:01,  7.93it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  7.98it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.04it/s]
+[104/155] agreeableness: steered, layer=12, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.37it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.61it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.95it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.01it/s]
+[105/155] agreeableness: steered, layer=12, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.37it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.61it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.90it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.97it/s]
+[106/155] agreeableness: steered, layer=12, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.50it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.85it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.90it/s]
+[107/155] agreeableness: steered, layer=18, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.57it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.81it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.08it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.24it/s]
+[108/155] agreeableness: steered, layer=18, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.74it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.36it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.35it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.47it/s]
+[109/155] agreeableness: steered, layer=18, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.75it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:01,  7.97it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.66it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.81it/s]
+[110/155] agreeableness: steered, layer=18, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.34it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.59it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.77it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.87it/s]
+[111/155] agreeableness: steered, layer=18, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.34it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.44it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.10it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.08it/s]
+[112/155] agreeableness: steered, layer=18, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.50it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.18it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.90it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.82it/s]
+[113/155] agreeableness: steered, layer=24, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.72it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.34it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.34it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.46it/s]
+[114/155] agreeableness: steered, layer=24, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.77it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.19it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.24it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.36it/s]
+[115/155] agreeableness: steered, layer=24, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.68it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.14it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.23it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.34it/s]
+[116/155] agreeableness: steered, layer=24, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.93it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.16it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.64it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.58it/s]
+[117/155] agreeableness: steered, layer=24, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.87it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.14it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.63it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.56it/s]
+[118/155] agreeableness: steered, layer=24, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.93it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.86it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.06it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.01it/s]
+[119/155] agreeableness: steered, layer=30, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.15it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.53it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.89it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.93it/s]
+[120/155] agreeableness: steered, layer=30, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.26it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.53it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.87it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.93it/s]
+[121/155] agreeableness: steered, layer=30, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.22it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.52it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.88it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.93it/s]
+[122/155] agreeableness: steered, layer=30, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.73it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.19it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.25it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.36it/s]
+[123/155] agreeableness: steered, layer=30, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.67it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.07it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.15it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.26it/s]
+[124/155] agreeableness: steered, layer=30, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.66it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.11it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.20it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.31it/s]
+[125/155] neuroticism: baseline, layer=18, alpha=+0
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.33it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.52it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.18it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.97it/s]
+[126/155] neuroticism: steered, layer=6, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.16it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  6.71it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.91it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  6.79it/s]
+[127/155] neuroticism: steered, layer=6, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.51it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.72it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.26it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.09it/s]
+[128/155] neuroticism: steered, layer=6, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.22it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.39it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.04it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.83it/s]
+[129/155] neuroticism: steered, layer=6, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.17it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.38it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.08it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.85it/s]
+[130/155] neuroticism: steered, layer=6, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.22it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.39it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.41it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.09it/s]
+[131/155] neuroticism: steered, layer=6, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  9.17it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.11it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.92it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.80it/s]
+[132/155] neuroticism: steered, layer=12, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.25it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.58it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.11it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.29it/s]
+[133/155] neuroticism: steered, layer=12, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.23it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.58it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.18it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.08it/s]
+[134/155] neuroticism: steered, layer=12, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.18it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.36it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.04it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.82it/s]
+[135/155] neuroticism: steered, layer=12, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.20it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.32it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.66it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.55it/s]
+[136/155] neuroticism: steered, layer=12, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  6.37it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.34it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.21it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.82it/s]
+[137/155] neuroticism: steered, layer=12, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.84it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.26it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.59it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.45it/s]
+[138/155] neuroticism: steered, layer=18, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.59it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.73it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.33it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.51it/s]
+[139/155] neuroticism: steered, layer=18, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.71it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:01,  7.97it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.44it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.64it/s]
+[140/155] neuroticism: steered, layer=18, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.19it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.37it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.05it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.83it/s]
+[141/155] neuroticism: steered, layer=18, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:00,  8.04it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.48it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.54it/s]
+[142/155] neuroticism: steered, layer=18, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.43it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.08it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.87it/s]
+[143/155] neuroticism: steered, layer=18, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.64it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.72it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.28it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.21it/s]
+[144/155] neuroticism: steered, layer=24, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.58it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:01,  7.95it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.44it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.37it/s]
+[145/155] neuroticism: steered, layer=24, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:00<00:01,  8.73it/s]inject prompts:  67%|██████▋   | 16/24 [00:01<00:00,  8.00it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.46it/s]inject prompts: 100%|██████████| 24/24 [00:02<00:00,  8.41it/s]
+[146/155] neuroticism: steered, layer=24, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.25it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.43it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.12it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.90it/s]
+[147/155] neuroticism: steered, layer=24, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.21it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.41it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.06it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.85it/s]
+[148/155] neuroticism: steered, layer=24, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.38it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.03it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.83it/s]
+[149/155] neuroticism: steered, layer=24, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.15it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.39it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.09it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.86it/s]
+[150/155] neuroticism: steered, layer=30, alpha=-12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.25it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.42it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.11it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.89it/s]
+[151/155] neuroticism: steered, layer=30, alpha=-8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.24it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.43it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.11it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.89it/s]
+[152/155] neuroticism: steered, layer=30, alpha=-4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.26it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.40it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.08it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.86it/s]
+[153/155] neuroticism: steered, layer=30, alpha=+4
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.19it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.37it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.04it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.83it/s]
+[154/155] neuroticism: steered, layer=30, alpha=+8
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.22it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.39it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.07it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.85it/s]
+[155/155] neuroticism: steered, layer=30, alpha=+12
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts:  33%|███▎      | 8/24 [00:01<00:02,  7.19it/s]inject prompts:  67%|██████▋   | 16/24 [00:02<00:01,  7.38it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  8.05it/s]inject prompts: 100%|██████████| 24/24 [00:03<00:00,  7.83it/s]
+Embedding and scoring responses...
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 10458.26it/s]
+Scoring fluency...
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 10190.48it/s]
+
+==================================================
+FULL35K COMPACT SWEEP COMPLETE
+==================================================
+
+OPENNESS
+Baseline: {'condition': 'baseline', 'layer': 18, 'alpha': 0.0, 'mean_concept_score': 0.35556295932394816, 'mean_fluency': 0.9855304782589277, 'responses': 24}
+Best high: {'condition': 'steered', 'layer': 18, 'alpha': 8.0, 'mean_concept_score': 0.39617060726845915, 'mean_fluency': 0.976930928726991, 'responses': 24}
+Best low: {'condition': 'steered', 'layer': 18, 'alpha': -12.0, 'mean_concept_score': 0.32342656070841536, 'mean_fluency': 0.9893775482972463, 'responses': 24}
+
+CONSCIENTIOUSNESS
+Baseline: {'condition': 'baseline', 'layer': 18, 'alpha': 0.0, 'mean_concept_score': 0.571276003984012, 'mean_fluency': 0.9909163415431976, 'responses': 24}
+Best high: {'condition': 'steered', 'layer': 18, 'alpha': 12.0, 'mean_concept_score': 0.5847040315039503, 'mean_fluency': 0.985090379913648, 'responses': 24}
+Best low: {'condition': 'steered', 'layer': 6, 'alpha': -12.0, 'mean_concept_score': 0.5466440431828236, 'mean_fluency': 0.9747341771920522, 'responses': 24}
+
+EXTRAVERSION
+Baseline: {'condition': 'baseline', 'layer': 18, 'alpha': 0.0, 'mean_concept_score': 0.40533316652344564, 'mean_fluency': 0.9910420452555021, 'responses': 24}
+Best high: {'condition': 'steered', 'layer': 18, 'alpha': 8.0, 'mean_concept_score': 0.47455640395547644, 'mean_fluency': 0.9912582362691561, 'responses': 24}
+Best low: {'condition': 'steered', 'layer': 18, 'alpha': -12.0, 'mean_concept_score': 0.37053125166886475, 'mean_fluency': 0.990133340160052, 'responses': 24}
+
+AGREEABLENESS
+Baseline: {'condition': 'baseline', 'layer': 18, 'alpha': 0.0, 'mean_concept_score': 0.5880552042331884, 'mean_fluency': 0.9892304514845213, 'responses': 24}
+Best high: {'condition': 'steered', 'layer': 18, 'alpha': 8.0, 'mean_concept_score': 0.6265270057094711, 'mean_fluency': 0.9865786756078402, 'responses': 24}
+Best low: {'condition': 'steered', 'layer': 6, 'alpha': -12.0, 'mean_concept_score': 0.5672131101307373, 'mean_fluency': 0.9855073218544325, 'responses': 24}
+
+NEUROTICISM
+Baseline: {'condition': 'baseline', 'layer': 18, 'alpha': 0.0, 'mean_concept_score': 0.23993115090802983, 'mean_fluency': 0.9923172394434611, 'responses': 24}
+Best high: {'condition': 'steered', 'layer': 24, 'alpha': 12.0, 'mean_concept_score': 0.28876144177587787, 'mean_fluency': 0.9931354597210884, 'responses': 24}
+Best low: {'condition': 'steered', 'layer': 18, 'alpha': -4.0, 'mean_concept_score': 0.23157302116469017, 'mean_fluency': 0.9927064925432205, 'responses': 24}
+
+Saved: results/compact_qwen3_8b_ocean/all_best_settings.json

@@ -1,0 +1,28 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "sjt_table": "sd4",
+  "n": 56,
+  "layers": [
+    6,
+    12,
+    18,
+    24,
+    30
+  ],
+  "implicit_max_z": {
+    "mean": 4.157784223821929,
+    "std": 1.1927622002762752
+  },
+  "explicit_max_z": {
+    "mean": 3.7458989448803766,
+    "std": 1.0431353779040973
+  },
+  "implicit_text_prob": {
+    "mean": 0.4892824527589369,
+    "std": 0.020740362130471528
+  },
+  "explicit_text_prob": {
+    "mean": 0.5257661398188577,
+    "std": 0.02165159257662474
+  }
+}

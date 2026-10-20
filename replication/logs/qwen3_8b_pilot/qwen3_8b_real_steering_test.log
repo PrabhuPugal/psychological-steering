@@ -1,0 +1,22 @@
+Loading model...
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:34,  4.21it/s]Loading weights:   9%|▊         | 34/399 [00:00<00:02, 125.47it/s]Loading weights:  15%|█▌        | 61/399 [00:00<00:01, 172.08it/s]Loading weights:  23%|██▎       | 93/399 [00:00<00:01, 219.09it/s]Loading weights:  31%|███▏      | 125/399 [00:00<00:01, 250.62it/s]Loading weights:  39%|███▉      | 156/399 [00:00<00:00, 268.34it/s]Loading weights:  46%|████▋     | 185/399 [00:00<00:00, 272.28it/s]Loading weights:  54%|█████▎    | 214/399 [00:01<00:00, 214.08it/s]Loading weights:  60%|█████▉    | 239/399 [00:01<00:00, 215.80it/s]Loading weights:  66%|██████▋   | 265/399 [00:01<00:00, 225.21it/s]Loading weights:  73%|███████▎  | 290/399 [00:01<00:00, 227.63it/s]Loading weights:  79%|███████▊  | 314/399 [00:01<00:00, 221.48it/s]Loading weights:  85%|████████▌ | 341/399 [00:01<00:00, 232.64it/s]Loading weights:  92%|█████████▏| 366/399 [00:01<00:00, 233.38it/s]Loading weights:  98%|█████████▊| 390/399 [00:01<00:00, 231.87it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 218.38it/s]
+Model loaded.
+Prompt: You arrive at a social event where you know only one person. Describe what you would do.
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:05<00:00,  5.89s/it]inject prompts: 100%|██████████| 1/1 [00:05<00:00,  5.89s/it]
+
+===== BASELINE: alpha=+0.0, layer=18 =====
+I would probably feel a bit nervous or self-conscious at first, since I know only one person at the event. I might start by greeting that one person I know, maybe with a smile or a quick hug, to establish a connection. Then, I might look around the room to see if there are others I can approach or if there's a group I can join. I might try to strike up a conversation with someone nearby, maybe by commenting on the event or asking about what they're doing there. If I feel awkward, I might take a moment to collect myself, maybe by taking a drink or stepping outside for a bit. I would probably try to be friendly and open, even if I feel a little out of my element. I might also keep an eye out for the person I
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:05<00:00,  5.68s/it]inject prompts: 100%|██████████| 1/1 [00:05<00:00,  5.68s/it]
+
+===== POSITIVE EXTRAVERSION: alpha=+8.0, layer=18 =====
+I'd probably feel a bit nervous or self-conscious at first, since I know only one person. I might start by making small talk with that one person I know, trying to get a sense of the atmosphere and who else is there. I'd probably look around to see if there are any other people I might have a connection with, maybe someone I've seen before or someone who seems approachable.
+
+If I feel comfortable, I might try to strike up a conversation with someone else, maybe by commenting on something happening at the event or asking a question about what they're doing there. I might also keep an eye on the person I know, making sure they're having a good time and maybe joining in on any conversations they're part of.
+
+I might feel a bit awkward at first, but
+inject prompts:   0%|          | 0/1 [00:00<?, ?it/s]inject prompts: 100%|██████████| 1/1 [00:05<00:00,  5.66s/it]inject prompts: 100%|██████████| 1/1 [00:05<00:00,  5.66s/it]
+
+===== NEGATIVE EXTRAVERSION: alpha=-8.0, layer=18 =====
+I would probably feel a bit nervous or self-conscious at first, since I know only one person at the event. I might take a moment to observe the environment, maybe grab a drink or something to do with my hands to give myself time to gather my thoughts. I’d probably start by approaching the person I know, maybe with a small smile or a greeting, and ask how they're doing or if they've met anyone else. I might also look around to see if there are other people I could potentially connect with, but I wouldn’t force myself to talk to anyone if I don’t feel comfortable. I might also try to engage in some light conversation with the person I know, maybe ask about their experience at the event or what they're doing there. If I feel more at ease,
+
+Test completed.

@@ -1,0 +1,32 @@
+{
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "trait": "narcissism",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    3,
+    6,
+    9,
+    12,
+    15
+  ],
+  "implicit_max_z": {
+    "mean": 1.3250857093471229,
+    "std": 0.28785326647281384
+  },
+  "explicit_max_z": {
+    "mean": 1.9001412715228163,
+    "std": 0.4265177602141061
+  },
+  "implicit_text_prob": {
+    "mean": 0.4849972388006024,
+    "std": 0.01779560689280709
+  },
+  "explicit_text_prob": {
+    "mean": 0.5289127550840145,
+    "std": 0.018844642447907258
+  }
+}

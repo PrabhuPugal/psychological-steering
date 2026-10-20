@@ -1,0 +1,6 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   1%|          | 2/311 [00:00<00:21, 14.50it/s]Loading weights:  34%|███▍      | 105/311 [00:00<00:00, 524.99it/s]Loading weights:  66%|██████▌   | 205/311 [00:00<00:00, 721.96it/s]Loading weights:  98%|█████████▊| 306/311 [00:00<00:00, 828.38it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 701.19it/s]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 11561.54it/s]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 26587.33it/s]
+Wrote: p2_results/Qwen3-1.7B/sjts_responses.db
+Wrote: p2_results/Qwen3-1.7B/inventory_responses.db

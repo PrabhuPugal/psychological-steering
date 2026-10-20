@@ -1,0 +1,119 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading Qwen/Qwen3-1.7B ...
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<00:35,  8.85it/s]Loading weights:  33%|███▎      | 103/311 [00:00<00:00, 571.70it/s]Loading weights:  66%|██████▌   | 204/311 [00:00<00:00, 764.39it/s]Loading weights:  97%|█████████▋| 303/311 [00:00<00:00, 851.41it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 745.71it/s]
+Loading narcissism vector at layers=[5, 10, 16, 21, 26] ...
+Calibrating neutral baseline over 5 prompts ...
+Injection layer 5: baseline std = 55.5495
+Loading 'sd4' narcissism SJT items ...
+30 scenarios x 5 alphas.
+Loading text-embedding classifier (Qwen3-Embedding-0.6B + classifiers/narcissism.pkl) ...
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 11598.67it/s]
+[1/30] k=0 z_inj=-0.2 z_last=0.2 p=0.50 | k=2 z_inj=1.9 z_last=1.3 p=0.55 | k=4 z_inj=3.9 z_last=1.7 p=0.51 | k=8 z_inj=7.9 z_last=2.1 p=0.50 | k=16 z_inj=15.9 z_last=3.1 p=0.51
+[2/30] k=0 z_inj=-0.2 z_last=-0.1 p=0.48 | k=2 z_inj=1.9 z_last=1.2 p=0.52 | k=4 z_inj=3.9 z_last=1.5 p=0.49 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[3/30] k=0 z_inj=-0.2 z_last=-0.1 p=0.48 | k=2 z_inj=1.8 z_last=1.6 p=0.53 | k=4 z_inj=3.9 z_last=1.7 p=0.53 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[4/30] k=0 z_inj=-0.2 z_last=-0.3 p=0.47 | k=2 z_inj=1.9 z_last=1.5 p=0.55 | k=4 z_inj=3.9 z_last=1.6 p=0.47 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[5/30] k=0 z_inj=-0.2 z_last=-0.1 p=0.49 | k=2 z_inj=1.8 z_last=1.1 p=0.51 | k=4 z_inj=3.9 z_last=1.6 p=0.51 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[6/30] k=0 z_inj=-0.2 z_last=-0.0 p=0.49 | k=2 z_inj=1.9 z_last=1.1 p=0.52 | k=4 z_inj=3.9 z_last=1.6 p=0.52 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=2.9 p=0.51
+[7/30] k=0 z_inj=-0.2 z_last=-0.1 p=0.48 | k=2 z_inj=1.9 z_last=1.3 p=0.52 | k=4 z_inj=3.8 z_last=1.8 p=0.52 | k=8 z_inj=7.9 z_last=2.1 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[8/30] k=0 z_inj=-0.2 z_last=-0.3 p=0.49 | k=2 z_inj=1.9 z_last=1.5 p=0.58 | k=4 z_inj=3.9 z_last=1.5 p=0.49 | k=8 z_inj=7.9 z_last=1.9 p=0.52 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[9/30] k=0 z_inj=-0.2 z_last=0.0 p=0.47 | k=2 z_inj=1.9 z_last=1.5 p=0.48 | k=4 z_inj=3.9 z_last=1.7 p=0.48 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[10/30] k=0 z_inj=-0.2 z_last=0.0 p=0.49 | k=2 z_inj=1.9 z_last=1.5 p=0.57 | k=4 z_inj=3.9 z_last=1.7 p=0.52 | k=8 z_inj=7.9 z_last=2.0 p=0.50 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[11/30] k=0 z_inj=-0.2 z_last=-0.2 p=0.49 | k=2 z_inj=1.9 z_last=1.4 p=0.55 | k=4 z_inj=3.9 z_last=1.7 p=0.48 | k=8 z_inj=7.9 z_last=2.0 p=0.50 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[12/30] k=0 z_inj=-0.2 z_last=0.0 p=0.49 | k=2 z_inj=1.9 z_last=1.5 p=0.56 | k=4 z_inj=3.9 z_last=1.7 p=0.50 | k=8 z_inj=7.9 z_last=2.0 p=0.52 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[13/30] k=0 z_inj=-0.2 z_last=-0.2 p=0.48 | k=2 z_inj=1.8 z_last=1.4 p=0.51 | k=4 z_inj=3.9 z_last=1.5 p=0.48 | k=8 z_inj=7.9 z_last=2.1 p=0.50 | k=16 z_inj=15.9 z_last=3.0 p=0.50
+[14/30] k=0 z_inj=-0.2 z_last=-0.2 p=0.49 | k=2 z_inj=1.9 z_last=1.4 p=0.55 | k=4 z_inj=3.9 z_last=1.5 p=0.49 | k=8 z_inj=7.9 z_last=2.0 p=0.52 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[15/30] k=0 z_inj=-0.2 z_last=-0.3 p=0.47 | k=2 z_inj=1.9 z_last=1.4 p=0.53 | k=4 z_inj=3.9 z_last=1.7 p=0.50 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[16/30] k=0 z_inj=-0.2 z_last=0.0 p=0.51 | k=2 z_inj=1.9 z_last=1.3 p=0.52 | k=4 z_inj=3.9 z_last=1.7 p=0.53 | k=8 z_inj=7.9 z_last=2.1 p=0.52 | k=16 z_inj=15.9 z_last=3.1 p=0.52
+[17/30] k=0 z_inj=-0.2 z_last=-0.2 p=0.48 | k=2 z_inj=1.9 z_last=1.5 p=0.56 | k=4 z_inj=3.9 z_last=1.4 p=0.50 | k=8 z_inj=7.9 z_last=1.9 p=0.52 | k=16 z_inj=15.9 z_last=2.9 p=0.52
+[18/30] k=0 z_inj=-0.2 z_last=-0.2 p=0.46 | k=2 z_inj=1.9 z_last=1.4 p=0.55 | k=4 z_inj=3.9 z_last=1.6 p=0.50 | k=8 z_inj=7.9 z_last=2.0 p=0.50 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[19/30] k=0 z_inj=-0.2 z_last=-0.1 p=0.47 | k=2 z_inj=1.9 z_last=1.3 p=0.50 | k=4 z_inj=3.9 z_last=1.7 p=0.50 | k=8 z_inj=7.9 z_last=2.0 p=0.50 | k=16 z_inj=15.9 z_last=3.0 p=0.50
+[20/30] k=0 z_inj=-0.2 z_last=0.1 p=0.51 | k=2 z_inj=1.8 z_last=1.4 p=0.50 | k=4 z_inj=3.9 z_last=1.7 p=0.51 | k=8 z_inj=7.9 z_last=2.1 p=0.51 | k=16 z_inj=15.9 z_last=3.1 p=0.51
+[21/30] k=0 z_inj=-0.2 z_last=-0.3 p=0.49 | k=2 z_inj=1.8 z_last=1.5 p=0.50 | k=4 z_inj=3.9 z_last=1.6 p=0.50 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[22/30] k=0 z_inj=-0.2 z_last=0.1 p=0.52 | k=2 z_inj=1.9 z_last=1.7 p=0.54 | k=4 z_inj=3.9 z_last=1.8 p=0.52 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[23/30] k=0 z_inj=-0.2 z_last=0.2 p=0.48 | k=2 z_inj=1.9 z_last=1.5 p=0.55 | k=4 z_inj=3.9 z_last=1.7 p=0.50 | k=8 z_inj=7.9 z_last=2.1 p=0.51 | k=16 z_inj=15.9 z_last=3.1 p=0.51
+[24/30] k=0 z_inj=-0.2 z_last=-0.1 p=0.49 | k=2 z_inj=1.9 z_last=1.5 p=0.57 | k=4 z_inj=3.9 z_last=1.6 p=0.48 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[25/30] k=0 z_inj=-0.2 z_last=-0.2 p=0.50 | k=2 z_inj=1.9 z_last=1.5 p=0.56 | k=4 z_inj=3.9 z_last=1.6 p=0.49 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[26/30] k=0 z_inj=-0.2 z_last=-0.4 p=0.46 | k=2 z_inj=1.8 z_last=1.3 p=0.51 | k=4 z_inj=3.9 z_last=1.6 p=0.47 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[27/30] k=0 z_inj=-0.2 z_last=-0.3 p=0.46 | k=2 z_inj=1.9 z_last=1.7 p=0.57 | k=4 z_inj=3.9 z_last=1.5 p=0.48 | k=8 z_inj=7.9 z_last=1.9 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[28/30] k=0 z_inj=-0.2 z_last=-0.3 p=0.49 | k=2 z_inj=1.9 z_last=1.3 p=0.56 | k=4 z_inj=3.9 z_last=1.5 p=0.50 | k=8 z_inj=7.9 z_last=2.0 p=0.51 | k=16 z_inj=15.9 z_last=3.0 p=0.52
+[29/30] k=0 z_inj=-0.2 z_last=0.0 p=0.46 | k=2 z_inj=1.9 z_last=1.5 p=0.54 | k=4 z_inj=3.9 z_last=1.6 p=0.49 | k=8 z_inj=7.9 z_last=2.0 p=0.52 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+[30/30] k=0 z_inj=-0.2 z_last=0.6 p=0.51 | k=2 z_inj=1.9 z_last=1.6 p=0.52 | k=4 z_inj=3.9 z_last=1.9 p=0.53 | k=8 z_inj=7.9 z_last=2.1 p=0.52 | k=16 z_inj=15.9 z_last=3.0 p=0.51
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "trait": "narcissism",
+  "sjt_table": "sd4",
+  "n_scenarios": 30,
+  "layers": [
+    5,
+    10,
+    16,
+    21,
+    26
+  ],
+  "inject_layer": 5,
+  "inject_layer_baseline_std": 55.54950356657211,
+  "alphas": [
+    0.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0
+  ],
+  "by_alpha": [
+    {
+      "alpha_k": 0.0,
+      "z_mean_by_layer": {
+        "5": -0.2185498710736093,
+        "10": 0.09173553675421177,
+        "16": 0.05115381693164242,
+        "21": -0.07702991502302968,
+        "26": -0.09491468988830928
+      },
+      "text_prob_mean": 0.48584211040490716
+    },
+    {
+      "alpha_k": 2.0,
+      "z_mean_by_layer": {
+        "5": 1.8648892228844032,
+        "10": 0.9485205785962466,
+        "16": 1.1960117674716402,
+        "21": 1.5312162361879442,
+        "26": 1.4215132362378358
+      },
+      "text_prob_mean": 0.5356928867249272
+    },
+    {
+      "alpha_k": 4.0,
+      "z_mean_by_layer": {
+        "5": 3.86191732443067,
+        "10": 1.753360463882903,
+        "16": 1.728947329348029,
+        "21": 1.9028932117721724,
+        "26": 1.631618854325167
+      },
+      "text_prob_mean": 0.5003427543918
+    },
+    {
+      "alpha_k": 8.0,
+      "z_mean_by_layer": {
+        "5": 7.873213025408123,
+        "10": 3.2362270941533615,
+        "16": 2.6386071524197945,
+        "21": 2.487165904702726,
+        "26": 2.0236367123448273
+      },
+      "text_prob_mean": 0.5101233949225097
+    },
+    {
+      "alpha_k": 16.0,
+      "z_mean_by_layer": {
+        "5": 15.875965034220682,
+        "10": 5.970507433979159,
+        "16": 4.376354311408828,
+        "21": 3.7544856555677506,
+        "26": 3.0063027461654572
+      },
+      "text_prob_mean": 0.5133713242019148
+    }
+  ]
+}

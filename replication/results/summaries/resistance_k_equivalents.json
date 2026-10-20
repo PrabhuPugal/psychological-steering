@@ -1,0 +1,110 @@
+{
+  "Llama-3.2-1B-Instruct": {
+    "psychopathy": {
+      "implicit_k": 0.7978425104068427,
+      "explicit_k": 0.687879114401685
+    },
+    "machiavellianism": {
+      "implicit_k": 0.3309936333510531,
+      "explicit_k": 1.793362646884809
+    },
+    "narcissism": {
+      "implicit_k": 1.8692259429103741,
+      "explicit_k": 4.4752363918468
+    },
+    "sadism": {
+      "implicit_k": 0.09843696569029278,
+      "explicit_k": 1.6593186037734071
+    }
+  },
+  "Llama-3.2-3B-Instruct": {
+    "psychopathy": {
+      "implicit_k": 3.310045525196887,
+      "explicit_k": 3.4884316526838
+    },
+    "machiavellianism": {
+      "implicit_k": 13.389230542115302,
+      "explicit_k": 13.183679267001757
+    },
+    "narcissism": {
+      "implicit_k": 0.8629121053511234,
+      "explicit_k": 1.7397421848434342
+    },
+    "sadism": {
+      "implicit_k": -0.07845649210587961,
+      "explicit_k": 1.5046087363349203
+    }
+  },
+  "Llama-3.1-8B-Instruct": {
+    "psychopathy": {
+      "implicit_k": 7.495706089334988,
+      "explicit_k": 6.870364495881201
+    },
+    "machiavellianism": {
+      "implicit_k": 2.9951974936418395,
+      "explicit_k": 3.1700170530788725
+    },
+    "narcissism": {
+      "implicit_k": 10.777492807302544,
+      "explicit_k": 13.899244937898334
+    },
+    "sadism": {
+      "implicit_k": 2.489211238580063,
+      "explicit_k": 11.601320263825022
+    }
+  },
+  "Qwen3-1.7B": {
+    "psychopathy": {
+      "implicit_k": 3.454881838397263,
+      "explicit_k": 3.88993104438373
+    },
+    "machiavellianism": {
+      "implicit_k": 2.118933865582366,
+      "explicit_k": 1.659623528436661
+    },
+    "narcissism": {
+      "implicit_k": 0.2544922625912247,
+      "explicit_k": 1.5419858515822527
+    },
+    "sadism": {
+      "implicit_k": 1.491766289564631,
+      "explicit_k": 5.194354836270106
+    }
+  },
+  "Qwen3-4B": {
+    "psychopathy": {
+      "implicit_k": 0.14813659001285046,
+      "explicit_k": 0.3475119997132608
+    },
+    "machiavellianism": {
+      "implicit_k": 0.4013815941768885,
+      "explicit_k": 0.36075742433851726
+    },
+    "narcissism": {
+      "implicit_k": 0.007710718140032559,
+      "explicit_k": 0.6059595570122172
+    },
+    "sadism": {
+      "implicit_k": 0.11862648556231545,
+      "explicit_k": 0.4453008956447023
+    }
+  },
+  "Qwen3-8B": {
+    "psychopathy": {
+      "implicit_k": 0.7258715337969961,
+      "explicit_k": 0.7581045353290606
+    },
+    "machiavellianism": {
+      "implicit_k": 0.5096489583222492,
+      "explicit_k": 0.766625178136383
+    },
+    "narcissism": {
+      "implicit_k": 0.08998759778485017,
+      "explicit_k": 0.397479336448661
+    },
+    "sadism": {
+      "implicit_k": 0.1909126632870563,
+      "explicit_k": 1.4105636931939196
+    }
+  }
+}

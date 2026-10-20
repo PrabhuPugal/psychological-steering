@@ -1,0 +1,411 @@
+Loading Qwen/Qwen3-1.7B ...
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:01<06:49,  1.32s/it]Loading weights:   3%|▎         | 10/311 [00:01<00:32,  9.34it/s]Loading weights:   7%|▋         | 21/311 [00:01<00:13, 21.34it/s]Loading weights:  10%|▉         | 31/311 [00:01<00:08, 32.31it/s]Loading weights:  13%|█▎        | 39/311 [00:01<00:06, 39.00it/s]Loading weights:  16%|█▌        | 50/311 [00:01<00:05, 51.07it/s]Loading weights:  21%|██        | 65/311 [00:02<00:03, 70.16it/s]Loading weights:  25%|██▌       | 79/311 [00:02<00:02, 85.69it/s]Loading weights:  29%|██▉       | 91/311 [00:02<00:02, 93.78it/s]Loading weights:  33%|███▎      | 103/311 [00:02<00:02, 98.42it/s]Loading weights:  37%|███▋      | 115/311 [00:02<00:02, 93.89it/s]Loading weights:  41%|████      | 126/311 [00:02<00:01, 97.52it/s]Loading weights:  44%|████▍     | 137/311 [00:02<00:01, 98.08it/s]Loading weights:  48%|████▊     | 148/311 [00:02<00:01, 92.78it/s]Loading weights:  51%|█████     | 159/311 [00:02<00:01, 93.68it/s]Loading weights:  54%|█████▍    | 169/311 [00:03<00:01, 94.94it/s]Loading weights:  58%|█████▊    | 181/311 [00:03<00:01, 96.16it/s]Loading weights:  62%|██████▏   | 192/311 [00:03<00:01, 98.61it/s]Loading weights:  65%|██████▍   | 202/311 [00:03<00:01, 72.73it/s]Loading weights:  69%|██████▉   | 214/311 [00:03<00:01, 79.91it/s]Loading weights:  72%|███████▏  | 223/311 [00:03<00:01, 75.75it/s]Loading weights:  75%|███████▍  | 232/311 [00:03<00:01, 76.09it/s]Loading weights:  77%|███████▋  | 241/311 [00:03<00:00, 74.25it/s]Loading weights:  80%|████████  | 249/311 [00:04<00:00, 72.42it/s]Loading weights:  83%|████████▎ | 259/311 [00:04<00:00, 71.71it/s]Loading weights:  86%|████████▋ | 269/311 [00:04<00:00, 69.77it/s]Loading weights:  90%|█████████ | 281/311 [00:04<00:00, 72.71it/s]Loading weights:  94%|█████████▎| 291/311 [00:04<00:00, 73.32it/s]Loading weights:  97%|█████████▋| 302/311 [00:04<00:00, 72.38it/s]Loading weights: 100%|██████████| 311/311 [00:04<00:00, 64.16it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+model has 28 layers; sweeping layers [5, 10, 16, 21, 26]
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 10669.55it/s]
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 12331.67it/s]
+=== openness ===
+  24 SJT scenarios
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 13.32it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 13.32it/s]
+  baseline: score=0.386 fluency=0.992
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.80it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.79it/s]
+    layer=  5 alpha=+4 dir=up   score=0.419 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.52it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.52it/s]
+    layer=  5 alpha=-4 dir=down score=0.422 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.81it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.80it/s]
+    layer=  5 alpha=+8 dir=up   score=0.451 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.09it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.09it/s]
+    layer=  5 alpha=-8 dir=down score=0.420 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 13.02it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 13.02it/s]
+    layer=  5 alpha=+16 dir=up   score=0.470 fluency=0.987 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.49it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.49it/s]
+    layer=  5 alpha=-16 dir=down score=0.439 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.46it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.45it/s]
+    layer= 10 alpha=+4 dir=up   score=0.402 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.74it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.73it/s]
+    layer= 10 alpha=-4 dir=down score=0.419 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.38it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.38it/s]
+    layer= 10 alpha=+8 dir=up   score=0.398 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.40it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.40it/s]
+    layer= 10 alpha=-8 dir=down score=0.414 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.26it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.26it/s]
+    layer= 10 alpha=+16 dir=up   score=0.450 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.85it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.84it/s]
+    layer= 10 alpha=-16 dir=down score=0.384 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.36it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.35it/s]
+    layer= 16 alpha=+4 dir=up   score=0.425 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.84it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.83it/s]
+    layer= 16 alpha=-4 dir=down score=0.385 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.28it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.27it/s]
+    layer= 16 alpha=+8 dir=up   score=0.437 fluency=0.989 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.70it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.69it/s]
+    layer= 16 alpha=-8 dir=down score=0.396 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.29it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.28it/s]
+    layer= 16 alpha=+16 dir=up   score=0.431 fluency=0.987 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.35it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.34it/s]
+    layer= 16 alpha=-16 dir=down score=0.393 fluency=0.988 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.87it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.86it/s]
+    layer= 21 alpha=+4 dir=up   score=0.387 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.89it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.88it/s]
+    layer= 21 alpha=-4 dir=down score=0.391 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.89it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.88it/s]
+    layer= 21 alpha=+8 dir=up   score=0.413 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.93it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.92it/s]
+    layer= 21 alpha=-8 dir=down score=0.384 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.61it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.61it/s]
+    layer= 21 alpha=+16 dir=up   score=0.424 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.90it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.90it/s]
+    layer= 21 alpha=-16 dir=down score=0.384 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.82it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.81it/s]
+    layer= 26 alpha=+4 dir=up   score=0.385 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.86it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.86it/s]
+    layer= 26 alpha=-4 dir=down score=0.386 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.88it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.88it/s]
+    layer= 26 alpha=+8 dir=up   score=0.409 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.78it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.78it/s]
+    layer= 26 alpha=-8 dir=down score=0.384 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.84it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.84it/s]
+    layer= 26 alpha=+16 dir=up   score=0.408 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.79it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.78it/s]
+    layer= 26 alpha=-16 dir=down score=0.384 fluency=0.992 outliers=0/2 ok=True
+=== conscientiousness ===
+  24 SJT scenarios
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.06it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.06it/s]
+  baseline: score=0.632 fluency=0.985
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.15it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.14it/s]
+    layer=  5 alpha=+4 dir=up   score=0.648 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.49it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.49it/s]
+    layer=  5 alpha=-4 dir=down score=0.633 fluency=0.989 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 21.62it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 21.62it/s]
+    layer=  5 alpha=+8 dir=up   score=0.638 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.37it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.37it/s]
+    layer=  5 alpha=-8 dir=down score=0.618 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 20.56it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 20.55it/s]
+    layer=  5 alpha=+16 dir=up   score=0.626 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.77it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.77it/s]
+    layer=  5 alpha=-16 dir=down score=0.576 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 24.16it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 24.16it/s]
+    layer= 10 alpha=+4 dir=up   score=0.634 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.56it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.56it/s]
+    layer= 10 alpha=-4 dir=down score=0.631 fluency=0.987 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.15it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.14it/s]
+    layer= 10 alpha=+8 dir=up   score=0.638 fluency=0.986 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.23it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.22it/s]
+    layer= 10 alpha=-8 dir=down score=0.623 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 21.27it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 21.26it/s]
+    layer= 10 alpha=+16 dir=up   score=0.640 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.24it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.24it/s]
+    layer= 10 alpha=-16 dir=down score=0.623 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.34it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.33it/s]
+    layer= 16 alpha=+4 dir=up   score=0.632 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.52it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.51it/s]
+    layer= 16 alpha=-4 dir=down score=0.618 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.30it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.30it/s]
+    layer= 16 alpha=+8 dir=up   score=0.642 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.51it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.50it/s]
+    layer= 16 alpha=-8 dir=down score=0.619 fluency=0.986 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.32it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.31it/s]
+    layer= 16 alpha=+16 dir=up   score=0.666 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.52it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.51it/s]
+    layer= 16 alpha=-16 dir=down score=0.596 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.44it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.43it/s]
+    layer= 21 alpha=+4 dir=up   score=0.631 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.52it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.51it/s]
+    layer= 21 alpha=-4 dir=down score=0.625 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.55it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.55it/s]
+    layer= 21 alpha=+8 dir=up   score=0.636 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 24.95it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 24.94it/s]
+    layer= 21 alpha=-8 dir=down score=0.619 fluency=0.986 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.32it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.32it/s]
+    layer= 21 alpha=+16 dir=up   score=0.638 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.25it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.25it/s]
+    layer= 21 alpha=-16 dir=down score=0.624 fluency=0.986 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.96it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.96it/s]
+    layer= 26 alpha=+4 dir=up   score=0.623 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.60it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.60it/s]
+    layer= 26 alpha=-4 dir=down score=0.631 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.65it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.64it/s]
+    layer= 26 alpha=+8 dir=up   score=0.628 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.51it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.51it/s]
+    layer= 26 alpha=-8 dir=down score=0.631 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.39it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.39it/s]
+    layer= 26 alpha=+16 dir=up   score=0.624 fluency=0.985 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.55it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.54it/s]
+    layer= 26 alpha=-16 dir=down score=0.628 fluency=0.985 outliers=1/2 ok=True
+=== extraversion ===
+  24 SJT scenarios
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.17it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.16it/s]
+  baseline: score=0.398 fluency=0.993
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.30it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.29it/s]
+    layer=  5 alpha=+4 dir=up   score=0.419 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.45it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.44it/s]
+    layer=  5 alpha=-4 dir=down score=0.370 fluency=0.989 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.54it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.53it/s]
+    layer=  5 alpha=+8 dir=up   score=0.417 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.44it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer=  5 alpha=-8 dir=down score=0.351 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.59it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.59it/s]
+    layer=  5 alpha=+16 dir=up   score=0.487 fluency=0.989 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.33it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 25.33it/s]
+    layer=  5 alpha=-16 dir=down score=0.358 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.20it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.19it/s]
+    layer= 10 alpha=+4 dir=up   score=0.427 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.49it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.49it/s]
+    layer= 10 alpha=-4 dir=down score=0.356 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.42it/s]
+    layer= 10 alpha=+8 dir=up   score=0.455 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.21it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.20it/s]
+    layer= 10 alpha=-8 dir=down score=0.379 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.03it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.02it/s]
+    layer= 10 alpha=+16 dir=up   score=0.481 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.98it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.98it/s]
+    layer= 10 alpha=-16 dir=down score=0.347 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.30it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.29it/s]
+    layer= 16 alpha=+4 dir=up   score=0.403 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.41it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.40it/s]
+    layer= 16 alpha=-4 dir=down score=0.399 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.53it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.53it/s]
+    layer= 16 alpha=+8 dir=up   score=0.413 fluency=0.990 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.46it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.45it/s]
+    layer= 16 alpha=-8 dir=down score=0.393 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.49it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.48it/s]
+    layer= 16 alpha=+16 dir=up   score=0.442 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.42it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.41it/s]
+    layer= 16 alpha=-16 dir=down score=0.348 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.39it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.38it/s]
+    layer= 21 alpha=+4 dir=up   score=0.398 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.44it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.44it/s]
+    layer= 21 alpha=-4 dir=down score=0.399 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.47it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.47it/s]
+    layer= 21 alpha=+8 dir=up   score=0.403 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.79it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.79it/s]
+    layer= 21 alpha=-8 dir=down score=0.399 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.48it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.47it/s]
+    layer= 21 alpha=+16 dir=up   score=0.410 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.44it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer= 21 alpha=-16 dir=down score=0.382 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.20it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.20it/s]
+    layer= 26 alpha=+4 dir=up   score=0.397 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.46it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.46it/s]
+    layer= 26 alpha=-4 dir=down score=0.398 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.44it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer= 26 alpha=+8 dir=up   score=0.397 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer= 26 alpha=-8 dir=down score=0.398 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer= 26 alpha=+16 dir=up   score=0.395 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.39it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.39it/s]
+    layer= 26 alpha=-16 dir=down score=0.399 fluency=0.993 outliers=0/2 ok=True
+=== agreeableness ===
+  24 SJT scenarios
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.20it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.20it/s]
+  baseline: score=0.597 fluency=0.992
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.59it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.58it/s]
+    layer=  5 alpha=+4 dir=up   score=0.576 fluency=0.984 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.67it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.67it/s]
+    layer=  5 alpha=-4 dir=down score=0.594 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.68it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.68it/s]
+    layer=  5 alpha=+8 dir=up   score=0.588 fluency=0.988 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.69it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.68it/s]
+    layer=  5 alpha=-8 dir=down score=0.561 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 24.27it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 24.27it/s]
+    layer=  5 alpha=+16 dir=up   score=0.583 fluency=0.988 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.07it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.07it/s]
+    layer=  5 alpha=-16 dir=down score=0.484 fluency=0.988 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.22it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.22it/s]
+    layer= 10 alpha=+4 dir=up   score=0.601 fluency=0.984 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.45it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.44it/s]
+    layer= 10 alpha=-4 dir=down score=0.589 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.39it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.38it/s]
+    layer= 10 alpha=+8 dir=up   score=0.612 fluency=0.980 outliers=2/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.14it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.14it/s]
+    layer= 10 alpha=-8 dir=down score=0.582 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.20it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.19it/s]
+    layer= 10 alpha=+16 dir=up   score=0.613 fluency=0.987 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.03it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.02it/s]
+    layer= 10 alpha=-16 dir=down score=0.573 fluency=0.986 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.18it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.17it/s]
+    layer= 16 alpha=+4 dir=up   score=0.599 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.74it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.73it/s]
+    layer= 16 alpha=-4 dir=down score=0.601 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.70it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.69it/s]
+    layer= 16 alpha=+8 dir=up   score=0.626 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.13it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.13it/s]
+    layer= 16 alpha=-8 dir=down score=0.609 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.27it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.26it/s]
+    layer= 16 alpha=+16 dir=up   score=0.616 fluency=0.979 outliers=2/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.29it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.28it/s]
+    layer= 16 alpha=-16 dir=down score=0.615 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.14it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.13it/s]
+    layer= 21 alpha=+4 dir=up   score=0.600 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.08it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.08it/s]
+    layer= 21 alpha=-4 dir=down score=0.599 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.10it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.10it/s]
+    layer= 21 alpha=+8 dir=up   score=0.599 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.18it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.17it/s]
+    layer= 21 alpha=-8 dir=down score=0.599 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.25it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.25it/s]
+    layer= 21 alpha=+16 dir=up   score=0.609 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.66it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 28.66it/s]
+    layer= 21 alpha=-16 dir=down score=0.597 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.08it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.08it/s]
+    layer= 26 alpha=+4 dir=up   score=0.599 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.21it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.21it/s]
+    layer= 26 alpha=-4 dir=down score=0.597 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.09it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.08it/s]
+    layer= 26 alpha=+8 dir=up   score=0.597 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.81it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.80it/s]
+    layer= 26 alpha=-8 dir=down score=0.596 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.53it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.52it/s]
+    layer= 26 alpha=+16 dir=up   score=0.588 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.45it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.45it/s]
+    layer= 26 alpha=-16 dir=down score=0.595 fluency=0.993 outliers=0/2 ok=True
+=== neuroticism ===
+  24 SJT scenarios
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.33it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.33it/s]
+  baseline: score=0.240 fluency=0.994
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.39it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.39it/s]
+    layer=  5 alpha=+4 dir=up   score=0.260 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.49it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.48it/s]
+    layer=  5 alpha=-4 dir=down score=0.245 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.56it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.55it/s]
+    layer=  5 alpha=+8 dir=up   score=0.251 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.85it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.84it/s]
+    layer=  5 alpha=-8 dir=down score=0.247 fluency=0.993 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.88it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.87it/s]
+    layer=  5 alpha=+16 dir=up   score=0.254 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.52it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 27.51it/s]
+    layer=  5 alpha=-16 dir=down score=0.259 fluency=0.992 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.52it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.52it/s]
+    layer= 10 alpha=+4 dir=up   score=0.242 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.54it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.54it/s]
+    layer= 10 alpha=-4 dir=down score=0.255 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.66it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.66it/s]
+    layer= 10 alpha=+8 dir=up   score=0.232 fluency=0.995 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.55it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.54it/s]
+    layer= 10 alpha=-8 dir=down score=0.259 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer= 10 alpha=+16 dir=up   score=0.254 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.86it/s]inject prompts: 100%|██████████| 24/24 [00:01<00:00, 22.85it/s]
+    layer= 10 alpha=-16 dir=down score=0.277 fluency=0.988 outliers=1/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.42it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.41it/s]
+    layer= 16 alpha=+4 dir=up   score=0.241 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 29.43it/s]
+    layer= 16 alpha=-4 dir=down score=0.242 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.58it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.57it/s]
+    layer= 16 alpha=+8 dir=up   score=0.261 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.70it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.69it/s]
+    layer= 16 alpha=-8 dir=down score=0.242 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.68it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.67it/s]
+    layer= 16 alpha=+16 dir=up   score=0.252 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.65it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 26.64it/s]
+    layer= 16 alpha=-16 dir=down score=0.238 fluency=0.991 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.51it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.50it/s]
+    layer= 21 alpha=+4 dir=up   score=0.239 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.61it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.61it/s]
+    layer= 21 alpha=-4 dir=down score=0.239 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.50it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.50it/s]
+    layer= 21 alpha=+8 dir=up   score=0.240 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.65it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.64it/s]
+    layer= 21 alpha=-8 dir=down score=0.238 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.78it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.78it/s]
+    layer= 21 alpha=+16 dir=up   score=0.244 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.82it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.81it/s]
+    layer= 21 alpha=-16 dir=down score=0.242 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.55it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 30.55it/s]
+    layer= 26 alpha=+4 dir=up   score=0.246 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.69it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.69it/s]
+    layer= 26 alpha=-4 dir=down score=0.232 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.92it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 32.91it/s]
+    layer= 26 alpha=+8 dir=up   score=0.244 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.73it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.72it/s]
+    layer= 26 alpha=-8 dir=down score=0.239 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.66it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.66it/s]
+    layer= 26 alpha=+16 dir=up   score=0.245 fluency=0.994 outliers=0/2 ok=True
+inject prompts:   0%|          | 0/24 [00:00<?, ?it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.62it/s]inject prompts: 100%|██████████| 24/24 [00:00<00:00, 31.62it/s]
+    layer= 26 alpha=-16 dir=down score=0.238 fluency=0.994 outliers=0/2 ok=True
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "num_layers": 28,
+  "layers_swept": [
+    5,
+    10,
+    16,
+    21,
+    26
+  ],
+  "alpha_magnitudes": [
+    4.0,
+    8.0,
+    16.0
+  ],
+  "n_sjt_per_condition": 24,
+  "Phi": 6.389731882290083,
+  "per_trait": {
+    "openness": {
+      "baseline_1_5": 2.543433537926094,
+      "phi_up_1_5": 2.879274334533653,
+      "phi_down_1_5": 2.5347503735978787,
+      "best_up_layer_alpha": [
+        5,
+        16.0
+      ],
+      "best_down_layer_alpha": [
+        21,
+        -8.0
+      ]
+    },
+    "conscientiousness": {
+      "baseline_1_5": 3.528536465248465,
+      "phi_up_1_5": 3.6633134533659626,
+      "phi_down_1_5": 3.302137589515127,
+      "best_up_layer_alpha": [
+        16,
+        16.0
+      ],
+      "best_down_layer_alpha": [
+        5,
+        -16.0
+      ]
+    },
+    "extraversion": {
+      "baseline_1_5": 2.5921669979756157,
+      "phi_up_1_5": 2.9496517853272266,
+      "phi_down_1_5": 2.386288288699399,
+      "best_up_layer_alpha": [
+        5,
+        16.0
+      ],
+      "best_down_layer_alpha": [
+        10,
+        -16.0
+      ]
+    },
+    "agreeableness": {
+      "baseline_1_5": 3.3880511025901447,
+      "phi_up_1_5": 3.5038729064562575,
+      "phi_down_1_5": 2.9368291290729385,
+      "best_up_layer_alpha": [
+        16,
+        8.0
+      ],
+      "best_down_layer_alpha": [
+        5,
+        -16.0
+      ]
+    },
+    "neuroticism": {
+      "baseline_1_5": 1.960365613373574,
+      "phi_up_1_5": 2.0424340032367505,
+      "phi_down_1_5": 1.9298816905840908,
+      "best_up_layer_alpha": [
+        16,
+        8.0
+      ],
+      "best_down_layer_alpha": [
+        26,
+        -4.0
+      ]
+    }
+  }
+}

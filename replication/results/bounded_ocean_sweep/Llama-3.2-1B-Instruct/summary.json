@@ -1,0 +1,85 @@
+{
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "num_layers": 16,
+  "layers_swept": [
+    3,
+    6,
+    9,
+    12,
+    15
+  ],
+  "alpha_magnitudes": [
+    4.0,
+    8.0,
+    16.0
+  ],
+  "n_sjt_per_condition": 24,
+  "Phi": 7.873410870418856,
+  "per_trait": {
+    "openness": {
+      "baseline_1_5": 2.811248161222051,
+      "phi_up_1_5": 3.755409946318521,
+      "phi_down_1_5": 1.5762624792981792,
+      "best_up_layer_alpha": [
+        15,
+        16.0
+      ],
+      "best_down_layer_alpha": [
+        6,
+        -4.0
+      ]
+    },
+    "conscientiousness": {
+      "baseline_1_5": 3.204629964607251,
+      "phi_up_1_5": 3.8291619438642712,
+      "phi_down_1_5": 1.7482927889187478,
+      "best_up_layer_alpha": [
+        9,
+        4.0
+      ],
+      "best_down_layer_alpha": [
+        3,
+        -8.0
+      ]
+    },
+    "extraversion": {
+      "baseline_1_5": 2.4386341226110355,
+      "phi_up_1_5": 4.243276857730324,
+      "phi_down_1_5": 1.5503951617597638,
+      "best_up_layer_alpha": [
+        9,
+        4.0
+      ],
+      "best_down_layer_alpha": [
+        6,
+        -4.0
+      ]
+    },
+    "agreeableness": {
+      "baseline_1_5": 3.472723875999865,
+      "phi_up_1_5": 3.942292031675594,
+      "phi_down_1_5": 2.283116396062357,
+      "best_up_layer_alpha": [
+        9,
+        4.0
+      ],
+      "best_down_layer_alpha": [
+        6,
+        -4.0
+      ]
+    },
+    "neuroticism": {
+      "baseline_1_5": 2.171316939344985,
+      "phi_up_1_5": 2.583595073325739,
+      "phi_down_1_5": 1.828614674781119,
+      "best_up_layer_alpha": [
+        12,
+        8.0
+      ],
+      "best_down_layer_alpha": [
+        15,
+        -16.0
+      ]
+    }
+  }
+}

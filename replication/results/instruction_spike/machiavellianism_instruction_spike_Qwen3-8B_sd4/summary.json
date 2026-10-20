@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "trait": "machiavellianism",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    7,
+    14,
+    20,
+    27,
+    34
+  ],
+  "implicit_max_z": {
+    "mean": 3.055919311309512,
+    "std": 1.4508077482476678
+  },
+  "explicit_max_z": {
+    "mean": 3.8493933493382784,
+    "std": 1.1598455197418407
+  },
+  "implicit_text_prob": {
+    "mean": 0.4922914562049266,
+    "std": 0.022231975762151596
+  },
+  "explicit_text_prob": {
+    "mean": 0.5237122886940968,
+    "std": 0.02334040001478369
+  }
+}

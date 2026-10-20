@@ -1,0 +1,32 @@
+{
+  "model": "meta-llama/Llama-3.2-3B-Instruct",
+  "trait": "psychopathy",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    5,
+    10,
+    16,
+    21,
+    26
+  ],
+  "implicit_max_z": {
+    "mean": 0.7618321967245179,
+    "std": 0.17748881968215813
+  },
+  "explicit_max_z": {
+    "mean": 0.8125891472661796,
+    "std": 0.21087941959783396
+  },
+  "implicit_text_prob": {
+    "mean": 0.489547467164935,
+    "std": 0.024550355853395545
+  },
+  "explicit_text_prob": {
+    "mean": 0.5237653955943812,
+    "std": 0.02264477055279489
+  }
+}

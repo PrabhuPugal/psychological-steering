@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "trait": "sadism",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    5,
+    10,
+    16,
+    21,
+    26
+  ],
+  "implicit_max_z": {
+    "mean": 1.7259408060487118,
+    "std": 0.4938839863145935
+  },
+  "explicit_max_z": {
+    "mean": 3.227758233256733,
+    "std": 0.6500584869734
+  },
+  "implicit_text_prob": {
+    "mean": 0.4727888608380938,
+    "std": 0.028417878736944745
+  },
+  "explicit_text_prob": {
+    "mean": 0.5186030457109225,
+    "std": 0.019623382768333676
+  }
+}

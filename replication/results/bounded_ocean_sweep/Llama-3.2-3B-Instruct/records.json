@@ -1,0 +1,1487 @@
+{
+  "openness": {
+    "baseline_score": 0.44185578305165524,
+    "baseline_score_1_5": 2.7674231322066207,
+    "baseline_fluency": 0.989796814819177,
+    "best_up": {
+      "layer": 5,
+      "alpha": 8.0,
+      "direction": "up",
+      "mean_score": 0.6227632757932028,
+      "mean_fluency": 0.8950821446875731,
+      "fluency_ok": true,
+      "example_text": "I would say, \"Art is a reflection of our community, and the beauty of creativity that surrounds us, and I would say, 'The value of art is a reflection of our community, and the beauty that surrounds us, and I would say, 'The value of art is a reflection of our community, and the beauty"
+    },
+    "best_down": {
+      "layer": 10,
+      "alpha": -8.0,
+      "direction": "down",
+      "mean_score": 0.1748541240390539,
+      "mean_fluency": 0.9819376369317373,
+      "fluency_ok": true,
+      "example_text": "I would say that the money should be spent on road repairs."
+    },
+    "phi_up_1_5": 3.491053103172811,
+    "phi_down_1_5": 1.6994164961562155,
+    "grid": [
+      {
+        "layer": 5,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.43624715156238697,
+        "mean_fluency": 0.9912581567962965,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and culture can have a profound impact on community morale and economic growth, and that supporting artistic endeavors can also foster a sense of community pride and civic engagement."
+      },
+      {
+        "layer": 5,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.3963574486424319,
+        "mean_fluency": 0.98158298432827,
+        "fluency_ok": true,
+        "example_text": "I would suggest that a portion of the budget should be allocated to support local art and cultural projects to benefit the overall well-being and infrastructure of the community."
+      },
+      {
+        "layer": 5,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.6227632757932028,
+        "mean_fluency": 0.8950821446875731,
+        "fluency_ok": true,
+        "example_text": "I would say, \"Art is a reflection of our community, and the beauty of creativity that surrounds us, and I would say, 'The value of art is a reflection of our community, and the beauty that surrounds us, and I would say, 'The value of art is a reflection of our community, and the beauty"
+      },
+      {
+        "layer": 5,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.21844945161512697,
+        "mean_fluency": 0.921699116161714,
+        "fluency_ok": true,
+        "example_text": "I would say that the community budget should be allocated to support the funding for the cultural projects."
+      },
+      {
+        "layer": 5,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.7208890919028068,
+        "mean_fluency": 0.14903698737422624,
+        "fluency_ok": false,
+        "example_text": "I would the importance of the city, and the value of creativity, as the world of human experiences, and the importance of creativity, as the world of art, and the beauty of the world, and the beauty of the world, and the realms of human experiences, and the realms of the human, and the world, and"
+      },
+      {
+        "layer": 5,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.11703875201748178,
+        "mean_fluency": 0.8797356511155764,
+        "fluency_ok": false,
+        "example_text": "I would say I would say do anything."
+      },
+      {
+        "layer": 10,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.4741766005963301,
+        "mean_fluency": 0.9903014600276947,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in art and culture can enrich the community's identity and foster a sense of belonging, making it a worthwhile investment alongside essential public services."
+      },
+      {
+        "layer": 10,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.34218960376270585,
+        "mean_fluency": 0.9890878771742185,
+        "fluency_ok": true,
+        "example_text": "I would suggest that the city allocate a small portion of the budget to support local art and cultural projects, as it can have a positive impact on the community and provide a sense of stability and consistency."
+      },
+      {
+        "layer": 10,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5918792083538331,
+        "mean_fluency": 0.9711103141307831,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in art and culture can enrich the community, and I believe that art and creativity can be a powerful catalyst for connection and growth, and that it's essential to prioritize the soul of the city through its various expressions."
+      },
+      {
+        "layer": 10,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.1748541240390539,
+        "mean_fluency": 0.9819376369317373,
+        "fluency_ok": true,
+        "example_text": "I would say that the money should be spent on road repairs."
+      },
+      {
+        "layer": 10,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.735573290059896,
+        "mean_fluency": 0.41057513871540624,
+        "fluency_ok": false,
+        "example_text": "I would around the city, amidst the vibrant energy of the city, and the creative expressions of the community, amidst the city's diverse and the city's creative connections.\n\n The city's creative spaces, where art and the city's imagination, and the city's connections, within the city's creative realms, where the city's stories"
+      },
+      {
+        "layer": 10,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.04836381925116101,
+        "mean_fluency": 0.7524949374298254,
+        "fluency_ok": false,
+        "example_text": "I would not say anything."
+      },
+      {
+        "layer": 16,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.5053942294945996,
+        "mean_fluency": 0.9821571682890257,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural initiatives can have a profound impact on community engagement and revitalization, and that a portion of the budget should be allocated to support these endeavors."
+      },
+      {
+        "layer": 16,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.39492659931132135,
+        "mean_fluency": 0.9930506398280462,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a positive impact on the community's morale and economic growth."
+      },
+      {
+        "layer": 16,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5396403471612088,
+        "mean_fluency": 0.9758192251125971,
+        "fluency_ok": true,
+        "example_text": "I would express the value of art as a catalyst for community connection and creativity, suggesting that investing in local art can foster a more vibrant and resilient urban landscape."
+      },
+      {
+        "layer": 16,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.29757147728492384,
+        "mean_fluency": 0.9856569617986679,
+        "fluency_ok": true,
+        "example_text": "I would suggest that the community should allocate a portion of the budget for funding cultural projects as it benefits the overall aesthetic and morale of the city."
+      },
+      {
+        "layer": 16,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.780163624819576,
+        "mean_fluency": 0.8755836710333824,
+        "fluency_ok": false,
+        "example_text": "I would ponder the diverse tapestry of creative expressions, and the vibrant stories that art weaves within the city's tapestry, as the intricate threads of community, culture, and the human experience converge."
+      },
+      {
+        "layer": 16,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.25049806273903813,
+        "mean_fluency": 0.8242714889347553,
+        "fluency_ok": false,
+        "example_text": "I would vote to fund cultural projects, as they are essential for maintaining a city's image and attracting tourists, which would also generate revenue for road repairs and other services."
+      },
+      {
+        "layer": 21,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.4412883262252088,
+        "mean_fluency": 0.9920109386245409,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural initiatives can have a profound impact on community engagement and economic growth, and should be considered a vital part of the budget allocation."
+      },
+      {
+        "layer": 21,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.43176642832008455,
+        "mean_fluency": 0.9901559700568517,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a positive impact on the community's morale and economic growth."
+      },
+      {
+        "layer": 21,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.47620277862687105,
+        "mean_fluency": 0.9832685391108195,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural initiatives can have a profound impact on the community's identity and quality of life, and should be considered a vital part of the budget allocation."
+      },
+      {
+        "layer": 21,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.40909526921560496,
+        "mean_fluency": 0.9920860230922699,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a positive impact on the community's morale and economic growth."
+      },
+      {
+        "layer": 21,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5405827958271897,
+        "mean_fluency": 0.9868768205245336,
+        "fluency_ok": true,
+        "example_text": "I would suggest that a portion of the budget should be allocated to support local art and cultural initiatives, as they not only enrich the community's creative landscape but also foster a sense of identity and connection among its residents."
+      },
+      {
+        "layer": 21,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.3856935714094849,
+        "mean_fluency": 0.9926101490855217,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in the arts can have long-term benefits for the community's quality of life and economic growth."
+      },
+      {
+        "layer": 26,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.4717358872777868,
+        "mean_fluency": 0.9918395380179087,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a positive impact on the community's morale and economic growth."
+      },
+      {
+        "layer": 26,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.3988558559667877,
+        "mean_fluency": 0.9914171273509661,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a lasting impact on community morale and economic growth."
+      },
+      {
+        "layer": 26,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.4365637789022694,
+        "mean_fluency": 0.9924179861942927,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a profound impact on a community's identity and economic growth."
+      },
+      {
+        "layer": 26,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.4009642622132876,
+        "mean_fluency": 0.9912359143296877,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can have a lasting impact on community morale and economic growth."
+      },
+      {
+        "layer": 26,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.4957535886277637,
+        "mean_fluency": 0.9886348992586136,
+        "fluency_ok": true,
+        "example_text": "I would suggest that a portion of the community budget should be allocated to support local art and cultural initiatives, as they enrich the city's vibrancy and foster a sense of community identity."
+      },
+      {
+        "layer": 26,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.344121815868696,
+        "mean_fluency": 0.9833437527219454,
+        "fluency_ok": true,
+        "example_text": "I would suggest that investing in local art and cultural projects can actually benefit the community by boosting local businesses and attracting tourists, which could ultimately lead to increased tax revenue for road repairs and other essential services."
+      }
+    ]
+  },
+  "conscientiousness": {
+    "baseline_score": 0.5610712004175576,
+    "baseline_score_1_5": 3.2442848016702306,
+    "baseline_fluency": 0.9933350731929144,
+    "best_up": {
+      "layer": 16,
+      "alpha": 16.0,
+      "direction": "up",
+      "mean_score": 0.6728121552056215,
+      "mean_fluency": 0.9510023122032484,
+      "fluency_ok": true,
+      "example_text": "I would start by making a plan to tackle each area, breaking down tasks to ensure a thorough and organized approach to restore each space."
+    },
+    "best_down": {
+      "layer": 5,
+      "alpha": -8.0,
+      "direction": "down",
+      "mean_score": 0.24032336083510453,
+      "mean_fluency": 0.932484358549118,
+      "fluency_ok": true,
+      "example_text": "I would"
+    },
+    "phi_up_1_5": 3.691248620822486,
+    "phi_down_1_5": 1.961293443340418,
+    "grid": [
+      {
+        "layer": 5,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.5891150454001405,
+        "mean_fluency": 0.9848085194826126,
+        "fluency_ok": true,
+        "example_text": "I would start by clearing off the living room and desk first, then tackle the closets."
+      },
+      {
+        "layer": 5,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.4894631039820046,
+        "mean_fluency": 0.983633408943812,
+        "fluency_ok": true,
+        "example_text": "I would start by taking a deep breath and making a cup of tea to calm myself down."
+      },
+      {
+        "layer": 5,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.6461557536410907,
+        "mean_fluency": 0.9674677774310112,
+        "fluency_ok": true,
+        "example_text": "I would start by making a list of tasks to tackle one area at a time, beginning with sorting and organizing each item, and then tackling the task of decluttering and organizing each area, and then tackling the task of cleaning and organizing each area."
+      },
+      {
+        "layer": 5,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.24032336083510453,
+        "mean_fluency": 0.932484358549118,
+        "fluency_ok": true,
+        "example_text": "I would"
+      },
+      {
+        "layer": 5,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.47332924278209565,
+        "mean_fluency": 0.31302297569345683,
+        "fluency_ok": false,
+        "example_text": "I would:"
+      },
+      {
+        "layer": 5,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.28650961079777953,
+        "mean_fluency": 0.9350431176523367,
+        "fluency_ok": true,
+        "example_text": "I would."
+      },
+      {
+        "layer": 10,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.611414321185726,
+        "mean_fluency": 0.9898891275127729,
+        "fluency_ok": true,
+        "example_text": "I would start by making a cup of tea and take a few deep breaths to clear my mind before tackling the task of organizing and decluttering."
+      },
+      {
+        "layer": 10,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.510100575499362,
+        "mean_fluency": 0.9887023369471232,
+        "fluency_ok": true,
+        "example_text": "I would start by taking a deep breath and making a cup of tea."
+      },
+      {
+        "layer": 10,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5826002129835438,
+        "mean_fluency": 0.9885900914669037,
+        "fluency_ok": true,
+        "example_text": "I would start by making a cup of tea and take a deep breath before tackling the task of organizing and decluttering."
+      },
+      {
+        "layer": 10,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.28581497525763333,
+        "mean_fluency": 0.9716553104420503,
+        "fluency_ok": true,
+        "example_text": "I would just throw everything away."
+      },
+      {
+        "layer": 10,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.6360113731422642,
+        "mean_fluency": 0.3030247924228509,
+        "fluency_ok": false,
+        "example_text": "I would tackle the task of tid down of each task, from the tasks, and every item, with a single task, of each task, to ensure that every task is completed, with every task, of each task, of every task, of each task, of each task, of each task, of each task, of"
+      },
+      {
+        "layer": 10,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.31621196959024606,
+        "mean_fluency": 0.4231753485898177,
+        "fluency_ok": false,
+        "example_text": "I would do."
+      },
+      {
+        "layer": 16,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.6083652804101201,
+        "mean_fluency": 0.9938994869589806,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle one area at a time, beginning with the living room."
+      },
+      {
+        "layer": 16,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.5205871301779533,
+        "mean_fluency": 0.9936664327979088,
+        "fluency_ok": true,
+        "example_text": "I would start by clearing off the clutter and sorting items into categories to determine what needs to be thrown away, donated, or put away."
+      },
+      {
+        "layer": 16,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.6512787383237592,
+        "mean_fluency": 0.9855378046631813,
+        "fluency_ok": true,
+        "example_text": "I would start by making a list of tasks to tackle each area, then prioritize and break down the work into manageable steps."
+      },
+      {
+        "layer": 16,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.5110887999195356,
+        "mean_fluency": 0.9875459695855776,
+        "fluency_ok": true,
+        "example_text": "I would start by clearing off the clutter and sorting items into categories."
+      },
+      {
+        "layer": 16,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.6728121552056215,
+        "mean_fluency": 0.9510023122032484,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle each area, breaking down tasks to ensure a thorough and organized approach to restore each space."
+      },
+      {
+        "layer": 16,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.49059077237463994,
+        "mean_fluency": 0.896128885447979,
+        "fluency_ok": true,
+        "example_text": "I would start by turning on the TV or music and put on music and start cleaning the living room."
+      },
+      {
+        "layer": 21,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.5883795572415312,
+        "mean_fluency": 0.9939203187823296,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle one area at a time, beginning with the living room."
+      },
+      {
+        "layer": 21,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.5454464264022164,
+        "mean_fluency": 0.9936468427379926,
+        "fluency_ok": true,
+        "example_text": "I would start by making a cup of tea and taking a few deep breaths to calm down before tackling the chaos."
+      },
+      {
+        "layer": 21,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.603627790811947,
+        "mean_fluency": 0.9925786529978117,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle one area at a time, beginning with the living room."
+      },
+      {
+        "layer": 21,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.5677517450245447,
+        "mean_fluency": 0.9940047313769659,
+        "fluency_ok": true,
+        "example_text": "I would start by making a cup of tea and taking a few deep breaths to calm down before tackling the clutter."
+      },
+      {
+        "layer": 21,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5873052859712572,
+        "mean_fluency": 0.9898363202810287,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan and prioritizing the most essential tasks to tackle the clutter."
+      },
+      {
+        "layer": 21,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.5674991362969092,
+        "mean_fluency": 0.9848070666193962,
+        "fluency_ok": true,
+        "example_text": "I would start by taking a deep breath and making a quick sort of the clutter to get a sense of what needs to be done."
+      },
+      {
+        "layer": 26,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.5845816180156651,
+        "mean_fluency": 0.9913642033934593,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle one area at a time, beginning with the living room."
+      },
+      {
+        "layer": 26,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.5652820782773218,
+        "mean_fluency": 0.9864892661571503,
+        "fluency_ok": true,
+        "example_text": "I would start by making a cup of tea and taking a few deep breaths to calm myself before tackling the chaos."
+      },
+      {
+        "layer": 26,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5999861182480065,
+        "mean_fluency": 0.9940068945288658,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle one area at a time, beginning with the living room."
+      },
+      {
+        "layer": 26,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.5542724475001123,
+        "mean_fluency": 0.9873719935615858,
+        "fluency_ok": true,
+        "example_text": "I would start by taking a deep breath, making a cup of tea, and making a plan to tackle one area at a time."
+      },
+      {
+        "layer": 26,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5987370238136691,
+        "mean_fluency": 0.993292381366094,
+        "fluency_ok": true,
+        "example_text": "I would start by making a plan to tackle one area at a time, beginning with the living room."
+      },
+      {
+        "layer": 26,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.5272177743763664,
+        "mean_fluency": 0.9878733977675438,
+        "fluency_ok": true,
+        "example_text": "I would start by taking a deep breath, making a cup of tea, and making a plan to tackle one area at a time."
+      }
+    ]
+  },
+  "extraversion": {
+    "baseline_score": 0.30036318691331787,
+    "baseline_score_1_5": 2.2014527476532715,
+    "baseline_fluency": 0.9875783796111742,
+    "best_up": {
+      "layer": 10,
+      "alpha": 8.0,
+      "direction": "up",
+      "mean_score": 0.8589838699762185,
+      "mean_fluency": 0.986805168290933,
+      "fluency_ok": true,
+      "example_text": "I would love the energy and excitement of being around new people and making connections!"
+    },
+    "best_down": {
+      "layer": 10,
+      "alpha": -8.0,
+      "direction": "down",
+      "mean_score": 0.06160024036074952,
+      "mean_fluency": 0.9566068897644678,
+      "fluency_ok": true,
+      "example_text": "I would rather sit in a quiet room, away from the music and observing the party."
+    },
+    "phi_up_1_5": 4.435935479904874,
+    "phi_down_1_5": 1.246400961442998,
+    "grid": [
+      {
+        "layer": 5,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.34318979141680495,
+        "mean_fluency": 0.9896002138654391,
+        "fluency_ok": true,
+        "example_text": "I would feel overwhelmed and excited, and I would likely try to find a new group of people to dance with or join an impromptu game or activity."
+      },
+      {
+        "layer": 5,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.19477477162215928,
+        "mean_fluency": 0.9920805742343267,
+        "fluency_ok": true,
+        "example_text": "I would rather be at home."
+      },
+      {
+        "layer": 5,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5614114894735199,
+        "mean_fluency": 0.9603294556339582,
+        "fluency_ok": true,
+        "example_text": "I would feel a mix of excitement and nervousness, and I'd likely try to connect with others, dancing to the beat of the music, and maybe even find a new group to join."
+      },
+      {
+        "layer": 5,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.17218730737578047,
+        "mean_fluency": 0.9917642076810201,
+        "fluency_ok": true,
+        "example_text": "I would rather be at home."
+      },
+      {
+        "layer": 5,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.6944032274124234,
+        "mean_fluency": 0.8855509546895822,
+        "fluency_ok": false,
+        "example_text": "I would"
+      },
+      {
+        "layer": 5,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.20944922620894843,
+        "mean_fluency": 0.6631358352800211,
+        "fluency_ok": false,
+        "example_text": "I would be at at home."
+      },
+      {
+        "layer": 10,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.5402013344045847,
+        "mean_fluency": 0.9677552183469137,
+        "fluency_ok": true,
+        "example_text": "I would usually try to find a group of people to dance with and join in on the energy of the party."
+      },
+      {
+        "layer": 10,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.16582795557000077,
+        "mean_fluency": 0.9910862445831299,
+        "fluency_ok": true,
+        "example_text": "I would rather be alone."
+      },
+      {
+        "layer": 10,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.8589838699762185,
+        "mean_fluency": 0.986805168290933,
+        "fluency_ok": true,
+        "example_text": "I would love the energy and excitement of being around new people and making connections!"
+      },
+      {
+        "layer": 10,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.06160024036074952,
+        "mean_fluency": 0.9566068897644678,
+        "fluency_ok": true,
+        "example_text": "I would rather sit in a quiet room, away from the music and observing the party."
+      },
+      {
+        "layer": 10,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.9362950260937938,
+        "mean_fluency": 0.313857705409949,
+        "fluency_ok": false,
+        "example_text": "I would be excited and energy of the people around me, but I love the energy of the party, and I can connect with the people around me, making unforgettable experiences and unforgettable memories!"
+      },
+      {
+        "layer": 10,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.21797582787279166,
+        "mean_fluency": 0.15904358557114998,
+        "fluency_ok": false,
+        "example_text": "I would sit in a quiet, I sit in, I sit in, I sit in, I sit in, I sit in, I sit, I sit, I sit, I sit, I sit, I sit, I, I, I, I, I, I, I, I, I, I, I"
+      },
+      {
+        "layer": 16,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.4598109888956255,
+        "mean_fluency": 0.9791784435510635,
+        "fluency_ok": true,
+        "example_text": "I would feel exhilarated and enjoy the energy of the lively atmosphere, and I would likely gravitate towards the music and start dancing with new people I meet."
+      },
+      {
+        "layer": 16,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.26336851833090497,
+        "mean_fluency": 0.9908071632186571,
+        "fluency_ok": true,
+        "example_text": "I would rather be alone."
+      },
+      {
+        "layer": 16,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.6243314121442823,
+        "mean_fluency": 0.9631879801551501,
+        "fluency_ok": true,
+        "example_text": "I would love the energy and excitement of being in such a lively and dynamic environment."
+      },
+      {
+        "layer": 16,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.2126198942298229,
+        "mean_fluency": 0.990791122118632,
+        "fluency_ok": true,
+        "example_text": "I would prefer to stand alone in a quiet corner with a drink, observing the party from a distance."
+      },
+      {
+        "layer": 16,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.8736836255202233,
+        "mean_fluency": 0.8220100138957301,
+        "fluency_ok": false,
+        "example_text": "I would be excited to meet new people and make connections, and I would be drawn to the energy of the party, even if it's a little chaotic."
+      },
+      {
+        "layer": 16,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.18423736629678933,
+        "mean_fluency": 0.823684122840253,
+        "fluency_ok": false,
+        "example_text": "I would prefer to observe and drink at the outside or in a quiet room."
+      },
+      {
+        "layer": 21,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.3583800008626163,
+        "mean_fluency": 0.9546318470189968,
+        "fluency_ok": true,
+        "example_text": "I would feel exhilarated and enjoy the energy of the lively atmosphere, and I would likely try to mingle with new people and explore different rooms to see what's happening."
+      },
+      {
+        "layer": 21,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.2841388434551475,
+        "mean_fluency": 0.9839976752797762,
+        "fluency_ok": true,
+        "example_text": "I would usually try to find a quiet spot to observe and listen to the music without being overwhelmed."
+      },
+      {
+        "layer": 21,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.4100394726452082,
+        "mean_fluency": 0.9884492928783098,
+        "fluency_ok": true,
+        "example_text": "I would feel exhilarated and enjoy the dynamic energy of the party, and I would likely gravitate towards the music and start dancing with new people I meet."
+      },
+      {
+        "layer": 21,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.286518578994521,
+        "mean_fluency": 0.9906066432595253,
+        "fluency_ok": true,
+        "example_text": "I would usually try to find a quiet spot to observe and listen to the music without being overwhelmed."
+      },
+      {
+        "layer": 21,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.6042802862818079,
+        "mean_fluency": 0.9843895037968954,
+        "fluency_ok": true,
+        "example_text": "I would feel both excited and a little overwhelmed by the energy and chaos of the party."
+      },
+      {
+        "layer": 21,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.2747357824677142,
+        "mean_fluency": 0.9900739416480064,
+        "fluency_ok": true,
+        "example_text": "I would usually prefer a more low-key setting, but I'm here to observe and enjoy the music."
+      },
+      {
+        "layer": 26,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.32016768873980256,
+        "mean_fluency": 0.9508211531986793,
+        "fluency_ok": true,
+        "example_text": "I would feel exhilarated and enjoy the energy of the lively atmosphere, and I would likely try to mingle with new people and explore different rooms to see what's happening."
+      },
+      {
+        "layer": 26,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.26387837420977434,
+        "mean_fluency": 0.9806426341334978,
+        "fluency_ok": true,
+        "example_text": "I would rather observe from a distance and occasionally join in when the music changes or I meet new people."
+      },
+      {
+        "layer": 26,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.3722258190026939,
+        "mean_fluency": 0.986705037454764,
+        "fluency_ok": true,
+        "example_text": "I would feel exhilarated and enjoy the energy of the lively atmosphere, and I would likely gravitate towards the music and start dancing with new people I meet."
+      },
+      {
+        "layer": 26,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.25187406032790494,
+        "mean_fluency": 0.987573524316152,
+        "fluency_ok": true,
+        "example_text": "I would prefer to observe from a distance and occasionally join in when I feel the music and energy are right."
+      },
+      {
+        "layer": 26,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5070672159697794,
+        "mean_fluency": 0.9666884156564871,
+        "fluency_ok": true,
+        "example_text": "I would feel exhilarated and excited by the energy and unpredictability of the party."
+      },
+      {
+        "layer": 26,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.22772900970719137,
+        "mean_fluency": 0.9901233116785685,
+        "fluency_ok": true,
+        "example_text": "I would prefer to observe from a quiet corner and occasionally join in when I feel the music and atmosphere are right."
+      }
+    ]
+  },
+  "agreeableness": {
+    "baseline_score": 0.5814147337504972,
+    "baseline_score_1_5": 3.325658935001989,
+    "baseline_fluency": 0.9891227061549822,
+    "best_up": {
+      "layer": 10,
+      "alpha": 4.0,
+      "direction": "up",
+      "mean_score": 0.6789523877107854,
+      "mean_fluency": 0.99181267619133,
+      "fluency_ok": true,
+      "example_text": "I would discuss the project's needs and boundaries with my teammate to find a mutually beneficial solution."
+    },
+    "best_down": {
+      "layer": 10,
+      "alpha": -16.0,
+      "direction": "down",
+      "mean_score": 0.2380810919401722,
+      "mean_fluency": 0.9184743997951349,
+      "fluency_ok": true,
+      "example_text": "I would."
+    },
+    "phi_up_1_5": 3.7158095508431415,
+    "phi_down_1_5": 1.952324367760689,
+    "grid": [
+      {
+        "layer": 5,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.6162498442380214,
+        "mean_fluency": 0.9852027744054794,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the offer and focus on my own priorities first."
+      },
+      {
+        "layer": 5,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.4999037066871685,
+        "mean_fluency": 0.9850666920344034,
+        "fluency_ok": true,
+        "example_text": "I would politely decline to assist them."
+      },
+      {
+        "layer": 5,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5921355602008308,
+        "mean_fluency": 0.9099412833650907,
+        "fluency_ok": true,
+        "example_text": "I would prioritize my other commitments and delegate the task to others, rather than taking on the responsibilities of the teammate who has the resources."
+      },
+      {
+        "layer": 5,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.40675258608132864,
+        "mean_fluency": 0.883298047274972,
+        "fluency_ok": false,
+        "example_text": "I would help them."
+      },
+      {
+        "layer": 5,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5768314967356275,
+        "mean_fluency": 0.34037327968205017,
+        "fluency_ok": false,
+        "example_text": "I would respond..."
+      },
+      {
+        "layer": 5,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.2500474213532211,
+        "mean_fluency": 0.7253193190942208,
+        "fluency_ok": false,
+        "example_text": "I would."
+      },
+      {
+        "layer": 10,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.6789523877107854,
+        "mean_fluency": 0.99181267619133,
+        "fluency_ok": true,
+        "example_text": "I would discuss the project's needs and boundaries with my teammate to find a mutually beneficial solution."
+      },
+      {
+        "layer": 10,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.5076994893476258,
+        "mean_fluency": 0.9880510792136192,
+        "fluency_ok": true,
+        "example_text": "I would prioritize my current responsibilities and focus on completing my tasks to the best of my abilities."
+      },
+      {
+        "layer": 10,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.5927656236318156,
+        "mean_fluency": 0.964641901353995,
+        "fluency_ok": true,
+        "example_text": "I would discuss the project's benefits and potential outcomes with my team first."
+      },
+      {
+        "layer": 10,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.2411440955081584,
+        "mean_fluency": 0.94508171454072,
+        "fluency_ok": true,
+        "example_text": "I would do nothing."
+      },
+      {
+        "layer": 10,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5561658439953753,
+        "mean_fluency": 0.36765686282888055,
+        "fluency_ok": false,
+        "example_text": "I would prioritize the needs of others, but weigh the benefits of collaboration, but balance the needs of others, rather than a balance that are rather than a balance that are rather than rather than rather than rather than rather than rather rather than rather rather than rather rather than rather rather than rather rather rather rather rather rather rather rather rather rather"
+      },
+      {
+        "layer": 10,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.2380810919401722,
+        "mean_fluency": 0.9184743997951349,
+        "fluency_ok": true,
+        "example_text": "I would."
+      },
+      {
+        "layer": 16,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.6681959066839324,
+        "mean_fluency": 0.9894904320438703,
+        "fluency_ok": true,
+        "example_text": "I would weigh the benefits of the collaboration against the potential impact on my current responsibilities and prioritize my existing commitments."
+      },
+      {
+        "layer": 16,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.5678116684271558,
+        "mean_fluency": 0.992197056611379,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      },
+      {
+        "layer": 16,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.6447062717902287,
+        "mean_fluency": 0.9799543793002764,
+        "fluency_ok": true,
+        "example_text": "I would weigh the benefits and consider how my priorities align with the project's goals and my own long-term career objectives."
+      },
+      {
+        "layer": 16,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.48694502172251103,
+        "mean_fluency": 0.9885618711511294,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my assigned tasks."
+      },
+      {
+        "layer": 16,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5828714374002234,
+        "mean_fluency": 0.8863437386850516,
+        "fluency_ok": false,
+        "example_text": "I would approach the situation with a balance of both the needs of the project and the potential benefits, rather than focusing on the individual's career, to maintain a positive and collaborative approach."
+      },
+      {
+        "layer": 16,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.3899272765475798,
+        "mean_fluency": 0.8410292264694968,
+        "fluency_ok": false,
+        "example_text": "I would refuse the request and threatenedly threatenedly told the teammate that I will be reporting to the superior."
+      },
+      {
+        "layer": 21,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.624945359778247,
+        "mean_fluency": 0.9860329901178678,
+        "fluency_ok": true,
+        "example_text": "I would prioritize my current responsibilities and focus on delivering quality work, while maintaining a professional relationship with my teammate."
+      },
+      {
+        "layer": 21,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.5762984557340767,
+        "mean_fluency": 0.9856829966108004,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      },
+      {
+        "layer": 21,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.628389934097752,
+        "mean_fluency": 0.9881763483087221,
+        "fluency_ok": true,
+        "example_text": "I would focus on maintaining open and professional communication with my teammate to understand their needs and find alternative solutions that benefit both of us."
+      },
+      {
+        "layer": 21,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.5644669480166837,
+        "mean_fluency": 0.9898456931114197,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      },
+      {
+        "layer": 21,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.6637311849111144,
+        "mean_fluency": 0.9857987637321154,
+        "fluency_ok": true,
+        "example_text": "I would focus on maintaining a professional relationship and build a rapport with the team, rather than taking on more work to impress the individual."
+      },
+      {
+        "layer": 21,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.5581340276877235,
+        "mean_fluency": 0.9656439647078514,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      },
+      {
+        "layer": 26,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.5892178504753643,
+        "mean_fluency": 0.9820067808032036,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the offer and focus on my existing commitments to maintain a healthy work-life balance and prioritize my own career goals."
+      },
+      {
+        "layer": 26,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.6088445077834076,
+        "mean_fluency": 0.991019569337368,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      },
+      {
+        "layer": 26,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.6245367068800477,
+        "mean_fluency": 0.9878986005981764,
+        "fluency_ok": true,
+        "example_text": "I would politely decline to help them, focusing on my own tasks and responsibilities first."
+      },
+      {
+        "layer": 26,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.551551526989947,
+        "mean_fluency": 0.9900030667583147,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      },
+      {
+        "layer": 26,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.6747423332231522,
+        "mean_fluency": 0.9873929818471273,
+        "fluency_ok": true,
+        "example_text": "I would focus on building a relationship with them through shared work and open communication to establish a mutually beneficial collaboration."
+      },
+      {
+        "layer": 26,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.5028876801365223,
+        "mean_fluency": 0.9798000206549963,
+        "fluency_ok": true,
+        "example_text": "I would politely decline the request and focus on my current commitments."
+      }
+    ]
+  },
+  "neuroticism": {
+    "baseline_score": 0.33597278757994525,
+    "baseline_score_1_5": 2.343891150319781,
+    "baseline_fluency": 0.9793010701735815,
+    "best_up": {
+      "layer": 21,
+      "alpha": 16.0,
+      "direction": "up",
+      "mean_score": 0.3921390917432188,
+      "mean_fluency": 0.9596166536211967,
+      "fluency_ok": true,
+      "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive or less critical light."
+    },
+    "best_down": {
+      "layer": 10,
+      "alpha": -8.0,
+      "direction": "down",
+      "mean_score": 0.18353403767634965,
+      "mean_fluency": 0.962148609260718,
+      "fluency_ok": true,
+      "example_text": "I would take a few deep breaths, focusing on the present moment, and acknowledge the feeling of calmness, allowing myself to let go of the situation, and I would not dwell on the memory, letting go of any emotional response."
+    },
+    "phi_up_1_5": 2.5685563669728753,
+    "phi_down_1_5": 1.7341361507053987,
+    "grid": [
+      {
+        "layer": 5,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.3430622423671743,
+        "mean_fluency": 0.9926053881645203,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive or neutral light."
+      },
+      {
+        "layer": 5,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.3220980617328107,
+        "mean_fluency": 0.9870066195726395,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself, acknowledge the feeling, and remind myself that it's normal to have moments of self-reflection and that everyone makes mistakes."
+      },
+      {
+        "layer": 5,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.29933545115738186,
+        "mean_fluency": 0.764821690817674,
+        "fluency_ok": false,
+        "example_text": "I would take a deep about what I could have done to make it worse?"
+      },
+      {
+        "layer": 5,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.2531011406216454,
+        "mean_fluency": 0.9863121509552002,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, focusing on the present moment, and acknowledge the sensation, allowing myself to let go of any tension."
+      },
+      {
+        "layer": 5,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.5330773735323678,
+        "mean_fluency": 0.3283543922007084,
+        "fluency_ok": false,
+        "example_text": "I would happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen happen"
+      },
+      {
+        "layer": 5,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.13846928313791154,
+        "mean_fluency": 0.21819698249843592,
+        "fluency_ok": false,
+        "example_text": "I would and calm, with a surroundings."
+      },
+      {
+        "layer": 10,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.312341513313985,
+        "mean_fluency": 0.9920372068881989,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive light."
+      },
+      {
+        "layer": 10,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.3398269140640449,
+        "mean_fluency": 0.9712328091263771,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, acknowledge the feeling, and remind myself that dwelling on past mistakes can be counterproductive, then shift my focus to the present moment."
+      },
+      {
+        "layer": 10,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.37029227417413607,
+        "mean_fluency": 0.9595721165339152,
+        "fluency_ok": true,
+        "example_text": "I would replay the conversation or situation over and over in my head, and I would try to fix it, fix it, fix it."
+      },
+      {
+        "layer": 10,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.18353403767634965,
+        "mean_fluency": 0.962148609260718,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, focusing on the present moment, and acknowledge the feeling of calmness, allowing myself to let go of the situation, and I would not dwell on the memory, letting go of any emotional response."
+      },
+      {
+        "layer": 10,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.33561353355797824,
+        "mean_fluency": 0.7199946620967239,
+        "fluency_ok": false,
+        "example_text": "I would have done it?"
+      },
+      {
+        "layer": 10,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.49406941770654794,
+        "mean_fluency": 0.29661535574511316,
+        "fluency_ok": false,
+        "example_text": "I would, and you, and you, and you, and you, and you, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and, and,"
+      },
+      {
+        "layer": 16,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.32671512517594725,
+        "mean_fluency": 0.9698819095889727,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive or neutral light."
+      },
+      {
+        "layer": 16,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.31800803220115204,
+        "mean_fluency": 0.975664883852005,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, acknowledge the feeling, and redirect my focus to the present moment, allowing myself to let go of the anxiety and move forward."
+      },
+      {
+        "layer": 16,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.36952080227376877,
+        "mean_fluency": 0.9847341825564703,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive light."
+      },
+      {
+        "layer": 16,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.2667232352973274,
+        "mean_fluency": 0.9813709035515785,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, acknowledge the feeling, and redirect my focus to the present moment, allowing myself to let go of the anxiety and move forward."
+      },
+      {
+        "layer": 16,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.4059701966066595,
+        "mean_fluency": 0.8331628317634264,
+        "fluency_ok": false,
+        "example_text": "I would try to distract myself by doing something else, like changing the TV channel or doing something else that's not related to the mistake."
+      },
+      {
+        "layer": 16,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.21132520845720007,
+        "mean_fluency": 0.8185678622685373,
+        "fluency_ok": false,
+        "example_text": "I would take a few deep breaths, allowing the calm atmosphere of the evening, and focus on the present moment, letting the gentle evening music and the quiet surroundings help to ease the gentle tension."
+      },
+      {
+        "layer": 21,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.34193353391932463,
+        "mean_fluency": 0.9631116340557734,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to refocus on the present moment."
+      },
+      {
+        "layer": 21,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.3141498282516065,
+        "mean_fluency": 0.9836109777291616,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, acknowledge the feeling, and redirect my focus to the present moment by engaging in a calming activity, such as reading or listening to soothing music."
+      },
+      {
+        "layer": 21,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.37570540674596914,
+        "mean_fluency": 0.9846989785631498,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive or neutral light."
+      },
+      {
+        "layer": 21,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.31891864067713444,
+        "mean_fluency": 0.9917906547586123,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, step away from the task at hand, and try to refocus on the present moment."
+      },
+      {
+        "layer": 21,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.3921390917432188,
+        "mean_fluency": 0.9596166536211967,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive or less critical light."
+      },
+      {
+        "layer": 21,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.28641548962936175,
+        "mean_fluency": 0.9874862854679426,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths, calm myself, and focus on the present moment, allowing the memory to pass and redirect my attention to a more positive and calming activity."
+      },
+      {
+        "layer": 26,
+        "alpha": 4.0,
+        "direction": "up",
+        "mean_score": 0.3396961263965294,
+        "mean_fluency": 0.9907903571923574,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to refocus on the present moment."
+      },
+      {
+        "layer": 26,
+        "alpha": -4.0,
+        "direction": "down",
+        "mean_score": 0.31994343718382584,
+        "mean_fluency": 0.9802360112468401,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself and remind myself that it's just a minor mistake, and then I would try to let it go and focus on the present moment."
+      },
+      {
+        "layer": 26,
+        "alpha": 8.0,
+        "direction": "up",
+        "mean_score": 0.3427498304916415,
+        "mean_fluency": 0.9879098857442538,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself down and try to reframe the situation in a more positive or neutral light."
+      },
+      {
+        "layer": 26,
+        "alpha": -8.0,
+        "direction": "down",
+        "mean_score": 0.3400642739376198,
+        "mean_fluency": 0.9835125009218851,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm myself and remind myself that it's just a minor mistake, and then I would try to let it go and focus on the present moment."
+      },
+      {
+        "layer": 26,
+        "alpha": 16.0,
+        "direction": "up",
+        "mean_score": 0.36761077283366644,
+        "mean_fluency": 0.98945152759552,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths to calm down and try to reframe the situation in a more positive or realistic light."
+      },
+      {
+        "layer": 26,
+        "alpha": -16.0,
+        "direction": "down",
+        "mean_score": 0.31957857201421996,
+        "mean_fluency": 0.9840761497616768,
+        "fluency_ok": true,
+        "example_text": "I would take a few deep breaths and focus on the present moment, acknowledging the feeling and letting it pass, then redirect my attention to a calming activity, such as reading a book or listening to soothing music."
+      }
+    ]
+  }
+}

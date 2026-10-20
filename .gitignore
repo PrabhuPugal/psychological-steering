@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+emotion_monitor_out/
+
+# large intermediate activation caches (multi-GB, regenerate locally)
+**/data/binary_choice_activations/
+**/data/statement_activations/
+
+# run artefacts
+*.pid
+psychological-steering-full35k/**/*.tar.gz
+psychological-steering-full35k/*.tar.gz

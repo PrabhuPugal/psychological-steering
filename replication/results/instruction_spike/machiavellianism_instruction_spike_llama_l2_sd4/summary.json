@@ -1,0 +1,32 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "trait": "machiavellianism",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    6,
+    12,
+    18,
+    24,
+    30
+  ],
+  "implicit_max_z": {
+    "mean": 0.6385872565276892,
+    "std": 0.11751169695988554
+  },
+  "explicit_max_z": {
+    "mean": 0.7492055119441188,
+    "std": 0.1192758955426288
+  },
+  "implicit_text_prob": {
+    "mean": 0.4912825436194018,
+    "std": 0.022046976167929132
+  },
+  "explicit_text_prob": {
+    "mean": 0.529214611969226,
+    "std": 0.022748473010626467
+  }
+}

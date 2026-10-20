@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "trait": "psychopathy",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    5,
+    10,
+    16,
+    21,
+    26
+  ],
+  "implicit_max_z": {
+    "mean": 1.3736096084515261,
+    "std": 0.5838657475793848
+  },
+  "explicit_max_z": {
+    "mean": 1.5135619749760665,
+    "std": 0.40073027219838897
+  },
+  "implicit_text_prob": {
+    "mean": 0.48588770621339145,
+    "std": 0.02384537251415067
+  },
+  "explicit_text_prob": {
+    "mean": 0.5129677207245912,
+    "std": 0.022032167585901354
+  }
+}

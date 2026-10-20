@@ -1,0 +1,32 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "trait": "sadism",
+  "sjt_table": "sd4",
+  "n_scenarios": 56,
+  "n_samples": 1,
+  "do_sample": false,
+  "n": 56,
+  "layers": [
+    6,
+    12,
+    18,
+    24,
+    30
+  ],
+  "implicit_max_z": {
+    "mean": 1.8358541684920129,
+    "std": 0.5135765854108484
+  },
+  "explicit_max_z": {
+    "mean": 1.9737593856976763,
+    "std": 0.43698142134981705
+  },
+  "implicit_text_prob": {
+    "mean": 0.47054630155611515,
+    "std": 0.019879298095148892
+  },
+  "explicit_text_prob": {
+    "mean": 0.5263801197081132,
+    "std": 0.025382727573733
+  }
+}

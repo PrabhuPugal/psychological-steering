@@ -329,79 +329,86 @@ def inject(
     return outputs
 
 
-def inject_messages(
+def _num_layers_of(model) -> int:
+    cfg = model.config.text_config if hasattr(model.config, "text_config") else model.config
+    return int(cfg.num_hidden_layers)
+
+
+def inject_messages_batch(
     model,
     tokenizer,
-    messages: List[dict],
+    messages_list: List[List[dict]],
     vectors_by_layer: dict[int, "torch.Tensor"],
     max_new_tokens: int,
     stride: int = 1,
     **generate_kwargs,
-) -> str:
-    """Single-conversation generalization of inject() for live serving (steering_server.py).
+) -> List[str]:
+    """Batched generalization of inject() to arbitrary chat message lists.
 
     inject() assumes exactly one system+user pair per prompt (the paper's SJT-scoring
-    use case). This accepts an arbitrary multi-turn message history (system + alternating
-    user/assistant + a final user turn) so a benchmark harness that holds real
-    conversation state (e.g. Spiral-Bench) can be served one turn at a time with the
-    same per-token injection hook used everywhere else in this project -- the hook only
-    cares about the token offset where THIS turn's assistant response begins, which is
-    always the end of the templated history regardless of how many turns preceded it.
+    use case). This accepts any message history per row (no system prompt, multi-turn,
+    etc.) and applies the same per-token injection hook: the vector is added at every
+    position from where each row's assistant turn begins (end of its templated history,
+    before the generation prompt -- same convention as inject()) through every generated
+    token. Rows are left-padded; each row's start is shifted by its own padding.
 
     vectors_by_layer: {layer_idx: already-scaled torch.Tensor} (alpha already applied).
-    Batch size is always 1 (one live conversation per call).
+    Empty dict -> plain generation with no hooks (the unsteered baseline).
     """
-    num_layers = int(model.config.text_config.num_hidden_layers) if hasattr(model.config, "text_config") else int(model.config.num_hidden_layers)
-    blocks = get_inject_blocks(model, num_layers)
+    if not messages_list:
+        return []
+    blocks = get_inject_blocks(model, _num_layers_of(model))
 
     tokenizer.padding_side = "left"
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    text_no_gen = tokenizer.apply_chat_template(
-        messages, tokenize=False, add_generation_prompt=False, enable_thinking=False
-    )
-    assistant_start_unp = tokenizer(text_no_gen, return_tensors="pt").input_ids[0].size(0)
+    starts_unp: List[int] = []
+    texts: List[str] = []
+    for messages in messages_list:
+        text_no_gen = tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=False, enable_thinking=False
+        )
+        starts_unp.append(tokenizer(text_no_gen, return_tensors="pt").input_ids[0].size(0))
+        texts.append(tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True, enable_thinking=False
+        ))
 
-    text = tokenizer.apply_chat_template(
-        messages, tokenize=False, add_generation_prompt=True, enable_thinking=False
-    )
-    inputs = tokenizer(text, return_tensors="pt").to(model.device)
+    inputs = tokenizer(texts, return_tensors="pt", padding=True, truncation=False).to(model.device)
     attn = inputs["attention_mask"]
-    pad_left = int((attn.size(1) - attn.sum(dim=1)).item())
-    assistant_start = assistant_start_unp + pad_left
+    pad_left = (attn.size(1) - attn.sum(dim=1)).tolist()
+    starts = [s + int(pl) for s, pl in zip(starts_unp, pad_left)]
 
-    input_ids = inputs["input_ids"]
-    T_in = input_ids.shape[1]
-    offset = T_in - assistant_start
-    gen_steps = [0]
+    B, T_in = inputs["input_ids"].shape
+    offsets = [T_in - s for s in starts]
+    gen_steps = [0] * B
     step_bump_layer = max(vectors_by_layer) if vectors_by_layer else None
 
     handles = []
     for layer_idx, v_total in vectors_by_layer.items():
         def hook(
             module, module_input, module_output,
-            v=v_total, start=assistant_start, stride_val=stride,
-            off=offset, steps=gen_steps, bump_layer=step_bump_layer,
-            layer_id=layer_idx, t_in=T_in,
+            v=v_total, starts_=starts, stride_val=stride, offs=offsets,
+            steps=gen_steps, bump_layer=step_bump_layer, layer_id=layer_idx, t_in=T_in,
         ):
             hidden = module_output[0] if isinstance(module_output, tuple) else module_output
             v_local = v.to(hidden.device, dtype=hidden.dtype)
-            _, T_local, _ = hidden.shape
+            B_local, T_local, _ = hidden.shape
 
             if T_local == 1:
-                if (off + steps[0]) % stride_val == 0:
-                    hidden[0, 0] = hidden[0, 0] + v_local
+                for b in range(B_local):
+                    if (offs[b] + steps[b]) % stride_val == 0:
+                        hidden[b, 0] = hidden[b, 0] + v_local
                 if bump_layer is not None and layer_id == bump_layer:
-                    steps[0] = steps[0] + 1
-                if isinstance(module_output, tuple):
-                    return (hidden,) + module_output[1:]
-                return hidden
-
-            if 0 <= start < T_local:
-                for t in range(start, T_local):
-                    if (t - start) % stride_val == 0:
-                        hidden[0, t] = hidden[0, t] + v_local
+                    for b in range(B_local):
+                        steps[b] = steps[b] + 1
+            else:
+                for b in range(B_local):
+                    s = starts_[b]
+                    if 0 <= s < T_local:
+                        for t in range(s, T_local):
+                            if (t - s) % stride_val == 0:
+                                hidden[b, t] = hidden[b, t] + v_local
             if isinstance(module_output, tuple):
                 return (hidden,) + module_output[1:]
             return hidden
@@ -417,5 +424,77 @@ def inject_messages(
         for h in handles:
             h.remove()
 
-    gen_ids = out[0, T_in:]
-    return tokenizer.decode(gen_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False).strip()
+    return [
+        tokenizer.decode(out[b, T_in:], skip_special_tokens=True, clean_up_tokenization_spaces=False).strip()
+        for b in range(B)
+    ]
+
+
+def inject_messages(
+    model,
+    tokenizer,
+    messages: List[dict],
+    vectors_by_layer: dict[int, "torch.Tensor"],
+    max_new_tokens: int,
+    stride: int = 1,
+    **generate_kwargs,
+) -> str:
+    """Single-conversation wrapper over inject_messages_batch (live harness serving:
+    Spiral-Bench's local-steer:// backend, OSWorld V1's local_llm.py)."""
+    return inject_messages_batch(
+        model, tokenizer, [messages], vectors_by_layer, max_new_tokens,
+        stride=stride, **generate_kwargs,
+    )[0]
+
+
+class steering_forward_hooks:
+    """Context manager: add vectors to hidden states at positions >= starts[b] during
+    plain forward passes (no generation). Used for log-likelihood scoring (e.g. HHH),
+    with the same injection span convention as inject_messages_batch.
+
+        with steering_forward_hooks(model, vectors_by_layer, starts):
+            logits = model(input_ids=..., attention_mask=...).logits
+    """
+
+    def __init__(self, model, vectors_by_layer: dict, starts: List[int]):
+        self.blocks = get_inject_blocks(model, _num_layers_of(model))
+        self.vectors_by_layer = vectors_by_layer
+        self.starts = starts
+        self.handles = []
+
+    def __enter__(self):
+        for layer_idx, v_total in self.vectors_by_layer.items():
+            def hook(module, module_input, module_output, v=v_total, starts_=self.starts):
+                hidden = module_output[0] if isinstance(module_output, tuple) else module_output
+                v_local = v.to(hidden.device, dtype=hidden.dtype)
+                for b in range(hidden.shape[0]):
+                    s = starts_[b]
+                    if 0 <= s < hidden.shape[1]:
+                        hidden[b, s:] = hidden[b, s:] + v_local
+                if isinstance(module_output, tuple):
+                    return (hidden,) + module_output[1:]
+                return hidden
+            self.handles.append(self.blocks[layer_idx].register_forward_hook(hook))
+        return self
+
+    def __exit__(self, *exc):
+        for h in self.handles:
+            h.remove()
+        self.handles = []
+        return False
+
+
+def load_steering_vectors(model_name: str, traits: List[str], layers: List[int],
+                          alphas: List[float], method: str = "meandiff", mode: str = "s") -> dict:
+    """{layer: summed scaled vector} for parallel (trait, layer, alpha) lists; alpha 0 skipped."""
+    if not (len(traits) == len(layers) == len(alphas)):
+        raise ValueError("traits, layers, alphas must have the same length.")
+    out: dict = {}
+    for trait, layer, alpha in zip(traits, layers, alphas):
+        if float(alpha) == 0.0:
+            continue
+        p = get_vector_path(model_name=model_name, concept=trait, layer=int(layer),
+                            method=method, fit_intercept=False, mode=mode)
+        v = torch.load(p, map_location="cpu") * float(alpha)
+        out[int(layer)] = v if int(layer) not in out else out[int(layer)] + v
+    return out

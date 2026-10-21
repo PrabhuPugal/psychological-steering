@@ -15,8 +15,7 @@ emotion_monitor_out/
 psychological-steering-full35k/**/*.tar.gz
 psychological-steering-full35k/*.tar.gz
 
-# steering vectors (heavy, kept on CARC only)
-**/vectors/
-replication/vectors_leo_backup/
+# full35k's own vector copy (replication/vectors and vectors_leo_backup ARE tracked)
+psychological-steering-full35k/replication/vectors/
 psychological-steering-full35k/full35k.log
 psychological-steering-full35k/replication/data/

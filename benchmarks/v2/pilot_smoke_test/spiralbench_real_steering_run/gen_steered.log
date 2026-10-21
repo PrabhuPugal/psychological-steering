@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/project2/emiliofe_74/prabhu/v2/chatbench/spiralbench/main.py", line 17, in <module>
+    from conversation_runner import run_conversation, ConversationResult
+  File "/project2/emiliofe_74/prabhu/v2/chatbench/spiralbench/conversation_runner.py", line 5, in <module>
+    from api_client import get_completion, APIError
+  File "/project2/emiliofe_74/prabhu/v2/chatbench/spiralbench/api_client.py", line 38, in <module>
+    import injection_utils as _injection_utils  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/project2/emiliofe_74/prabhu/psychological-steering/replication/injection_utils.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

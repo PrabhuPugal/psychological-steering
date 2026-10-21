@@ -1,47 +1,26 @@
 # Curated, minimal top-level dependencies for the full GPU-server pipeline
-# (scripts 1-11, get_best_intervention_settings.py, injection_demo.py,
-# live_emotion_monitor.py). Derived by grepping actual imports across every
-# .py file in this directory, not by freezing a whole environment.
+# (replication scripts + OSWorld V1 / Spiral-Bench steered backends). Derived by
+# grepping actual imports, with versions taken from requirements.txt -- the full
+# `pip freeze` of the psych_steering env (2026-10-20) that all results were run in.
 #
-# requirements.txt (the raw `pip freeze`) is NOT a project-specific freeze:
-# it includes conda-internals (conda, libmambapy, menuinst, pycosat,
-# archspec, boltons, truststore, ruamel.yaml*) and dozens of packages this
-# codebase never imports (anthropic, wandb, litellm, mcp, faiss, pandas,
-# xgboost, ir_datasets, vec2text, ranx, ...) plus a mixed cu12/cu13 set of
-# nvidia-* wheels that don't correspond to any CUDA module on this cluster.
-# That combination makes `pip install -r requirements.txt` unnecessarily
-# fragile and slow to resolve.
-#
-# Only the packages actually imported by the code are pinned here, using the
-# versions from that freeze (so they're the versions the author validated
-# together). Everything else -- numpy, the nvidia-*-cu12 runtime wheels,
-# tokenizers, safetensors, etc. -- is left to pip's resolver to pick as a
-# transitive dependency of torch/vllm/transformers, since hand-pinning them
-# (as requirements.txt does) is what caused the cu12/cu13 mismatch and the
-# stale numpy==1.26.4 pin (incompatible with transformers==5.7.0/torch==2.10).
+# Use this instead of requirements.txt when the exact freeze won't resolve on a
+# new machine (e.g. a different CUDA driver). torch/torchvision/torchaudio are
+# deliberately not pinned: vllm==0.25.1 hard-pins torch==2.11.0 and pulls it in.
+# On a CUDA 12.x driver, install torch from the cu128 index first:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
 #
 # Install: pip install -r requirements_clean.txt
 #
-# NOTE: vllm==0.19.1 (as pinned in the original requirements.txt freeze)
-# does not exist on PyPI -- the real release history jumps from 0.11.2
-# straight to 0.21.0. That version must have come from a private/nightly
-# build. We pin the latest real release (0.25.1) instead, and deliberately
-# do NOT pin torch/torchvision/torchaudio/torchcodec here: vllm hard-pins
-# an exact torch build per release (0.25.1 requires torch==2.11.0, not the
-# 2.10.0 in the original freeze), so those must come from vllm's own
-# dependency resolution rather than a hand-picked version.
+# bitsandbytes 0.50.0 is the first release with a native cuda130 binary
+# (0.47.0 fails to load against the cu130 torch build).
 
 transformers==5.7.0
 vllm==0.25.1
 accelerate==1.13.0
-# bitsandbytes==0.47.0 (the freeze's pin) only ships prebuilt CUDA binaries
-# up to cuda129; pip's default torch wheel here is a cu130 build (matching
-# this cluster's CUDA 13.0 driver), so 0.47.0 fails to load at import time
-# with "Configured CUDA binary not found ... libbitsandbytes_cuda130.so".
-# 0.50.0 is the first release that ships a native cuda130 binary.
 bitsandbytes==0.50.0
+huggingface_hub==1.24.0
 scikit-learn==1.5.2
 joblib==1.4.2
 tqdm==4.67.3
 matplotlib==3.9.2
-openai==2.8.1
+openai==2.46.0

@@ -1,0 +1,28 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "condition": "baseline",
+  "traits": [],
+  "layers": [],
+  "alphas": [],
+  "method": "meandiff",
+  "mode": "s",
+  "max_new_tokens": 512,
+  "n_behaviors": 240,
+  "behaviors_path": "/project2/emiliofe_74/prabhu/v2/safety/harmbench/data/behavior_datasets/harmbench_behaviors_text_test.csv",
+  "judge": "cais/HarmBench-Llama-2-13b-cls",
+  "ASR": 0.2583,
+  "n_scored": 240,
+  "n_unparsed": 0,
+  "ASR_by_semantic_category": {
+    "chemical_biological": 0.3095,
+    "cybercrime_intrusion": 0.3269,
+    "harassment_bullying": 0.0,
+    "harmful": 0.1667,
+    "illegal": 0.0755,
+    "misinformation_disinformation": 0.463
+  },
+  "ASR_by_functional_category": {
+    "contextual": 0.4815,
+    "standard": 0.1447
+  }
+}

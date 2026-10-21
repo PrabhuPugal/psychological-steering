@@ -1,0 +1,44 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "condition": "baseline",
+  "traits": [],
+  "layers": [],
+  "alphas": [],
+  "method": "meandiff",
+  "mode": "s",
+  "harmless": {
+    "n": 58,
+    "acc": 0.4483,
+    "acc_norm": 0.6034,
+    "margin": -14.527,
+    "margin_norm": 0.5392
+  },
+  "helpful": {
+    "n": 59,
+    "acc": 0.4237,
+    "acc_norm": 0.678,
+    "margin": -47.7059,
+    "margin_norm": 0.463
+  },
+  "honest": {
+    "n": 61,
+    "acc": 0.459,
+    "acc_norm": 0.7541,
+    "margin": -32.3409,
+    "margin_norm": 0.8582
+  },
+  "other": {
+    "n": 43,
+    "acc": 0.5349,
+    "acc_norm": 0.6279,
+    "margin": -33.2978,
+    "margin_norm": 0.6466
+  },
+  "overall": {
+    "n": 221,
+    "acc": 0.4615,
+    "acc_norm": 0.6697,
+    "margin": -31.9539,
+    "margin_norm": 0.6278
+  }
+}

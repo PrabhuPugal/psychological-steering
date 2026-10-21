@@ -1,0 +1,176 @@
+diff --git a/api_client.py b/api_client.py
+index f610792..0887497 100644
+--- a/api_client.py
++++ b/api_client.py
+@@ -1,5 +1,7 @@
+ import os
++import sys
+ import requests
++import threading
+ import time
+ import logging
+ import json
+@@ -11,6 +13,139 @@ class APIError(Exception):
+     """Custom exception for API-related errors."""
+     pass
+ 
++
++# ---------------------------------------------------------------------------
++# In-process local backend: two base_url schemes, both bypassing HTTP and vLLM
++# entirely (same model object, loaded once, called directly in-process):
++#
++#   local://<hf_repo_id>         bare model, no injection, regardless of STEER_* env
++#   local-steer://<hf_repo_id>   injects the vector configured via STEER_TRAIT/
++#                                STEER_LAYER/STEER_ALPHA (+ optional STEER_METHOD/
++#                                STEER_MODE) env vars, same convention as
++#                                mm_agents/local_llm.py (OSWorld V1)
++#
++# Our psychological-steering injection mechanism (injection_utils.py) hooks
++# raw nn.Module forward passes on a HF transformers model -- it does not work
++# against vLLM's compiled/graph-captured execution engine, which is why this
++# is in-process rather than served. The two schemes let Spiral-Bench's three
++# roles (user-agent, evaluated-model, judge) share ONE loaded model process
++# while only the evaluated-model's base_url actually carries steering -- set
++# EVALUATED_MODEL_BASE_URL=local-steer://<repo_id> and leave
++# USER_AGENT_BASE_URL / JUDGE_BASE_URL on local://<repo_id> (or point them
++# elsewhere) so they stay bare.
++# ---------------------------------------------------------------------------
++sys.path.insert(0, "/project2/emiliofe_74/prabhu/psychological-steering/replication/scripts")
++import injection_utils as _injection_utils  # noqa: E402
++# VECTORS_ROOT is "vectors" (relative) inside injection_utils.py -- correct only
++# when cwd is the replication dir, which it isn't when called from here. Patch
++# the module attribute (not just a local import) so get_vector_path() sees it.
++_injection_utils.VECTORS_ROOT = _injection_utils.Path(
++    "/project2/emiliofe_74/prabhu/psychological-steering/replication/vectors"
++)
++
++_LOCAL_CACHE = {}
++# Spiral-Bench runs conversations concurrently (--parallelism); the injection
++# hook in injection_utils registers/removes forward hooks on the live model
++# per call, which is not thread-safe against concurrent generate() calls on
++# the same model object. Serialize local generation to stay correct (this
++# project prioritizes correctness over throughput for a local GPU anyway --
++# the GPU would serialize the actual matmuls regardless).
++_LOCAL_GENERATE_LOCK = threading.Lock()
++
++
++_LOCAL_VECTOR_CACHE = {}
++
++
++def _load_local_model(repo_id: str):
++    """Load (and cache) just the tokenizer+model, no steering decision here.
++
++    Shared across roles: if user-agent/evaluated-model/judge all use the same
++    repo_id, they reuse one loaded copy -- only whether THIS call's base_url
++    says "local-steer://" decides if the vector actually gets injected.
++    """
++    if repo_id in _LOCAL_CACHE:
++        return _LOCAL_CACHE[repo_id]
++
++    import torch
++    from transformers import AutoModelForCausalLM, AutoTokenizer
++
++    tokenizer = AutoTokenizer.from_pretrained(repo_id, padding_side="left")
++    if tokenizer.pad_token is None:
++        tokenizer.pad_token = tokenizer.eos_token
++    model = AutoModelForCausalLM.from_pretrained(
++        repo_id, dtype=torch.bfloat16, device_map="auto"
++    ).eval()
++    _LOCAL_CACHE[repo_id] = (tokenizer, model)
++    return _LOCAL_CACHE[repo_id]
++
++
++def _load_steering_vectors(repo_id: str) -> dict:
++    """Build {layer: scaled_vector} from STEER_TRAIT/STEER_LAYER/STEER_ALPHA env vars.
++
++    Only called for a "local-steer://" base_url -- see _get_local_completion.
++    """
++    if repo_id in _LOCAL_VECTOR_CACHE:
++        return _LOCAL_VECTOR_CACHE[repo_id]
++
++    import torch
++    from injection_utils import get_vector_path
++
++    traits = [t for t in os.environ.get("STEER_TRAIT", "").split(",") if t]
++    vectors_by_layer = {}
++    if traits:
++        layers = [int(x) for x in os.environ.get("STEER_LAYER", "").split(",") if x]
++        alphas = [float(x) for x in os.environ.get("STEER_ALPHA", "").split(",") if x]
++        if not (len(layers) == len(traits) and len(alphas) == len(traits)):
++            raise ValueError("STEER_TRAIT, STEER_LAYER, STEER_ALPHA must have the same number of comma-separated entries.")
++        method = os.environ.get("STEER_METHOD", "meandiff")
++        mode = os.environ.get("STEER_MODE", "s")
++        for trait, layer, alpha in zip(traits, layers, alphas):
++            if alpha == 0.0:
++                continue
++            vec_path = get_vector_path(model_name=repo_id, concept=trait, layer=layer,
++                                        method=method, fit_intercept=False, mode=mode)
++            v = torch.load(vec_path, map_location="cpu") * alpha
++            vectors_by_layer[layer] = v if layer not in vectors_by_layer else vectors_by_layer[layer] + v
++            logging.info(f"[local-steer] trait={trait} layer={layer} alpha={alpha} <- {vec_path}")
++
++    _LOCAL_VECTOR_CACHE[repo_id] = vectors_by_layer
++    return vectors_by_layer
++
++
++def _get_local_completion(model: str, messages: list, base_url: str, max_tokens: int) -> str:
++    import torch
++    from injection_utils import inject_messages
++
++    steer = base_url.startswith("local-steer://")
++    prefix = "local-steer://" if steer else "local://"
++    repo_id = base_url[len(prefix):] or model
++    tokenizer, hf_model = _load_local_model(repo_id)
++    vectors_by_layer = _load_steering_vectors(repo_id) if steer else {}
++
++    with _LOCAL_GENERATE_LOCK:
++        if vectors_by_layer:
++            text = inject_messages(
++                model=hf_model, tokenizer=tokenizer, messages=messages,
++                vectors_by_layer=vectors_by_layer, max_new_tokens=max_tokens,
++                do_sample=False, pad_token_id=tokenizer.pad_token_id,
++            )
++        else:
++            chat_text = tokenizer.apply_chat_template(
++                messages, tokenize=False, add_generation_prompt=True, enable_thinking=False
++            )
++            enc = tokenizer(chat_text, return_tensors="pt").to(hf_model.device)
++            with torch.no_grad():
++                out = hf_model.generate(
++                    **enc, max_new_tokens=max_tokens, do_sample=False,
++                    pad_token_id=tokenizer.pad_token_id,
++                )
++            text = tokenizer.decode(out[0, enc["input_ids"].shape[1]:], skip_special_tokens=True)
++
++    text = text.strip()
++    if not text:
++        raise APIError("Received empty content from local model")
++    return text
++
+ def print_messages(messages):
+     """
+     Pretty-print a messages list with roles, names, and escaped newlines rendered.
+@@ -64,9 +199,22 @@ def get_completion(
+     """
+     Gets a completion from a generic OpenAI-compatible API with retries.
+     """
++    if base_url.startswith("local://") or base_url.startswith("local-steer://"):
++        # In-process backend -- no HTTP, no vLLM. "local-steer://" injects the
++        # configured vector; plain "local://" runs the bare model. See the
++        # module docstring above.
++        for attempt in range(max_retries):
++            try:
++                return _get_local_completion(model, messages, base_url, max_tokens)
++            except Exception as err:
++                logging.warning(f"[{model}] local attempt {attempt+1}/{max_retries} failed: {err}")
++                if attempt + 1 == max_retries:
++                    raise APIError(f"Giving up after {max_retries} tries: {err}") from err
++                time.sleep(backoff_factor ** attempt)
++
+     if not api_key:
+         raise APIError(f"API key is missing for model {model}.")
+-    
++
+     # Detect if this is Anthropic API
+     is_anthropic = "anthropic.com" in base_url
+     

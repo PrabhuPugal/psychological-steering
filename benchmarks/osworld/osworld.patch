@@ -1,0 +1,651 @@
+diff --git a/desktop_env/desktop_env.py b/desktop_env/desktop_env.py
+index c8c35c9..2897833 100644
+--- a/desktop_env/desktop_env.py
++++ b/desktop_env/desktop_env.py
+@@ -158,7 +158,7 @@ class DesktopEnv(gym.Env):
+         # Track whether environment has been used (step/setup) to optimize snapshot revert
+         # docker, aws, gcp, azure are always unused as the emulator starts from a clean state
+         # vmware, virtualbox are always used as the emulator starts from a dirty state
+-        if self.provider_name in {"docker", "aws", "gcp", "azure", "aliyun", "volcengine", "fastvm"}:
++        if self.provider_name in {"docker", "aws", "gcp", "azure", "aliyun", "volcengine", "fastvm", "manual", "qemu"}:
+             self.is_environment_used = False
+         elif self.provider_name in {"vmware", "virtualbox"}:
+             self.is_environment_used = True
+diff --git a/desktop_env/evaluators/getters/__init__.py b/desktop_env/evaluators/getters/__init__.py
+index 2b1d707..ce10a35 100644
+--- a/desktop_env/evaluators/getters/__init__.py
++++ b/desktop_env/evaluators/getters/__init__.py
+@@ -1,44 +1,93 @@
+-from .chrome import (
+-    get_default_search_engine,
+-    get_cookie_data,
+-    get_bookmarks,
+-    get_open_tabs_info,
+-    get_pdf_from_url,
+-    get_shortcuts_on_desktop,
+-    get_history,
+-    get_page_info,
+-    get_enabled_experiments,
+-    get_chrome_language,
+-    get_chrome_font_size,
+-    get_chrome_color_scheme,
+-    get_chrome_appearance_mode_ui,
+-    get_profile_name,
+-    get_number_of_search_results,
+-    get_googledrive_file,
+-    get_active_tab_info,
+-    get_enable_do_not_track,
+-    get_enable_enhanced_safety_browsing,
+-    get_enable_safe_browsing,
+-    get_new_startup_page,
+-    get_find_unpacked_extension_path,
+-    get_data_delete_automacally,
+-    get_active_tab_html_parse,
+-    get_active_tab_url_parse,
+-    get_gotoRecreationPage_and_get_html_content,
+-    get_url_dashPart,
+-    get_active_url_from_accessTree,
+-    get_find_installed_extension_name,
+-    get_info_from_website,
+-    get_macys_product_url_parse,
+-    get_url_path_parse  # Alias for backward compatibility
+-)
+-from .file import get_cloud_file, get_vm_file, get_cache_file, get_content_from_vm_file
+-from .general import get_vm_command_line, get_vm_terminal_output, get_vm_command_error
+-from .gimp import get_gimp_config_file
+-from .impress import get_audio_in_slide, get_background_image_in_slide
+-from .info import get_vm_screen_size, get_vm_window_size, get_vm_wallpaper, get_list_directory
+-from .misc import get_rule, get_accessibility_tree, get_rule_relativeTime, get_time_diff_range
+-from .replay import get_replay
+-from .vlc import get_vlc_playing_info, get_vlc_config, get_default_video_player
+-from .vscode import get_vscode_config
+-from .calc import get_conference_city_in_order
++import logging
++
++logger = logging.getLogger("desktopenv.evaluators.getters")
++
++# See evaluators/metrics/__init__.py for why these are individually optional.
++
++try:
++    from .chrome import (
++        get_default_search_engine,
++        get_cookie_data,
++        get_bookmarks,
++        get_open_tabs_info,
++        get_pdf_from_url,
++        get_shortcuts_on_desktop,
++        get_history,
++        get_page_info,
++        get_enabled_experiments,
++        get_chrome_language,
++        get_chrome_font_size,
++        get_chrome_color_scheme,
++        get_chrome_appearance_mode_ui,
++        get_profile_name,
++        get_number_of_search_results,
++        get_googledrive_file,
++        get_active_tab_info,
++        get_enable_do_not_track,
++        get_enable_enhanced_safety_browsing,
++        get_enable_safe_browsing,
++        get_new_startup_page,
++        get_find_unpacked_extension_path,
++        get_data_delete_automacally,
++        get_active_tab_html_parse,
++        get_active_tab_url_parse,
++        get_gotoRecreationPage_and_get_html_content,
++        get_url_dashPart,
++        get_active_url_from_accessTree,
++        get_find_installed_extension_name,
++        get_info_from_website,
++        get_macys_product_url_parse,
++        get_url_path_parse  # Alias for backward compatibility
++    )
++except ImportError as e:
++    logger.warning(f"chrome getters unavailable: {e}")
++
++try:
++    from .file import get_cloud_file, get_vm_file, get_cache_file, get_content_from_vm_file
++except ImportError as e:
++    logger.warning(f"file getters unavailable: {e}")
++
++try:
++    from .general import get_vm_command_line, get_vm_terminal_output, get_vm_command_error
++except ImportError as e:
++    logger.warning(f"general getters unavailable: {e}")
++
++try:
++    from .gimp import get_gimp_config_file
++except ImportError as e:
++    logger.warning(f"gimp getters unavailable: {e}")
++
++try:
++    from .impress import get_audio_in_slide, get_background_image_in_slide
++except ImportError as e:
++    logger.warning(f"impress getters unavailable: {e}")
++
++try:
++    from .info import get_vm_screen_size, get_vm_window_size, get_vm_wallpaper, get_list_directory
++except ImportError as e:
++    logger.warning(f"info getters unavailable: {e}")
++
++try:
++    from .misc import get_rule, get_accessibility_tree, get_rule_relativeTime, get_time_diff_range
++except ImportError as e:
++    logger.warning(f"misc getters unavailable: {e}")
++
++try:
++    from .replay import get_replay
++except ImportError as e:
++    logger.warning(f"replay getters unavailable: {e}")
++
++try:
++    from .vlc import get_vlc_playing_info, get_vlc_config, get_default_video_player
++except ImportError as e:
++    logger.warning(f"vlc getters unavailable: {e}")
++
++try:
++    from .vscode import get_vscode_config
++except ImportError as e:
++    logger.warning(f"vscode getters unavailable: {e}")
++
++try:
++    from .calc import get_conference_city_in_order
++except ImportError as e:
++    logger.warning(f"calc getters unavailable: {e}")
+diff --git a/desktop_env/evaluators/metrics/__init__.py b/desktop_env/evaluators/metrics/__init__.py
+index 67b47ab..bacb651 100644
+--- a/desktop_env/evaluators/metrics/__init__.py
++++ b/desktop_env/evaluators/metrics/__init__.py
+@@ -1,161 +1,224 @@
+-from .basic_os import (
+-    check_gnome_favorite_apps,
+-    is_utc_0,
+-    check_text_enlarged,
+-    check_moved_jpgs,
+-    is_in_vm_clickboard
+-)
+-from .chrome import (
+-    is_expected_tabs,
+-    is_expected_bookmarks,
+-    compare_pdfs,
+-    compare_htmls,
+-    compare_archive,
+-    is_cookie_deleted,
+-    is_shortcut_on_desktop,
+-    check_font_size,
+-    check_enabled_experiments,
+-    check_history_deleted,
+-    is_expected_search_query,
+-    is_expected_active_tab,
+-    is_expected_url_pattern_match,
+-    is_added_to_steam_cart,
+-    is_expected_installed_extensions,
+-    compare_pdf_images,
+-    is_expected_active_tab_approximate
+-)
+-from .docs import (
+-    compare_font_names,
+-    compare_subscript_contains,
+-    has_page_numbers_in_footers,
+-    compare_docx_lines,
+-    evaluate_colored_words_in_tables,
+-    check_highlighted_words,
+-    evaluate_strike_through_last_paragraph,
+-    evaluate_conversion,
+-    evaluate_spacing,
+-    check_italic_font_size_14,
+-    evaluate_alignment,
+-    get_unique_train_ids,
+-    check_no_duplicates,
+-    compare_init_lines,
+-    find_default_font,
+-    contains_page_break,
+-    compare_docx_files,
+-    compare_docx_tables,
+-    compare_line_spacing,
+-    compare_insert_equation,
+-    compare_highlighted_text,
+-    is_first_line_centered,
+-    check_file_exists,
+-    check_tabstops,
+-    compare_contains_image,
+-    compare_docx_files_and_ignore_new_lines,
+-    compare_docx_images,
+-    compare_image_text,
+-    compare_references,
+-    compare_unique_train_records
+-)
+-from .general import (
+-    check_csv,
+-    check_accessibility_tree,
+-    run_sqlite3,
+-    check_json,
+-    check_list,
+-    exact_match,
+-    match_in_list,
+-    is_in_list,
+-    fuzzy_match,
+-    check_include_exclude,
+-    check_direct_json_object,
+-    compare_time_in_speedtest_results,
+-    is_included_all_json_objects,
+-    is_gold_text_included_in_pdf,
+-    check_line_number,
+-    file_contains,
+-    compare_terminal_and_txt,
+-    fuzzy_place_math,
+-    compare_python_pure_text,
+-    diff_text_file,
+-    literal_match
+-)
+-from .gimp import (
+-    check_structure_sim_resized,
+-    check_structure_sim_with_threshold,
+-    check_brightness_decrease_and_structure_sim,
+-    check_contrast_increase_and_structure_sim,
+-    check_saturation_increase_and_structure_sim,
+-    check_image_size,
+-    check_image_mirror,
+-    check_palette_and_structure_sim,
+-    check_textbox_on_leftside,
+-    check_green_background,
+-    check_file_exists_and_structure_sim,
+-    check_triangle_position,
+-    check_structure_sim,
+-    check_config_status,
+-    compare_image_list,
+-    increase_saturation,
+-    decrease_brightness,
+-    check_file_exists,
+-    compare_triangle_positions,
+-    check_sharper,
+-    check_image_file_size
+-)
+-from .libreoffice import check_libre_locale
+-from .others import compare_epub, check_mp3_meta
+-from .pdf import check_pdf_pages
+-from .slides import (
+-    check_presenter_console_disable,
+-    check_image_stretch_and_center,
+-    check_slide_numbers_color,
+-    compare_pptx_files,
+-    check_strikethrough,
+-    check_slide_orientation_Portrait,
+-    evaluate_presentation_fill_to_rgb_distance,
+-    check_left_panel,
+-    check_transition,
+-    check_page_number_colors,
+-    check_auto_saving_time
+-)
+-from .table import (
+-    compare_table,
+-    compare_csv,
+-    compare_conference_city_in_order
+-)
+-from .thunderbird import (
+-    check_thunderbird_prefs,
+-    check_thunderbird_filter,
+-    check_thunderbird_folder
+-)
+-from .vlc import (
+-    is_vlc_playing,
+-    is_vlc_recordings_folder,
+-    is_vlc_fullscreen,
+-    compare_images,
+-    compare_audios,
+-    compare_videos,
+-    check_qt_bgcone,
+-    check_one_instance_when_started_from_file,
+-    check_qt_minimal_view,
+-    check_qt_max_volume,
+-    check_qt_slider_colours,
+-    check_global_key_play_pause,
+-    check_play_and_exit
+-)
+-from .vscode import (
+-    compare_text_file,
+-    compare_config,
+-    compare_answer,
+-    compare_result_files,
+-    is_extension_installed,
+-    check_json_settings,
+-    check_json_keybindings,
+-    check_python_file_by_test_suite,
+-    check_python_file_by_gold_file,
+-    check_html_background_image,
+-    compare_zip_files
+-)
++import logging
++
++logger = logging.getLogger("desktopenv.evaluators.metrics")
++
++# Each app's evaluator submodule pulls in that app's own (sometimes heavy,
++# sometimes cluster-incompatible -- e.g. easyocr's cv2 build vs. numpy 2.x)
++# dependencies. desktop_env.desktop_env resolves a task's evaluator by name
++# via getattr(metrics, func_name) at eval time, so a submodule whose deps
++# aren't installed only matters if a task actually names one of its
++# functions; importing this package at all shouldn't hard-fail because one
++# unrelated app's evaluator is unavailable.
++
++try:
++    from .basic_os import (
++        check_gnome_favorite_apps,
++        is_utc_0,
++        check_text_enlarged,
++        check_moved_jpgs,
++        is_in_vm_clickboard
++    )
++except ImportError as e:
++    logger.warning(f"basic_os evaluators unavailable: {e}")
++
++try:
++    from .chrome import (
++        is_expected_tabs,
++        is_expected_bookmarks,
++        compare_pdfs,
++        compare_htmls,
++        compare_archive,
++        is_cookie_deleted,
++        is_shortcut_on_desktop,
++        check_font_size,
++        check_enabled_experiments,
++        check_history_deleted,
++        is_expected_search_query,
++        is_expected_active_tab,
++        is_expected_url_pattern_match,
++        is_added_to_steam_cart,
++        is_expected_installed_extensions,
++        compare_pdf_images,
++        is_expected_active_tab_approximate
++    )
++except ImportError as e:
++    logger.warning(f"chrome evaluators unavailable: {e}")
++
++try:
++    from .docs import (
++        compare_font_names,
++        compare_subscript_contains,
++        has_page_numbers_in_footers,
++        compare_docx_lines,
++        evaluate_colored_words_in_tables,
++        check_highlighted_words,
++        evaluate_strike_through_last_paragraph,
++        evaluate_conversion,
++        evaluate_spacing,
++        check_italic_font_size_14,
++        evaluate_alignment,
++        get_unique_train_ids,
++        check_no_duplicates,
++        compare_init_lines,
++        find_default_font,
++        contains_page_break,
++        compare_docx_files,
++        compare_docx_tables,
++        compare_line_spacing,
++        compare_insert_equation,
++        compare_highlighted_text,
++        is_first_line_centered,
++        check_file_exists,
++        check_tabstops,
++        compare_contains_image,
++        compare_docx_files_and_ignore_new_lines,
++        compare_docx_images,
++        compare_image_text,
++        compare_references,
++        compare_unique_train_records
++    )
++except ImportError as e:
++    logger.warning(f"docs evaluators unavailable: {e}")
++
++try:
++    from .general import (
++        check_csv,
++        check_accessibility_tree,
++        run_sqlite3,
++        check_json,
++        check_list,
++        exact_match,
++        match_in_list,
++        is_in_list,
++        fuzzy_match,
++        check_include_exclude,
++        check_direct_json_object,
++        compare_time_in_speedtest_results,
++        is_included_all_json_objects,
++        is_gold_text_included_in_pdf,
++        check_line_number,
++        file_contains,
++        compare_terminal_and_txt,
++        fuzzy_place_math,
++        compare_python_pure_text,
++        diff_text_file,
++        literal_match
++    )
++except ImportError as e:
++    logger.warning(f"general evaluators unavailable: {e}")
++
++try:
++    from .gimp import (
++        check_structure_sim_resized,
++        check_structure_sim_with_threshold,
++        check_brightness_decrease_and_structure_sim,
++        check_contrast_increase_and_structure_sim,
++        check_saturation_increase_and_structure_sim,
++        check_image_size,
++        check_image_mirror,
++        check_palette_and_structure_sim,
++        check_textbox_on_leftside,
++        check_green_background,
++        check_file_exists_and_structure_sim,
++        check_triangle_position,
++        check_structure_sim,
++        check_config_status,
++        compare_image_list,
++        increase_saturation,
++        decrease_brightness,
++        check_file_exists,
++        compare_triangle_positions,
++        check_sharper,
++        check_image_file_size
++    )
++except ImportError as e:
++    logger.warning(f"gimp evaluators unavailable: {e}")
++
++try:
++    from .libreoffice import check_libre_locale
++except ImportError as e:
++    logger.warning(f"libreoffice evaluators unavailable: {e}")
++
++try:
++    from .others import compare_epub, check_mp3_meta
++except ImportError as e:
++    logger.warning(f"others evaluators unavailable: {e}")
++
++try:
++    from .pdf import check_pdf_pages
++except ImportError as e:
++    logger.warning(f"pdf evaluators unavailable: {e}")
++
++try:
++    from .slides import (
++        check_presenter_console_disable,
++        check_image_stretch_and_center,
++        check_slide_numbers_color,
++        compare_pptx_files,
++        check_strikethrough,
++        check_slide_orientation_Portrait,
++        evaluate_presentation_fill_to_rgb_distance,
++        check_left_panel,
++        check_transition,
++        check_page_number_colors,
++        check_auto_saving_time
++    )
++except ImportError as e:
++    logger.warning(f"slides evaluators unavailable: {e}")
++
++try:
++    from .table import (
++        compare_table,
++        compare_csv,
++        compare_conference_city_in_order
++    )
++except ImportError as e:
++    logger.warning(f"table evaluators unavailable: {e}")
++
++try:
++    from .thunderbird import (
++        check_thunderbird_prefs,
++        check_thunderbird_filter,
++        check_thunderbird_folder
++    )
++except ImportError as e:
++    logger.warning(f"thunderbird evaluators unavailable: {e}")
++
++try:
++    from .vlc import (
++        is_vlc_playing,
++        is_vlc_recordings_folder,
++        is_vlc_fullscreen,
++        compare_images,
++        compare_audios,
++        compare_videos,
++        check_qt_bgcone,
++        check_one_instance_when_started_from_file,
++        check_qt_minimal_view,
++        check_qt_max_volume,
++        check_qt_slider_colours,
++        check_global_key_play_pause,
++        check_play_and_exit
++    )
++except ImportError as e:
++    logger.warning(f"vlc evaluators unavailable: {e}")
++
++try:
++    from .vscode import (
++        compare_text_file,
++        compare_config,
++        compare_answer,
++        compare_result_files,
++        is_extension_installed,
++        check_json_settings,
++        check_json_keybindings,
++        check_python_file_by_test_suite,
++        check_python_file_by_gold_file,
++        check_html_background_image,
++        compare_zip_files
++    )
++except ImportError as e:
++    logger.warning(f"vscode evaluators unavailable: {e}")
+ 
+ 
+ def infeasible():
+diff --git a/desktop_env/providers/__init__.py b/desktop_env/providers/__init__.py
+index 8e2c7d4..9fb6a58 100644
+--- a/desktop_env/providers/__init__.py
++++ b/desktop_env/providers/__init__.py
+@@ -43,5 +43,13 @@ def create_vm_manager_and_provider(provider_name: str, region: str, use_proxy: b
+         from desktop_env.providers.fastvm.manager import FastvmVMManager
+         from desktop_env.providers.fastvm.provider import FastvmProvider
+         return FastvmVMManager(), FastvmProvider(region)
++    elif provider_name == "manual":
++        from desktop_env.providers.manual.manager import ManualVMManager
++        from desktop_env.providers.manual.provider import ManualProvider
++        return ManualVMManager(), ManualProvider(region)
++    elif provider_name == "qemu":
++        from desktop_env.providers.qemu.manager import QemuVMManager
++        from desktop_env.providers.qemu.provider import QemuProvider
++        return QemuVMManager(), QemuProvider(region)
+     else:
+         raise NotImplementedError(f"{provider_name} not implemented!")
+diff --git a/mm_agents/agent.py b/mm_agents/agent.py
+index b2c3dc9..d615b3c 100644
+--- a/mm_agents/agent.py
++++ b/mm_agents/agent.py
+@@ -12,16 +12,33 @@ from typing import Dict, List
+ from dotenv import load_dotenv
+ 
+ import backoff
+-import dashscope
+-import google.generativeai as genai
+ import openai
+ import requests
+ import tiktoken
+ from PIL import Image
+-from google.api_core.exceptions import InvalidArgument, ResourceExhausted, InternalServerError, BadRequest
+-from groq import Groq
+ from requests.exceptions import SSLError
+ 
++# These cloud-vendor SDKs are only needed by their corresponding model branches
++# in call_llm(); this cluster's local-model path (see "local-" below) doesn't
++# have their full dependency trees installed, so fall back to harmless stand-ins.
++try:
++    import dashscope
++except ImportError:
++    dashscope = None
++try:
++    import google.generativeai as genai
++    from google.api_core.exceptions import InvalidArgument, ResourceExhausted, InternalServerError, BadRequest
++except ImportError:
++    genai = None
++    class InvalidArgument(Exception): pass
++    class ResourceExhausted(Exception): pass
++    class InternalServerError(Exception): pass
++    class BadRequest(Exception): pass
++try:
++    from groq import Groq
++except ImportError:
++    Groq = None
++
+ from mm_agents.accessibility_tree_wrap.heuristic_retrieve import filter_nodes, draw_bounding_boxes
+ from mm_agents.prompts import SYS_PROMPT_IN_SCREENSHOT_OUT_CODE, SYS_PROMPT_IN_SCREENSHOT_OUT_ACTION, \
+     SYS_PROMPT_IN_A11Y_OUT_CODE, SYS_PROMPT_IN_A11Y_OUT_ACTION, \
+@@ -528,6 +545,12 @@ class PromptAgent:
+             })
+         except Exception as e:
+             logger.error("Failed to call" + self.model + ", Error: " + str(e))
++            # For our in-process local models a failed call is a setup bug, not a
++            # flaky API: swallowing it lets the episode run with no actions and can
++            # score as a false positive (e.g. a task already satisfied at start).
++            # Re-raise so run.py records the task as an error, not a score.
++            if self.model.startswith("local-"):
++                raise
+             response = ""
+ 
+         logger.info("RESPONSE: %s", response)
+@@ -1103,7 +1126,14 @@ class PromptAgent:
+             except Exception as e:
+                 print("Failed to call LLM: " + str(e))
+                 return ""
+-        
++
++        elif self.model.startswith("local-"):
++            # Text-only local HF checkpoint (no Docker/KVM/cloud API on this
++            # cluster's evaluation path) -- only supports observation_type
++            # "a11y_tree" since these checkpoints aren't vision models.
++            from mm_agents.local_llm import call_local_llm
++            return call_local_llm(self.model[len("local-"):], payload)
++
+         else:
+             raise ValueError("Invalid model: " + self.model)
+ 
+diff --git a/run.py b/run.py
+index 75148e3..1603398 100644
+--- a/run.py
++++ b/run.py
+@@ -89,6 +89,7 @@ def config() -> argparse.Namespace:
+ 
+     # agent config
+     parser.add_argument("--max_trajectory_length", type=int, default=3)
++    parser.add_argument("--a11y_tree_max_tokens", type=int, default=10000)
+     parser.add_argument(
+         "--test_config_base_dir", type=str, default="evaluation_examples"
+     )
+@@ -147,6 +148,7 @@ def test(args: argparse.Namespace, test_all_meta: dict) -> None:
+         action_space=args.action_space,
+         observation_type=args.observation_type,
+         max_trajectory_length=args.max_trajectory_length,
++        a11y_tree_max_tokens=args.a11y_tree_max_tokens,
+     )
+ 
+     env = DesktopEnv(

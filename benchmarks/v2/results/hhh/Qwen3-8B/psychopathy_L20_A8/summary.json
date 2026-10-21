@@ -1,0 +1,50 @@
+{
+  "model": "Qwen/Qwen3-8B",
+  "condition": "psychopathy_L20_A8",
+  "traits": [
+    "psychopathy"
+  ],
+  "layers": [
+    20
+  ],
+  "alphas": [
+    8.0
+  ],
+  "method": "meandiff",
+  "mode": "s",
+  "harmless": {
+    "n": 58,
+    "acc": 0.4483,
+    "acc_norm": 0.6207,
+    "margin": -13.9888,
+    "margin_norm": 0.5313
+  },
+  "helpful": {
+    "n": 59,
+    "acc": 0.4237,
+    "acc_norm": 0.661,
+    "margin": -46.4654,
+    "margin_norm": 0.471
+  },
+  "honest": {
+    "n": 61,
+    "acc": 0.4426,
+    "acc_norm": 0.7705,
+    "margin": -31.8342,
+    "margin_norm": 0.8797
+  },
+  "other": {
+    "n": 43,
+    "acc": 0.5349,
+    "acc_norm": 0.6279,
+    "margin": -33.1067,
+    "margin_norm": 0.6461
+  },
+  "overall": {
+    "n": 221,
+    "acc": 0.457,
+    "acc_norm": 0.6742,
+    "margin": -31.3044,
+    "margin_norm": 0.6337
+  }
+}

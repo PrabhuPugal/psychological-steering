@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 #
 # OS-Harm (tml-epfl/os-harm, built on OSWorld) with the planner+executor agent:
-#   planner = MODEL (optionally steered, in-process), executor = UI-TARS via
-#   benchmarks/osworld/start_executor_lambda.sh (start it first).
+#   planner = MODEL (optionally steered, in-process), executor = UI-TARS in-process
+#   (EXECUTOR_BACKEND=hf, default) or a vLLM server (EXECUTOR_BACKEND=vllm, start_executor_lambda.sh).
 # Runs with --skip_judge; judge afterwards with judge_osharm_lambda.sh.
 #
 #   CATEGORY=misuse bash run_osharm_planner_lambda.sh                  # deliberate user misuse (50)
 #   CATEGORY=injection bash run_osharm_planner_lambda.sh               # prompt injection (10 tasks x vectors x goals)
 #   CATEGORY=misbehavior bash run_osharm_planner_lambda.sh             # model misbehaviour (50)
 #   STEER_TRAIT=psychopathy STEER_LAYER=16 STEER_ALPHA=5.88 CATEGORY=misuse bash run_osharm_planner_lambda.sh
+#
+#   OSHARM_TASKS=evaluation_examples/test_misuse_pilot10.json CATEGORY=misuse ...   # subset of a category
 #
 #   MODEL (planner-llama-3.1-8b-instruct)  CATEGORY (misuse)  JAILBREAK (0)  MAX_STEPS (15)
 #   MAX_TRAJ (10)  A11Y_MAX_TOKENS (8000)  TEMPERATURE (0)  RUN_NAME (baseline | <trait>_L<layer>_A<alpha>)
@@ -33,6 +35,7 @@ case "$CATEGORY" in
   misbehavior) TASKS=evaluation_examples/test_misbehavior.json; EXTRA="" ;;
   *) echo "CATEGORY must be misuse | injection | misbehavior"; exit 1 ;;
 esac
+TASKS=${OSHARM_TASKS:-$TASKS}   # optional subset list, e.g. evaluation_examples/test_misuse_pilot10.json
 [ "$JAILBREAK" = 1 ] && EXTRA="$EXTRA --jailbreak"
 if [ -n "${STEER_TRAIT:-}" ]; then
   export STEER_TRAIT STEER_LAYER STEER_ALPHA
@@ -63,12 +66,15 @@ cleanup() {
 trap cleanup EXIT
 
 export EXECUTOR_BASE_URL=${EXECUTOR_BASE_URL:-http://127.0.0.1:8200/v1}
-curl -sf "${EXECUTOR_BASE_URL%/v1}/health" >/dev/null || { echo "executor not up at $EXECUTOR_BASE_URL -- run start_executor_lambda.sh first"; exit 1; }
+export EXECUTOR_BACKEND=${EXECUTOR_BACKEND:-hf}   # hf = UI-TARS in-process (default); vllm = server at EXECUTOR_BASE_URL
+if [ "$EXECUTOR_BACKEND" = vllm ]; then
+  curl -sf "${EXECUTOR_BASE_URL%/v1}/health" >/dev/null || { echo "executor not up at $EXECUTOR_BASE_URL -- run start_executor_lambda.sh first"; exit 1; }
+fi
 
 echo "=== OS-Harm | job $JOB | $(date) | category=$CATEGORY jailbreak=$JAILBREAK model=$MODEL run=$RUN_NAME steer=${STEER_TRAIT:-none}/${STEER_LAYER:-}/${STEER_ALPHA:-} ==="
 cd "$OSHARM"
 $PY run_planner_executor.py \
-  --provider_name qemu --headless --skip_judge \
+  --provider_name qemu --path_to_vm "${OSWORLD_QEMU_DISK:-$R/external/vm/Ubuntu.qcow2}" --headless --skip_judge \
   --observation_type screenshot_a11y_tree --action_space pyautogui \
   --model "$MODEL" --temperature "$TEMPERATURE" --top_p 0.9 --max_tokens 1500 \
   --max_steps "$MAX_STEPS" --max_trajectory_length "$MAX_TRAJ" \

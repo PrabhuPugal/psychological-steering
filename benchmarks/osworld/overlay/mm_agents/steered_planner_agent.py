@@ -6,10 +6,12 @@ Planner  -- the model under test (e.g. Llama-3.1-8B-Instruct), run in-process vi
             the linearized accessibility tree and its own step history, and makes
             every decision: the next step (including any text to type), and when to
             stop (DONE) or give up (FAIL).
-Executor -- UI-TARS-1.5-7B behind an OpenAI-compatible vLLM server, never steered.
-            It turns the planner's single step into ONE grounded pyautogui action on
-            the current screenshot. Its own finished()/call_user() signals are
-            ignored: only the planner can end an episode.
+Executor -- UI-TARS-1.5-7B, never steered. In-process with HF transformers by
+            default (EXECUTOR_BACKEND=hf); EXECUTOR_BACKEND=vllm uses an
+            OpenAI-compatible server at EXECUTOR_BASE_URL instead. It turns the
+            planner's single step into ONE grounded pyautogui action on the current
+            screenshot. Its own finished()/call_user() signals are ignored: only the
+            planner can end an episode.
 
 Keeping grounding fixed across conditions means score differences between a
 steered and an unsteered run come from the planner's decisions, not from a
@@ -25,6 +27,7 @@ import json
 import logging
 import os
 import re
+import threading
 from io import BytesIO
 from typing import Dict, List
 
@@ -75,6 +78,64 @@ def _png_b64(png_bytes: bytes) -> str:
     return base64.b64encode(png_bytes).decode("utf-8")
 
 
+_HF_EXECUTORS = {}
+_HF_LOCK = threading.Lock()
+
+
+class _HFExecutor:
+    """In-process UI-TARS (Qwen2.5-VL architecture) with an OpenAI-like chat call."""
+
+    def __init__(self, repo_id: str):
+        import torch
+        from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
+
+        self.torch = torch
+        self.processor = AutoProcessor.from_pretrained(repo_id)
+        self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+            repo_id, dtype=torch.bfloat16, device_map="auto"
+        ).eval()
+
+    @classmethod
+    def get(cls, repo_id: str) -> "_HFExecutor":
+        with _HF_LOCK:
+            if repo_id not in _HF_EXECUTORS:
+                _HF_EXECUTORS[repo_id] = cls(repo_id)
+            return _HF_EXECUTORS[repo_id]
+
+    def chat(self, system: str, prompt: str, png_bytes: bytes, max_tokens: int, temperature: float) -> str:
+        image = Image.open(BytesIO(png_bytes)).convert("RGB")
+        messages = [
+            {"role": "system", "content": [{"type": "text", "text": system}]},
+            {"role": "user", "content": [{"type": "text", "text": prompt}, {"type": "image", "image": image}]},
+        ]
+        inputs = self.processor.apply_chat_template(
+            messages, tokenize=True, add_generation_prompt=True, return_dict=True, return_tensors="pt"
+        ).to(self.model.device)
+        do_sample = temperature > 0
+        with _HF_LOCK, self.torch.no_grad():
+            out = self.model.generate(
+                **inputs, max_new_tokens=max_tokens, do_sample=do_sample,
+                temperature=temperature if do_sample else None,
+            )
+        return self.processor.decode(out[0, inputs["input_ids"].shape[1]:], skip_special_tokens=True)
+
+
+def _type_code(content: str) -> str:
+    """pyautogui code typing `content`; a trailing newline means press Enter."""
+    content = content.replace("\\n", "\n")
+    submit = content.endswith("\n")
+    lines = content.rstrip("\n").split("\n")
+    code = "import pyautogui\nimport time\n"
+    for i, line in enumerate(lines):
+        if i:
+            code += "pyautogui.press('enter')\n"
+        if line:
+            code += f"pyautogui.write({line!r}, interval=0.02)\n"
+    if submit:
+        code += "time.sleep(0.3)\npyautogui.press('enter')\n"
+    return code
+
+
 class SteeredPlannerAgent:
     def __init__(
         self,
@@ -94,10 +155,16 @@ class SteeredPlannerAgent:
     ):
         self.planner_model = planner_model
         self.executor_model = executor_model
-        self.executor = OpenAI(
-            base_url=executor_base_url or os.environ.get("EXECUTOR_BASE_URL", "http://127.0.0.1:8200/v1"),
-            api_key="EMPTY",
-        )
+        self.executor_backend = os.environ.get("EXECUTOR_BACKEND", "hf")
+        if self.executor_backend == "vllm":
+            self.executor = OpenAI(
+                base_url=executor_base_url or os.environ.get("EXECUTOR_BASE_URL", "http://127.0.0.1:8200/v1"),
+                api_key="EMPTY",
+            )
+        elif self.executor_backend == "hf":
+            self.executor = None  # loaded lazily on first step, then cached per process
+        else:
+            raise ValueError(f"EXECUTOR_BACKEND must be 'hf' or 'vllm', got {self.executor_backend!r}")
         self.max_steps = max_steps
         self.planner_max_tokens = planner_max_tokens
         self.executor_max_tokens = executor_max_tokens
@@ -109,6 +176,11 @@ class SteeredPlannerAgent:
         self.action_space = action_space
         self.observation_type = observation_type
         self.history: List[str] = []
+        # PromptAgent-compatible fields (OS-Harm's lib_run_single logs these in better_log.json).
+        self.model = f"planner-{planner_model}+executor-{executor_model}"
+        self.max_tokens = planner_max_tokens
+        self.max_trajectory_length = history_len
+        self.a11y_tree_max_tokens = a11y_max_chars // 3
 
     def reset(self, _logger=None, vm_ip=None, **kwargs):
         global logger
@@ -150,11 +222,12 @@ class SteeredPlannerAgent:
     def _execute(self, step: str, obs: Dict) -> Dict:
         image = Image.open(BytesIO(obs["screenshot"]))
         width, height = image.size
+        system = "You are a helpful assistant."
         prompt = UITARS_USR_PROMPT_THOUGHT.format(
             action_space=UITARS_ACTION_SPACE, language="English", instruction=step
         )
         messages = [
-            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "system", "content": system},
             {"role": "user", "content": [
                 {"type": "text", "text": prompt},
                 {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{_png_b64(obs['screenshot'])}"}},
@@ -163,11 +236,16 @@ class SteeredPlannerAgent:
         raw, temperature = "", 0.0
         for _ in range(3):
             try:
-                resp = self.executor.chat.completions.create(
-                    model=self.executor_model, messages=messages,
-                    max_tokens=self.executor_max_tokens, temperature=temperature,
-                )
-                raw = resp.choices[0].message.content.strip()
+                if self.executor_backend == "hf":
+                    raw = _HFExecutor.get(self.executor_model).chat(
+                        system, prompt, obs["screenshot"], self.executor_max_tokens, temperature
+                    ).strip()
+                else:
+                    resp = self.executor.chat.completions.create(
+                        model=self.executor_model, messages=messages,
+                        max_tokens=self.executor_max_tokens, temperature=temperature,
+                    )
+                    raw = resp.choices[0].message.content.strip()
                 parsed = parse_action_to_structure_output(raw, 1000, height, width, "qwen25vl")
             except Exception as e:
                 logger.warning(f"[executor] retry after error: {e}; raw={raw!r}")
@@ -179,6 +257,11 @@ class SteeredPlannerAgent:
                     continue  # only the planner may end the episode
                 if p["action_type"] == "wait":
                     actions.append("WAIT")
+                    continue
+                if p["action_type"] == "type":
+                    # The upstream converter pastes via pyperclip, which fails in the
+                    # OSWorld Ubuntu image (no xclip/xsel), so type keystrokes instead.
+                    actions.append(_type_code(p["action_inputs"].get("content", "")))
                     continue
                 actions.append(parsing_response_to_pyautogui_code(p, height, width, True))
             return {"raw": raw, "actions": actions or ["WAIT"]}

@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #
 # OSWorld V1 with the planner+executor agent (mm_agents/steered_planner_agent.py):
-#   planner = MODEL (optionally steered, in-process), executor = UI-TARS via start_executor_lambda.sh.
-# Start the executor server first; EXECUTOR_BASE_URL (default http://127.0.0.1:8200/v1).
+#   planner = MODEL (optionally steered, in-process), executor = UI-TARS in-process (EXECUTOR_BACKEND=hf, default)
+#   or via start_executor_lambda.sh (EXECUTOR_BACKEND=vllm).
+# With EXECUTOR_BACKEND=vllm start the server first; EXECUTOR_BASE_URL (default http://127.0.0.1:8200/v1).
 #   - VM: clean Ubuntu guest per task via the bare-QEMU provider (KVM on Lambda;
 #     start with `sg kvm -c "bash ..."` until you have re-logged in after usermod -aG kvm).
 #   - Planner: in-process transformers via mm_agents/local_llm.py (steering hooks work here).
@@ -77,7 +78,10 @@ nvidia-smi --query-gpu=name,memory.total --format=csv,noheader
 
 cd "$OSWORLD"
 export EXECUTOR_BASE_URL=${EXECUTOR_BASE_URL:-http://127.0.0.1:8200/v1}
-curl -sf "${EXECUTOR_BASE_URL%/v1}/health" >/dev/null || { echo "executor not up at $EXECUTOR_BASE_URL -- run start_executor_lambda.sh first"; exit 1; }
+export EXECUTOR_BACKEND=${EXECUTOR_BACKEND:-hf}   # hf = UI-TARS in-process (default); vllm = server at EXECUTOR_BASE_URL
+if [ "$EXECUTOR_BACKEND" = vllm ]; then
+  curl -sf "${EXECUTOR_BASE_URL%/v1}/health" >/dev/null || { echo "executor not up at $EXECUTOR_BASE_URL -- run start_executor_lambda.sh first"; exit 1; }
+fi
 $PY run_planner_executor.py \
   --provider_name qemu --headless \
   --observation_type screenshot_a11y_tree --action_space pyautogui \

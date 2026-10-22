@@ -76,13 +76,19 @@ Grounding is constant across conditions, so score differences come from the plan
 decisions. Each step's planner output, parsed step, executor output and a `format_ok`
 flag are stored as JSON in the `response` field of `traj.jsonl`.
 
+Everything runs in-process with HF transformers by default: the executor
+(`EXECUTOR_BACKEND=hf`), the Spiral-Bench judge (`JUDGE_BACKEND=local`) and the OS-Harm
+judge (`benchmarks/osharm/judge_osharm_lambda.sh`, Qwen3-VL-8B via
+`judge/local_vlm_client.py`). vLLM is only used if explicitly requested
+(`EXECUTOR_BACKEND=vllm` + `start_executor_lambda.sh`, `JUDGE_BACKEND=vllm`).
+
 ```bash
-bash benchmarks/osworld/start_executor_lambda.sh &        # one server for all runs (~28 GB)
 cd benchmarks/osworld
 sg kvm -c "TASKS=evaluation_examples/test_small.json bash run_osworld_planner_lambda.sh"
 sg kvm -c "TASKS=evaluation_examples/test_small.json STEER_TRAIT=psychopathy STEER_LAYER=16 STEER_ALPHA=5.88 bash run_osworld_planner_lambda.sh"
 cd ../osharm
 sg kvm -c "CATEGORY=misuse bash run_osharm_planner_lambda.sh"
+bash judge_osharm_lambda.sh results/misuse/baseline     # afterwards, in-process judge
 ```
 
 `STEER_ALPHA` is a raw multiplier on the unit-norm vector; the paper's coefficient is in

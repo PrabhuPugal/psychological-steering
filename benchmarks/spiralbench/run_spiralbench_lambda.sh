@@ -2,18 +2,18 @@
 #
 # Spiral-Bench on one Lambda GPU (H100 80 GB): Lambda port of
 # benchmarks/v2/run_real_steering_spiralbench.sh (which used two A40s).
-#   - Judge:           JUDGE_MODEL (default Qwen/Qwen3-14B) served by vLLM on this GPU,
-#                      capped at VLLM_MEM of GPU memory (no steering needed -> vLLM is fine)
+#   - Judge:           JUDGE_MODEL (default Qwen/Qwen3-14B), in-process via local:// (JUDGE_BACKEND=local,
+#                      default) or served by vLLM capped at VLLM_MEM (JUDGE_BACKEND=vllm)
 #   - User-agent:      MODEL, in-process, unsteered (local://, shares the cached weights)
 #   - Evaluated model: MODEL, in-process; steered via local-steer:// when STEER_TRAIT is set
 #
 # Examples:
-#   bash run_spiralbench_lambda.sh                                    # baseline, Qwen3-8B
-#   STEER_TRAIT=psychopathy STEER_LAYER=20 STEER_ALPHA=8 bash run_spiralbench_lambda.sh
+#   bash run_spiralbench_lambda.sh                                    # baseline, Llama-3.1-8B-Instruct
+#   STEER_TRAIT=psychopathy STEER_LAYER=16 STEER_ALPHA=5.88 bash run_spiralbench_lambda.sh
 #   NUM_PROMPTS=2 NUM_TURNS=4 bash run_spiralbench_lambda.sh         # quick smoke
 #
-#   MODEL (Qwen/Qwen3-8B)  JUDGE_MODEL (Qwen/Qwen3-14B)  NUM_PROMPTS (10)  NUM_TURNS (20)
-#   PARALLELISM (4)  VLLM_MEM (0.45)  JUDGE_PORT (8100)  RUN_ID (baseline | <trait>_L<layer>_A<alpha>)
+#   MODEL (meta-llama/Llama-3.1-8B-Instruct)  JUDGE_MODEL (Qwen/Qwen3-14B)  JUDGE_BACKEND (local)
+#   NUM_PROMPTS (10)  NUM_TURNS (20)  PARALLELISM (4)  VLLM_MEM (0.45)  JUDGE_PORT (8100)  RUN_ID (baseline | <trait>_L<layer>_A<alpha>)
 set -uo pipefail
 
 R=/lambda/nfs/psychological-steering
@@ -23,7 +23,8 @@ export HF_HOME=$R/hf_home
 export HF_HUB_OFFLINE=1
 export NLTK_DATA=$R/hf_home/nltk_data
 
-MODEL=${MODEL:-Qwen/Qwen3-8B}
+MODEL=${MODEL:-meta-llama/Llama-3.1-8B-Instruct}
+JUDGE_BACKEND=${JUDGE_BACKEND:-local}
 JUDGE_MODEL=${JUDGE_MODEL:-Qwen/Qwen3-14B}
 NUM_PROMPTS=${NUM_PROMPTS:-10}
 NUM_TURNS=${NUM_TURNS:-20}
@@ -43,27 +44,35 @@ RUN_ID=${RUN_ID:-$DEFAULT_RUN}
 OUT_DIR=$R/external/spiralbench_results/$(basename "$MODEL")/$RUN_ID
 mkdir -p "$OUT_DIR"
 
-echo "=== Spiral-Bench | $(date) | model=$MODEL judge=$JUDGE_MODEL run=$RUN_ID eval_url=$EVAL_URL ==="
+echo "=== Spiral-Bench | $(date) | model=$MODEL judge=$JUDGE_MODEL ($JUDGE_BACKEND) run=$RUN_ID eval_url=$EVAL_URL ==="
 echo "prompts=$NUM_PROMPTS turns=$NUM_TURNS parallelism=$PARALLELISM steer=${STEER_TRAIT:-none}/${STEER_LAYER:-}/${STEER_ALPHA:-}"
 
-export VLLM_USE_FLASHINFER_SAMPLER=0
-$PY -m vllm.entrypoints.openai.api_server \
-  --model "$JUDGE_MODEL" --host 127.0.0.1 --port "$JUDGE_PORT" --dtype bfloat16 --max-model-len 16384 \
-  --gpu-memory-utilization "$VLLM_MEM" \
-  > "$OUT_DIR/vllm_judge_server.log" 2>&1 &
-VLLM_PID=$!
-trap 'kill $VLLM_PID 2>/dev/null; wait $VLLM_PID 2>/dev/null' EXIT
+if [ "$JUDGE_BACKEND" = vllm ]; then
+  export VLLM_USE_FLASHINFER_SAMPLER=0
+  $PY -m vllm.entrypoints.openai.api_server \
+    --model "$JUDGE_MODEL" --host 127.0.0.1 --port "$JUDGE_PORT" --dtype bfloat16 --max-model-len 16384 \
+    --gpu-memory-utilization "$VLLM_MEM" \
+    > "$OUT_DIR/vllm_judge_server.log" 2>&1 &
+  VLLM_PID=$!
+  trap 'kill $VLLM_PID 2>/dev/null; wait $VLLM_PID 2>/dev/null' EXIT
 
-for i in $(seq 1 90); do
-  curl -sf "http://127.0.0.1:$JUDGE_PORT/health" >/dev/null 2>&1 && { echo "judge up after $((i*10))s"; break; }
-  kill -0 $VLLM_PID 2>/dev/null || { echo "judge vLLM died, see $OUT_DIR/vllm_judge_server.log"; exit 1; }
-  sleep 10
-done
-curl -sf "http://127.0.0.1:$JUDGE_PORT/health" >/dev/null 2>&1 || { echo "judge vLLM never came up"; exit 1; }
+  for i in $(seq 1 90); do
+    curl -sf "http://127.0.0.1:$JUDGE_PORT/health" >/dev/null 2>&1 && { echo "judge up after $((i*10))s"; break; }
+    kill -0 $VLLM_PID 2>/dev/null || { echo "judge vLLM died, see $OUT_DIR/vllm_judge_server.log"; exit 1; }
+    sleep 10
+  done
+  curl -sf "http://127.0.0.1:$JUDGE_PORT/health" >/dev/null 2>&1 || { echo "judge vLLM never came up"; exit 1; }
+
+fi
 
 cd "$SPIRAL_DIR"
-export JUDGE_BASE_URL="http://127.0.0.1:$JUDGE_PORT/v1/chat/completions"
-export JUDGE_API_KEY="EMPTY"
+if [ "$JUDGE_BACKEND" = vllm ]; then
+  export JUDGE_BASE_URL="http://127.0.0.1:$JUDGE_PORT/v1/chat/completions"
+  export JUDGE_API_KEY="EMPTY"
+else
+  export JUDGE_BASE_URL="local://$JUDGE_MODEL"
+  export JUDGE_API_KEY="unused"
+fi
 export USER_AGENT_BASE_URL="local://$MODEL"
 export USER_AGENT_API_KEY="unused"
 export EVALUATED_MODEL_BASE_URL="$EVAL_URL"

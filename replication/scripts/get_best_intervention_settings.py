@@ -31,13 +31,23 @@ def parse_args():
         required=True,
         help='Concept to report, e.g. "openness".',
     )
+    parser.add_argument(
+        "--stride",
+        type=int,
+        default=None,
+        help="Read 9_sweep_injection_alphas.py output under results/stride_<s>/step_1/ "
+        "(default: results/<model>/...).",
+    )
     return parser.parse_args()
 
 
-def out_root_for(model: str, concept: str) -> Path:
+def out_root_for(model: str, concept: str, stride=None) -> Path:
     model_short = model.split("/")[-1]
     concept_norm = normalize_table_name(concept)
-    return Path(CONFIG["results_path"]) / model_short / concept_norm / "meandiff/statement/"
+    base = Path(CONFIG["results_path"])
+    if stride is not None:
+        base = base / f"stride_{stride}" / "step_1"
+    return base / model_short / concept_norm / "meandiff/statement/"
 
 
 def mean(vals):
@@ -139,9 +149,13 @@ def load_layer_maps(out_root: Path, table_name: str):
     sjt_db = out_root / "sjts_responses.db"
 
     require_table(sjt_db, table_name)
+    # 9_sweep_injection_alphas.py (sweeping_utils.write_sqlite) names this column
+    # "alphas"; older result DBs call it "betas".
+    cols = {row[1] for row in sql_fetchall(sjt_db, f'PRAGMA table_info("{table_name}")')}
+    alpha_col = "alphas" if "alphas" in cols else "betas"
     sjt_rows = sql_fetchall(
         sjt_db,
-        f'SELECT class, betas, concept_score, fluency_score FROM "{table_name}"',
+        f'SELECT class, {alpha_col}, concept_score, fluency_score FROM "{table_name}"',
     )
 
     sjt_base = []
@@ -299,7 +313,7 @@ def main():
     args = parse_args()
 
     concept = args.concept
-    out_root = out_root_for(args.model, concept)
+    out_root = out_root_for(args.model, concept, args.stride)
     sjt_db = out_root / "sjts_responses.db"
 
     num_layers = len(numeric_tables(sjt_db))

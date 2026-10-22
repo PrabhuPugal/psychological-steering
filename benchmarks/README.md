@@ -1,79 +1,103 @@
-# Benchmarks (OSWorld V1, Spiral-Bench)
+# Benchmarks (OSWorld V1, OS-Harm, Spiral-Bench)
 
-Both benchmarks are third-party repos with local modifications that add an
-in-process, optionally steered HF model backend (using
-`replication/scripts/injection_utils.py`). The modifications live here as
-patches + new files; the upstream repos are cloned fresh.
+All three are third-party repos with local modifications that add an in-process,
+optionally steered HF model (via `replication/scripts/injection_utils.py`). The
+modifications live here as patches + new files; the upstream repos are cloned fresh.
+Paths in the patches/overlays point at `/lambda/nfs/psychological-steering` (the
+Lambda persistent filesystem); if your checkout lives elsewhere, `sed` that prefix.
 
 ```
 benchmarks/
   osworld/
-    osworld.patch            # edits to tracked OSWorld files (base commit fa42911)
-    overlay/                 # new files to copy into the OSWorld tree
-                             #   (qemu + manual providers, mm_agents/local_llm.py, smoke test)
-    firmware/                # OVMF_CODE_4M.fd / OVMF_VARS.fd the qemu provider was boot-tested with
-    run_osworld_v1_local.sh  # launcher (SLURM headers are ignored when run with plain bash)
+    osworld.patch                  # edits to tracked OSWorld files (base commit fa42911)
+    overlay/                       # new files to copy into the OSWorld tree:
+                                   #   qemu + manual providers, mm_agents/local_llm.py,
+                                   #   mm_agents/steered_planner_agent.py, run_planner_executor.py
+    firmware/                      # OVMF_CODE_4M.fd / OVMF_VARS.fd the qemu provider was boot-tested with
+    run_osworld_v1_lambda.sh       # single-model a11y-tree agent (PromptAgent + local_llm)
+    run_osworld_planner_lambda.sh  # planner+executor agent (see below)
+    start_executor_lambda.sh       # vLLM server for the UI-TARS executor
+    run_osworld_v1_local.sh        # original CARC/SLURM launcher (historical)
+  osharm/
+    osharm.patch                   # OS-Harm run.py: --provider_name, --skip_judge; qemu registered
+    OSHARM_COMMIT                  # base commit of tml-epfl/os-harm
+    overlay/                       # qemu provider + the same agent files as OSWorld
+    run_osharm_planner_lambda.sh   # CATEGORY=misuse|injection|misbehavior
   spiralbench/
-    spiralbench.patch        # adds the local-steer:// backend to api_client.py (base commit 35411a0)
-  v2/                        # status doc (README.md), run scripts, pilot results and logs from CARC
+    spiralbench.patch              # local:// and local-steer:// in-process backends (base commit 35411a0)
+    run_spiralbench_lambda.sh      # one-GPU run: vLLM judge + in-process user-agent/evaluated model
+  v2/                              # CARC status doc, run scripts, pilot results and logs (historical)
 ```
 
-## Setup on a new machine
+## Setup
 
-Assumes this repo is cloned at `$REPO` and the env from
-`replication/requirements.txt` is active.
+Assumes this repo is at `$REPO` and the env from `replication/requirements.txt` is in `$REPO/.venv`.
 
 ```bash
-# --- OSWorld V1 ---
-git clone https://github.com/xlang-ai/OSWorld.git && cd OSWorld
-git checkout fa42911
-git apply $REPO/benchmarks/osworld/osworld.patch
-cp -r $REPO/benchmarks/osworld/overlay/. .
-cd ..
+mkdir -p $REPO/external && cd $REPO/external
 
-# --- Spiral-Bench ---
-git clone https://github.com/sam-paech/spiral-bench.git spiralbench && cd spiralbench
-git checkout 35411a0
-git apply $REPO/benchmarks/spiralbench/spiralbench.patch
-cd ..
+git clone https://github.com/xlang-ai/OSWorld.git && cd OSWorld && git checkout fa42911
+git apply $REPO/benchmarks/osworld/osworld.patch && cp -r $REPO/benchmarks/osworld/overlay/. . && cd ..
+
+git clone https://github.com/tml-epfl/os-harm.git && cd os-harm && git checkout $(cat $REPO/benchmarks/osharm/OSHARM_COMMIT)
+git apply $REPO/benchmarks/osharm/osharm.patch && cp -r $REPO/benchmarks/osharm/overlay/. . && cd ..
+
+git clone https://github.com/sam-paech/spiral-bench.git spiralbench && cd spiralbench && git checkout 35411a0
+git apply $REPO/benchmarks/spiralbench/spiralbench.patch && cd ..
 ```
 
-### Hard-coded CARC paths to change
-
-| File | What |
-|---|---|
-| `OSWorld/mm_agents/local_llm.py` (lines 33, 39) | `replication/scripts` and `replication/vectors` -> `$REPO/replication/...` |
-| `spiralbench/api_client.py` (same two paths) | same |
-| `OSWorld/desktop_env/providers/qemu/provider.py` | default QEMU binary / firmware dir; or just set `OSWORLD_QEMU_BIN` (or have `qemu-system-x86_64` on PATH) and `OSWORLD_QEMU_FIRMWARE_DIR=$REPO/benchmarks/osworld/firmware` |
-| `OSWorld/desktop_env/providers/qemu/manager.py` | default disk; or set `OSWORLD_QEMU_DISK=/path/to/Ubuntu.qcow2` |
-| `run_osworld_v1_local.sh` | `OSWORLD`, `PY`, `HF_HOME`, `TMPDIR` (`/scratch1/...`), log dir, `module purge` |
-
-Quick fix for the two python files:
+VM + QEMU (KVM is used automatically when `/dev/kvm` is accessible):
 ```bash
-sed -i "s#/project2/emiliofe_74/prabhu/psychological-steering#$REPO#g" \
-  OSWorld/mm_agents/local_llm.py spiralbench/api_client.py
+sudo apt-get update && sudo apt-get install -y qemu-system-x86 unzip
+sudo usermod -aG kvm $USER        # then re-login, or launch runs via `sg kvm -c "..."`
+mkdir -p $REPO/external/vm && cd $REPO/external/vm
+wget https://huggingface.co/datasets/xlangai/ubuntu_osworld/resolve/main/Ubuntu.qcow2.zip && unzip Ubuntu.qcow2.zip && rm Ubuntu.qcow2.zip
 ```
 
-### OSWorld VM and QEMU
+Models go to `$REPO/hf_home` (log in with `HF_HOME=$REPO/hf_home hf auth login` for the
+gated Llama repos): the 12 project models, plus `ByteDance-Seed/UI-TARS-1.5-7B` (executor),
+`Qwen/Qwen3-14B` (Spiral-Bench judge), `Qwen/Qwen3-VL-8B-Instruct` (local OS-Harm judge),
+`cais/HarmBench-Llama-2-13b-cls`, `Qwen/Qwen3-Embedding-0.6B`, `cointegrated/roberta-large-cola-krishna2020`.
+Spiral-Bench also needs NLTK `punkt`, `punkt_tab`, `cmudict` in `$REPO/hf_home/nltk_data`.
+
+## Planner + executor agent (OSWorld and OS-Harm)
+
+`mm_agents/steered_planner_agent.py`. Small open models can't ground GUI actions well
+enough to score on OSWorld on their own (unsteered Llama-3.1-8B: 0/14 with the plain
+a11y-tree agent), so the work is split:
+
+- **Planner**: the model under test, in-process with `STEER_TRAIT/STEER_LAYER/STEER_ALPHA`
+  steering. Reads task + accessibility tree + its step history; outputs one plain-English
+  step (incl. exact text to type) or `DONE`/`FAIL`. Only the planner can end an episode.
+- **Executor**: UI-TARS-1.5-7B via vLLM, never steered. Turns that one step into one
+  grounded pyautogui action on the screenshot.
+
+Grounding is constant across conditions, so score differences come from the planner's
+decisions. Each step's planner output, parsed step, executor output and a `format_ok`
+flag are stored as JSON in the `response` field of `traj.jsonl`.
 
 ```bash
-sudo apt-get install -y qemu-system-x86 unzip
-wget https://huggingface.co/datasets/xlangai/ubuntu_osworld/resolve/main/Ubuntu.qcow2.zip   # ~12 GB
-unzip Ubuntu.qcow2.zip    # ~23 GB
-ls /dev/kvm               # if present, the provider uses KVM automatically (much faster than CARC's TCG)
+bash benchmarks/osworld/start_executor_lambda.sh &        # one server for all runs (~28 GB)
+cd benchmarks/osworld
+sg kvm -c "TASKS=evaluation_examples/test_small.json bash run_osworld_planner_lambda.sh"
+sg kvm -c "TASKS=evaluation_examples/test_small.json STEER_TRAIT=psychopathy STEER_LAYER=16 STEER_ALPHA=5.88 bash run_osworld_planner_lambda.sh"
+cd ../osharm
+sg kvm -c "CATEGORY=misuse bash run_osharm_planner_lambda.sh"
 ```
 
-### Models
+`STEER_ALPHA` is a raw multiplier on the unit-norm vector; the paper's coefficient is in
+centroid units (`coefficient x distances.json[layer]["1"]["centroid"]`; 0.980 for
+Llama-3.1-8B-Instruct psychopathy L16, so coefficient 6 -> 5.88).
 
-Weights are not in the repo; download from Hugging Face (Llama needs an HF
-token with Meta license access):
-`Qwen/Qwen3-{1.7B,4B,8B}`(+`-Base`), `meta-llama/Llama-3.1-8B`(+`-Instruct`),
-`meta-llama/Llama-3.2-{1B,3B}`(+`-Instruct`). The launcher sets
-`HF_HUB_OFFLINE=1`, so download before running it.
+## Known issues fixed here
 
-Steering vectors are in `replication/vectors/` (tracked in git).
+- Spiral-Bench `local://`: concurrent first calls loaded the model twice and left a copy
+  with mixed bf16/fp32 weights ("expected mat1 and mat2 to have the same dtype"); loading
+  is now serialized.
+- `google-ai-generativelanguage==0.6.15` was missing from the CARC env (OS-Harm's
+  `mm_agents/agent.py` imports `google.generativeai`); added to requirements.txt.
 
-### Activation caches (optional)
+## Activation caches (optional)
 
 Only needed to re-extract vectors or re-run probe analyses. Attached to the
 `activation-caches-2026-10-20` release as <2 GB parts (from the repo root):

@@ -1,0 +1,45 @@
+diff --git a/desktop_env/providers/__init__.py b/desktop_env/providers/__init__.py
+index d1359a1..885fc16 100644
+--- a/desktop_env/providers/__init__.py
++++ b/desktop_env/providers/__init__.py
+@@ -26,5 +26,9 @@ def create_vm_manager_and_provider(provider_name: str, region: str):
+         from desktop_env.providers.docker.manager import DockerVMManager
+         from desktop_env.providers.docker.provider import DockerProvider
+         return DockerVMManager(), DockerProvider(region)
++    elif provider_name == "qemu":
++        from desktop_env.providers.qemu.manager import QemuVMManager
++        from desktop_env.providers.qemu.provider import QemuProvider
++        return QemuVMManager(), QemuProvider(region)
+     else:
+         raise NotImplementedError(f"{provider_name} not implemented!")
+diff --git a/run.py b/run.py
+index 68eac18..21cedc4 100644
+--- a/run.py
++++ b/run.py
+@@ -66,6 +66,8 @@ def config() -> argparse.Namespace:
+ 
+     # environment config
+     parser.add_argument("--path_to_vm", type=str, default="vmware_vm_data/Ubuntu0/Ubuntu0.vmx")
++    parser.add_argument("--provider_name", type=str, default="vmware", help="VM provider (vmware, docker, qemu, ...)")
++    parser.add_argument("--skip_judge", action="store_true", default=False, help="Do not run the LLM judge after each task (use judge/run_judge_batch.py later)")
+     parser.add_argument(
+         "--headless", action="store_true", help="Run in headless machine"
+     )
+@@ -152,6 +154,7 @@ def test(args: argparse.Namespace, test_all_meta: dict) -> None:
+     )
+ 
+     env = DesktopEnv(
++        provider_name=args.provider_name,
+         path_to_vm=args.path_to_vm,
+         action_space=agent.action_space,
+         screen_size=(args.screen_width, args.screen_height),
+@@ -271,6 +274,9 @@ def test(args: argparse.Namespace, test_all_meta: dict) -> None:
+                             )
+                             f.write("\n")
+                     
++                    if args.skip_judge:
++                        continue
++
+                     # Run judgment
+                     judgment = run_judging(
+                         traj_dir=example_result_dir,

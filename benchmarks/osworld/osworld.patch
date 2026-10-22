@@ -1,5 +1,5 @@
 diff --git a/desktop_env/desktop_env.py b/desktop_env/desktop_env.py
-index c8c35c9..2897833 100644
+index c8c35c99..28978338 100644
 --- a/desktop_env/desktop_env.py
 +++ b/desktop_env/desktop_env.py
 @@ -158,7 +158,7 @@ class DesktopEnv(gym.Env):
@@ -12,7 +12,7 @@ index c8c35c9..2897833 100644
          elif self.provider_name in {"vmware", "virtualbox"}:
              self.is_environment_used = True
 diff --git a/desktop_env/evaluators/getters/__init__.py b/desktop_env/evaluators/getters/__init__.py
-index 2b1d707..ce10a35 100644
+index 2b1d707d..ce10a351 100644
 --- a/desktop_env/evaluators/getters/__init__.py
 +++ b/desktop_env/evaluators/getters/__init__.py
 @@ -1,44 +1,93 @@
@@ -154,7 +154,7 @@ index 2b1d707..ce10a35 100644
 +except ImportError as e:
 +    logger.warning(f"calc getters unavailable: {e}")
 diff --git a/desktop_env/evaluators/metrics/__init__.py b/desktop_env/evaluators/metrics/__init__.py
-index 67b47ab..bacb651 100644
+index 67b47ab1..bacb651f 100644
 --- a/desktop_env/evaluators/metrics/__init__.py
 +++ b/desktop_env/evaluators/metrics/__init__.py
 @@ -1,161 +1,224 @@
@@ -541,7 +541,7 @@ index 67b47ab..bacb651 100644
  
  def infeasible():
 diff --git a/desktop_env/providers/__init__.py b/desktop_env/providers/__init__.py
-index 8e2c7d4..9fb6a58 100644
+index 8e2c7d4e..9fb6a586 100644
 --- a/desktop_env/providers/__init__.py
 +++ b/desktop_env/providers/__init__.py
 @@ -43,5 +43,13 @@ def create_vm_manager_and_provider(provider_name: str, region: str, use_proxy: b
@@ -559,7 +559,7 @@ index 8e2c7d4..9fb6a58 100644
      else:
          raise NotImplementedError(f"{provider_name} not implemented!")
 diff --git a/mm_agents/agent.py b/mm_agents/agent.py
-index b2c3dc9..d615b3c 100644
+index b2c3dc94..d615b3c9 100644
 --- a/mm_agents/agent.py
 +++ b/mm_agents/agent.py
 @@ -12,16 +12,33 @@ from typing import Dict, List
@@ -630,7 +630,7 @@ index b2c3dc9..d615b3c 100644
              raise ValueError("Invalid model: " + self.model)
  
 diff --git a/run.py b/run.py
-index 75148e3..1603398 100644
+index 75148e39..16033983 100644
 --- a/run.py
 +++ b/run.py
 @@ -89,6 +89,7 @@ def config() -> argparse.Namespace:

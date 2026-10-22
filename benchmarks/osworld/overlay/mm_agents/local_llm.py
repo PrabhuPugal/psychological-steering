@@ -30,13 +30,13 @@ import threading
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-sys.path.insert(0, "/project2/emiliofe_74/prabhu/psychological-steering/replication/scripts")
+sys.path.insert(0, "/lambda/nfs/psychological-steering/replication/scripts")
 import injection_utils as _injection_utils  # noqa: E402
 # VECTORS_ROOT is "vectors" (relative) inside injection_utils.py -- correct only
 # when cwd is the replication dir, which it isn't when OSWorld runs from its
 # own tree. Patch the module attribute so get_vector_path() sees the real path.
 _injection_utils.VECTORS_ROOT = _injection_utils.Path(
-    "/project2/emiliofe_74/prabhu/psychological-steering/replication/vectors"
+    "/lambda/nfs/psychological-steering/replication/vectors"
 )
 from injection_utils import get_vector_path, inject_messages  # noqa: E402
 

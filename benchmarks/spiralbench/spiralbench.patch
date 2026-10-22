@@ -1,5 +1,5 @@
 diff --git a/api_client.py b/api_client.py
-index f610792..0887497 100644
+index f610792..7f6cfc8 100644
 --- a/api_client.py
 +++ b/api_client.py
 @@ -1,5 +1,7 @@
@@ -10,7 +10,7 @@ index f610792..0887497 100644
  import time
  import logging
  import json
-@@ -11,6 +13,139 @@ class APIError(Exception):
+@@ -11,6 +13,145 @@ class APIError(Exception):
      """Custom exception for API-related errors."""
      pass
  
@@ -35,13 +35,13 @@ index f610792..0887497 100644
 +# USER_AGENT_BASE_URL / JUDGE_BASE_URL on local://<repo_id> (or point them
 +# elsewhere) so they stay bare.
 +# ---------------------------------------------------------------------------
-+sys.path.insert(0, "/project2/emiliofe_74/prabhu/psychological-steering/replication/scripts")
++sys.path.insert(0, "/lambda/nfs/psychological-steering/replication/scripts")
 +import injection_utils as _injection_utils  # noqa: E402
 +# VECTORS_ROOT is "vectors" (relative) inside injection_utils.py -- correct only
 +# when cwd is the replication dir, which it isn't when called from here. Patch
 +# the module attribute (not just a local import) so get_vector_path() sees it.
 +_injection_utils.VECTORS_ROOT = _injection_utils.Path(
-+    "/project2/emiliofe_74/prabhu/psychological-steering/replication/vectors"
++    "/lambda/nfs/psychological-steering/replication/vectors"
 +)
 +
 +_LOCAL_CACHE = {}
@@ -52,6 +52,7 @@ index f610792..0887497 100644
 +# project prioritizes correctness over throughput for a local GPU anyway --
 +# the GPU would serialize the actual matmuls regardless).
 +_LOCAL_GENERATE_LOCK = threading.Lock()
++_LOCAL_LOAD_LOCK = threading.Lock()
 +
 +
 +_LOCAL_VECTOR_CACHE = {}
@@ -64,20 +65,25 @@ index f610792..0887497 100644
 +    repo_id, they reuse one loaded copy -- only whether THIS call's base_url
 +    says "local-steer://" decides if the vector actually gets injected.
 +    """
-+    if repo_id in _LOCAL_CACHE:
++    # Serialized: with --parallelism > 1 several worker threads hit an empty
++    # cache at once, and concurrent from_pretrained() calls race on torch's
++    # global default dtype -- leaving a duplicate copy with mixed bf16/fp32
++    # weights ("expected mat1 and mat2 to have the same dtype").
++    with _LOCAL_LOAD_LOCK:
++        if repo_id in _LOCAL_CACHE:
++            return _LOCAL_CACHE[repo_id]
++
++        import torch
++        from transformers import AutoModelForCausalLM, AutoTokenizer
++
++        tokenizer = AutoTokenizer.from_pretrained(repo_id, padding_side="left")
++        if tokenizer.pad_token is None:
++            tokenizer.pad_token = tokenizer.eos_token
++        model = AutoModelForCausalLM.from_pretrained(
++            repo_id, dtype=torch.bfloat16, device_map="auto"
++        ).eval()
++        _LOCAL_CACHE[repo_id] = (tokenizer, model)
 +        return _LOCAL_CACHE[repo_id]
-+
-+    import torch
-+    from transformers import AutoModelForCausalLM, AutoTokenizer
-+
-+    tokenizer = AutoTokenizer.from_pretrained(repo_id, padding_side="left")
-+    if tokenizer.pad_token is None:
-+        tokenizer.pad_token = tokenizer.eos_token
-+    model = AutoModelForCausalLM.from_pretrained(
-+        repo_id, dtype=torch.bfloat16, device_map="auto"
-+    ).eval()
-+    _LOCAL_CACHE[repo_id] = (tokenizer, model)
-+    return _LOCAL_CACHE[repo_id]
 +
 +
 +def _load_steering_vectors(repo_id: str) -> dict:
@@ -150,7 +156,7 @@ index f610792..0887497 100644
  def print_messages(messages):
      """
      Pretty-print a messages list with roles, names, and escaped newlines rendered.
-@@ -64,9 +199,22 @@ def get_completion(
+@@ -64,9 +205,22 @@ def get_completion(
      """
      Gets a completion from a generic OpenAI-compatible API with retries.
      """

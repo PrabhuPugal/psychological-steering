@@ -30,6 +30,6 @@ class QemuVMManager(VMManager):
     def get_vm_path(self, **kwargs):
         disk = os.environ.get(
             "OSWORLD_QEMU_DISK",
-            "/project2/emiliofe_74/prabhu/osworld/vm_build/vm_data/Ubuntu.qcow2",
+            "/lambda/nfs/psychological-steering/external/vm/Ubuntu.qcow2",
         )
         return os.path.abspath(os.path.expanduser(disk))

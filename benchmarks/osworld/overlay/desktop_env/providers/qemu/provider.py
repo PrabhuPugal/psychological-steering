@@ -55,8 +55,8 @@ def _port_free(port: int) -> bool:
             return False
 
 
-_DEFAULT_QEMU_BIN = "/project2/emiliofe_74/prabhu/osworld/vm_build/qemu-9.1.2/build/qemu-system-x86_64"
-_DEFAULT_FIRMWARE_DIR = "/project2/emiliofe_74/prabhu/osworld/vm_build/run"
+_DEFAULT_QEMU_BIN = "/usr/bin/qemu-system-x86_64"
+_DEFAULT_FIRMWARE_DIR = "/lambda/nfs/psychological-steering/benchmarks/osworld/firmware"
 
 
 class QemuProvider(Provider):

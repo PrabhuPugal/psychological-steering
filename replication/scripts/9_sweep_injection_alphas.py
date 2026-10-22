@@ -43,6 +43,8 @@ def parse_args():
     ap.add_argument("-i", "--fit_intercept", action="store_true")
     ap.add_argument("-bs", "--batch_size", type=int, required=True)
     ap.add_argument("--stride", type=int, required=True)
+    ap.add_argument("--concepts", nargs="+", default=None,
+                    help="Only sweep these inventory dimensions (default: all).")
     return ap.parse_args()
 
 
@@ -190,6 +192,12 @@ def main():
     fluency_tok, fluency_model = init_fluency_model()
 
     concepts = load_inventory_dimensions(args.inventory)
+    if args.concepts:
+        wanted = [normalize_table_name(c) for c in args.concepts]
+        unknown = [c for c in wanted if c not in concepts]
+        if unknown:
+            raise ValueError(f"Not in {args.inventory}: {unknown}. Available: {concepts}")
+        concepts = wanted
 
     for concept in concepts:
         for method in methods:

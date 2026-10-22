@@ -72,3 +72,15 @@ token with Meta license access):
 `HF_HUB_OFFLINE=1`, so download before running it.
 
 Steering vectors are in `replication/vectors/` (tracked in git).
+
+### Activation caches (optional)
+
+Only needed to re-extract vectors or re-run probe analyses. Attached to the
+`activation-caches-2026-10-20` release as <2 GB parts (from the repo root):
+
+```bash
+gh release download activation-caches-2026-10-20 -R PrabhuPugal/psychological-steering
+cat activation_caches.zip.part* > activation_caches.zip
+sha256sum -c activation_caches.zip.sha256
+cd replication && unzip ../activation_caches.zip   # -> data/{statement,binary_choice}_activations
+```

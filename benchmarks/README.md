@@ -1,6 +1,6 @@
-# Benchmarks (OSWorld V1, OS-Harm, Spiral-Bench)
+# Benchmarks (OSWorld V1, OS-Harm, Spiral-Bench, HarmBench, HHH)
 
-All three are third-party repos with local modifications that add an in-process,
+OSWorld, OS-Harm and Spiral-Bench are third-party repos with local modifications that add an in-process,
 optionally steered HF model (via `replication/scripts/injection_utils.py`). The
 modifications live here as patches + new files; the upstream repos are cloned fresh.
 Paths in the patches/overlays point at `/lambda/nfs/psychological-steering` (the
@@ -22,10 +22,19 @@ benchmarks/
     osharm.patch                   # OS-Harm run.py: --provider_name, --skip_judge; qemu registered
     OSHARM_COMMIT                  # base commit of tml-epfl/os-harm
     overlay/                       # qemu provider + the same agent files as OSWorld
-    run_osharm_planner_lambda.sh   # CATEGORY=misuse|injection|misbehavior
+    run_osharm_planner_lambda.sh   # CATEGORY=misuse|injection|misbehavior (OSHARM_TASKS=subset list)
+    run_osharm_all_lambda.sh       # all three categories for one condition
+    judge_osharm_lambda.sh         # OS-Harm AER judge, in-process (Qwen3-VL-8B)
+    rate_typed_content.py          # blind hostility/contempt rating of the text an agent typed
   spiralbench/
     spiralbench.patch              # local:// and local-steer:// in-process backends (base commit 35411a0)
-    run_spiralbench_lambda.sh      # one-GPU run: vLLM judge + in-process user-agent/evaluated model
+    run_spiralbench_lambda.sh      # in-process user-agent/evaluated model/judge; SKIP_JUDGING=1 two-phase mode
+    drop_failed_conversations.py   # remove conversations with generation errors before judging
+    compare_runs.py                # per-conversation paired comparison of runs
+  safety/
+    harmbench_run.py               # HarmBench DirectRequest (240 behaviours) + official classifier, in-process
+    hhh_run.py                     # BIG-bench hhh_alignment by log-likelihood, steering during the forward pass
+    run_safety_lambda.sh           # HHH + HarmBench for one condition
   v2/                              # CARC status doc, run scripts, pilot results and logs (historical)
 ```
 
@@ -95,11 +104,28 @@ bash judge_osharm_lambda.sh results/misuse/baseline     # afterwards, in-process
 centroid units (`coefficient x distances.json[layer]["1"]["centroid"]`; 0.980 for
 Llama-3.1-8B-Instruct psychopathy L16, so coefficient 6 -> 5.88).
 
+## HarmBench and HHH (benchmarks/safety)
+
+Reimplemented from the CARC `v2/safety` description (the original scripts were not
+transferred). Inputs: `git clone https://github.com/centerforaisafety/HarmBench external/safety/harmbench`
+and the four BIG-bench `hhh_alignment/<subset>/task.json` files in `external/safety/hhh/data/<subset>/`.
+Validated against the CARC Qwen3-8B baseline: re-judging CARC's completions gives ASR
+0.2583 with 0/240 label differences; HHH accuracy matches on 3 of 4 subsets exactly and
+differs by one example on "other" (bf16 batching noise; log-probs within ~0.3 nats).
+
+```bash
+bash benchmarks/safety/run_safety_lambda.sh                                   # baseline
+TRAIT=psychopathy LAYER=16 ALPHA=8.82 bash benchmarks/safety/run_safety_lambda.sh
+```
+
 ## Known issues fixed here
 
 - Spiral-Bench `local://`: concurrent first calls loaded the model twice and left a copy
   with mixed bf16/fp32 weights ("expected mat1 and mat2 to have the same dtype"); loading
-  is now serialized.
+  is now serialized. cuDNN's SDPA kernel is disabled in that backend (it failed with
+  `mha_graph.execute(...).is_good()` when the GPU was busy).
+- Spiral-Bench marks a conversation "completed" after a turn fails 7 times; run
+  `drop_failed_conversations.py` on results.json before judging and resume to regenerate.
 - `google-ai-generativelanguage==0.6.15` was missing from the CARC env (OS-Harm's
   `mm_agents/agent.py` imports `google.generativeai`); added to requirements.txt.
 

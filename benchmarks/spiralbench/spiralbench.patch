@@ -1,5 +1,5 @@
 diff --git a/api_client.py b/api_client.py
-index f610792..7f6cfc8 100644
+index f610792..2d9bea4 100644
 --- a/api_client.py
 +++ b/api_client.py
 @@ -1,5 +1,7 @@
@@ -10,7 +10,7 @@ index f610792..7f6cfc8 100644
  import time
  import logging
  import json
-@@ -11,6 +13,145 @@ class APIError(Exception):
+@@ -11,6 +13,148 @@ class APIError(Exception):
      """Custom exception for API-related errors."""
      pass
  
@@ -76,6 +76,9 @@ index f610792..7f6cfc8 100644
 +        import torch
 +        from transformers import AutoModelForCausalLM, AutoTokenizer
 +
++        # cuDNN's SDPA kernel fails with "mha_graph.execute(...).is_good()" when its
++        # workspace can't be allocated on a busy GPU; use the other SDPA backends.
++        torch.backends.cuda.enable_cudnn_sdp(False)
 +        tokenizer = AutoTokenizer.from_pretrained(repo_id, padding_side="left")
 +        if tokenizer.pad_token is None:
 +            tokenizer.pad_token = tokenizer.eos_token
@@ -156,7 +159,7 @@ index f610792..7f6cfc8 100644
  def print_messages(messages):
      """
      Pretty-print a messages list with roles, names, and escaped newlines rendered.
-@@ -64,9 +205,22 @@ def get_completion(
+@@ -64,9 +208,22 @@ def get_completion(
      """
      Gets a completion from a generic OpenAI-compatible API with retries.
      """

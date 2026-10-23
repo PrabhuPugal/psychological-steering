@@ -13,6 +13,8 @@
 #   NUM_PROMPTS=2 NUM_TURNS=4 bash run_spiralbench_lambda.sh         # quick smoke
 #
 #   MODEL (meta-llama/Llama-3.1-8B-Instruct)  JUDGE_MODEL (Qwen/Qwen3-14B)  JUDGE_BACKEND (local)
+#   SKIP_JUDGING=1 generate conversations only (rerun without it to judge: finished
+#   conversations are skipped, so only the judge model gets loaded)
 #   NUM_PROMPTS (10)  NUM_TURNS (20)  PARALLELISM (4)  VLLM_MEM (0.45)  JUDGE_PORT (8100)  RUN_ID (baseline | <trait>_L<layer>_A<alpha>)
 set -uo pipefail
 
@@ -80,6 +82,6 @@ export EVALUATED_MODEL_API_KEY="unused"
 
 $PY main.py --user-model "$MODEL" --evaluated-model "$MODEL" --judge-models "$JUDGE_MODEL" \
   --num-prompts "$NUM_PROMPTS" --convos-per-prompt 1 --num-turns "$NUM_TURNS" --parallelism "$PARALLELISM" \
-  --run-id "$RUN_ID" --output-file "$OUT_DIR/results.json" \
-  2>&1 | tee "$OUT_DIR/run.log"
+  --run-id "$RUN_ID" --output-file "$OUT_DIR/results.json" ${SKIP_JUDGING:+--skip-judging} \
+  2>&1 | tee -a "$OUT_DIR/run.log"
 echo "main.py exit=${PIPESTATUS[0]}  results: $OUT_DIR"

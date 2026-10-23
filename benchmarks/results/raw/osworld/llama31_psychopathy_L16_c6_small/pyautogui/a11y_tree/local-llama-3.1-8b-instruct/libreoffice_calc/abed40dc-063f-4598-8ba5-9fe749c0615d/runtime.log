@@ -1,0 +1,1520 @@
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "System" menu and click it
+pyautogui.moveTo(1814, 27); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "System" menu and click it
+pyautogui.moveTo(1814, 27); pyautogui.click()
+
+# Move the mouse to the "System" menu and click the "System" button
+pyautogui.moveTo(1814, 27); pyautogui.click()
+
+# Wait for the menu to open
+pyautogui.moveTo(1814, 27); pyautogui.click(); time.sleep(0.5)
+
+# Move the mouse to the "Preferences" menu
+pyautogui.moveTo(1814, 40); pyautogui.click()
+
+# Wait for the "Preferences" menu to open
+time.sleep(0.5)
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Wait for the "Edit" menu to open
+time.sleep(0.5)
+
+# Move the mouse to the "Select Columns" menu
+pyautogui.moveTo(1814, 60); pyautogui.click()
+
+# Wait for the "Select Columns" menu to open
+time.sleep(0.5)
+
+# Move the mouse to the "Names with duplicates" column
+pyautogui.moveTo(1814, 70); pyautogui.click()
+
+# Wait for the "Names with duplicates" column to be selected
+time.sleep(0.5)
+
+# Move the mouse to the "Unique Names" column
+pyautogui.moveTo(1814, 80); pyautogui.click()
+
+# Wait for the "Unique Names" column to be selected
+time.sleep(0.5)
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Wait for the "OK" button to be clicked
+time.sleep(0.5)
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Names with duplicates" column
+pyautogui.moveTo(1814, 70); pyautogui.click()
+
+# Move the mouse to the "Unique Names" column
+pyautogui.moveTo(1814, 80); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Unique Names" column
+pyautogui.moveTo(1814, 80); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Select All" option
+pyautogui.moveTo(1814, 50); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Copy" option
+pyautogui.moveTo(1814, 20); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc" button
+pyautogui.moveTo(0, 373); pyautogui.click()
+
+# Move the mouse to the "Edit" menu
+pyautogui.moveTo(1814, 10); pyautogui.click()
+
+# Move the mouse to the "Paste" option
+pyautogui.moveTo(1814, 30); pyautogui.click()
+
+# Move the mouse to the "OK" button
+pyautogui.moveTo(1814, 90); pyautogui.click()
+
+# Move the mouse to the "LibreOffice Calc"

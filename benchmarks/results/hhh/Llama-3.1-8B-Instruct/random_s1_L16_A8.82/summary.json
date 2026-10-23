@@ -1,0 +1,51 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "condition": "random_s1_L16_A8.82",
+  "traits": [],
+  "layers": [],
+  "alphas": [],
+  "extra_vectors": [
+    [
+      "16",
+      "/lambda/nfs/psychological-steering/replication/results/controls/Llama-3.1-8B-Instruct/random_s1.pt",
+      "8.82"
+    ]
+  ],
+  "method": "meandiff",
+  "mode": "s",
+  "harmless": {
+    "n": 58,
+    "acc": 0.4655,
+    "acc_norm": 0.7241,
+    "margin": 0.3613,
+    "margin_norm": 0.6497
+  },
+  "helpful": {
+    "n": 59,
+    "acc": 0.4407,
+    "acc_norm": 0.678,
+    "margin": -35.9485,
+    "margin_norm": 0.5457
+  },
+  "honest": {
+    "n": 61,
+    "acc": 0.4754,
+    "acc_norm": 0.8361,
+    "margin": -22.7459,
+    "margin_norm": 0.7036
+  },
+  "other": {
+    "n": 43,
+    "acc": 0.6279,
+    "acc_norm": 0.7209,
+    "margin": -25.4505,
+    "margin_norm": 0.7849
+  },
+  "overall": {
+    "n": 221,
+    "acc": 0.4932,
+    "acc_norm": 0.7421,
+    "margin": -20.7325,
+    "margin_norm": 0.6631
+  }
+}

@@ -1,0 +1,1389 @@
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the Chrome browser, and we need to install a new extension.
+# The extension is located on the Desktop directory.
+# First, we need to navigate to the extensions page.
+# The extensions page is located at chrome://extensions/
+# We can navigate to it by typing chrome://extensions/ in the address bar.
+
+pyautogui.press('enter')  # Press enter to select the address bar
+time.sleep(0.5)
+pyautogui.typewrite('chrome://extensions/')  # Type the address
+pyautogui.press('enter')  # Press enter to load the page
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page.
+# We need to enable developer mode.
+# Developer mode is located at the top right corner of the page.
+
+pyautogui.moveTo(1776, 1038)  # Move to the top right corner
+pyautogui.click()  # Click to enable developer mode
+time.sleep(0.5)
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with developer mode enabled.
+# We need to click the "Load unpacked" button.
+# The "Load unpacked" button is located at the top left corner of the page.
+
+pyautogui.moveTo(622, 376)  # Move to the "Load unpacked" button
+pyautogui.click()  # Click the "Load unpacked" button
+time.sleep(0.5)
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Load unpacked" button clicked.
+# We need to select the extension file from the desktop.
+# The extension file is located at the desktop.
+
+pyautogui.press('tab')  # Select the file dialog
+pyautogui.press('tab')  # Select the file dialog
+pyautogui.press('tab')  # Select the file dialog
+pyautogui.press('return')  # Open the file dialog
+pyautogui.typewrite('/home/user/Desktop/extension.zip')  # Type the path to the extension file
+pyautogui.press('return')  # Open the extension file
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the extension loaded.
+# We need to click the "Enable" button.
+
+pyautogui.moveTo(995, 442)  # Move to the "Enable" button
+pyautogui.click()  # Click the "Enable" button
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the extension enabled.
+# We need to click the "Reload" button.
+
+pyautogui.moveTo(147, 73)  # Move to the "Reload" button
+pyautogui.click()  # Click the "Reload" button
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the extension reloaded.
+# We need to click the "Add shortcut" button.
+
+pyautogui.moveTo(995, 442)  # Move to the "Add shortcut" button
+pyautogui.click()  # Click the "Add shortcut" button
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Add shortcut" button clicked.
+# We need to click the "Add" button.
+
+pyautogui.moveTo(1013, 522)  # Move to the "Add" button
+pyautogui.click()  # Click the "Add" button
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Add" button clicked.
+# We need to select the extension from the file system.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Desktop")  # Type "Desktop"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the desktop with the extensions folder selected.
+# We need to select the extension file.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Install")  # Type "Install"
+pyautogui.press("enter")  # Press enter
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Add" button clicked.
+# We need to select the extension file.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Install")  # Type "Install"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Load unpacked" button clicked.
+# We need to select the extension file.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpack
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Load unpacked" button clicked.
+# We need to select the extension file.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Desktop")  # Type "Desktop"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Load unpacked" button clicked.
+# We need to select the extension file.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Desktop")  # Type "Desktop"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	helloExtension	helloExtension			(1803, 920)	(99, 17)
+label	_​_​MACOSX	_​_​MACOSX			(1816, 803)	(73, 17)
+push-button	Minimise	Minimise			(1802, 27)	(30, 35)
+push-button	Restore	Restore			(1842, 27)	(30, 35)
+push-button	Close	Close			(1882, 27)	(38, 35)
+push-button	Search tabs	Search tabs			(76, 27)	(28, 41)
+push-button	Close	Close			(312, 33)	(28, 28)
+push-button	New Tab	New Tab			(348, 27)	(28, 41)
+push-button	Reload	Reload			(147, 73)	(34, 34)
+entry	Address and search bar	""			(227, 78)	(1459, 24)
+push-button	Bookmark this tab	""			(1694, 78)	(24, 24)
+push-button	You	You			(1739, 73)	(34, 34)
+push-button	Finish update	Chrome			(1778, 73)	(142, 34)
+document-web	New Tab	""			(70, 114)	(1850, 966)
+link	Gmail 	Gmail			(1759, 134)	(35, 24)
+static	Gmail	Gmail			(1759, 138)	(35, 15)
+link	Search for images 	Images			(1808, 134)	(43, 24)
+static	Images	Images			(1808, 138)	(43, 15)
+push-button	Google apps	""			(1866, 126)	(40, 40)
+section		  			(1866, 126)	(40, 40)
+combo-box	Search Google or type a URL	""			(622, 376)	(746, 48)
+push-button	Search by voice	""			(1289, 376)	(26, 48)
+push-button	Search by image	""			(1326, 376)	(26, 48)
+link	Web Store	""			(883, 442)	(112, 112)
+push-button	More actions for Web Store shortcut	""			(965, 446)	(28, 28)
+static	Web Store	Web Store			(909, 522)	(60, 15)
+push-button	Add shortcut	Add shortcut			(995, 442)	(112, 112)
+static	Add shortcut	Add shortcut			(1013, 522)	(76, 15)
+toggle-button	Customise Chrome	""			(1736, 1032)	(168, 32)
+section		Customise Chrome			(1776, 1038)	(112, 20)
+static	Customise Chrome	Customise Chrome			(1776, 1040)	(112, 15)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+alert	Can't update Chrome	""			(1592, 103)	(334, 207)
+heading	Can't update Chrome	Can't update Chrome			(1619, 128)	(248, 24)
+push-button	Close	Close			(1879, 128)	(24, 22)
+static	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.	Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.			(1619, 160)	(280, 66)
+push-button	Reinstall Chrome	Reinstall Chrome			(1740, 242)	(159, 39)
+menu	Google Chrome	""			(99, 0)	(162, 27)
+menu	System	""			(1814, 0)	(106, 27)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # We are currently on the extensions page with the "Load unpacked" button clicked.
+# We need to select the extension file.
+
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Desktop")  # Type "Desktop"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")  # Type "Extensions"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extension")  # Type "Extension"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Load unpacked")  # Type "Load unpacked"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Select")  # Type "Select"
+pyautogui.press("enter")  # Press enter
+pyautogui.moveTo(0, 0)  # Move to the top left corner
+pyautogui.click()  # Click the top left corner
+pyautogui.typewindow("Extensions")

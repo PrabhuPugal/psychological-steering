@@ -1,0 +1,1245 @@
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the Visual Studio Code button and click it
+pyautogui.moveTo(0, 169); pyautogui.click(); pyautogui.moveTo(0, 169); pyautogui.click();
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the Terminal button and click it
+pyautogui.moveTo(0, 784); pyautogui.click();
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'cd ~/Desktop/project' and press enter
+pyautogui.press('enter'); pyautogui.typewrite('cd ~/Desktop/project'); pyautogui.press('enter');
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'code .' and press enter
+pyautogui.press('enter'); pyautogui.typewrite('code .'); pyautogui.press('enter');
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Click the Visual Studio Code button
+pyautogui.moveTo(0, 169); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'cd ~/Desktop/project' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('cd ~/Desktop/project'); pyautogui.press('enter')
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'code .' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('code .'); pyautogui.press('enter')
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Open Visual Studio Code
+pyautogui.moveTo(0, 169); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'cd ~/Desktop/project' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('cd ~/Desktop/project'); pyautogui.press('enter')
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'code .' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('code .'); pyautogui.press('enter')
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Open Visual Studio Code
+pyautogui.moveTo(0, 169); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'cd ~/Desktop/project' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('cd ~/Desktop/project'); pyautogui.press('enter')
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'code .' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('code .'); pyautogui.press('enter')
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Open Visual Studio Code
+pyautogui.moveTo(0, 169); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+label	project	project			(1828, 920)	(49, 17)
+push-button	Minimize	""			(1800, 35)	(34, 30)
+push-button	Restore	""			(1840, 35)	(34, 30)
+push-button	Close	""			(1880, 35)	(34, 30)
+toggle-button	Menu	""			(1751, 27)	(36, 46)
+label	user@user-virtual-machine: ~	user@user-virtual-machine: ~			(879, 41)	(232, 17)
+terminal	Terminal	user@user-virtual-machine:~$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			(70, 74)	(1838, 1006)
+menu	Terminal	""			(99, 0)	(116, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Terminal	""			(0, 784)	(70, 64)
+push-button	Trash	""			(0, 852)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Type 'cd ~/Desktop/project' and press enter
+pyautogui.moveTo(70, 74); pyautogui.click(); pyautogui.typewrite('cd ~/Desktop/project'); pyautogui.press('enter')

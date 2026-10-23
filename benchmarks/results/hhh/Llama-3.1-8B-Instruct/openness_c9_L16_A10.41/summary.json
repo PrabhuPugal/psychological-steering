@@ -1,0 +1,51 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "condition": "openness_c9_L16_A10.41",
+  "traits": [
+    "openness"
+  ],
+  "layers": [
+    16
+  ],
+  "alphas": [
+    10.41
+  ],
+  "extra_vectors": [],
+  "method": "meandiff",
+  "mode": "s",
+  "harmless": {
+    "n": 58,
+    "acc": 0.4138,
+    "acc_norm": 0.6724,
+    "margin": -9.8385,
+    "margin_norm": 0.4711
+  },
+  "helpful": {
+    "n": 59,
+    "acc": 0.4068,
+    "acc_norm": 0.6441,
+    "margin": -53.8777,
+    "margin_norm": 0.7276
+  },
+  "honest": {
+    "n": 61,
+    "acc": 0.4098,
+    "acc_norm": 0.7705,
+    "margin": -45.7262,
+    "margin_norm": 0.5293
+  },
+  "other": {
+    "n": 43,
+    "acc": 0.6047,
+    "acc_norm": 0.6744,
+    "margin": -56.1896,
+    "margin_norm": 0.8255
+  },
+  "overall": {
+    "n": 221,
+    "acc": 0.448,
+    "acc_norm": 0.6923,
+    "margin": -40.5198,
+    "margin_norm": 0.6246
+  }
+}

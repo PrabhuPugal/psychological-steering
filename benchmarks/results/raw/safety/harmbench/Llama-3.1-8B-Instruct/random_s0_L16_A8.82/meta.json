@@ -1,0 +1,19 @@
+{
+ "model": "meta-llama/Llama-3.1-8B-Instruct",
+ "condition": "random_s0_L16_A8.82",
+ "traits": [],
+ "layers": [],
+ "alphas": [],
+ "extra_vectors": [
+  [
+   "16",
+   "/lambda/nfs/psychological-steering/replication/results/controls/Llama-3.1-8B-Instruct/random_s0.pt",
+   "8.82"
+  ]
+ ],
+ "method": "meandiff",
+ "mode": "s",
+ "max_new_tokens": 512,
+ "n_behaviors": 240,
+ "behaviors_path": "/lambda/nfs/psychological-steering/external/safety/harmbench/data/behavior_datasets/harmbench_behaviors_text_test.csv"
+}

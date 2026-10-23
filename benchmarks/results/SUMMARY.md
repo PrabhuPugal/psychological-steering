@@ -70,3 +70,30 @@ HarmBench has nothing to act on in the agent setting.
 
 Re-judging CARC's Qwen3-8B HarmBench completions: ASR 0.2583, 0/240 label differences.
 HHH Qwen3-8B unsteered: accuracy identical on harmless/helpful/honest, one example differs on "other".
+
+## Controls for the HarmBench / HHH effect (controls/, replication/results/controls/)
+
+Same layer 16; random vectors have the same raw size as psychopathy c9 (alpha 8.82); trait
+controls use coefficient 9 in their own centroid units. "Refusal" = answer opens with a
+refusal phrase. Paired tests on the same 240 behaviours / 221 HHH pairs.
+
+| condition | ASR | refusal | HHH margin | vs psychopathy c9, HarmBench |
+|---|---|---|---|---|
+| unsteered | 24.2% | 72.9% | 0.718 | 9 / 91, p = 3e-18 |
+| psychopathy c9 | 58.3% | 20.0% | 0.588 | — |
+| random seed 0 | 34.6% | 64.2% | 0.666 | 21 / 78, p = 7e-9 |
+| random seed 1 | 45.8% | 44.6% | 0.663 | 16 / 46, p = 2e-4 |
+| random seed 2 | 33.3% | 61.7% | 0.707 | 17 / 77, p = 3e-10 |
+| openness c9 | 0.8% | 3.8% | 0.625 | derails off topic |
+| low agreeableness c9 | 14.6% | 75.0% | 0.513 | refuses bluntly; lowest HHH |
+| psychopathy minus refusal component | 65.0% | 15.0% | 0.583 | 28 / 12, p = 0.02 (higher) |
+| psychopathy c12 | 24.2% | 5.0% | 0.484 | stops refusing, rarely helps |
+
+Refusal-direction overlap at layer 16 (difference in means, HarmBench validation vs Alpaca):
+psychopathy cos +0.073, openness −0.095, low agreeableness +0.040, random null sd 0.016.
+
+Reading: any push of this size erodes refusals (random vectors raise ASR by 9–22 points),
+but psychopathy raises it significantly more than every random vector, and is the only
+direction that turns dropped refusals into on-topic harmful answers. The effect does not run
+through the refusal direction. The HHH drop is only partly specific (beyond random for one
+of three seeds).

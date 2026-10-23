@@ -1,0 +1,22 @@
+{
+    "path_to_vm": null,
+    "provider_name": "qemu",
+    "headless": true,
+    "action_space": "pyautogui",
+    "observation_type": "a11y_tree",
+    "screen_width": 1920,
+    "screen_height": 1080,
+    "sleep_after_execution": 3.0,
+    "max_steps": 15,
+    "max_trajectory_length": 2,
+    "a11y_tree_max_tokens": 8000,
+    "test_config_base_dir": "evaluation_examples",
+    "model": "local-qwen3-8b",
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "max_tokens": 1500,
+    "stop_token": null,
+    "domain": "all",
+    "test_all_meta_path": "evaluation_examples/test_manual_single.json",
+    "result_dir": "results/psychopathy_L20_A32"
+}

@@ -1,0 +1,774 @@
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the Visual Studio Code menu and click
+pyautogui.moveTo(99, 0); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the Visual Studio Code menu and click
+pyautogui.moveTo(99, 0); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 100)
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Settings" option and click
+pyautogui.moveTo(70, 100); pyautogui.click()
+
+# Wait for the settings window to open
+WAIT
+
+# Move the mouse to the "File" menu and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Preferences" option
+pyautogui.moveTo(70, 100)
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Editor" section
+pyautogui.moveTo(99, 27)
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Preferences" option
+pyautogui.moveTo(70, 100)
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Editor" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Word Wrap" option
+pyautogui.moveTo(70, 250)
+
+# Move the mouse to the "Word Wrap" checkbox and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Move the mouse to the "Word Wrap" field
+pyautogui.moveTo(70, 350)
+
+# Type "50"
+pyautogui.typewrite("50")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 100); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Editor" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Word Wrap" option
+pyautogui.moveTo(70, 250)
+
+# Move the mouse to the "Word Wrap" checkbox and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Move the mouse to the "Word Wrap" field
+pyautogui.moveTo(70, 350)
+
+# Type "50"
+pyautogui.typewrite("50")
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 400); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Editor" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Word Wrap" option
+pyautogui.moveTo(70, 250)
+
+# Move the mouse to the "Word Wrap" checkbox and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Move the mouse to the "Word Wrap" field
+pyautogui.moveTo(70, 350)
+
+# Type "50"
+pyautogui.typewrite("50")
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 400); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Save As" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Settings.json" option
+pyautogui.moveTo(70, 200)
+
+# Type "Settings.json"
+pyautogui.typewrite("Settings.json")
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Editor" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Word Wrap" option
+pyautogui.moveTo(70, 250)
+
+# Move the mouse to the "Word Wrap" checkbox and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Move the mouse to the "Word Wrap" field
+pyautogui.moveTo(70, 350)
+
+# Type "50"
+pyautogui.typewrite("50")
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 400); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Save As" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Settings.json" option
+pyautogui.moveTo(70, 200)
+
+# Type "Settings.json"
+pyautogui.typewrite("Settings.json")
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Save" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Settings.json" option
+pyautogui.moveTo(70, 200)
+
+# Type "Settings.json"
+pyautogui.typewrite("Settings.json")
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Type "code --wait" in the terminal
+pyautogui.moveTo(336, 64); pyautogui.click(); pyautogui.typewrite("code --wait")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "Terminal" button and click
+pyautogui.moveTo(336, 64); pyautogui.click()
+
+# Type "sudo code --wait" in the terminal
+pyautogui.typewrite("sudo code --wait")
+
+# Press enter
+pyautogui.press("enter")
+
+# Type "password" in the terminal
+pyautogui.typewrite("password")
+
+# Press enter
+pyautogui.press("enter")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Save" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Settings.json" option
+pyautogui.moveTo(70, 200)
+
+# Type "settings.json" in the file dialog
+pyautogui.typewrite("settings.json")
+
+# Press enter
+pyautogui.press("enter")
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Type "editor.wordWrap = true" in the settings.json file
+pyautogui.moveTo(70, 150); pyautogui.click(); pyautogui.typewrite("editor.wordWrap = true")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Type "editor.wordWrap = 50" in the settings.json file
+pyautogui.moveTo(70, 150); pyautogui.click(); pyautogui.typewrite("editor.wordWrap = 50")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Type ": " in the settings.json file
+pyautogui.typewrite(": ")
+
+# Type "editor.wordWrap" in the settings.json file
+pyautogui.typewrite("editor.wordWrap")
+
+# Type "=" in the settings.json file
+pyautogui.typewrite("=")
+
+# Type "50" in the settings.json file
+pyautogui.typewrite("50")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Type ": " in the settings.json file
+pyautogui.typewrite(": ")
+
+# Type "editor.wordWrap" in the settings.json file
+pyautogui.typewrite("editor.wordWrap")
+
+# Type "=" in the settings.json file
+pyautogui.typewrite("=")
+
+# Type "50" in the settings.json file
+pyautogui.typewrite("50")
+
+# Press enter to save the settings
+pyautogui.press("enter")
+LINEAR AT: tag	name	text	class	description	position (top-left x&y)	size (w&h)
+label	Home	Home			(1833, 1037)	(40, 17)
+push-button	File	File			(70, 64)	(36, 25)
+push-button	Edit	Edit			(106, 64)	(39, 25)
+push-button	Selection	Selection			(145, 64)	(75, 25)
+push-button	View	View			(220, 64)	(46, 25)
+push-button	Go	Go			(266, 64)	(31, 25)
+push-button	Run	Run			(297, 64)	(39, 25)
+push-button	Terminal	Terminal			(336, 64)	(72, 25)
+push-button	Help	Help			(408, 64)	(44, 25)
+menu	Visual Studio Code	""			(99, 0)	(184, 27)
+menu	System	""			(1814, 0)	(106, 27)
+label	Please download waiting software updates.	""			(810, 73)	(291, 17)
+push-button	Google Chrome	""			(0, 33)	(70, 64)
+push-button	Thunderbird Mail	""			(0, 101)	(70, 64)
+push-button	Visual Studio Code	""			(0, 169)	(70, 64)
+push-button	VLC media player	""			(0, 237)	(70, 64)
+push-button	LibreOffice Writer	""			(0, 305)	(70, 64)
+push-button	LibreOffice Calc	""			(0, 373)	(70, 64)
+push-button	LibreOffice Impress	""			(0, 441)	(70, 64)
+push-button	GNU Image Manipulation Program	""			(0, 509)	(70, 64)
+push-button	Files	""			(0, 577)	(70, 64)
+push-button	Ubuntu Software	""			(0, 645)	(70, 64)
+push-button	Help	""			(0, 713)	(70, 64)
+push-button	Trash	""			(0, 784)	(70, 64)
+toggle-button	Show Applications	""			(0, 1010)	(70, 70)
+RESPONSE: # Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Settings" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Workbench" option
+pyautogui.moveTo(70, 200)
+
+# Move the mouse to the "Settings" button and click
+pyautogui.moveTo(70, 250); pyautogui.click()
+
+# Move the mouse to the "OK" button and click
+pyautogui.moveTo(70, 300); pyautogui.click()
+
+# Type ": " in the settings.json file
+pyautogui.typewrite(": ")
+
+# Type "editor.wordWrap" in the settings.json file
+pyautogui.typewrite("editor.wordWrap")
+
+# Type "=" in the settings.json file
+pyautogui.typewrite("=")
+
+# Type "50" in the settings.json file
+pyautogui.typewrite("50")
+
+# Press enter to save the settings
+pyautogui.press("enter")
+
+# Move the mouse to the "File" button and click
+pyautogui.moveTo(70, 64); pyautogui.click()
+
+# Move the mouse to the "Save" option
+pyautogui.moveTo(70, 150)
+
+# Move the mouse to the "Save" button and click
+pyautogui.moveTo(70, 200); pyautogui.click()

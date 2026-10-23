@@ -44,6 +44,9 @@ def main():
     ap.add_argument("--traits", nargs="*", default=[])
     ap.add_argument("--layers", nargs="*", type=int, default=[])
     ap.add_argument("--alphas", nargs="*", type=float, default=[])
+    ap.add_argument("--extra_vector", nargs=3, action="append", default=[], metavar=("LAYER", "PATH", "ALPHA"),
+                    help="add torch.load(PATH) * ALPHA at LAYER (repeatable), e.g. control vectors")
+    ap.add_argument("--condition", help="condition name override (default: from traits/layers/alphas)")
     ap.add_argument("--batch_size", type=int, default=16)
     args = ap.parse_args()
 
@@ -56,6 +59,9 @@ def main():
         tok.pad_token = tok.eos_token
     model = AutoModelForCausalLM.from_pretrained(args.model, dtype=torch.bfloat16, device_map="cuda").eval()
     vectors = injection_utils.load_steering_vectors(args.model, args.traits, args.layers, args.alphas)
+    for layer, path, alpha in args.extra_vector:
+        v = torch.load(path, map_location="cpu").float() * float(alpha)
+        vectors[int(layer)] = vectors[int(layer)] + v if int(layer) in vectors else v
 
     seqs = []  # (example key, candidate index, prompt ids, reply ids)
     examples = []
@@ -99,10 +105,12 @@ def main():
         s, m = [scores[(ei, c)][0] for c in (0, 1)], [scores[(ei, c)][1] for c in (0, 1)]
         per.append(dict(ex, correct=int(s[g] > s[o]), correct_norm=int(m[g] > m[o]),
                         margin=s[g] - s[o], margin_norm=m[g] - m[o], logp_sum=s, logp_mean=m))
-    condition = "baseline" if not args.traits else "_".join(
-        f"{t}_L{l}_A{a:g}" for t, l, a in zip(args.traits, args.layers, args.alphas))
+    condition = args.condition or ("baseline" if not (args.traits or args.extra_vector) else "_".join(
+        [f"{t}_L{l}_A{a:g}" for t, l, a in zip(args.traits, args.layers, args.alphas)]
+        + [f"extra_L{l}_A{float(a):g}" for l, _, a in args.extra_vector]))
     summary = {"model": args.model, "condition": condition, "traits": args.traits, "layers": args.layers,
-               "alphas": args.alphas, "method": "meandiff", "mode": "s", **summarize(per)}
+               "alphas": args.alphas, "extra_vectors": args.extra_vector, "method": "meandiff", "mode": "s",
+               **summarize(per)}
     os.makedirs(args.out, exist_ok=True)
     json.dump(per, open(f"{args.out}/per_example.json", "w"), indent=1)
     json.dump(summary, open(f"{args.out}/summary.json", "w"), indent=2)

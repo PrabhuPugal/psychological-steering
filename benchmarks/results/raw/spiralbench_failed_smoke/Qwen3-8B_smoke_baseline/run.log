@@ -1,0 +1,46 @@
+2026-10-22 02:04:23,694 - INFO - Run ID: smoke_baseline
+2026-10-22 02:04:23,702 - INFO - --- Generation Phase ---
+2026-10-22 02:04:23,709 - INFO - 2 conversations to generate.
+2026-10-22 02:04:23,739 - INFO - Saved result for eval_prompts_v0.2.json/td05 [convo 0]
+2026-10-22 02:06:49,426 - INFO - Saved result for eval_prompts_v0.2.json/td05 [convo 0]
+2026-10-22 02:06:49,765 - WARNING - [Qwen/Qwen3-8B] local attempt 1/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:49,946 - WARNING - [Qwen/Qwen3-8B] local attempt 1/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:50,828 - WARNING - [Qwen/Qwen3-8B] local attempt 2/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:51,022 - WARNING - [Qwen/Qwen3-8B] local attempt 2/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:52,890 - WARNING - [Qwen/Qwen3-8B] local attempt 3/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:53,100 - WARNING - [Qwen/Qwen3-8B] local attempt 3/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:56,952 - WARNING - [Qwen/Qwen3-8B] local attempt 4/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:06:57,177 - WARNING - [Qwen/Qwen3-8B] local attempt 4/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:05,014 - WARNING - [Qwen/Qwen3-8B] local attempt 5/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:05,253 - WARNING - [Qwen/Qwen3-8B] local attempt 5/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:21,072 - WARNING - [Qwen/Qwen3-8B] local attempt 6/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:21,330 - WARNING - [Qwen/Qwen3-8B] local attempt 6/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:53,135 - WARNING - [Qwen/Qwen3-8B] local attempt 7/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:53,147 - INFO - Saved result for eval_prompts_v0.2.json/ec05 [convo 0]
+2026-10-22 02:07:53,154 - INFO - Saved result for eval_prompts_v0.2.json/ec05 [convo 0]
+Generation:  50%|████████████████████████████████████████████████████▌                                                    | 1/2 [03:29<03:29, 209.44s/it]2026-10-22 02:07:53,408 - WARNING - [Qwen/Qwen3-8B] local attempt 7/7 failed: expected mat1 and mat2 to have the same dtype, but got: float != c10::BFloat16
+2026-10-22 02:07:53,416 - INFO - Saved result for eval_prompts_v0.2.json/td05 [convo 0]
+2026-10-22 02:07:53,424 - INFO - Saved result for eval_prompts_v0.2.json/td05 [convo 0]
+Generation: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [03:29<00:00, 86.40s/it]
+Generation: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [03:29<00:00, 104.86s/it]
+2026-10-22 02:07:53,425 - INFO - Generation complete.
+2026-10-22 02:07:53,425 - INFO - --- Judging Phase ---
+2026-10-22 02:07:53,429 - INFO - No unjudged conversations found.
+2026-10-22 02:07:53,429 - INFO - 0 judge-chunk tasks to run.
+2026-10-22 02:07:53,430 - INFO - Judging complete.
+2026-10-22 02:07:53,430 - INFO - --- Final Judging Phase ---
+2026-10-22 02:07:53,433 - INFO - 2 conversations to final-judge.
+Final Judging:  50%|███████████████████████████████████████████████████▌                                                   | 1/2 [00:03<00:03,  3.46s/it]2026-10-22 02:07:57,806 - INFO - Saved result for eval_prompts_v0.2.json/td05 [convo 0]
+Final Judging: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  1.96s/it]
+Final Judging: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.19s/it]
+2026-10-22 02:07:57,807 - INFO - Final judging complete.
+2026-10-22 02:07:57,807 - INFO - --- Scoring Phase ---
+Traceback (most recent call last):
+  File "/lambda/nfs/psychological-steering/external/spiralbench/main.py", line 1121, in <module>
+    main()
+  File "/lambda/nfs/psychological-steering/external/spiralbench/main.py", line 1094, in main
+    df_scores = score_run(results_manager, args.run_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lambda/nfs/psychological-steering/external/spiralbench/scoring.py", line 351, in score_run
+    raise ValueError("No usable items/metrics found for scoring.")
+ValueError: No usable items/metrics found for scoring.

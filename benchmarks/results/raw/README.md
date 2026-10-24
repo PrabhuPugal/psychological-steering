@@ -14,6 +14,7 @@ Screenshots (`*.png`) and recordings (`*.mp4`) stay on the Lambda filesystem
 | `safety/harmbench/Llama-3.1-8B-Instruct/<condition>` | `completions.json`, `results.json` (classifier labels), `summary.json` | yes |
 | `safety/hhh/Llama-3.1-8B-Instruct/<condition>` | `per_example.json`, `summary.json` | yes |
 | `safety/validate_carc` | Qwen3-8B re-runs used to validate the HarmBench/HHH reimplementation against CARC | yes |
+| `spiralbench_failed_smoke/Qwen3-8B_smoke_baseline` | first Spiral-Bench smoke test (2 prompts × 4 turns); every user-agent turn failed with the bf16/fp32 concurrent-loading bug, so no scores | **no** (kept for the record) |
 | `osharm_analysis` | blind tone ratings of typed text (c6 and c9 vs unsteered) | yes |
 | `logs` | launcher logs for every run (progress bars stripped) | — |
 
